@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Player Root Utilities",
+        "name": "Player Root Utilities",
+        "uuid": "c0f91816-fc90-49d8-9e51-3233e7739c0d",
+        "min_engine_version": [
+            1,
+            16,
+            0
+        ],
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "849c706a-2da2-4d13-9795-3dde8338d3ec",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
