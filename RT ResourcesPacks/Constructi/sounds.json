@@ -1,5 +1,0 @@
-{
-  "block_sounds": {
-    "const:test":{"volume" : 1.0, "pitch" : 1.0, "events" :{"default" : "", "item.use.on" : { "sound": "use.wood","pitch" : 0.8} , "break" : { "sound": "dig.wood","pitch" : 0.8}  , "hit" : { "sound": "hit.wood"  ,"volume" : 0.7,   "pitch" : 0.5},  "place" : { "sound": "dig.wood","pitch" : 0.8},  "power.on" : { "sound": "random.click", "pitch" : 0.6},  "power.off" : { "sound": "random.click", "pitch" : 0.5}}}
-    }
-}

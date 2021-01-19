@@ -1,6 +1,0 @@
-Created by MACHINE_BUILDER
-
-copying this addon and redistribution is prohibited.
-
-You are permitted to use my code as a learning resource,
-but any form of copying is not allowed.
