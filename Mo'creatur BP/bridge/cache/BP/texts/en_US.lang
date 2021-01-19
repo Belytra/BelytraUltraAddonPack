@@ -1,8 +1,0 @@
-{
-	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\texts\\en_US.lang",
-	"file_type": "lang",
-	"format_version": 0,
-	"file_uuid": "2f37b184_7784_45ce_aaff_5c85a700301d",
-	"file_version": 7,
-	"cache_content": "#pack.name=§cMo'creatures §rbedrock §a[BP]\r\npack.description=Original by DrZhark | Hecho por DEATH KING, Aguilesgamer, RighiNoobs8, TheMinedS, ESTEBAN1303YT, sebancraft_YT\r\nentity.mocreatures:oso_pardo.name=Oso pardo"
-}
