@@ -1,0 +1,52 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.bcfemale.sit": {
+			"loop": true,
+			"bones": {
+				"0": {
+					"rotation": [57.5, 0, 0],
+					"position": [0, 3.5, -2]
+				},
+				"1": {
+					"rotation": [40, 0, 0],
+					"position": [0, 2.5, -1]
+				},
+				"leg0": {
+					"position": [0, 0, 3]
+				},
+				"leg1": {
+					"position": [0, 0, 3]
+				},
+				"leg2": {
+					"position": [-1, -3, -4],
+					"scale": [1, 0.8, 0.8]
+				},
+				"leg3": {
+					"position": [1, -3, -4],
+					"scale": [1, 0.8, 0.8]
+				},
+				"body": {
+					"rotation": [-45, 0, 0],
+					"position": [0, -6, 0]
+				},
+				"body1": {
+					"rotation": [5, 0, 0],
+					"position": [0, -1, -1],
+					"scale": [1, 0.8, 0.7]
+				},
+				"head": {
+					"position": [0, 4, 8]
+				},
+				"tail": {
+					"rotation": [-37.5, 0, 0],
+					"position": [0, -15, -1]
+				},
+				"saddle": {
+					"rotation": [-45, 0, 0],
+					"position": [0, 7, -5]
+				}
+			}
+		}
+	}
+}

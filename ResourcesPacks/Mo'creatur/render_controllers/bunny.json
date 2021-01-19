@@ -1,0 +1,28 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.bunny": {
+			"arrays": {
+				"textures": {
+					"Array.bunny": [
+						"Texture.default",
+						"Texture.bunny1",
+						"Texture.bunny2",
+						"Texture.bunny3",
+						"Texture.bunny4"
+					]
+				}
+			},
+			"textures": [
+				"Array.bunny[query.variant]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Geometry.default"
+		}
+	}
+}

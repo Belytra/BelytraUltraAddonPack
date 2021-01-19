@@ -1,0 +1,58 @@
+{
+    "format_version": "1.10.0",
+    "geometry.machinebuilder_hat.tophat": {
+        "texturewidth": 64,
+        "textureheight": 64,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 1,
+        "visible_bounds_offset": [
+            0,
+            0.5,
+            0
+        ],
+        "bones": [
+            {
+                "name": "head",
+                "pivot": [
+                    0,
+                    24,
+                    0
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            -6,
+                            32,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            1,
+                            12
+                        ],
+                        "uv": [
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "origin": [
+                            -4,
+                            33,
+                            -4
+                        ],
+                        "size": [
+                            8,
+                            10,
+                            8
+                        ],
+                        "uv": [
+                            0,
+                            13
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

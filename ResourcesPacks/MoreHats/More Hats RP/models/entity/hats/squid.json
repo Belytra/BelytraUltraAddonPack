@@ -1,0 +1,334 @@
+{
+    "format_version": "1.10.0",
+    "geometry.machinebuilder_hat.squid": {
+        "texturewidth": 48,
+        "textureheight": 24,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 1,
+        "visible_bounds_offset": [
+            0,
+            0.5,
+            0
+        ],
+        "bones": [
+            {
+                "name": "head",
+                "pivot": [
+                    0,
+                    24,
+                    0
+                ]
+            },
+            {
+                "name": "squid",
+                "parent": "head",
+                "pivot": [
+                    -0.5,
+                    33.75,
+                    0.4
+                ],
+                "rotation": [
+                    -9,
+                    -11,
+                    0
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            -4.5,
+                            32.75,
+                            -3.6
+                        ],
+                        "size": [
+                            8,
+                            11,
+                            8
+                        ],
+                        "uv": [
+                            0,
+                            0
+                        ],
+                        "inflate": -1
+                    }
+                ]
+            },
+            {
+                "name": "leg_1",
+                "parent": "squid",
+                "pivot": [
+                    -0.5,
+                    33.75,
+                    0.4
+                ]
+            },
+            {
+                "name": "part_1",
+                "parent": "leg_1",
+                "pivot": [
+                    -0.5,
+                    33.75,
+                    -2.6
+                ],
+                "rotation": [
+                    47,
+                    -26,
+                    0
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            -1.5,
+                            32.75,
+                            -9.6
+                        ],
+                        "size": [
+                            2,
+                            2,
+                            8
+                        ],
+                        "uv": [
+                            24,
+                            11
+                        ],
+                        "inflate": -0.2
+                    }
+                ]
+            },
+            {
+                "name": "leg_2",
+                "parent": "squid",
+                "pivot": [
+                    -0.5,
+                    33.75,
+                    0.4
+                ],
+                "rotation": [
+                    0,
+                    -60,
+                    0
+                ]
+            },
+            {
+                "name": "part_2",
+                "parent": "leg_2",
+                "pivot": [
+                    -0.5,
+                    33.75,
+                    -2.6
+                ],
+                "rotation": [
+                    36,
+                    0,
+                    0
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            -1.5,
+                            32.75,
+                            -9.6
+                        ],
+                        "size": [
+                            2,
+                            2,
+                            8
+                        ],
+                        "uv": [
+                            24,
+                            11
+                        ],
+                        "inflate": -0.2
+                    }
+                ]
+            },
+            {
+                "name": "leg_3",
+                "parent": "squid",
+                "pivot": [
+                    -0.5,
+                    33.75,
+                    0.4
+                ],
+                "rotation": [
+                    0,
+                    60,
+                    0
+                ]
+            },
+            {
+                "name": "part_3",
+                "parent": "leg_3",
+                "pivot": [
+                    -0.5,
+                    33.75,
+                    -2.6
+                ],
+                "rotation": [
+                    41,
+                    0,
+                    0
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            -1.5,
+                            32.75,
+                            -9.6
+                        ],
+                        "size": [
+                            2,
+                            2,
+                            8
+                        ],
+                        "uv": [
+                            24,
+                            11
+                        ],
+                        "inflate": -0.2
+                    }
+                ]
+            },
+            {
+                "name": "leg_4",
+                "parent": "squid",
+                "pivot": [
+                    -0.5,
+                    33.75,
+                    0.4
+                ],
+                "rotation": [
+                    0,
+                    -120,
+                    0
+                ]
+            },
+            {
+                "name": "part_4",
+                "parent": "leg_4",
+                "pivot": [
+                    -0.5,
+                    33.75,
+                    -2.6
+                ],
+                "rotation": [
+                    18,
+                    5,
+                    0
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            -1.5,
+                            32.75,
+                            -9.6
+                        ],
+                        "size": [
+                            2,
+                            2,
+                            8
+                        ],
+                        "uv": [
+                            24,
+                            11
+                        ],
+                        "inflate": -0.2
+                    }
+                ]
+            },
+            {
+                "name": "leg_5",
+                "parent": "squid",
+                "pivot": [
+                    -0.5,
+                    33.75,
+                    0.4
+                ],
+                "rotation": [
+                    0,
+                    120,
+                    0
+                ]
+            },
+            {
+                "name": "part_5",
+                "parent": "leg_5",
+                "pivot": [
+                    -0.5,
+                    33.75,
+                    -2.6
+                ],
+                "rotation": [
+                    32,
+                    0,
+                    0
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            -1.5,
+                            32.75,
+                            -9.6
+                        ],
+                        "size": [
+                            2,
+                            2,
+                            8
+                        ],
+                        "uv": [
+                            24,
+                            11
+                        ],
+                        "inflate": -0.2
+                    }
+                ]
+            },
+            {
+                "name": "leg_6",
+                "parent": "squid",
+                "pivot": [
+                    -0.5,
+                    33.75,
+                    0.4
+                ],
+                "rotation": [
+                    0,
+                    180,
+                    0
+                ]
+            },
+            {
+                "name": "part_6",
+                "parent": "leg_6",
+                "pivot": [
+                    -0.5,
+                    33.75,
+                    -2.6
+                ],
+                "rotation": [
+                    35,
+                    0,
+                    0
+                ],
+                "cubes": [
+                    {
+                        "origin": [
+                            -1.5,
+                            32.75,
+                            -9.6
+                        ],
+                        "size": [
+                            2,
+                            2,
+                            8
+                        ],
+                        "uv": [
+                            24,
+                            11
+                        ],
+                        "inflate": -0.2
+                    }
+                ]
+            }
+        ]
+    }
+}

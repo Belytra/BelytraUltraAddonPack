@@ -1,0 +1,204 @@
+{
+  "format_version": [ 0, 0, 1 ],
+    "base:advanced_table": {
+      "textures": "advanced_table",
+      "sound": "stone"
+    },
+    "base:pulverizer": {
+      "textures": "pulverizer",
+      "sound": "stone"
+    },
+    "base:drying_rack": {
+      "textures": "drying_rack_empty",
+      "sound": "stone"
+    },
+    "base:drying_rack2": {
+      "textures": "drying_rack",
+      "sound": "stone"
+    },
+    "base:molten_obsidian_block": {
+      "textures": "titanium_block",
+      "sound": "netherite"
+    },
+    "base:upgrade_table": {
+      "textures": "titanium_block",
+      "sound": "netherite"
+    },
+    "base:titanium_ore": {
+      "textures": "titanium_ore",
+      "sound": "stone"
+    },
+    "base:silver_ore": {
+      "textures": "silver_ore",
+      "sound": "stone"
+    },
+    "base:sliminium_ore": {
+      "textures": "sliminium_ore",
+      "sound": "stone"
+    },
+    "base:super_furnace": {
+      "textures": {
+        "up": "super_furnace8",
+        "down": "super_furnace4",
+        "north": "super_furnace3",
+        "south": "super_furnace3",
+        "west": "super_furnace3",
+        "east": "super_furnace3"
+      },
+      "sound": "stone"
+    },
+    "base:super_furnace2": {
+      "textures": {
+        "up": "super_furnace8",
+        "down": "super_furnace4",
+        "north": "super_furnace2",
+        "south": "super_furnace2",
+        "west": "super_furnace2",
+        "east": "super_furnace2"
+      },
+      "sound": "stone"
+    },
+    "base:super_furnace3": {
+      "textures": {
+        "up": "super_furnace8",
+        "down": "super_furnace4",
+        "north": "super_furnace5",
+        "south": "super_furnace5",
+        "west": "super_furnace5",
+        "east": "super_furnace5"
+      },
+      "sound": "stone"
+    },
+    "base:super_furnace4": {
+      "textures": {
+        "up": "super_furnace8",
+        "down": "super_furnace4",
+        "north": "super_furnace6",
+        "south": "super_furnace6",
+        "west": "super_furnace6",
+        "east": "super_furnace6"
+      },
+      "sound": "stone"
+    },
+    "base:super_furnace5": {
+      "textures": {
+        "up": "super_furnace8",
+        "down": "super_furnace4",
+        "north": "super_furnace7",
+        "south": "super_furnace7",
+        "west": "super_furnace7",
+        "east": "super_furnace7"
+      },
+      "sound": "stone"
+    },
+    "base:super_furnace_sliminium": {
+      "textures": {
+        "up": "super_furnace8",
+        "down": "super_furnace4",
+        "north": "super_furnace_slime",
+        "south": "super_furnace_slime",
+        "west": "super_furnace_slime",
+        "east": "super_furnace_slime"
+      },
+      "sound": "stone"
+    },
+    "base:super_furnace_silver": {
+      "textures": {
+        "up": "super_furnace8",
+        "down": "super_furnace4",
+        "north": "super_furnace_silver",
+        "south": "super_furnace_silver",
+        "west": "super_furnace_silver",
+        "east": "super_furnace_silver"
+      },
+      "sound": "stone"
+    },
+    "base:super_furnace_titanium": {
+      "textures": {
+        "up": "super_furnace8",
+        "down": "super_furnace4",
+        "north": "super_furnace_titanium",
+        "south": "super_furnace_titanium",
+        "west": "super_furnace_titanium",
+        "east": "super_furnace_titanium"
+      },
+      "sound": "stone"
+    },
+    "base:super_furnace_silver_done": {
+      "textures": {
+        "up": "super_furnace8",
+        "down": "super_furnace4",
+        "north": "super_furnace_silver_done",
+        "south": "super_furnace_silver_done",
+        "west": "super_furnace_silver_done",
+        "east": "super_furnace_silver_done"
+      },
+      "sound": "stone"
+    },
+    "base:super_furnace_titanium_done": {
+      "textures": {
+        "up": "super_furnace8",
+        "down": "super_furnace4",
+        "north": "super_furnace_titanium_done",
+        "south": "super_furnace_titanium_done",
+        "west": "super_furnace_titanium_done",
+        "east": "super_furnace_titanium_done"
+      },
+      "sound": "stone"
+    },
+    "base:super_furnace_sliminium_done": {
+      "textures": {
+        "up": "super_furnace8",
+        "down": "super_furnace4",
+        "north": "super_furnace_sliminium_done",
+        "south": "super_furnace_sliminium_done",
+        "west": "super_furnace_sliminium_done",
+        "east": "super_furnace_sliminium_done"
+      },
+      "sound": "stone"
+    },
+    "base:super_furnace_molten": {
+      "textures": {
+        "up": "super_furnace8",
+        "down": "super_furnace4",
+        "north": "super_furnace_molten",
+        "south": "super_furnace_molten",
+        "west": "super_furnace_molten",
+        "east": "super_furnace_molten"
+      },
+      "sound": "stone"
+    },
+    "base:super_furnace_molten_done": {
+      "textures": {
+        "up": "super_furnace8",
+        "down": "super_furnace4",
+        "north": "super_furnace_molten_done",
+        "south": "super_furnace_molten_done",
+        "west": "super_furnace_molten_done",
+        "east": "super_furnace_molten_done"
+      },
+      "sound": "stone"
+    },
+    "base:super_furnace_obsidian": {
+      "textures": {
+        "up": "super_furnace8",
+        "down": "super_furnace4",
+        "north": "super_furnace_obsidian",
+        "south": "super_furnace_obsidian",
+        "west": "super_furnace_obsidian",
+        "east": "super_furnace_obsidian"
+      },
+      "sound": "stone"
+    },
+    "base:super_furnace_obsidian_done": {
+      "textures": {
+        "up": "super_furnace8",
+        "down": "super_furnace4",
+        "north": "super_furnace_obsidian_done",
+        "south": "super_furnace_obsidian_done",
+        "west": "super_furnace_obsidian_done",
+        "east": "super_furnace_obsidian_done"
+      },
+      "sound": "stone"
+    }
+}

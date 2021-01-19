@@ -1,0 +1,48 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mocreatures:ostrich",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/ostricha",
+				"marron": "textures/entity/ostrichb",
+				"blanco": "textures/entity/ostrichd"
+			},
+			"geometry": {
+				"default": "geometry.avestruz",
+				"saddle": "geometry.avestruz_saddle",
+				"chest": "geometry.avestruz_chest"
+			},
+			"animations": {
+				"move": "controller.animation.entity1.move",
+				"static": "controller.animation.entity1.static",
+				"sit": "controller.animation.sit",
+				"moving": "animation.avestruz.move",
+				"staticking": "animation.avestruz.static",
+				"sitting": "animation.avestruz.headdown",
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"scripts": {
+				"animate": [
+					"move",
+					"static",
+					"sit",
+					"look_at_target"
+				]
+			},
+			"render_controllers": [
+				"controller.render.ostrich",
+				"controller.render.ostrich2",
+				"controller.render.armor_stand"
+			],
+			"spawn_egg": {
+				"base_color": "#00FF8D",
+				"overlay_color": "#4300FF"
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+//bridge-file-version: #13
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.zorro": {
+			"arrays": {
+				"textures": {
+					"Array.zorro": [
+						"Texture.default",
+						"Texture.snow"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.zorro[query.variant]"
+			],
+			"geometry": "Geometry.default"
+		},
+		"controller.render.zorrob": {
+			"arrays": {
+				"textures": {
+					"Array.zorrob": [
+						"Texture.default",
+						"Texture.bobi"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.zorrob[query.is_baby]"
+			],
+			"geometry": "Geometry.default"
+		}
+	}
+}

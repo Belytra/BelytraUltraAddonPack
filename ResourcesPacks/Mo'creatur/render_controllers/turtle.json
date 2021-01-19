@@ -1,0 +1,35 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.turtlemc": {
+			"arrays": {
+				"geometries": {
+					"Array.turtle": [
+						"Geometry.default",
+						"Geometry.hide",
+						"Geometry.down"
+					]
+				},
+				"textures": {
+					"Array.names": [
+						"Texture.default",
+						"Texture.donatello",
+						"Texture.leonardo",
+						"Texture.michelangelo",
+						"Texture.raphael"
+					]
+				}
+			},
+			"textures": [
+				"Array.names[query.mark_variant]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.turtle[query.variant]"
+		}
+	}
+}

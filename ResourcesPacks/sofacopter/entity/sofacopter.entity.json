@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "sc:sofacopter",
+      "materials": { "default": "spider" },
+      "textures": {
+        "black": "textures/entity/sofacopter/wool_colored_black_copter",
+        "red": "textures/entity/sofacopter/wool_colored_red_copter",
+        "green": "textures/entity/sofacopter/wool_colored_green_copter",
+        "brown": "textures/entity/sofacopter/wool_colored_brown_copter",
+        "blue": "textures/entity/sofacopter/wool_colored_blue_copter",
+        "purple": "textures/entity/sofacopter/wool_colored_purple_copter",
+        "cyan": "textures/entity/sofacopter/wool_colored_cyan_copter",
+        "silver": "textures/entity/sofacopter/wool_colored_silver_copter",
+        "gray": "textures/entity/sofacopter/wool_colored_gray_copter",
+        "pink": "textures/entity/sofacopter/wool_colored_pink_copter",
+        "lime": "textures/entity/sofacopter/wool_colored_lime_copter",
+        "yellow": "textures/entity/sofacopter/wool_colored_yellow_copter",
+        "light_blue": "textures/entity/sofacopter/wool_colored_light_blue_copter",
+        "magenta": "textures/entity/sofacopter/wool_colored_magenta_copter",
+        "orange": "textures/entity/sofacopter/wool_colored_orange_copter",
+        "white": "textures/entity/sofacopter/wool_colored_white_copter",
+        "undyed": "textures/entity/sofacopter/wool_colored_white_copter"
+      },
+      "animations":{
+        "run": "animation.sofa.move",
+        "move": "controller.animation.sofacopter.move",
+        "fly": "controller.animation.sofacopter.fly",
+        "death": "animation.sofa.break",
+        "break": "controller.animation.sofa.death"
+      },
+      "scripts": {
+        "animate": [
+           "move", "fly", "break"
+         ],
+        "pre_animation": [  
+          "variable.attack = Math.sin(variable.attack_time * 30.0);"
+         ]
+       },
+      "geometry": {
+        "default": "geometry.sofacopter"
+      },
+      "render_controllers": [ 
+          "controller.render.sofa" 
+      ]
+    }
+  }
+}

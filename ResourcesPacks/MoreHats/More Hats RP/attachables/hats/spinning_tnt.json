@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "machinebuilder:hat_spinning_tnt",
+            "materials": {
+                "default": "armor",
+                "enchanted": "armor_enchanted"
+            },
+            "textures": {
+                "default": "textures/models/hats/spinning_tnt",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.machinebuilder_hat.spinning_tnt"
+            },
+            "scripts": {
+                "parent_setup": "variable.helmet_layer_visible = 0.0;",
+                "animate": [
+                    "loop_controller"
+                ]
+            },
+            "render_controllers": [
+                "controller.render.armor"
+            ],
+            "animations": {
+                "loop_controller": "controller.animation.loop",
+                "loop": "animation.machinebuilder.hat_spinning_tnt.loop"
+            }
+        }
+    }
+}

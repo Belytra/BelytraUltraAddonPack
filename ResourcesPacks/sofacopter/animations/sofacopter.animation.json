@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sofa.move": {
+			"loop": true,
+			"animation_length": 0.48,
+			"bones": {
+				"propeller": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.24": [0, 180, 0],
+						"0.48": [0, 360, 0]
+					}
+				}
+			}
+		}
+	}
+}

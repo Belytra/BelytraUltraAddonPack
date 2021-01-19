@@ -1,0 +1,32 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.ostrich2": {
+			"arrays": {
+				"geometries": {
+					"Array.chest": [
+						"Geometry.default",
+						"Geometry.chest"
+					]
+				},
+				"textures": {
+					"Array.variant": [
+						"Texture.default",
+						"Texture.marron",
+						"Texture.blanco"
+					]
+				}
+			},
+			"textures": [
+				"Array.variant[query.variant]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.chest[query.is_chested]"
+		}
+	}
+}

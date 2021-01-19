@@ -1,0 +1,563 @@
+//bridge-file-version: #93
+{
+	"entity_sounds": {
+		"entities": {
+			"mocreatures:ent": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"hurt": "mob.mocreatures:ent.hurt",
+					"death": "mob.mocreatures:ent.hurt"
+				}
+			},
+			"mocreatures:goat": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"hurt": "mob.mocreatures:cabra.hurt",
+					"death": "mob.mocreatures:cabra.death",
+					"eat": "mob.mocreatures:cabra.eat",
+					"ambient": "mob.mocreatures:cabra.idle_macho"
+				}
+			},
+			"mocreatures:turkey": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.mocreatures:pavo.idle",
+					"hurt": "mob.mocreatures:pavo.hurt",
+					"death": "mob.mocreatures:pavo.death"
+				}
+			},
+			"mocreatures:grizzly_bear": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.mocreatures:oso.idle",
+					"hurt": "mob.mocreatures:oso.hurt",
+					"death": "mob.mocreatures:oso.hurt"
+				}
+			},
+			"mocreatures:polar_bear": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.mocreatures:oso.idle",
+					"hurt": "mob.mocreatures:oso.hurt",
+					"death": "mob.mocreatures:oso.hurt"
+				}
+			},
+			"mocreatures:panda": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.mocreatures:oso.idle",
+					"hurt": "mob.mocreatures:oso.hurt",
+					"death": "mob.mocreatures:oso.hurt"
+				}
+			},
+			"mocreatures:black_bear": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.mocreatures:oso.idle",
+					"hurt": "mob.mocreatures:oso.hurt",
+					"death": "mob.mocreatures:oso.hurt"
+				}
+			},
+			"mocreatures:minigolem": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.minigolem.say",
+					"hurt": {
+						"sound": "mob.minigolem.hurt",
+						"volume": 0.7
+					},
+					"death": "mob.minigolem.death",
+					"step": {
+						"sound": "mob.minigolem.step",
+						"volume": 1,
+						"pitch": 1
+					}
+				}
+			},
+			"mocreatures:flamewraith": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.wraith.say",
+					"hurt": {
+						"sound": "mob.wraith.hurt",
+						"volume": 0.7
+					},
+					"death": "mob.wraith.death"
+				}
+			},
+			"mocreatures:wraith": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.wraith.say",
+					"hurt": {
+						"sound": "mob.wraith.hurt",
+						"volume": 0.7
+					},
+					"death": "mob.wraith.death"
+				}
+			},
+			"mocreatures:silverskeleton": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"hurt": {
+						"sound": "mob.silverskeleton.hurt",
+						"volume": 0.7
+					},
+					"death": "mob.silverskeleton.death",
+					"step": {
+						"sound": "mob.skeleton.step",
+						"volume": 1,
+						"pitch": 1
+					}
+				}
+			},
+			"mocreatures:boar": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.pig.say",
+					"boost": {
+						"pitch": 1,
+						"sound": "mob.pig.boost",
+						"volume": 1
+					},
+					"hurt": "mob.pig.say",
+					"death": "mob.pig.death",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.pig.step",
+						"volume": 0.2
+					}
+				}
+			},
+			"mocreatures:bird": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": {
+						"volume": 1,
+						"sound": "mob.mocreatures:bird",
+						"pitch": 1
+					}
+				}
+			},
+			"mocreatures:crocodile": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.mocreatures:crocodile.idle",
+					"ambient.in.water": "mob.mocreatures:crocodile.idle",
+					"attack": "mob.mocreatures:crocodile.attack",
+					"hurt": "mob.mocreatures:crocodile.hurt",
+					"death": "mob.mocreatures:crocodile.death"
+				}
+			},
+			"mocreatures:bunny": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"hurt": "mob.mocreatures:bunny.hurt",
+					"death": "mob.mocreatures:bunny.death"
+				}
+			},
+			"mocreatures:komodo_dragon": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "komodo_idle",
+					"hurt": "komodo_hurt",
+					"death": "komodo_muerte"
+				}
+			},
+			"mocreatures:raccoon": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.mocreatures:raccoon.idle",
+					"hurt": "mob.mocreatures:raccoon.hurt",
+					"death": "mob.mocreatures:raccoon.death"
+				}
+			},
+			"mocreatures:hellrat": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.rats.idle",
+					"hurt": "mob.rats.hurt",
+					"death": "mob.rats.death"
+				}
+			},
+			"mocreatures:rat": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.rats.idle",
+					"hurt": "mob.rats.hurt",
+					"death": "mob.rats.death"
+				}
+			},
+			"mocreatures:elephant(african)": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.mocreatures:elephant.idle",
+					"hurt": "mob.mocreatures:elephant.hurt",
+					"death": "mob.mocreatures:elephant.death"
+				}
+			},
+			"mocreatures:elephant(asian)": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.mocreatures:elephant.idle",
+					"hurt": "mob.mocreatures:elephant.hurt",
+					"death": "mob.mocreatures:elephant.death"
+				}
+			},
+			"mocreatures:elephant(woolly_mammoth)": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.mocreatures:elephant.idle",
+					"hurt": "mob.mocreatures:elephant.hurt",
+					"death": "mob.mocreatures:elephant.death"
+				}
+			},
+			"mocreatures:elephant(songhua_river_mammoth)": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.mocreatures:elephant.idle",
+					"hurt": "mob.mocreatures:elephant.hurt",
+					"death": "mob.mocreatures:elephant.death"
+				}
+			},
+			"mocreatures:turtle": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.mocreatures:turtle.idle",
+					"hurt": "mob.mocreatures:turtle.hurt",
+					"death": "mob.mocreatures:turtle.death"
+				}
+			},
+			"mocreatures:wild_wolf": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.mocreatures:wolf.idle",
+					"death": "mob.mocreatures:wolf.death",
+					"hurt": "mob.mocreatures:wolf.hurt"
+				}
+			},
+			"mocreatures:scorpion(dirt)": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"hurt": "mob.mocreatures:scorpion.hurt",
+					"ambient": "mob.mocreatures:scorpion.idle",
+					"death": "mob.mocreatures:scorpion.death",
+					"attack": "mob.mocreatures:scorpion.attack"
+				}
+			},
+			"mocreatures:scorpion(cave)": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"hurt": "mob.mocreatures:scorpion.hurt",
+					"ambient": "mob.mocreatures:scorpion.idle",
+					"death": "mob.mocreatures:scorpion.death",
+					"attack": "mob.mocreatures:scorpion.attack"
+				}
+			},
+			"mocreatures:scorpion(frost)": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"hurt": "mob.mocreatures:scorpion.hurt",
+					"ambient": "mob.mocreatures:scorpion.idle",
+					"death": "mob.mocreatures:scorpion.death",
+					"attack": "mob.mocreatures:scorpion.attack"
+				}
+			},
+			"mocreatures:scorpion(nether)": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"hurt": "mob.mocreatures:scorpion.hurt",
+					"ambient": "mob.mocreatures:scorpion.idle",
+					"death": "mob.mocreatures:scorpion.death",
+					"attack": "mob.mocreatures:scorpion.attack"
+				}
+			},
+			"mocreatures:ostrich": {
+				"events": {
+					"ambient": "ostrich_chick_idle",
+					"death": "ostrich_deaht",
+					"hurt": "ostrich_hurt"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"mocreatures:kitty": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"hungry": "mob.kitty.hungry",
+					"ambient": "mob.kitty.idle",
+					"hurt": "mob.kitty.hurt",
+					"death": "mob.kitty.death"
+				}
+			},
+			"mocreatures:fox": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.fox.idle",
+					"hurt": "mob.fox.hurt",
+					"death": "mob.fox.death"
+				}
+			},
+			"mocreatures:female_lion": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.bc.idle",
+					"hurt": "mob.bc.hurt",
+					"death": "mob.bc.death"
+				}
+			},
+			"mocreatures:male_lion": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.bc.idle",
+					"hurt": "mob.bc.hurt",
+					"death": "mob.bc.death"
+				}
+			},
+			"mocreatures:tiger": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.bc.idle",
+					"hurt": "mob.bc.hurt",
+					"death": "mob.bc.death"
+				}
+			},
+			"mocreatures:panther": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.bc.idle",
+					"hurt": "mob.bc.hurt",
+					"death": "mob.bc.death"
+				}
+			},
+			"mocreatures:leopard": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.bc.idle",
+					"hurt": "mob.bc.hurt",
+					"death": "mob.bc.death"
+				}
+			},
+			"mocreatures:panthard": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.bc.idle",
+					"hurt": "mob.bc.hurt",
+					"death": "mob.bc.death"
+				}
+			},
+			"mocreatures:panthger": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.bc.idle",
+					"hurt": "mob.bc.hurt",
+					"death": "mob.bc.death"
+				}
+			},
+			"mocreatures:liger": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.bc.idle",
+					"hurt": "mob.bc.hurt",
+					"death": "mob.bc.death"
+				}
+			},
+			"mocreatures:lither": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.bc.idle",
+					"hurt": "mob.bc.hurt",
+					"death": "mob.bc.death"
+				}
+			},
+			"mocreatures:leoger": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.bc.idle",
+					"hurt": "mob.bc.hurt",
+					"death": "mob.bc.death"
+				}
+			},
+			"mocreatures:liard": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.bc.idle",
+					"hurt": "mob.bc.hurt",
+					"death": "mob.bc.death"
+				}
+			}
+		}
+	}
+}

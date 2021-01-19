@@ -1,0 +1,41 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mocreatures:lion",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "armor_stand"
+			},
+			"textures": {
+				"default": "textures/entity/lion"
+			},
+			"animations": {
+				"walk": "animation.bcmale.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"jump": "animation.bcmale.jump"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"walk": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"jump": "!query.is_on_ground"
+					}
+				]
+			},
+			"geometry": {
+				"default": "geometry.bcmale"
+			},
+			"render_controllers": [
+				"controller.render.armor_stand"
+			],
+			"spawn_egg": {
+				"texture": "lion"
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.sdirt": {
+			"arrays": {
+				"textures": {
+					"Array.saddle": [
+						"Texture.default",
+						"Texture.saddle"
+					]
+				}
+			},
+			"textures": [
+				"Array.saddle[query.is_saddled]"
+			],
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,138 @@
+//bridge-file-version: #21
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.elephant": {
+			"arrays": {
+				"geometries": {
+					"Array.saddle": [
+						"Geometry.default",
+						"Geometry.saddle"
+					]
+				}
+			},
+			"textures": [
+				"Texture.default"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.saddle[query.is_saddled]"
+		},
+		"controller.render.elephant2": {
+			"arrays": {
+				"geometries": {
+					"Array.chest": [
+						"Geometry.default",
+						"Geometry.saddlechest"
+					]
+				}
+			},
+			"textures": [
+				"Texture.default"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.chest[query.is_chested]"
+		},
+		"controller.render.elephantasiansaddle": {
+			"arrays": {
+				"geometries": {
+					"Array.saddle": [
+						"Geometry.default",
+						"Geometry.saddle"
+					]
+				},
+				"textures": {
+					"Array.deco": [
+						"Texture.default",
+						"Texture.deco"
+					]
+				}
+			},
+			"textures": [
+				"Array.deco[query.variant]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.saddle[query.is_saddled && !query.mark_variant]"
+		},
+		"controller.render.elephantasianchested": {
+			"arrays": {
+				"geometries": {
+					"Array.chest": [
+						"Geometry.default",
+						"Geometry.saddlechest"
+					]
+				},
+				"textures": {
+					"Array.deco": [
+						"Texture.default",
+						"Texture.deco"
+					]
+				}
+			},
+			"textures": [
+				"Array.deco[query.variant]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.chest[query.is_chested && !query.mark_variant]"
+		},
+		"controller.render.elephantasian": {
+			"arrays": {
+				"geometries": {
+					"Array.asian": [
+						"Geometry.default",
+						"Geometry.completeasian"
+					]
+				},
+				"textures": {
+					"Array.deco": [
+						"Texture.default",
+						"Texture.deco"
+					]
+				}
+			},
+			"textures": [
+				"Array.deco[query.variant]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.asian[query.mark_variant]"
+		},
+		"controller.render.elephantmamut": {
+			"arrays": {
+				"geometries": {
+					"Array.mamut": [
+						"Geometry.default",
+						"Geometry.mamut"
+					]
+				}
+			},
+			"textures": [
+				"Texture.default"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.mamut[query.variant]"
+		}
+	}
+}
