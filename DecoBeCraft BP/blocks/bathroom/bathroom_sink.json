@@ -1,0 +1,139 @@
+//bridge-file-version: #32
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"properties": {
+				"dbc:facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				],
+				"dbc:interact": [
+					0,
+					1
+				]
+			},
+			"identifier": "dbc:bathroom_sink"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:geometry": "geometry.bsink_dbc",
+			"minecraft:on_player_placing": {
+				"event": "dbc:facing"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						-90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:interact') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "kitchen_sink",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "dbc:fill",
+						"target": "self"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:interact') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "kitchen_sink_water",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "dbc:quit",
+						"target": "self"
+					}
+				}
+			}
+		],
+		"events": {
+			"dbc:facing": {
+				"set_block_property": {
+					"dbc:facing": "query.cardinal_facing_2d"
+				}
+			},
+			"dbc:fill": {
+				"set_block_property": {
+					"dbc:interact": 1
+				},
+				"play_sound": {
+					"target": "other",
+					"sound": "bucket.fill_water"
+				},
+				"run_command": {
+					"command": [
+						"playsound bucket.fill_water @a ~ ~ ~"
+					]
+				}
+			},
+			"dbc:quit": {
+				"set_block_property": {
+					"dbc:interact": 0
+				},
+				"play_sound": {
+					"target": "other",
+					"sound": "bucket.empty_water"
+				},
+				"run_command": {
+					"command": [
+						"playsound bucket.empty_water @a ~ ~ ~"
+					]
+				}
+			}
+		}
+	}
+}

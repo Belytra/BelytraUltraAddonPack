@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:netherite_katana"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      "  a",
+      " b ",
+      "c  "
+    ],
+    "key": {
+      "a": {
+        "item": "base:netherite_blade"
+      },
+      "b": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "c": {
+        "item": "base:molten_handle"
+      }
+    },
+    "result": {
+      "item": "base:netherite_katana",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,57 @@
+//bridge-file-version: #13
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:log",
+					"functions": [
+						{
+							"function": "set_data",
+							"data": 2
+						},
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:stick",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:sapling",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 2
+							}
+						},
+						{
+							"function": "set_data",
+							"data": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

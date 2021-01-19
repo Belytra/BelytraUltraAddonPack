@@ -1,0 +1,243 @@
+//bridge-file-version: #177
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mocreatures:ent",
+			"is_summonable": true,
+			"is_spawnable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"ent_birch": {
+				"minecraft:loot": {
+					"table": "loot_tables/ent_birch.json"
+				},
+				"minecraft:variant": {
+					"value": 1
+				},
+				"minecraft:on_target_acquired": {
+					"event": "enojado",
+					"target": "self"
+				},
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"ent_oak": {
+				"minecraft:loot": {
+					"table": "loot_tables/ent_oak.json"
+				},
+				"minecraft:variant": {
+					"value": 0
+				},
+				"minecraft:on_target_acquired": {
+					"event": "enojado",
+					"target": "self"
+				},
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"enojado": {
+				"minecraft:behavior.knockback_roar": {
+					"priority": 1,
+					"knockback_strength": 15,
+					"knockback_range": 5,
+					"knockback_damage": 5
+				},
+				"minecraft:angry": {
+					"duration": 15,
+					"broadcast_anger": true,
+					"broadcast_range": 5,
+					"calm_event": {
+						"event": "calmado",
+						"target": "self"
+					}
+				},
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			},
+			"calmado": {
+				"minecraft:on_target_acquired": {
+					"event": "enojado",
+					"target": "self"
+				},
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"nockback": {
+				"minecraft:behavior.knockback_roar": {
+					"priority": 1,
+					"knockback_strength": 15,
+					"knockback_range": 5,
+					"knockback_damage": 5
+				}
+			}
+		},
+		"components": {
+			"minecraft:movement": {
+				"value": 0.25
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 2
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:experience_reward": {
+				"on_death": 3
+			},
+			"minecraft:health": {
+				"value": 40,
+				"max": 40
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:collision_box": {
+				"width": 2,
+				"height": 5
+			},
+			"minecraft:navigation.walk": {
+				"can_walk": true,
+				"can_path_over_water": true,
+				"avoid_damage_blocks": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:behavior.random_look_around": {
+				"priority": 2
+			},
+			"minecraft:jump.static": {},
+			"minecraft:loot": {
+				"table": "loot_tables/ent_oak.json"
+			},
+			"minecraft:attack": {
+				"damage": 5
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			"minecraft:nameable": {},
+			"minecraft:behavior.melee_attack": {
+				"priority": 1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "damager",
+										"domain": "hand",
+										"value": "minecraft:wooden_axe",
+										"operator": "!="
+									},
+									{
+										"test": "has_equipment",
+										"subject": "damager",
+										"domain": "hand",
+										"value": "minecraft:stone_axe",
+										"operator": "!="
+									},
+									{
+										"test": "has_equipment",
+										"subject": "damager",
+										"domain": "hand",
+										"value": "minecraft:golden_axe",
+										"operator": "!="
+									},
+									{
+										"test": "has_equipment",
+										"subject": "damager",
+										"domain": "hand",
+										"value": "minecraft:iron_axe",
+										"operator": "!="
+									},
+									{
+										"test": "has_equipment",
+										"subject": "damager",
+										"domain": "hand",
+										"value": "minecraft:diamond_axe",
+										"operator": "!="
+									},
+									{
+										"test": "has_equipment",
+										"subject": "damager",
+										"domain": "hand",
+										"value": "minecraft:netherite_axe",
+										"operator": "!="
+									}
+								]
+							}
+						}
+					}
+				]
+			},
+			"minecraft:can_climb": {},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 8,
+				"speed_multiplier": 1
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"add": {
+							"component_groups": [
+								"ent_oak"
+							]
+						},
+						"weight": 20
+					},
+					{
+						"add": {
+							"component_groups": [
+								"ent_birch"
+							]
+						},
+						"weight": 9
+					}
+				]
+			},
+			"enojado": {
+				"remove": {
+					"component_groups": [
+						"calmado"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"enojado",
+						"nockback"
+					]
+				}
+			},
+			"calmado": {
+				"remove": {
+					"component_groups": [
+						"enojado"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"calmado"
+					]
+				}
+			}
+		}
+	}
+}

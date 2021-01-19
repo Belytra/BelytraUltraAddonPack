@@ -1,0 +1,508 @@
+{
+	"function": {
+		"BP/functions/bridges.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/outdoor.mcfunction": {
+			"custom_commands": []
+		},
+		"BP/functions/bathroom.mcfunction": {
+			"custom_commands": []
+		},
+		"a4106e64_68c5_4a93_8f77_2b0170196607": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"0281d8f5_6307_4f9c_aeee_655343d9f36b": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"cbfaa7e9_66cb_40f1_9cc9_060f6bdcab9b": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"4679733f_2aa4_4769_99e8_96476412712d": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"2c029936_7065_49b5_a1f3_a61478770f8a": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"3f13f163_dd5c_490c_884c_4c1d7ab34416": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"31fd2bb1_4ff0_4210_818b_a0bfdb04c84e": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"92a6eda2_3d7c_4c80_9b0a_969a5b84a536": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"6bc497f8_3140_4f8e_880e_2e505c5b5e58": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"0e25612f_d418_46e6_a95d_5858982b886a": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"9d441f12_cb39_4d6b_b401_3f32eba774da": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"2ca6ae4c_35d3_4d77_bafd_72a80f2b8f97": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"5621c724_6a66_49cc_abe6_a274982646c5": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"933d4ab5_d134_4e72_8c14_c460a8695b6e": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"b78d5c16_32c0_4380_a665_8d9c6528c3d9": {
+			"tags": [
+				"preparacion"
+			]
+		},
+		"395d235f_e544_456d_8b79_554870744ec0": {
+			"tags": [
+				"preparacion"
+			]
+		}
+	},
+	"entity": {
+		"BP/entities/sit.json": {
+			"events": [
+				"dbc:f"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"dbc:sit"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"block": {
+		"BP/blocks/chairs/chair.json": {
+			"identifiers": [
+				"dbc:chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/birch_chair.json": {
+			"identifiers": [
+				"dbc:birch_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/big_oak_chair.json": {
+			"identifiers": [
+				"dbc:dark_oak_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/acacia_chair.json": {
+			"identifiers": [
+				"dbc:acacia_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/spruce_chair.json": {
+			"identifiers": [
+				"dbc:spruce_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/jungle_chair.json": {
+			"identifiers": [
+				"dbc:jungle_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/crimson_chair.json": {
+			"identifiers": [
+				"dbc:crimson_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/concrete_chair.json": {
+			"identifiers": [
+				"dbc:concrete_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/chairs/warped_chair.json": {
+			"identifiers": [
+				"dbc:warped_chair"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/bathroom/toilet.json": {
+			"identifiers": [
+				"dbc:toilet"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/couch/couch.json": {
+			"identifiers": [
+				"dbc:sofa"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:event",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/couch/couch_right.json": {
+			"identifiers": [
+				"dbc:sofa_right"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:event",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/couch/couch_middle.json": {
+			"identifiers": [
+				"dbc:sofa_middle"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:event",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/couch/couch_left.json": {
+			"identifiers": [
+				"dbc:sofa_left"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:event",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/couch/couch_inter.json": {
+			"identifiers": [
+				"dbc:sofa_inter"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:event",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/kitchen/bar_stool.json": {
+			"identifiers": [
+				"dbc:bar_stool"
+			],
+			"events": [
+				"dbc:facing",
+				"dbc:event",
+				"dbc:summon",
+				"dbc:sit"
+			],
+			"recipe_tags": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/blocks/bridges/oak_bridge.json": {
+			"identifiers": [
+				"dbc:oak_bridge"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/bridges/oak_bridge_start.json": {
+			"identifiers": [
+				"dbc:oak_bridge_start"
+			],
+			"events": [
+				"dbc:facing"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"recipe": {
+		"BP/recipes/bridges/oak_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/oak_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/acacia_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/acacia_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/birch_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/birch_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/jungle_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/jungle_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/spruce_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridges/spruce_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/oak_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/oak_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/birch_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/birch_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/acacia_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/acacia_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/jungle_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/jungle_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/dark_oak_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/dark_oak_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/crimson_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/crimson_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/warped_bridge_start.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bridge/warped_bridge.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bathroom/toilet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bathroom/shower.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bathroom/shower_head.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bathroom/bathroom_sink.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/bathroom/bathroom_cabinet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/stonepath.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/small_fountain.json": {
+			"tags": [
+				"crafting_table"
+			]
+		},
+		"BP/recipes/outdoor/diving_board.json": {
+			"tags": [
+				"crafting_table"
+			]
+		}
+	}
+}

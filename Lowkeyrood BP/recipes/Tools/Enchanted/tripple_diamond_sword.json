@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:triple_diamond"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      " b ",
+      "bab",
+      " c "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:diamond"
+      },
+      "b": {
+        "item": "base:diamond_blade"
+      },
+      "c": {
+        "item": "base:wood_handle"
+      },
+      "d": {
+        "item": "base:molten_handle"
+      }
+    },
+    "result": {
+      "item": "base:triple_diamond",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

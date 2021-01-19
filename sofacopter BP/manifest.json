@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§5sofa§1copter be",
+		"description": "pack.description",
+		"uuid": "6d829e55-a29c-42a4-8e73-c95af0cd61c3",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "333040f8-55c1-425d-8266-31d392c320f9",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "4b5dff8d-c011-4cde-936d-85c779fe2f45"
+		}
+	]
+}

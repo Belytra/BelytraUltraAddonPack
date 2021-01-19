@@ -1,0 +1,31 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:sofa"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"# #"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:wool"
+			},
+			"#": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:sofa",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

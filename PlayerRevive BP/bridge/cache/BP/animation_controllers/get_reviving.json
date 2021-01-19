@@ -1,0 +1,256 @@
+{
+	"file_path": "C:\\Users\\hcarl\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\PlayerRevive/animation_controllers/get_reviving.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "902b1315_4e7d_4be5_8a73_ecdb2b72ac8c",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.getreviving": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"reviving": "query.variant == 3 || query.variant == 2"
+										}
+									],
+									"on_entry": [
+										"@s minecraft:entity_spawned"
+									]
+								},
+								"reviving": {
+									"transitions": [
+										{
+											"default": "query.all_animations_finished"
+										}
+									],
+									"animations": [
+										"reviving"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.getreviving": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"reviving": "query.variant == 3 || query.variant == 2"
+											}
+										],
+										"on_entry": [
+											"@s minecraft:entity_spawned"
+										]
+									},
+									"reviving": {
+										"transitions": [
+											{
+												"default": "query.all_animations_finished"
+											}
+										],
+										"animations": [
+											"reviving"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.getreviving",
+						"children": [
+							{
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"reviving": "query.variant == 3 || query.variant == 2"
+												}
+											],
+											"on_entry": [
+												"@s minecraft:entity_spawned"
+											]
+										},
+										"reviving": {
+											"transitions": [
+												{
+													"default": "query.all_animations_finished"
+												}
+											],
+											"animations": [
+												"reviving"
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"reviving": "query.variant == 3 || query.variant == 2"
+													}
+												],
+												"on_entry": [
+													"@s minecraft:entity_spawned"
+												]
+											},
+											"reviving": {
+												"transitions": [
+													{
+														"default": "query.all_animations_finished"
+													}
+												],
+												"animations": [
+													"reviving"
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"reviving": "query.variant == 3 || query.variant == 2"
+														}
+													],
+													"on_entry": [
+														"@s minecraft:entity_spawned"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"reviving": "query.variant == 3 || query.variant == 2"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"reviving": "query.variant == 3 || query.variant == 2"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"reviving": "query.variant == 3 || query.variant == 2"
+														}
+													],
+													"on_entry": [
+														"@s minecraft:entity_spawned"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"@s minecraft:entity_spawned"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"reviving": "query.variant == 3 || query.variant == 2"
+													}
+												],
+												"on_entry": [
+													"@s minecraft:entity_spawned"
+												]
+											},
+											"reviving": {
+												"transitions": [
+													{
+														"default": "query.all_animations_finished"
+													}
+												],
+												"animations": [
+													"reviving"
+												]
+											}
+										},
+										"key": "reviving",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.all_animations_finished"
+														}
+													],
+													"animations": [
+														"reviving"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.all_animations_finished"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.all_animations_finished"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.all_animations_finished"
+														}
+													],
+													"animations": [
+														"reviving"
+													]
+												},
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"reviving"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

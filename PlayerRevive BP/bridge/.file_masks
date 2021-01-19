@@ -1,0 +1,44 @@
+{
+	"BP/animations/is_knocked.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/get_knocked.json": {
+		"data": {}
+	},
+	"BP/animations/revive.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"RP/entity/player.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/get_reviving.json": {
+		"data": {}
+	},
+	"RP/animations/playerrevive.animation.json": {
+		"data": {}
+	},
+	"BP/manifest.json": {
+		"data": {}
+	},
+	"RP/manifest.json": {
+		"data": {}
+	},
+	"BP/entities/wolf.json": {
+		"data": {}
+	},
+	"RP/entity/wolf.json": {
+		"data": {}
+	},
+	"RP/render_controllers/wolfrevive.json": {
+		"data": {}
+	},
+	"RP/animation_controllers/wolf.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/get_knocked_wolf.json": {
+		"data": {}
+	}
+}

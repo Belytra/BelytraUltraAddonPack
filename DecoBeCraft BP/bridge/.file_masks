@@ -1,0 +1,158 @@
+{
+	"BP/bridge/config.json": {
+		"data": {}
+	},
+	"BP/entities/sit.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/birch_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/big_oak_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/acacia_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/spruce_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/jungle_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/crimson_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/concrete_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/chairs/warped_chair.json": {
+		"data": {}
+	},
+	"BP/blocks/bathroom/toilet.json": {
+		"data": {}
+	},
+	"BP/blocks/couch/couch.json": {
+		"data": {}
+	},
+	"BP/blocks/couch/couch_right.json": {
+		"data": {}
+	},
+	"BP/blocks/couch/couch_middle.json": {
+		"data": {}
+	},
+	"BP/blocks/couch/couch_left.json": {
+		"data": {}
+	},
+	"BP/blocks/couch/couch_inter.json": {
+		"data": {}
+	},
+	"BP/blocks/kitchen/bar_stool.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/oak_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/oak_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/acacia_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/acacia_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/birch_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/birch_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/jungle_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/jungle_bridge_start.json": {
+		"data": {}
+	},
+	"BP/blocks/bridges/oak_bridge.json": {
+		"data": {}
+	},
+	"BP/blocks/bridges/oak_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/spruce_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridges/spruce_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/oak_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/oak_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/birch_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/birch_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/acacia_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/acacia_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/jungle_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/jungle_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/dark_oak_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/dark_oak_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/crimson_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/crimson_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/warped_bridge_start.json": {
+		"data": {}
+	},
+	"BP/recipes/bridge/warped_bridge.json": {
+		"data": {}
+	},
+	"BP/recipes/bathroom/toilet.json": {
+		"data": {}
+	},
+	"BP/recipes/bathroom/shower.json": {
+		"data": {}
+	},
+	"BP/recipes/bathroom/shower_head.json": {
+		"data": {}
+	},
+	"BP/recipes/bathroom/bathroom_sink.json": {
+		"data": {}
+	},
+	"BP/recipes/bathroom/bathroom_cabinet.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/stonepath.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/small_fountain.json": {
+		"data": {}
+	},
+	"BP/recipes/outdoor/diving_board.json": {
+		"data": {}
+	}
+}

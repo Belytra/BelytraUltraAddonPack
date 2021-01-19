@@ -1,0 +1,26 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sc:sofa"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            " X ",
+            "X#X",
+            "# #"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:planks"
+            },
+            "X": {
+                "item": "minecraft:wool"
+            }
+        },
+        "result": {
+            "item": "spawn_egg",
+            "data": "query.get_actor_info_id('sc:sofa')"
+        }
+    }
+}

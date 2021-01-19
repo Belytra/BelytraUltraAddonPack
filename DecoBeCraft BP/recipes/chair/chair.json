@@ -1,0 +1,30 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:chair"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~  ",
+			"~~~",
+			"~ ~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:planks",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:chair",
+				"data": 0,
+				"count": 4
+			}
+		]
+	}
+}

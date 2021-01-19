@@ -1,0 +1,379 @@
+{
+	"file_path": "C:\\Users\\hcarl\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Barry The Magic Bear\\render_controllers\\pets.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "529b5e1a_ad4f_468a_91c5_c09c7cc389a9",
+	"file_version": 37,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.pets": {
+							"textures": [
+								"Array.Texture[query.variant]"
+							],
+							"geometry": "Array.geos[ query.variant ]",
+							"materials": [
+								{
+									"*": "Material.default"
+								},
+								{
+									"leg*": "Material.legs"
+								}
+							],
+							"arrays": {
+								"textures": {
+									"Array.Texture": [
+										"Texture.default",
+										"Texture.dino",
+										"Texture.axolotl",
+										"Texture.elegant",
+										"Texture.astronaut",
+										"Texture.minitv"
+									]
+								},
+								"geometries": {
+									"Array.geos": [
+										"geometry.default",
+										"geometry.dino",
+										"geometry.axolotl",
+										"geometry.elegant",
+										"geometry.astronaut",
+										"geometry.minitv"
+									]
+								}
+							}
+						}
+					}
+				},
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.pets": {
+							"textures": [
+								"Array.Texture[query.variant]"
+							],
+							"geometry": "Array.geos[ query.variant ]",
+							"materials": [
+								{
+									"*": "Material.default"
+								},
+								{
+									"leg*": "Material.legs"
+								}
+							],
+							"arrays": {
+								"textures": {
+									"Array.Texture": [
+										"Texture.default",
+										"Texture.dino",
+										"Texture.axolotl",
+										"Texture.elegant",
+										"Texture.astronaut",
+										"Texture.minitv"
+									]
+								},
+								"geometries": {
+									"Array.geos": [
+										"geometry.default",
+										"geometry.dino",
+										"geometry.axolotl",
+										"geometry.elegant",
+										"geometry.astronaut",
+										"geometry.minitv"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.pets": {
+								"textures": [
+									"Array.Texture[query.variant]"
+								],
+								"geometry": "Array.geos[ query.variant ]",
+								"materials": [
+									{
+										"*": "Material.default"
+									},
+									{
+										"leg*": "Material.legs"
+									}
+								],
+								"arrays": {
+									"textures": {
+										"Array.Texture": [
+											"Texture.default",
+											"Texture.dino",
+											"Texture.axolotl",
+											"Texture.elegant",
+											"Texture.astronaut",
+											"Texture.minitv"
+										]
+									},
+									"geometries": {
+										"Array.geos": [
+											"geometry.default",
+											"geometry.dino",
+											"geometry.axolotl",
+											"geometry.elegant",
+											"geometry.astronaut",
+											"geometry.minitv"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.render.pets",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"Array.Texture[query.variant]"
+									],
+									"geometry": "Array.geos[ query.variant ]",
+									"materials": [
+										{
+											"*": "Material.default"
+										},
+										{
+											"leg*": "Material.legs"
+										}
+									],
+									"arrays": {
+										"textures": {
+											"Array.Texture": [
+												"Texture.default",
+												"Texture.dino",
+												"Texture.axolotl",
+												"Texture.elegant",
+												"Texture.astronaut",
+												"Texture.minitv"
+											]
+										},
+										"geometries": {
+											"Array.geos": [
+												"geometry.default",
+												"geometry.dino",
+												"geometry.axolotl",
+												"geometry.elegant",
+												"geometry.astronaut",
+												"geometry.minitv"
+											]
+										}
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Array.Texture[query.variant]"
+								]
+							},
+							{
+								"data": "Array.geos[ query.variant ]",
+								"key": "geometry"
+							},
+							{
+								"open": {
+									"textures": [
+										"Array.Texture[query.variant]"
+									],
+									"geometry": "Array.geos[ query.variant ]",
+									"materials": [
+										{
+											"*": "Material.default"
+										},
+										{
+											"leg*": "Material.legs"
+										}
+									],
+									"arrays": {
+										"textures": {
+											"Array.Texture": [
+												"Texture.default",
+												"Texture.dino",
+												"Texture.axolotl",
+												"Texture.elegant",
+												"Texture.astronaut",
+												"Texture.minitv"
+											]
+										},
+										"geometries": {
+											"Array.geos": [
+												"geometry.default",
+												"geometry.dino",
+												"geometry.axolotl",
+												"geometry.elegant",
+												"geometry.astronaut",
+												"geometry.minitv"
+											]
+										}
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": [
+									{
+										"*": "Material.default"
+									},
+									{
+										"leg*": "Material.legs"
+									}
+								]
+							},
+							{
+								"open": {
+									"textures": [
+										"Array.Texture[query.variant]"
+									],
+									"geometry": "Array.geos[ query.variant ]",
+									"materials": [
+										{
+											"*": "Material.default"
+										},
+										{
+											"leg*": "Material.legs"
+										}
+									],
+									"arrays": {
+										"textures": {
+											"Array.Texture": [
+												"Texture.default",
+												"Texture.dino",
+												"Texture.axolotl",
+												"Texture.elegant",
+												"Texture.astronaut",
+												"Texture.minitv"
+											]
+										},
+										"geometries": {
+											"Array.geos": [
+												"geometry.default",
+												"geometry.dino",
+												"geometry.axolotl",
+												"geometry.elegant",
+												"geometry.astronaut",
+												"geometry.minitv"
+											]
+										}
+									}
+								},
+								"key": "arrays",
+								"children": [
+									{
+										"open": {
+											"textures": {
+												"Array.Texture": [
+													"Texture.default",
+													"Texture.dino",
+													"Texture.axolotl",
+													"Texture.elegant",
+													"Texture.astronaut",
+													"Texture.minitv"
+												]
+											},
+											"geometries": {
+												"Array.geos": [
+													"geometry.default",
+													"geometry.dino",
+													"geometry.axolotl",
+													"geometry.elegant",
+													"geometry.astronaut",
+													"geometry.minitv"
+												]
+											}
+										},
+										"key": "textures",
+										"children": [
+											{
+												"open": {
+													"Array.Texture": [
+														"Texture.default",
+														"Texture.dino",
+														"Texture.axolotl",
+														"Texture.elegant",
+														"Texture.astronaut",
+														"Texture.minitv"
+													]
+												},
+												"key": "Array.Texture",
+												"is_minified": true,
+												"children": [
+													"Texture.default",
+													"Texture.dino",
+													"Texture.axolotl",
+													"Texture.elegant",
+													"Texture.astronaut",
+													"Texture.minitv"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"textures": {
+												"Array.Texture": [
+													"Texture.default",
+													"Texture.dino",
+													"Texture.axolotl",
+													"Texture.elegant",
+													"Texture.astronaut",
+													"Texture.minitv"
+												]
+											},
+											"geometries": {
+												"Array.geos": [
+													"geometry.default",
+													"geometry.dino",
+													"geometry.axolotl",
+													"geometry.elegant",
+													"geometry.astronaut",
+													"geometry.minitv"
+												]
+											}
+										},
+										"key": "geometries",
+										"children": [
+											{
+												"open": {
+													"Array.geos": [
+														"geometry.default",
+														"geometry.dino",
+														"geometry.axolotl",
+														"geometry.elegant",
+														"geometry.astronaut",
+														"geometry.minitv"
+													]
+												},
+												"key": "Array.geos",
+												"is_minified": true,
+												"children": [
+													"geometry.default",
+													"geometry.dino",
+													"geometry.axolotl",
+													"geometry.elegant",
+													"geometry.astronaut",
+													"geometry.minitv"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

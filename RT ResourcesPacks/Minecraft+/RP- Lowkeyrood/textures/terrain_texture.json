@@ -1,0 +1,92 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "advanced_table": {
+      "textures": "textures/blocks/advanced_table"
+    },
+    "drying_rack": {
+      "textures": "textures/blocks/drying_rack"
+    },
+    "drying_rack_empty": {
+      "textures": "textures/blocks/drying_rack_empty"
+    },
+    "upgrade_table": {
+      "textures": "textures/blocks/upgrade_table"
+    },
+    "upgrade_table2": {
+      "textures": "textures/blocks/upgradetable"
+    },
+    "pulverizer": {
+      "textures": "textures/blocks/pulverizer"
+    },
+    "titanium_block": {
+      "textures": "textures/blocks/titanium_block"
+    },
+    "titanium_ore": {
+      "textures": "textures/blocks/titanium_ore"
+    },
+    "silver_ore": {
+      "textures": "textures/blocks/silver_ore"
+    },
+    "sliminium_ore": {
+      "textures": "textures/blocks/sliminium_ore"
+    },
+    "super_furnace2": {
+      "textures": "textures/blocks/Super Furnace/super_furnace2"
+    },
+    "super_furnace5": {
+      "textures": "textures/blocks/Super Furnace/super_furnace5"
+    },
+    "super_furnace6": {
+      "textures": "textures/blocks/Super Furnace/super_furnace6"
+    },
+    "super_furnace7": {
+      "textures": "textures/blocks/Super Furnace/super_furnace7"
+    },
+    "super_furnace1": {
+      "textures": "textures/blocks/Super Furnace/super_furnace1"
+    },
+    "super_furnace3": {
+      "textures": "textures/blocks/Super Furnace/super_furnace3"
+    },
+    "super_furnace4": {
+      "textures": "textures/blocks/Super Furnace/super_furnace4"
+    },
+    "super_furnace8": {
+      "textures": "textures/blocks/Super Furnace/super_furnace8"
+    },
+    "super_furnace_silver": {
+      "textures": "textures/blocks/Super Furnace/super_furnace_silver"
+    },
+    "super_furnace_molten": {
+      "textures": "textures/blocks/Super Furnace/super_furnace_molten"
+    },
+    "super_furnace_obsidian": {
+      "textures": "textures/blocks/Super Furnace/super_furnace_obsidian"
+    },
+    "super_furnace_obsidian_done": {
+      "textures": "textures/blocks/Super Furnace/super_furnace_obsidian_done"
+    },
+    "super_furnace_molten_done": {
+      "textures": "textures/blocks/Super Furnace/super_furnace_molten_done"
+    },
+    "super_furnace_slime": {
+      "textures": "textures/blocks/Super Furnace/super_furnace_slime"
+    },
+    "super_furnace_titanium": {
+      "textures": "textures/blocks/Super Furnace/super_furnace_titanium"
+    },
+    "super_furnace_sliminium_done": {
+      "textures": "textures/blocks/Super Furnace/super_furnace_sliminium_done"
+    },
+    "super_furnace_titanium_done": {
+      "textures": "textures/blocks/Super Furnace/super_furnace_titanium_done"
+    },
+    "super_furnace_silver_done": {
+      "textures": "textures/blocks/Super Furnace/super_furnace_silver_done"
+    }
+  }
+}

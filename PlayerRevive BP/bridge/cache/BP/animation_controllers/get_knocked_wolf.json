@@ -1,0 +1,221 @@
+{
+	"file_path": "C:\\Users\\hcarl\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\PlayerRevive\\animation_controllers\\get_knocked_wolf.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "2cdc35fe_c478_4558_9374_aa43c574b561",
+	"file_version": 18,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.knockedwolf": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"knocked": "query.variant == 1"
+										}
+									]
+								},
+								"knocked": {
+									"transitions": [
+										{
+											"default": "query.variant != 1 "
+										}
+									],
+									"animations": [
+										"knocked"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.knockedwolf": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"knocked": "query.variant == 1"
+											}
+										]
+									},
+									"knocked": {
+										"transitions": [
+											{
+												"default": "query.variant != 1 "
+											}
+										],
+										"animations": [
+											"knocked"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.knockedwolf",
+						"children": [
+							{
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"knocked": "query.variant == 1"
+												}
+											]
+										},
+										"knocked": {
+											"transitions": [
+												{
+													"default": "query.variant != 1 "
+												}
+											],
+											"animations": [
+												"knocked"
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"knocked": "query.variant == 1"
+													}
+												]
+											},
+											"knocked": {
+												"transitions": [
+													{
+														"default": "query.variant != 1 "
+													}
+												],
+												"animations": [
+													"knocked"
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"knocked": "query.variant == 1"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"knocked": "query.variant == 1"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"knocked": "query.variant == 1"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"knocked": "query.variant == 1"
+													}
+												]
+											},
+											"knocked": {
+												"transitions": [
+													{
+														"default": "query.variant != 1 "
+													}
+												],
+												"animations": [
+													"knocked"
+												]
+											}
+										},
+										"key": "knocked",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.variant != 1 "
+														}
+													],
+													"animations": [
+														"knocked"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.variant != 1 "
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.variant != 1 "
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.variant != 1 "
+														}
+													],
+													"animations": [
+														"knocked"
+													]
+												},
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"knocked"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

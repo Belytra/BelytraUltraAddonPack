@@ -1,0 +1,227 @@
+##bridge-file-version: #180
+#pack.name=§cMo'creatures §rbedrock §a[RP]
+pack.description=Original by DrZhark | Hecho por DEATH KING, Aguilesgamer, RighiNoobs8, TheMinedS, ESTEBAN1303YT, sebancraft_YT
+item.spawn_egg.entity.mocreatures:ent.name=Spawn Ent
+entity.mocreatures:ent.name=Ent
+item.spawn_egg.entity.mocreatures:goat.name=Spawn Goat
+entity.mocreatures:goat.name=Goat
+item.spawn_egg.entity.mocreatures:turkey.name=Spawn Turkey
+entity.mocreatures:turkey.name=Turkey
+item.mocreatures:raw_turkey=Raw turkey
+item.mocreatures:cooked_turkey=Cooked turkey
+item.spawn_egg.entity.mocreatures:grizzly_bear.name=Spawn Grizzly Bear
+entity.mocreatures:grizzly_bear.name=Grizzly bear
+action.hint.exit.mocreatures:grizzly_bear=Tap sneak to dismount
+item.mocreatures:hide=Hide
+item.spawn_egg.entity.mocreatures:polar_bear.name=Spawn Polar Bear
+entity.mocreatures:polar_bear.name=Polar bear
+action.hint.exit.mocreatures:polar_bear=Tap sneak to dismount
+item.spawn_egg.entity.mocreatures:black_bear.name=Spawn Black Bear
+entity.mocreatures:black_bear.name=Black bear
+action.hint.exit.mocreatures:black_bear=Tap sneak to dismount
+item.spawn_egg.entity.mocreatures:panda.name=Spawn Panda
+entity.mocreatures:panda.name=Panda
+action.hint.exit.mocreatures:panda=Tap sneak to dismount
+item.mocreatures:silverskeleton_sword=Silver Sword
+entity.mocreatures:silverskeleton.name=Silver Skeleton
+item.spawn_egg.entity.mocreatures:silverskeleton.name=Spawn Silverskeleton
+
+entity.mocreatures:minigolem.name=Mini Golem
+item.spawn_egg.entity.mocreatures:minigolem.name=Spawn Minigolem
+
+entity.mocreatures:wraith.name=Wraith
+item.spawn_egg.entity.mocreatures:wraith.name=Spawn Wraith
+
+entity.mocreatures:flamewraith.name=Flamewraith
+item.spawn_egg.entity.mocreatures:flamewraith.name=Spawn Flamewraith
+
+entity.mocreatures:bloques.name=Block
+
+entity.mocreatures:boar.name=Boar
+item.spawn_egg.entity.mocreatures:boar.name=Spawn Boar
+
+entity.mocreatures:bird.name=Bird
+item.spawn_egg.entity.mocreatures:bird.name=Spawn Bird
+
+entity.mocreatures:crocodile.name=Crocodile
+item.spawn_egg.entity.mocreatures:crocodile.name=Spawn Crocodile
+item.mocreatures:reptile_hide=Reptile hide
+
+entity.mocreatures:bunny.name=Bunny
+item.spawn_egg.entity.mocreatures:bunny.name=Spawn Bunny
+
+item.mocreatures:omelet=Omelet
+item.mocreatures:sugar_lump=Sugar lump
+
+entity.mocreatures:komodo_dragon.name=Komodo dragon
+item.spawn_egg.entity.mocreatures:komodo_dragon.name=Spawn Komodo Dragon
+item.mocreatures:egg_komodo=Komodo egg
+action.hint.exit.mocreatures:komodo_dragon=Tap sneak to dismount
+
+entity.mocreatures:raccoon.name=Raccoon
+item.spawn_egg.entity.mocreatures:raccoon.name=Spawn Raccoon
+item.mocreatures:fur=Fur
+
+entity.mocreatures:rat.name=Rat
+item.spawn_egg.entity.mocreatures:rat.name=Spawn Rat
+item.mocreatures:raw_rat=Raw rat
+item.mocreatures:cooked_rat=Cooked rat
+item.mocreatures:rat_burger=Rat burger
+entity.mocreatures:hellrat.name=Hellrat
+item.spawn_egg.entity.mocreatures:hellrat.name=Spawn Hellrat
+
+entity.mocreatures:shark.name=Shark
+item.spawn_egg.entity.mocreatures:shark.name=Spawn Shark
+item.mocreatures:egg_shark=Shark egg
+item.mocreatures:shark_teeth=Shark teeth
+
+entity.mocreatures:elephant(african).name=African elephant
+item.spawn_egg.entity.mocreatures:elephant(african).name=Spawn Elephant(african)
+item.mocreatures:elephant_chests=Elephant chests
+item.mocreatures:elephant_chest=Elephant chest
+item.mocreatures:elephant_harness=Elephant harness
+action.hint.exit.mocreatures:elephant(african)=Tap sneak to dismount
+
+entity.mocreatures:elephant(asian).name=Asian elephant
+item.spawn_egg.entity.mocreatures:elephant(asian).name=Spawn Elephant(asian)
+action.hint.exit.mocreatures:elephant(asian)=Tap sneak to dismount
+item.mocreatures:elephant_howdah=Elephant howdah
+item.mocreatures:elephant_garment=Elephant garment
+
+entity.mocreatures:elephant(woolly_mammoth).name=Elephant(woolly mammoth)
+item.spawn_egg.entity.mocreatures:elephant(woolly_mammoth).name=Spawn Elephant(woolly mammoth)
+action.hint.exit.mocreatures:elephant(woolly_mammoth)=Tap sneak to dismount
+
+entity.mocreatures:elephant(songhua_river_mammoth).name=Elephant(songhua river mammoth)
+item.spawn_egg.entity.mocreatures:elephant(songhua_river_mammoth).name=Spawn Elephant(songhua river mammoth)
+action.hint.exit.mocreatures:elephant(songhua_river_mammoth)=Tap sneak to dismount
+item.mocreatures:mammoth_platform=Mammoth platform
+
+entity.mocreatures:turtle.name=Turtle
+item.spawn_egg.entity.mocreatures:turtle.name=Spawn Turtle
+item.mocreatures:raw_turtle=Raw turtle
+item.mocreatures:turtle_soup=Turtle soup
+item.mocreatures:bo=Bo
+item.mocreatures:katana=Katana
+item.mocreatures:nunchaku=Nunchaku
+item.mocreatures:sai=Sai
+
+entity.mocreatures:wild_wolf.name=Wild wolf
+item.spawn_egg.entity.mocreatures:wild_wolf.name=Spawn Wild Wolf
+item.mocreatures:medallion=Medallion
+
+item.mocreatures:reptile_helmet=Reptile Helmet
+item.mocreatures:reptile_chestplate=Reptile Chestplate
+item.mocreatures:reptile_leggings=Reptile Leggings
+item.mocreatures:reptile_boots=Reptile Boots
+item.mocreatures:fur_helmet=Fur Helmet
+item.mocreatures:fur_chestplate=Fur Chestplate
+item.mocreatures:fur_leggings=Fur Leggings
+item.mocreatures:fur_boots=Fur Boots
+item.mocreatures:hide_helmet=Hide Helmet
+item.mocreatures:hide_chestplate=Hide Chestplate
+item.mocreatures:hide_leggings=Hide Leggings
+item.mocreatures:hide_boots=Hide Boots
+
+entity.mocreatures:scorpion(dirt).name=Dirt scorpion
+item.spawn_egg.entity.mocreatures:scorpion(dirt).name=Spawn Dirt scorpion
+action.hint.exit.mocreatures:scorpion(dirt)=Tap sneak to dismount
+item.mocreatures:chitin=Chitin
+item.mocreatures:dirt_scorpion_sword=Dirt scorpion sword
+item.mocreatures:dirt_scorpion_sting=Dirt scorpion sting
+item.mocreatures:dirt_scorpion_boots=Dirt scorpion boots
+item.mocreatures:dirt_scorpion_chestplate=Dirt scorpion chestplate
+item.mocreatures:dirt_scorpion_helmet=Dirt scorpion helmet
+item.mocreatures:dirt_scorpion_leggings=Dirt scorpion leggings
+
+entity.mocreatures:scorpion(cave).name=Cave scorpion
+item.spawn_egg.entity.mocreatures:scorpion(cave).name=Spawn Cave scorpion
+action.hint.exit.mocreatures:scorpion(cave)=Tap sneak to dismount
+item.mocreatures:black_chitin=Black Chitin
+item.mocreatures:cave_scorpion_sword=Cave scorpion sword
+item.mocreatures:cave_scorpion_sting=Cave scorpion sting
+item.mocreatures:cave_scorpion_boots=Cave scorpion boots
+item.mocreatures:cave_scorpion_chestplate=Cave scorpion chestplate
+item.mocreatures:cave_scorpion_helmet=Cave scorpion helmet
+item.mocreatures:cave_scorpion_leggings=Cave scorpion leggings
+
+entity.mocreatures:scorpion(frost).name=Frost scorpion
+item.spawn_egg.entity.mocreatures:scorpion(frost).name=Spawn Frost scorpion
+action.hint.exit.mocreatures:scorpion(frost)=Tap sneak to dismount
+item.mocreatures:frost_chitin=Frost Chitin
+item.mocreatures:frost_scorpion_sword=Frost scorpion sword
+item.mocreatures:frost_scorpion_sting=Frost scorpion sting
+item.mocreatures:frost_scorpion_boots=Frost scorpion boots
+item.mocreatures:frost_scorpion_chestplate=Frost scorpion chestplate
+item.mocreatures:frost_scorpion_helmet=Frost scorpion helmet
+item.mocreatures:frost_scorpion_leggings=Frost scorpion leggings
+
+entity.mocreatures:scorpion(nether).name=Nether scorpion
+item.spawn_egg.entity.mocreatures:scorpion(nether).name=Spawn Nether scorpion
+action.hint.exit.mocreatures:scorpion(nether)=Tap sneak to dismount
+item.mocreatures:nether_chitin=Nether Chitin
+item.mocreatures:nether_scorpion_sword=Nether scorpion sword
+item.mocreatures:nether_scorpion_sting=Nether scorpion sting
+item.mocreatures:nether_scorpion_boots=Nether scorpion boots
+item.mocreatures:nether_scorpion_chestplate=Nether scorpion chestplate
+item.mocreatures:nether_scorpion_helmet=Nether scorpion helmet
+item.mocreatures:nether_scorpion_leggings=Nether scorpion leggings
+
+entity.mocreatures:kitty.name=Kitty
+item.spawn_egg.entity.mocreatures:kitty.name=Spawn Kitty
+item.mocreatures:pet_food=Pet food
+entity.mocreatures:kitty_bed.name=Kitty bed
+item.spawn_egg.entity.mocreatures:kitty_bed.name=Kitty bed
+
+item.mocreatures:egg_ostrich=Ostrich egg
+entity.mocreatures:ostrich.name=Ostrich
+item.spawn_egg.entity.mocreatures:ostrich.name=Spawn Ostrich
+action.hint.exit.mocreatures:ostrich=Tap sneak to dismount
+item.mocreatures:raw_ostrich=Raw ostrich
+item.mocreatures:cooked_ostrich=Cooked ostrich
+
+entity.mocreatures:male_lion.name=Lion
+entity.mocreatures:female_lion.name=Lioness
+entity.mocreatures:tiger.name=Tiger
+entity.mocreatures:panther.name=Panther
+entity.mocreatures:leopard.name=Leopard
+entity.mocreatures:leoger.name=Leoger
+entity.mocreatures:liger.name=Liger
+entity.mocreatures:liard.name=Liard
+entity.mocreatures:lither.name=Lither
+entity.mocreatures:panthard.name=Panthard
+entity.mocreatures:panthger.name=Panthger
+item.spawn_egg.entity.mocreatures:male_lion.name=Spawn Lion
+item.spawn_egg.entity.mocreatures:female_lion.name=Spawn Lioness
+item.spawn_egg.entity.mocreatures:tiger.name=Spawn Tiger
+item.spawn_egg.entity.mocreatures:panther.name=Spawn Panther
+item.spawn_egg.entity.mocreatures:leopard.name=Spawn Leopard
+item.spawn_egg.entity.mocreatures:leoger.name=Spawn Leoger
+item.spawn_egg.entity.mocreatures:liger.name=Spawn Liger
+item.spawn_egg.entity.mocreatures:liard.name=Spawn Liard
+item.spawn_egg.entity.mocreatures:lither.name=Spawn Lither
+item.spawn_egg.entity.mocreatures:panthard.name=Spawn Panthard
+item.spawn_egg.entity.mocreatures:panthger.name=Spawn Panthger
+action.hint.exit.mocreatures:male_lion=Tap sneak to dismount
+action.hint.exit.mocreatures:female_lion=Tap sneak to dismount
+action.hint.exit.mocreatures:tiger=Tap sneak to dismount
+action.hint.exit.mocreatures:panther=Tap sneak to dismount
+action.hint.exit.mocreatures:leopard=Tap sneak to dismount
+action.hint.exit.mocreatures:leoger=Tap sneak to dismount
+action.hint.exit.mocreatures:liger=Tap sneak to dismount
+action.hint.exit.mocreatures:liard=Tap sneak to dismount
+action.hint.exit.mocreatures:lither=Tap sneak to dismount
+action.hint.exit.mocreatures:panthard=Tap sneak to dismount
+action.hint.exit.mocreatures:panthger=Tap sneak to dismount
+item.mocreatures:crafted_saddle=Crafted saddle
+item.mocreatures:bigcatclaw=Big cat claw
+
+entity.mocreatures:stingray.name=Stingray
+item.spawn_egg.entity.mocreatures:stingray.name=Spawn Stingray
+action.hint.exit.mocreatures:stingray=Tap sneak to dismount
+
+entity.mocreatures:fox.name=Fox
+item.spawn_egg.entity.mocreatures:fox.name=Spawn Fox
+
+entity.mocreatures:deer.name=Deer
+item.spawn_egg.entity.mocreatures:deer.name=Spawn Deer

@@ -1,0 +1,33 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:spruce_bridge_start"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~",
+			"###"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:stick",
+				"data": 0
+			},
+			"#": {
+				"item": "minecraft:planks",
+				"data": 1
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:spruce_bridge_start",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

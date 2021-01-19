@@ -1,0 +1,200 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\spawn_rules\\wild_wolf.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "8cd70857_f7bb_48a0_87db_a39e91c19793",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "mocreatures:wild_wolf",
+							"population_control": "monster"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_on_surface": {},
+								"minecraft:spawns_underground": {},
+								"minecraft:brightness_filter": {
+									"min": 0,
+									"max": 7,
+									"adjust_for_weather": true
+								},
+								"minecraft:difficulty_filter": {
+									"min": "easy",
+									"max": "hard"
+								},
+								"minecraft:weight": {
+									"default": 80
+								},
+								"minecraft:herd": {
+									"min_size": 4,
+									"max_size": 4
+								},
+								"minecraft:biome_filter": [
+									{
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "monster"
+									}
+								]
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:wild_wolf",
+								"population_control": "monster"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:spawns_underground": {},
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 7,
+										"adjust_for_weather": true
+									},
+									"minecraft:difficulty_filter": {
+										"min": "easy",
+										"max": "hard"
+									},
+									"minecraft:weight": {
+										"default": 80
+									},
+									"minecraft:herd": {
+										"min_size": 4,
+										"max_size": 4
+									},
+									"minecraft:biome_filter": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "monster"
+										}
+									]
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mocreatures:wild_wolf",
+							"population_control": "monster"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:wild_wolf",
+								"population_control": "monster"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:spawns_underground": {},
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 7,
+										"adjust_for_weather": true
+									},
+									"minecraft:difficulty_filter": {
+										"min": "easy",
+										"max": "hard"
+									},
+									"minecraft:weight": {
+										"default": 80
+									},
+									"minecraft:herd": {
+										"min_size": 4,
+										"max_size": 4
+									},
+									"minecraft:biome_filter": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "monster"
+										}
+									]
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:spawns_on_surface": {},
+										"minecraft:spawns_underground": {},
+										"minecraft:brightness_filter": {
+											"min": 0,
+											"max": 7,
+											"adjust_for_weather": true
+										},
+										"minecraft:difficulty_filter": {
+											"min": "easy",
+											"max": "hard"
+										},
+										"minecraft:weight": {
+											"default": 80
+										},
+										"minecraft:herd": {
+											"min_size": 4,
+											"max_size": 4
+										},
+										"minecraft:biome_filter": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "monster"
+											}
+										]
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"minecraft:spawns_on_surface": {},
+									"minecraft:spawns_underground": {},
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 7,
+										"adjust_for_weather": true
+									},
+									"minecraft:difficulty_filter": {
+										"min": "easy",
+										"max": "hard"
+									},
+									"minecraft:weight": {
+										"default": 80
+									},
+									"minecraft:herd": {
+										"min_size": 4,
+										"max_size": 4
+									},
+									"minecraft:biome_filter": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "monster"
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

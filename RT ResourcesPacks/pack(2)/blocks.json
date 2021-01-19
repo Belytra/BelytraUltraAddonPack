@@ -1,0 +1,193 @@
+//bridge-file-version: #18
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"dbc:chair": {
+		"sound": "wood"
+	},
+	"dbc:small_table_oak": {
+		"sound": "wood"
+	},
+	"dbc:top_table_oak": {
+		"sound": "wood"
+	},
+	"dbc:small_table_birch": {
+		"sound": "wood"
+	},
+	"dbc:top_table_birch": {
+		"sound": "wood"
+	},
+	"dbc:small_table_spruce": {
+		"sound": "wood"
+	},
+	"dbc:top_table_spruce": {
+		"sound": "wood"
+	},
+	"dbc:small_table_dark_oak": {
+		"sound": "wood"
+	},
+	"dbc:top_table_dark_oak": {
+		"sound": "wood"
+	},
+	"dbc:small_table_jungle": {
+		"sound": "wood"
+	},
+	"dbc:top_table_jungle": {
+		"sound": "wood"
+	},
+	"dbc:small_table_crimson": {
+		"sound": "wood"
+	},
+	"dbc:top_table_crimson": {
+		"sound": "wood"
+	},
+	"dbc:small_table_warped": {
+		"sound": "wood"
+	},
+	"dbc:top_table_warped": {
+		"sound": "wood"
+	},
+	"dbc:small_table_acacia": {
+		"sound": "wood"
+	},
+	"dbc:top_table_acacia": {
+		"sound": "wood"
+	},
+	"dbc:acacia_chair": {
+		"sound": "wood"
+	},
+	"dbc:birch_chair": {
+		"sound": "wood"
+	},
+	"dbc:spruce_chair": {
+		"sound": "wood"
+	},
+	"dbc:jungle_chair": {
+		"sound": "wood"
+	},
+	"dbc:dark_oak_chair": {
+		"sound": "wood"
+	},
+	"dbc:crimson_chair": {
+		"sound": "wood"
+	},
+	"dbc:warped_chair": {
+		"sound": "wood"
+	},
+	"dbc:sofa": {
+		"sound": "cloth"
+	},
+	"dbc:sofa_middle": {
+		"sound": "cloth"
+	},
+	"dbc:sofa_left": {
+		"sound": "cloth"
+	},
+	"dbc:sofa_right": {
+		"sound": "cloth"
+	},
+	"dbc:sofa_inter": {
+		"sound": "cloth"
+	},
+	"dbc:warped_stem_stairs": {
+		"sound": "stem"
+	},
+	"dbc:log_spruce_stairs": {
+		"sound": "wood"
+	},
+	"dbc:log_oak_stairs": {
+		"sound": "wood"
+	},
+	"dbc:log_jungle_stairs": {
+		"sound": "wood"
+	},
+	"dbc:log_dark_oak_stairs": {
+		"sound": "wood"
+	},
+	"dbc:crimson_stem_stairs": {
+		"sound": "stem"
+	},
+	"dbc:log_birch_stairs": {
+		"sound": "wood"
+	},
+	"dbc:log_acacia_stairs": {
+		"sound": "wood"
+	},
+	"dbc:light": {
+		"sound": "glass"
+	},
+	"dbc:toaster": {
+		"sound": "metal"
+	},
+	"dbc:kitchen_cabinet": {
+		"sound": "wood"
+	},
+	"dbc:oven": {
+		"sound": "metal"
+	},
+	"dbc:kitchen_sink": {
+		"sound": "stone"
+	},
+	"dbc:kitchen_counter": {
+		"sound": "stone"
+	},
+	"dbc:kitchen_drawer": {
+		"sound": "stone"
+	},
+	"dbc:fridge": {
+		"sound": "metal"
+	},
+	"dbc:coffe_machine": {
+		"sound": "stone"
+	},
+	"dbc:bar_stool": {
+		"sound": "metal"
+	},
+	"dbc:marble": {
+		"sound": "stone",
+		"textures": "marble"
+	},
+	"dbc:marble_bricks": {
+		"sound": "stone",
+		"textures": "marblebrick"
+	},
+	"dbc:smooth_marble": {
+		"sound": "stone",
+		"textures": "smoothmarble"
+	},
+	"dbc:smooth_marble_bricks": {
+		"sound": "stone",
+		"textures": "smoothmarblebricks"
+	},
+	"dbc:chiseled_marble": {
+		"sound": "stone",
+		"textures": "chiseled_marble"
+	},
+	"dbc:tv_furniture": {
+		"sound": "stone"
+	},
+	"dbc:oak_tv_furniture": {
+		"sound": "wood"
+	},
+	"dbc:birch_tv_furniture": {
+		"sound": "wood"
+	},
+	"dbc:spruce_tv_furniture": {
+		"sound": "wood"
+	},
+	"dbc:acacia_tv_furniture": {
+		"sound": "wood"
+	},
+	"dbc:dark_oak_tv_furniture": {
+		"sound": "wood"
+	},
+	"dbc:crimson_tv_furniture": {
+		"sound": "wood"
+	},
+	"dbc:warped_tv_furniture": {
+		"sound": "wood"
+	}
+}

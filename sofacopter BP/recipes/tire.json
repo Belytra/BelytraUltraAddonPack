@@ -1,0 +1,25 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sc:tire"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            " C ",
+            "CIC",
+            " C "
+        ],
+        "key": {
+            "C": {
+                "item": "minecraft:coal"
+            },
+            "I": {
+                "item": "minecraft:iron_ingot"
+            }
+        },
+        "result": {
+            "item": "sc:tire"
+        }
+    }
+}

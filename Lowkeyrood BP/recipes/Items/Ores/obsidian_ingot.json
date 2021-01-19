@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:obsidian_ingot"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      "bbb",
+      "   ",
+      "   "
+    ],
+    "key": {
+      "b": {
+        "item": "base:molten_obsidian"
+      },
+      "a": {
+        "item": "minecraft:stick"
+      },
+      "c": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "base:obsidian_ingot",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

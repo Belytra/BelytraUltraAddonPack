@@ -1,0 +1,91 @@
+//bridge-file-version: #20
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:oven",
+			"properties": {
+				"dbc:facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "oven",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.oven",
+			"minecraft:on_player_placing": {
+				"event": "dbc:facing"
+			},
+			"minecraft:loot": "loot_tables/blocks/kitchen/oven.json",
+			"minecraft:crafting_table": {
+				"custom_description": "oven.descp",
+				"grid_size": 3,
+				"crafting_tags": [
+					"oven"
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						-90,
+						0
+					]
+				}
+			}
+		],
+		"events": {
+			"dbc:facing": {
+				"set_block_property": {
+					"dbc:facing": "query.cardinal_facing_2d"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,271 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\recipes\\bathroom\\bathroom_cabinet.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "36df0c07_30a5_46bc_958c_b7cff3afb7cf",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:bathroom_bathroom"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"~~",
+							"#~",
+							"~~"
+						],
+						"key": {
+							"~": {
+								"item": "minecraft:concrete",
+								"data": 0
+							},
+							"#": {
+								"item": "minecraft:chest",
+								"data": 0
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:bathroom_cabinet"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:bathroom_bathroom"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~",
+								"#~",
+								"~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:concrete",
+									"data": 0
+								},
+								"#": {
+									"item": "minecraft:chest",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:bathroom_cabinet"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:bathroom_bathroom"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:bathroom_bathroom"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~",
+								"#~",
+								"~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:concrete",
+									"data": 0
+								},
+								"#": {
+									"item": "minecraft:chest",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:bathroom_cabinet"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:bathroom_bathroom"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~",
+								"#~",
+								"~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:concrete",
+									"data": 0
+								},
+								"#": {
+									"item": "minecraft:chest",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:bathroom_cabinet"
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"~~",
+							"#~",
+							"~~"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:bathroom_bathroom"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~",
+								"#~",
+								"~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:concrete",
+									"data": 0
+								},
+								"#": {
+									"item": "minecraft:chest",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:bathroom_cabinet"
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:concrete",
+										"data": 0
+									},
+									"#": {
+										"item": "minecraft:chest",
+										"data": 0
+									}
+								},
+								"key": "~",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:concrete",
+									"data": 0
+								}
+							},
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:concrete",
+										"data": 0
+									},
+									"#": {
+										"item": "minecraft:chest",
+										"data": 0
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:chest",
+									"data": 0
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:bathroom_bathroom"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~~",
+								"#~",
+								"~~"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:concrete",
+									"data": 0
+								},
+								"#": {
+									"item": "minecraft:chest",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:bathroom_cabinet"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "dbc:bathroom_cabinet"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "dbc:bathroom_cabinet"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

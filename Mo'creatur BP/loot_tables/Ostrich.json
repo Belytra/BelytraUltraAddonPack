@@ -1,0 +1,31 @@
+//bridge-file-version: #2
+{
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "item",
+					"name": "mocreatures:raw_ostrich",
+					"weight": 50
+				}
+			],
+			"rolls": {
+				"min": 1,
+				"max": 2
+			}
+		},
+		{
+			"entries": [
+				{
+					"type": "item",
+					"name": "mocreatures:ostrich_egg",
+					"weight": 50
+				}
+			],
+			"rolls": {
+				"min": 1,
+				"max": 1
+			}
+		}
+	]
+}

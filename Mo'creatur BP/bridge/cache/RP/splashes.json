@@ -1,0 +1,35 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Mo'creatures bedrock §a[RP]\\splashes.json",
+	"file_type": "unknown",
+	"format_version": 1,
+	"file_uuid": "071ce7ed_490d_4bc8_b641_431881627c91",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"splashes": [
+						"§cMo'creatures!",
+						"§cmore than 50 mobs!!",
+						"§cDEATH KING",
+						"§cAguilesgamer",
+						"§cRighinoobs8",
+						"§cmore than 2 month coding",
+						"§cOriginal by DrZhark"
+					]
+				},
+				"key": "splashes",
+				"is_minified": true,
+				"children": [
+					"§cMo'creatures!",
+					"§cmore than 50 mobs!!",
+					"§cDEATH KING",
+					"§cAguilesgamer",
+					"§cRighinoobs8",
+					"§cmore than 2 month coding",
+					"§cOriginal by DrZhark"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,33 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:light"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~",
+			"#"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:concrete",
+				"data": 7
+			},
+			"#": {
+				"item": "minecraft:glowstone_dust",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:light",
+				"data": 0,
+				"count": 4
+			}
+		]
+	}
+}

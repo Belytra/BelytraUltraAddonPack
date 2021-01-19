@@ -1,0 +1,44 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:top_table_crimson"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.table_top",
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "crimson_planks",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					13,
+					-8
+				],
+				"size": [
+					16,
+					3,
+					16
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					13,
+					-8
+				],
+				"size": [
+					16,
+					3,
+					16
+				]
+			}
+		}
+	}
+}

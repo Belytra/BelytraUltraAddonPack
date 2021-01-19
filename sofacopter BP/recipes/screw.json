@@ -1,0 +1,24 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sc:screw"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "#",
+            "X"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:iron_ingot"
+            },
+            "X": {
+                "item": "minecraft:iron_nugget"
+            }
+        },
+        "result": {
+            "item": "sc:screw"
+        }
+    }
+}

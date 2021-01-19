@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:iron_blade"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      " a ",
+      " a ",
+      "   "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "base:iron_blade",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

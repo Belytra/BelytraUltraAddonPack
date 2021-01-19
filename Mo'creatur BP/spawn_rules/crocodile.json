@@ -1,0 +1,37 @@
+//bridge-file-version: #19
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "mocreatures:crocodile",
+			"population_control": "animal"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_on_surface": {},
+				"minecraft:spawns_on_block_filter": "minecraft:grass",
+				"minecraft:brightness_filter": {
+					"min": 0,
+					"max": 7,
+					"adjust_for_weather": false
+				},
+				"minecraft:weight": {
+					"default": 25
+				},
+				"minecraft:difficulty_filter": {
+					"min": "easy",
+					"max": "hard"
+				},
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "swamp"
+				},
+				"minecraft:herd": {
+					"min_size": 4,
+					"max_size": 4
+				}
+			}
+		]
+	}
+}

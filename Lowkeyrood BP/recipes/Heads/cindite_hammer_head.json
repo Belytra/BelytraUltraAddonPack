@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:cindite_hammer_head"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      "bbb",
+      "bab",
+      "bbb"
+    ],
+    "key": {
+      "a": {
+        "item": "base:diamond_hammer_head"
+      },
+      "b": {
+        "item": "base:cindite_ingot"
+      }
+    },
+    "result": {
+      "item": "base:cindite_hammer_head",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

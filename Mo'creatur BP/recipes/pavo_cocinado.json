@@ -1,0 +1,15 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "pavo_cocinado"
+		},
+		"tags": [
+			"furnace",
+			"smoker"
+		],
+		"input": "mocreatures:raw_turkey",
+		"output": "mocreatures:cooked_turkey"
+	}
+}

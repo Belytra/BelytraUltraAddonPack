@@ -1,0 +1,21 @@
+//bridge-file-version: #4
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "dbc:toast",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 2
+						}
+					]
+				}
+			]
+		}
+	]
+}

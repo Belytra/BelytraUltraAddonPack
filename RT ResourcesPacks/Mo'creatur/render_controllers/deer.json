@@ -1,0 +1,26 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.deer": {
+			"arrays": {
+				"textures": {
+					"Array.deer": [
+						"Texture.default",
+						"Texture.female",
+						"Texture.baby"
+					]
+				}
+			},
+			"textures": [
+				"Array.deer[query.variant]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Geometry.default"
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:cindite_pickaxe"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      " a ",
+      " c ",
+      " b "
+    ],
+    "key": {
+      "a": {
+        "item": "base:cindite_hammer_head"
+      },
+      "b": {
+        "item": "base:titanium_handle"
+      },
+      "c": {
+        "item": "base:titanium_handle"
+      }
+    },
+    "result": {
+      "item": "base:cindite_pickaxe",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,671 @@
+{
+	"file_path": "C:\\Users\\Pammsitoh's Work\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Barry The Magic Bear\\animations\\counter.json",
+	"file_type": "animation",
+	"format_version": 1,
+	"file_uuid": "01956fc6_1e47_4ee6_b1d4_d2c64846c8ed",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animations": {
+						"animation.counter": {
+							"timeline": {
+								"0.0": [
+									"/title @a title §a10"
+								],
+								"1.0": [
+									"/title @a title §a9"
+								],
+								"2.0": [
+									"/title @a title §a8"
+								],
+								"3.0": [
+									"/title @a title §a7"
+								],
+								"4.0": [
+									"/title @a title §a6"
+								],
+								"5.0": [
+									"/title @a title §e5"
+								],
+								"6.0": [
+									"/title @a title §e4"
+								],
+								"7.0": [
+									"/title @a title §c3"
+								],
+								"8.0": [
+									"/title @a title §c2"
+								],
+								"9.0": [
+									"/title @a title §c1"
+								],
+								"10.0": [
+									"/title @a title §aGO!",
+									"@s btmb:despawn"
+								]
+							},
+							"animation_length": 10
+						}
+					}
+				},
+				"key": "animations",
+				"children": [
+					{
+						"open": {
+							"animation.counter": {
+								"timeline": {
+									"0.0": [
+										"/title @a title §a10"
+									],
+									"1.0": [
+										"/title @a title §a9"
+									],
+									"2.0": [
+										"/title @a title §a8"
+									],
+									"3.0": [
+										"/title @a title §a7"
+									],
+									"4.0": [
+										"/title @a title §a6"
+									],
+									"5.0": [
+										"/title @a title §e5"
+									],
+									"6.0": [
+										"/title @a title §e4"
+									],
+									"7.0": [
+										"/title @a title §c3"
+									],
+									"8.0": [
+										"/title @a title §c2"
+									],
+									"9.0": [
+										"/title @a title §c1"
+									],
+									"10.0": [
+										"/title @a title §aGO!",
+										"@s btmb:despawn"
+									]
+								},
+								"animation_length": 10
+							}
+						},
+						"key": "animation.counter",
+						"children": [
+							{
+								"open": {
+									"timeline": {
+										"0.0": [
+											"/title @a title §a10"
+										],
+										"1.0": [
+											"/title @a title §a9"
+										],
+										"2.0": [
+											"/title @a title §a8"
+										],
+										"3.0": [
+											"/title @a title §a7"
+										],
+										"4.0": [
+											"/title @a title §a6"
+										],
+										"5.0": [
+											"/title @a title §e5"
+										],
+										"6.0": [
+											"/title @a title §e4"
+										],
+										"7.0": [
+											"/title @a title §c3"
+										],
+										"8.0": [
+											"/title @a title §c2"
+										],
+										"9.0": [
+											"/title @a title §c1"
+										],
+										"10.0": [
+											"/title @a title §aGO!",
+											"@s btmb:despawn"
+										]
+									},
+									"animation_length": 10
+								},
+								"key": "timeline",
+								"children": [
+									{
+										"open": {
+											"0.0": [
+												"/title @a title §a10"
+											],
+											"1.0": [
+												"/title @a title §a9"
+											],
+											"2.0": [
+												"/title @a title §a8"
+											],
+											"3.0": [
+												"/title @a title §a7"
+											],
+											"4.0": [
+												"/title @a title §a6"
+											],
+											"5.0": [
+												"/title @a title §e5"
+											],
+											"6.0": [
+												"/title @a title §e4"
+											],
+											"7.0": [
+												"/title @a title §c3"
+											],
+											"8.0": [
+												"/title @a title §c2"
+											],
+											"9.0": [
+												"/title @a title §c1"
+											],
+											"10.0": [
+												"/title @a title §aGO!",
+												"@s btmb:despawn"
+											]
+										},
+										"key": "0.0",
+										"is_minified": true,
+										"children": [
+											"/title @a title §a10"
+										]
+									},
+									{
+										"open": {
+											"0.0": [
+												"/title @a title §a10"
+											],
+											"1.0": [
+												"/title @a title §a9"
+											],
+											"2.0": [
+												"/title @a title §a8"
+											],
+											"3.0": [
+												"/title @a title §a7"
+											],
+											"4.0": [
+												"/title @a title §a6"
+											],
+											"5.0": [
+												"/title @a title §e5"
+											],
+											"6.0": [
+												"/title @a title §e4"
+											],
+											"7.0": [
+												"/title @a title §c3"
+											],
+											"8.0": [
+												"/title @a title §c2"
+											],
+											"9.0": [
+												"/title @a title §c1"
+											],
+											"10.0": [
+												"/title @a title §aGO!",
+												"@s btmb:despawn"
+											]
+										},
+										"key": "1.0",
+										"is_minified": true,
+										"children": [
+											"/title @a title §a9"
+										]
+									},
+									{
+										"open": {
+											"0.0": [
+												"/title @a title §a10"
+											],
+											"1.0": [
+												"/title @a title §a9"
+											],
+											"2.0": [
+												"/title @a title §a8"
+											],
+											"3.0": [
+												"/title @a title §a7"
+											],
+											"4.0": [
+												"/title @a title §a6"
+											],
+											"5.0": [
+												"/title @a title §e5"
+											],
+											"6.0": [
+												"/title @a title §e4"
+											],
+											"7.0": [
+												"/title @a title §c3"
+											],
+											"8.0": [
+												"/title @a title §c2"
+											],
+											"9.0": [
+												"/title @a title §c1"
+											],
+											"10.0": [
+												"/title @a title §aGO!",
+												"@s btmb:despawn"
+											]
+										},
+										"key": "2.0",
+										"is_minified": true,
+										"children": [
+											"/title @a title §a8"
+										]
+									},
+									{
+										"open": {
+											"0.0": [
+												"/title @a title §a10"
+											],
+											"1.0": [
+												"/title @a title §a9"
+											],
+											"2.0": [
+												"/title @a title §a8"
+											],
+											"3.0": [
+												"/title @a title §a7"
+											],
+											"4.0": [
+												"/title @a title §a6"
+											],
+											"5.0": [
+												"/title @a title §e5"
+											],
+											"6.0": [
+												"/title @a title §e4"
+											],
+											"7.0": [
+												"/title @a title §c3"
+											],
+											"8.0": [
+												"/title @a title §c2"
+											],
+											"9.0": [
+												"/title @a title §c1"
+											],
+											"10.0": [
+												"/title @a title §aGO!",
+												"@s btmb:despawn"
+											]
+										},
+										"key": "3.0",
+										"is_minified": true,
+										"children": [
+											"/title @a title §a7"
+										]
+									},
+									{
+										"open": {
+											"0.0": [
+												"/title @a title §a10"
+											],
+											"1.0": [
+												"/title @a title §a9"
+											],
+											"2.0": [
+												"/title @a title §a8"
+											],
+											"3.0": [
+												"/title @a title §a7"
+											],
+											"4.0": [
+												"/title @a title §a6"
+											],
+											"5.0": [
+												"/title @a title §e5"
+											],
+											"6.0": [
+												"/title @a title §e4"
+											],
+											"7.0": [
+												"/title @a title §c3"
+											],
+											"8.0": [
+												"/title @a title §c2"
+											],
+											"9.0": [
+												"/title @a title §c1"
+											],
+											"10.0": [
+												"/title @a title §aGO!",
+												"@s btmb:despawn"
+											]
+										},
+										"key": "4.0",
+										"is_minified": true,
+										"children": [
+											"/title @a title §a6"
+										]
+									},
+									{
+										"open": {
+											"0.0": [
+												"/title @a title §a10"
+											],
+											"1.0": [
+												"/title @a title §a9"
+											],
+											"2.0": [
+												"/title @a title §a8"
+											],
+											"3.0": [
+												"/title @a title §a7"
+											],
+											"4.0": [
+												"/title @a title §a6"
+											],
+											"5.0": [
+												"/title @a title §e5"
+											],
+											"6.0": [
+												"/title @a title §e4"
+											],
+											"7.0": [
+												"/title @a title §c3"
+											],
+											"8.0": [
+												"/title @a title §c2"
+											],
+											"9.0": [
+												"/title @a title §c1"
+											],
+											"10.0": [
+												"/title @a title §aGO!",
+												"@s btmb:despawn"
+											]
+										},
+										"key": "5.0",
+										"is_minified": true,
+										"children": [
+											"/title @a title §e5"
+										]
+									},
+									{
+										"open": {
+											"0.0": [
+												"/title @a title §a10"
+											],
+											"1.0": [
+												"/title @a title §a9"
+											],
+											"2.0": [
+												"/title @a title §a8"
+											],
+											"3.0": [
+												"/title @a title §a7"
+											],
+											"4.0": [
+												"/title @a title §a6"
+											],
+											"5.0": [
+												"/title @a title §e5"
+											],
+											"6.0": [
+												"/title @a title §e4"
+											],
+											"7.0": [
+												"/title @a title §c3"
+											],
+											"8.0": [
+												"/title @a title §c2"
+											],
+											"9.0": [
+												"/title @a title §c1"
+											],
+											"10.0": [
+												"/title @a title §aGO!",
+												"@s btmb:despawn"
+											]
+										},
+										"key": "6.0",
+										"is_minified": true,
+										"children": [
+											"/title @a title §e4"
+										]
+									},
+									{
+										"open": {
+											"0.0": [
+												"/title @a title §a10"
+											],
+											"1.0": [
+												"/title @a title §a9"
+											],
+											"2.0": [
+												"/title @a title §a8"
+											],
+											"3.0": [
+												"/title @a title §a7"
+											],
+											"4.0": [
+												"/title @a title §a6"
+											],
+											"5.0": [
+												"/title @a title §e5"
+											],
+											"6.0": [
+												"/title @a title §e4"
+											],
+											"7.0": [
+												"/title @a title §c3"
+											],
+											"8.0": [
+												"/title @a title §c2"
+											],
+											"9.0": [
+												"/title @a title §c1"
+											],
+											"10.0": [
+												"/title @a title §aGO!",
+												"@s btmb:despawn"
+											]
+										},
+										"key": "7.0",
+										"is_minified": true,
+										"children": [
+											"/title @a title §c3"
+										]
+									},
+									{
+										"open": {
+											"0.0": [
+												"/title @a title §a10"
+											],
+											"1.0": [
+												"/title @a title §a9"
+											],
+											"2.0": [
+												"/title @a title §a8"
+											],
+											"3.0": [
+												"/title @a title §a7"
+											],
+											"4.0": [
+												"/title @a title §a6"
+											],
+											"5.0": [
+												"/title @a title §e5"
+											],
+											"6.0": [
+												"/title @a title §e4"
+											],
+											"7.0": [
+												"/title @a title §c3"
+											],
+											"8.0": [
+												"/title @a title §c2"
+											],
+											"9.0": [
+												"/title @a title §c1"
+											],
+											"10.0": [
+												"/title @a title §aGO!",
+												"@s btmb:despawn"
+											]
+										},
+										"key": "8.0",
+										"is_minified": true,
+										"children": [
+											"/title @a title §c2"
+										]
+									},
+									{
+										"open": {
+											"0.0": [
+												"/title @a title §a10"
+											],
+											"1.0": [
+												"/title @a title §a9"
+											],
+											"2.0": [
+												"/title @a title §a8"
+											],
+											"3.0": [
+												"/title @a title §a7"
+											],
+											"4.0": [
+												"/title @a title §a6"
+											],
+											"5.0": [
+												"/title @a title §e5"
+											],
+											"6.0": [
+												"/title @a title §e4"
+											],
+											"7.0": [
+												"/title @a title §c3"
+											],
+											"8.0": [
+												"/title @a title §c2"
+											],
+											"9.0": [
+												"/title @a title §c1"
+											],
+											"10.0": [
+												"/title @a title §aGO!",
+												"@s btmb:despawn"
+											]
+										},
+										"key": "9.0",
+										"is_minified": true,
+										"children": [
+											"/title @a title §c1"
+										]
+									},
+									{
+										"open": {
+											"0.0": [
+												"/title @a title §a10"
+											],
+											"1.0": [
+												"/title @a title §a9"
+											],
+											"2.0": [
+												"/title @a title §a8"
+											],
+											"3.0": [
+												"/title @a title §a7"
+											],
+											"4.0": [
+												"/title @a title §a6"
+											],
+											"5.0": [
+												"/title @a title §e5"
+											],
+											"6.0": [
+												"/title @a title §e4"
+											],
+											"7.0": [
+												"/title @a title §c3"
+											],
+											"8.0": [
+												"/title @a title §c2"
+											],
+											"9.0": [
+												"/title @a title §c1"
+											],
+											"10.0": [
+												"/title @a title §aGO!",
+												"@s btmb:despawn"
+											]
+										},
+										"key": "10.0",
+										"is_minified": true,
+										"children": [
+											"/title @a title §aGO!",
+											"@s btmb:despawn"
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"timeline": {
+										"0.0": [
+											"/title @a title §a10"
+										],
+										"1.0": [
+											"/title @a title §a9"
+										],
+										"2.0": [
+											"/title @a title §a8"
+										],
+										"3.0": [
+											"/title @a title §a7"
+										],
+										"4.0": [
+											"/title @a title §a6"
+										],
+										"5.0": [
+											"/title @a title §e5"
+										],
+										"6.0": [
+											"/title @a title §e4"
+										],
+										"7.0": [
+											"/title @a title §c3"
+										],
+										"8.0": [
+											"/title @a title §c2"
+										],
+										"9.0": [
+											"/title @a title §c1"
+										],
+										"10.0": [
+											"/title @a title §aGO!",
+											"@s btmb:despawn"
+										]
+									},
+									"animation_length": 10
+								},
+								"data": "10.0",
+								"key": "animation_length"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

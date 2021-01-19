@@ -1,0 +1,130 @@
+//bridge-file-version: #62
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:shower",
+			"properties": {
+				"dbc:facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				],
+				"dbc:open_close": [
+					0,
+					1
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "shower",
+					"render_method": "blend",
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:on_player_placing": {
+				"event": "dbc:facing"
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:pick_collision": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					32,
+					14
+				]
+			},
+			"minecraft:block_light_absorption": 0
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						-90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:open_close') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.shower_dbc",
+					"minecraft:on_interact": {
+						"event": "dbc:open",
+						"target": "self"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:open_close') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.showero_dbc",
+					"minecraft:on_interact": {
+						"event": "dbc:close",
+						"target": "self"
+					}
+				}
+			}
+		],
+		"events": {
+			"dbc:facing": {
+				"set_block_property": {
+					"dbc:facing": "query.cardinal_facing_2d"
+				}
+			},
+			"dbc:open": {
+				"set_block_property": {
+					"dbc:open_close": 1
+				}
+			},
+			"dbc:close": {
+				"set_block_property": {
+					"dbc:open_close": 0
+				}
+			}
+		}
+	}
+}

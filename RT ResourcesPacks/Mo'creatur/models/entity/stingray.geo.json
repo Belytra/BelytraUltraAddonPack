@@ -1,0 +1,86 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.stringray",
+				"texture_width": 128,
+				"texture_height": 64,
+				"visible_bounds_width": 7,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "unknown_bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, 0, 0], "size": [1, 1, 1], "uv": [0, 0]}
+					],
+					"locators": {
+						"hp": [0, 12, 1]
+					}
+				},
+				{
+					"name": "head",
+					"parent": "unknown_bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 4, -9], "size": [12, 2, 16], "uv": [0, 22]},
+						{"origin": [4, 6, -7], "size": [2, 2, 4], "uv": [0, 6]},
+						{"origin": [-6, 6, -7], "size": [2, 2, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "boddy",
+					"parent": "unknown_bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 0, -11.5], "size": [16, 4, 22], "uv": [52, 0]},
+						{"origin": [-5, 1, 5.6], "size": [10, 2, 10], "pivot": [0, 2, 10.6], "rotation": [0, -45, 0], "uv": [0, 40]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "unknown_bone",
+					"pivot": [0, 2, 11],
+					"cubes": [
+						{"origin": [-1.1, 1, 11], "size": [2, 2, 32], "uv": [60, 30]}
+					]
+				},
+				{
+					"name": "aleta_1",
+					"parent": "unknown_bone",
+					"pivot": [8, 2, 1],
+					"cubes": [
+						{"origin": [8, 1, -9.5], "size": [6, 2, 20], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "subaleta_1",
+					"parent": "aleta_1",
+					"pivot": [14, 2, 1],
+					"cubes": [
+						{"origin": [14, 1, -7.4], "size": [6, 2, 16], "uv": [4, 4]}
+					]
+				},
+				{
+					"name": "aleta_2",
+					"parent": "unknown_bone",
+					"pivot": [-8, 2, 1],
+					"cubes": [
+						{"origin": [-14, 1, -9.5], "size": [6, 2, 20], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "subaleta_2",
+					"parent": "aleta_2",
+					"pivot": [-14, 2, 1],
+					"cubes": [
+						{"origin": [-20, 1, -7.4], "size": [6, 2, 16], "uv": [4, 4]}
+					]
+				}
+			]
+		}
+	]
+}

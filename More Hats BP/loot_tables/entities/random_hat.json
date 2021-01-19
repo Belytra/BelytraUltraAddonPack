@@ -1,0 +1,164 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_azure_flower",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_bee",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_cage",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_chicken",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_coal_ore",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_cowboy_hat",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_creeper",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_creeper_plushie",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_crown",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_diamond_ore",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_emerald_ore",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_enderman_plushie",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_frog_hat",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_glass_case",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_gold_ore",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_grass_head",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_helicopter_hat",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_horns",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_iron_ore",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_lapis_ore",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_pig_plushie",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_redstone_ore",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_santa_hat",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_silver_crown",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_smile",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_spider_plushie",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_spinning_tnt",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_squid",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_tophat",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_villager_nose",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "machinebuilder:hat_vr_headset",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sc:naval_propeller"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "#S#",
+            "SXS",
+            "#S#"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:iron_ingot"
+            },
+            "X": {
+                "item": "sc:motor"
+            },
+            "S": {
+                "item": "sc:screw"
+            }
+        },
+        "result": {
+            "item": "sc:naval_propeller"
+        }
+    }
+}

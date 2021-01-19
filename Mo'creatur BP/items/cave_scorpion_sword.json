@@ -1,0 +1,47 @@
+//bridge-file-version: #15
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mocreatures:cave_scorpion_sword",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:durability": {
+				"max_durability": 250,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:damage": 6,
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "mc:poison",
+					"target": "self"
+				}
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:icon": {
+				"texture": "scorpion_sword",
+				"frame": 1
+			},
+			"minecraft:use_duration": 1.6,
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			}
+		},
+		"events": {
+			"mc:poison": {
+				"add_mob_effect": {
+					"effect": "nausea",
+					"target": "other",
+					"duration": 5,
+					"amplifier": 1
+				}
+			}
+		}
+	}
+}

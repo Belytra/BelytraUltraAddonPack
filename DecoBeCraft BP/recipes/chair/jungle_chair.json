@@ -1,0 +1,30 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:jungle_chair"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~  ",
+			"~~~",
+			"~ ~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:planks",
+				"data": 3
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:jungle_chair",
+				"data": 0,
+				"count": 4
+			}
+		]
+	}
+}

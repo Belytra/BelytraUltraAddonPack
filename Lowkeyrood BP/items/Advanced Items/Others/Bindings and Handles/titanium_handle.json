@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "base:titanium_handle",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.nature"
+			},
+			"minecraft:display_name": {
+			  "value": "Titanium Handle"
+			},
+			"minecraft:icon": {
+				"texture": "titanium_handle",
+				"frame": 0
+			},
+			"minecraft:allow_off_hand": true
+		}
+	}
+}
+// Version 1

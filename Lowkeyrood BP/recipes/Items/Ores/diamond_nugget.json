@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:diamond_nugget"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "   ",
+      " a ",
+      "   "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:diamond"
+      },
+      "b": {
+        "item": "minecraft:stick"
+      },
+      "d": {
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    "result": {
+      "item": "base:diamond_nugget",
+      "data": 0,
+      "count": 9
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "const:stick_iron",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.stick"
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:max_stack_size": 64,
+      "minecraft:icon": {
+        "texture": "const:stick",
+        "frame": 3
+      }
+    }
+  }
+}

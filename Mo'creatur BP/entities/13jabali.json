@@ -1,0 +1,198 @@
+//bridge-file-version: #23
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mocreatures:boar",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"boar",
+					"mob"
+				]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:nameable": {},
+			"minecraft:health": {
+				"value": 10,
+				"max": 10
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:movement": {
+				"value": 0.25
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"avoid_water": true,
+				"avoid_damage_blocks": true,
+				"can_walk": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:collision_box": {
+				"width": 0.9,
+				"height": 0.9
+			},
+			"minecraft:leashable": {
+				"soft_distance": 4,
+				"hard_distance": 6,
+				"max_distance": 10
+			},
+			"minecraft:balloonable": {
+				"mass": 0.75
+			},
+			"minecraft:behavior.float": {
+				"priority": 2
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 9
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 10,
+				"set_persistent": true,
+				"attack_interval": 1,
+				"must_reach": true,
+				"within_radius": 10,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "pavo"
+								}
+							]
+						},
+						"max_dist": 10
+					},
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "pig"
+								}
+							]
+						},
+						"max_dist": 10
+					}
+				]
+			},
+			"minecraft:attack": {
+				"damage": 2
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/jabali.json"
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 1
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 8,
+				"speed_multiplier": 1
+			}
+		},
+		"component_groups": {
+			"minecraft:pig_baby": {
+				"minecraft:is_baby": {},
+				"minecraft:scale": {
+					"value": 0.2
+				},
+				"minecraft:timer": {
+					"looping": true,
+					"time": 30,
+					"time_down_event": {
+						"event": "minecraft:ageable_grow_up",
+						"target": "self"
+					}
+				}
+			},
+			"minecraft:pig_adult": {
+				"minecraft:behavior.breed": {
+					"priority": 4,
+					"speed_multiplier": 1
+				},
+				"minecraft:scale": {
+					"value": 0.5
+				}
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"weight": 95,
+						"remove": {},
+						"add": {
+							"component_groups": [
+								"minecraft:pig_adult"
+							]
+						}
+					},
+					{
+						"weight": 5,
+						"remove": {},
+						"add": {
+							"component_groups": [
+								"minecraft:pig_baby"
+							]
+						}
+					}
+				]
+			},
+			"minecraft:entity_born": {
+				"remove": {},
+				"add": {
+					"component_groups": [
+						"minecraft:pig_baby"
+					]
+				}
+			},
+			"minecraft:ageable_grow_up": {
+				"remove": {
+					"component_groups": [
+						"minecraft:pig_baby"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:pig_adult"
+					]
+				}
+			}
+		}
+	}
+}

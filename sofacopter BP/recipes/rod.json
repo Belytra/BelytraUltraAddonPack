@@ -1,0 +1,22 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sc:rod"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "  I",
+            " I ",
+            "I  "
+        ],
+        "key": {
+            "I": {
+                "item": "minecraft:iron_ingot"
+            }
+        },
+        "result": {
+            "item": "sc:rod"
+        }
+    }
+}

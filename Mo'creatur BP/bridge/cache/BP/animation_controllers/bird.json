@@ -1,0 +1,139 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]/animation_controllers/bird.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "13c984bc_1830_45eb_8b6f_4f53f6dd3ff3",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.bird": {
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"default": "query.has_rider"
+										}
+									],
+									"on_entry": [
+										"/tp @s ~ ~ ~1"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.bird": {
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"default": "query.has_rider"
+											}
+										],
+										"on_entry": [
+											"/tp @s ~ ~ ~1"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.bird",
+						"children": [
+							{
+								"open": {
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"default": "query.has_rider"
+												}
+											],
+											"on_entry": [
+												"/tp @s ~ ~ ~1"
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"default": "query.has_rider"
+													}
+												],
+												"on_entry": [
+													"/tp @s ~ ~ ~1"
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.has_rider"
+														}
+													],
+													"on_entry": [
+														"/tp @s ~ ~ ~1"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.has_rider"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.has_rider"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.has_rider"
+														}
+													],
+													"on_entry": [
+														"/tp @s ~ ~ ~1"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/tp @s ~ ~ ~1"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

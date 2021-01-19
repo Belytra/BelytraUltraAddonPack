@@ -1,0 +1,25 @@
+//bridge-file-version: #17
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.pavo": {
+			"arrays": {
+				"textures": {
+					"Array.pavo": [
+						"Texture.default",
+						"Texture.female"
+					]
+				}
+			},
+			"textures": [
+				"Array.pavo[query.variant]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Geometry.default"
+		}
+	}
+}

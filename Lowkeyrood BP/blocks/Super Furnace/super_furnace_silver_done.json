@@ -1,0 +1,40 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+       "description": {
+          "identifier": "base:super_furnace_silver_done",
+          "register_to_creative_menu": true
+       },
+       "components": {
+          "minecraft:destroy_time": 3,
+          "minecraft:explosion_resistance": 3,
+          "minecraft:block_light_absorption": 0,
+          "minecraft:loot": "loot_tables/entities/superfurnacesilver.json",
+          "minecraft:ticking": {
+             "looping": true,
+             "range": [
+                1,
+                2
+             ],
+             "on_tick": {
+                "event": "base:tick",
+                "target": "self"
+             }
+          },
+          "minecraft:on_interact": {
+             "target": "other",
+             "event": "base:fill"
+          }
+       },
+       "events": {
+         "base:fill": {
+            "set_block": {
+               "block_type": "base:super_furnace5"
+            },
+            "spawn_loot": {
+               "table": "loot_tables/entities/silver.json"
+            }
+         }
+       }
+    }
+ }

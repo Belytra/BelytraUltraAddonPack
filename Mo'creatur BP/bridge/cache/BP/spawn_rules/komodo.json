@@ -1,0 +1,255 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\spawn_rules\\komodo.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "666a54b6_c1e7_4d58_9c7e_6be309273d37",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "mocreatures:komodo_dragon",
+							"population_control": "animal"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_on_surface": {},
+								"minecraft:spawns_on_block_filter": "minecraft:grass",
+								"minecraft:brightness_filter": {
+									"min": 0,
+									"max": 7,
+									"adjust_for_weather": false
+								},
+								"minecraft:weight": {
+									"default": 100
+								},
+								"minecraft:difficulty_filter": {
+									"min": "easy",
+									"max": "hard"
+								},
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "swamp"
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:komodo_dragon",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:spawns_on_block_filter": "minecraft:grass",
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 7,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 100
+									},
+									"minecraft:difficulty_filter": {
+										"min": "easy",
+										"max": "hard"
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "swamp"
+									}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mocreatures:komodo_dragon",
+							"population_control": "animal"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:komodo_dragon",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:spawns_on_block_filter": "minecraft:grass",
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 7,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 100
+									},
+									"minecraft:difficulty_filter": {
+										"min": "easy",
+										"max": "hard"
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "swamp"
+									}
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:spawns_on_surface": {},
+										"minecraft:spawns_on_block_filter": "minecraft:grass",
+										"minecraft:brightness_filter": {
+											"min": 0,
+											"max": 7,
+											"adjust_for_weather": false
+										},
+										"minecraft:weight": {
+											"default": 100
+										},
+										"minecraft:difficulty_filter": {
+											"min": "easy",
+											"max": "hard"
+										},
+										"minecraft:biome_filter": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "swamp"
+										}
+									}
+								],
+								"children": [
+									{
+										"key": "minecraft:spawns_on_surface",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"data": "minecraft:grass",
+										"key": "minecraft:spawns_on_block_filter"
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:spawns_on_block_filter": "minecraft:grass",
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7,
+												"adjust_for_weather": false
+											},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:difficulty_filter": {
+												"min": "easy",
+												"max": "hard"
+											},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "swamp"
+											}
+										},
+										"key": "minecraft:brightness_filter",
+										"is_minified": true,
+										"children": {
+											"min": 0,
+											"max": 7,
+											"adjust_for_weather": false
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:spawns_on_block_filter": "minecraft:grass",
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7,
+												"adjust_for_weather": false
+											},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:difficulty_filter": {
+												"min": "easy",
+												"max": "hard"
+											},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "swamp"
+											}
+										},
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 100
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:spawns_on_block_filter": "minecraft:grass",
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 7,
+												"adjust_for_weather": false
+											},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:difficulty_filter": {
+												"min": "easy",
+												"max": "hard"
+											},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "swamp"
+											}
+										},
+										"key": "minecraft:difficulty_filter",
+										"is_minified": true,
+										"children": {
+											"min": "easy",
+											"max": "hard"
+										}
+									},
+									{
+										"key": "minecraft:biome_filter",
+										"is_minified": true,
+										"children": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "swamp"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,117 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]/items/crafted_saddle.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "a95c34ed_cb1f_44cc_bf13_df5defc4664c",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mocreatures:crafted_saddle",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:icon": {
+								"texture": "crafted_saddle"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.saddle"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:crafted_saddle",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:icon": {
+									"texture": "crafted_saddle"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.saddle"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mocreatures:crafted_saddle",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:crafted_saddle",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:icon": {
+									"texture": "crafted_saddle"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.saddle"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:icon": {
+										"texture": "crafted_saddle"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.saddle"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "crafted_saddle"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:icon": {
+										"texture": "crafted_saddle"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.saddle"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.saddle"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:dirt_scorpion_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~",
+			"~#"
+		],
+		"key": {
+			"~": {
+				"item": "mocreatures:dirt_scorpion_sting"
+			},
+			"#": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"result": [
+			{
+				"item": "mocreatures:dirt_scorpion_sword",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

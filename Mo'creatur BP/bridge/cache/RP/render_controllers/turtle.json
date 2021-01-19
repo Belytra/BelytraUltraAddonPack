@@ -1,0 +1,227 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Mo'creatures bedrock §a[RP]\\render_controllers\\turtle.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "9ef99b99_3857_4e6f_87da_d6f0fd088523",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.turtlemc": {
+							"arrays": {
+								"geometries": {
+									"Array.turtle": [
+										"Geometry.default",
+										"Geometry.hide",
+										"Geometry.down"
+									]
+								},
+								"textures": {
+									"Array.names": [
+										"Texture.default",
+										"Texture.donatello",
+										"Texture.leonardo",
+										"Texture.michelangelo",
+										"Texture.raphael"
+									]
+								}
+							},
+							"textures": [
+								"Array.names[query.mark_variant]"
+							],
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"geometry": "Array.turtle[query.variant]"
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.turtlemc": {
+								"arrays": {
+									"geometries": {
+										"Array.turtle": [
+											"Geometry.default",
+											"Geometry.hide",
+											"Geometry.down"
+										]
+									},
+									"textures": {
+										"Array.names": [
+											"Texture.default",
+											"Texture.donatello",
+											"Texture.leonardo",
+											"Texture.michelangelo",
+											"Texture.raphael"
+										]
+									}
+								},
+								"textures": [
+									"Array.names[query.mark_variant]"
+								],
+								"materials": [
+									{
+										"*": "Material.default"
+									}
+								],
+								"geometry": "Array.turtle[query.variant]"
+							}
+						},
+						"key": "controller.render.turtlemc",
+						"children": [
+							{
+								"open": {
+									"arrays": {
+										"geometries": {
+											"Array.turtle": [
+												"Geometry.default",
+												"Geometry.hide",
+												"Geometry.down"
+											]
+										},
+										"textures": {
+											"Array.names": [
+												"Texture.default",
+												"Texture.donatello",
+												"Texture.leonardo",
+												"Texture.michelangelo",
+												"Texture.raphael"
+											]
+										}
+									},
+									"textures": [
+										"Array.names[query.mark_variant]"
+									],
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"geometry": "Array.turtle[query.variant]"
+								},
+								"key": "arrays",
+								"children": [
+									{
+										"key": "geometries",
+										"is_minified": true,
+										"children": {
+											"Array.turtle": [
+												"Geometry.default",
+												"Geometry.hide",
+												"Geometry.down"
+											]
+										}
+									},
+									{
+										"open": {
+											"geometries": {
+												"Array.turtle": [
+													"Geometry.default",
+													"Geometry.hide",
+													"Geometry.down"
+												]
+											},
+											"textures": {
+												"Array.names": [
+													"Texture.default",
+													"Texture.donatello",
+													"Texture.leonardo",
+													"Texture.michelangelo",
+													"Texture.raphael"
+												]
+											}
+										},
+										"key": "textures",
+										"children": [
+											{
+												"open": {
+													"Array.names": [
+														"Texture.default",
+														"Texture.donatello",
+														"Texture.leonardo",
+														"Texture.michelangelo",
+														"Texture.raphael"
+													]
+												},
+												"key": "Array.names",
+												"is_minified": true,
+												"children": [
+													"Texture.default",
+													"Texture.donatello",
+													"Texture.leonardo",
+													"Texture.michelangelo",
+													"Texture.raphael"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"arrays": {
+										"geometries": {
+											"Array.turtle": [
+												"Geometry.default",
+												"Geometry.hide",
+												"Geometry.down"
+											]
+										},
+										"textures": {
+											"Array.names": [
+												"Texture.default",
+												"Texture.donatello",
+												"Texture.leonardo",
+												"Texture.michelangelo",
+												"Texture.raphael"
+											]
+										}
+									},
+									"textures": [
+										"Array.names[query.mark_variant]"
+									],
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"geometry": "Array.turtle[query.variant]"
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Array.names[query.mark_variant]"
+								]
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": [
+									{
+										"*": "Material.default"
+									}
+								]
+							},
+							{
+								"data": "Array.turtle[query.variant]",
+								"key": "geometry"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sofamarine.move": {
+			"loop": true,
+			"animation_length": 1.04,
+			"bones": {
+				"elice": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.52": [0, 0, -90],
+						"1.04": [0, 0, -180]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.24": [0, 0, 0],
+						"0.52": [0, 0, 0],
+						"0.76": [0, 0, 0],
+						"1.04": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

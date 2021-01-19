@@ -1,0 +1,29 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.cabra": {
+			"arrays": {
+				"textures": {
+					"Array.cabra": [
+						"Texture.default",
+						"Texture.goat2",
+						"Texture.goat3",
+						"Texture.goat4",
+						"Texture.goat5",
+						"Texture.goat6"
+					]
+				}
+			},
+			"textures": [
+				"Array.cabra[query.variant]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Geometry.default"
+		}
+	}
+}

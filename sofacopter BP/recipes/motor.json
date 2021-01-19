@@ -1,0 +1,37 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sc:motor"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "#S#",
+            "LRX",
+            "#P#"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:iron_ingot"
+            },
+            "X": {
+                "item": "minecraft:redstone"
+            },
+            "R": {
+                "item": "minecraft:repeater"
+            },
+            "P": {
+                "item": "minecraft:blaze_powder"
+            },
+            "L": {
+                "item": "minecraft:lead"
+            },
+            "S": {
+                "item": "sc:screw"
+            }
+        },
+        "result": {
+            "item": "sc:motor"
+        }
+    }
+}

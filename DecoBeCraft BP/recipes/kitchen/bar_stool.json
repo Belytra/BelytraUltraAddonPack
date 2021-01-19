@@ -1,0 +1,38 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:bar_stool"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ~ ",
+			" # ",
+			" ! "
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:carpet",
+				"data": 0
+			},
+			"#": {
+				"item": "minecraft:concrete",
+				"data": 7
+			},
+			"!": {
+				"item": "minecraft:iron_ingot",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:bar_stool",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

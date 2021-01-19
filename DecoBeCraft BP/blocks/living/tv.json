@@ -1,0 +1,435 @@
+//bridge-file-version: #55
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:tv",
+			"properties": {
+				"dbc:facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				],
+				"dbc:block_facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				],
+				"dbc:desings": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:on_player_placing": {
+				"event": "dbc:facing"
+			},
+			"minecraft:loot": "loot_tables/blocks/living/tv.json"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:facing') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.tv_dbc"
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					],
+					"minecraft:geometry": "geometry.tv_dbc",
+					"minecraft:pick_collision": {
+						"origin": [
+							-14,
+							0,
+							-1
+						],
+						"size": [
+							28,
+							20,
+							2
+						]
+					},
+					"minecraft:entity_collision": {
+						"origin": [
+							-14,
+							0,
+							-1
+						],
+						"size": [
+							28,
+							20,
+							2
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					],
+					"minecraft:geometry": "geometry.tv_dbc",
+					"minecraft:pick_collision": {
+						"origin": [
+							-14,
+							0,
+							-1
+						],
+						"size": [
+							28,
+							20,
+							2
+						]
+					},
+					"minecraft:entity_collision": {
+						"origin": [
+							-14,
+							0,
+							-1
+						],
+						"size": [
+							28,
+							20,
+							2
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					],
+					"minecraft:geometry": "geometry.tv_dbc",
+					"minecraft:pick_collision": {
+						"origin": [
+							-14,
+							0,
+							-1
+						],
+						"size": [
+							28,
+							20,
+							2
+						]
+					},
+					"minecraft:entity_collision": {
+						"origin": [
+							-14,
+							0,
+							-1
+						],
+						"size": [
+							28,
+							20,
+							2
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						-90,
+						0
+					],
+					"minecraft:geometry": "geometry.tv_dbc",
+					"minecraft:pick_collision": {
+						"origin": [
+							-14,
+							0,
+							-1
+						],
+						"size": [
+							28,
+							20,
+							2
+						]
+					},
+					"minecraft:entity_collision": {
+						"origin": [
+							-14,
+							0,
+							-1
+						],
+						"size": [
+							28,
+							20,
+							2
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:block_facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					],
+					"minecraft:geometry": "geometry.tv_dbc1",
+					"minecraft:pick_collision": {
+						"origin": [
+							-14,
+							2,
+							-8
+						],
+						"size": [
+							28,
+							18,
+							2
+						]
+					},
+					"minecraft:entity_collision": {
+						"origin": [
+							-14,
+							2,
+							-8
+						],
+						"size": [
+							28,
+							18,
+							2
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:block_facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					],
+					"minecraft:geometry": "geometry.tv_dbc1",
+					"minecraft:pick_collision": {
+						"origin": [
+							-14,
+							2,
+							-8
+						],
+						"size": [
+							28,
+							18,
+							2
+						]
+					},
+					"minecraft:entity_collision": {
+						"origin": [
+							-14,
+							2,
+							-8
+						],
+						"size": [
+							28,
+							18,
+							2
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:block_facing') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						-90,
+						0
+					],
+					"minecraft:geometry": "geometry.tv_dbc1",
+					"minecraft:pick_collision": {
+						"origin": [
+							-14,
+							2,
+							-8
+						],
+						"size": [
+							28,
+							18,
+							2
+						]
+					},
+					"minecraft:entity_collision": {
+						"origin": [
+							-14,
+							2,
+							-8
+						],
+						"size": [
+							28,
+							18,
+							2
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:block_facing') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					],
+					"minecraft:geometry": "geometry.tv_dbc1",
+					"minecraft:pick_collision": {
+						"origin": [
+							-14,
+							2,
+							-8
+						],
+						"size": [
+							28,
+							18,
+							2
+						]
+					},
+					"minecraft:entity_collision": {
+						"origin": [
+							-14,
+							2,
+							-8
+						],
+						"size": [
+							28,
+							18,
+							2
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:desings') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "alpha_test",
+							"texture": "tv_desing0"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "dbc:design",
+						"target": "self"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:desings') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "alpha_test",
+							"texture": "tv_desingn1"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "dbc:design",
+						"target": "self"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:desings') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "alpha_test",
+							"texture": "tv_design2"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "dbc:design",
+						"target": "self"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:desings') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "alpha_test",
+							"texture": "tv_design3"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "dbc:design",
+						"target": "self"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:desings') == 4",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "alpha_test",
+							"texture": "tv_design4"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "dbc:designr",
+						"target": "self"
+					}
+				}
+			}
+		],
+		"events": {
+			"dbc:facing": {
+				"sequence": [
+					{
+						"set_block_property": {
+							"dbc:facing": "query.cardinal_facing_2d"
+						}
+					},
+					{
+						"set_block_property": {
+							"dbc:block_facing": "query.block_face"
+						}
+					}
+				]
+			},
+			"dbc:design": {
+				"set_block_property": {
+					"dbc:desings": "query.block_property('dbc:desings') +1"
+				}
+			},
+			"dbc:designr": {
+				"set_block_property": {
+					"dbc:desings": 0
+				}
+			}
+		}
+	}
+}

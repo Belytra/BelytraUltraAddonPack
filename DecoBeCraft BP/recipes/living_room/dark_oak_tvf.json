@@ -1,0 +1,33 @@
+//bridge-file-version: #22
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:dark_oak_tvf"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"# #"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:log2",
+				"data": 1
+			},
+			"#": {
+				"item": "minecraft:planks",
+				"data": 5
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:dark_oak_tv_furniture",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

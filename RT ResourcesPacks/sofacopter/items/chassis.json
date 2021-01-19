@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "sc:chassis",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:icon": "chassis",
+            "minecraft:render_offsets": "apple"
+        }
+    }
+}

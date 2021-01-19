@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.sofamarine": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "swim": "(1.0)"
+            }
+          ],
+          "on_entry": [
+            "/function water",
+            "/effect @e [r=1] water_breathing 1 99 true"
+          ]
+        },
+        "swim": {
+          "transitions": [
+            {
+              "default": "query.has_rider && query.is_in_water"
+            }
+          ],
+          "on_entry": [
+            "/function water",
+            "/effect @e [r=1] water_breathing 1 99 true"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:iron_halberd"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      " ab",
+      " d ",
+      " c "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:iron_ingot"
+      },
+      "b": {
+        "item": "base:iron_blade"
+      },
+      "c": {
+        "item": "base:wood_handle"
+      },
+      "d": {
+        "item": "base:wood_handle"
+      }
+    },
+    "result": {
+      "item": "base:iron_halberd",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,302 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\recipes\\bridge\\acacia_bridge.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "519c315a_f7d0_4233_ae4e_72a9269c26aa",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:acacia_bridge"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"~ ~",
+							"###"
+						],
+						"key": {
+							"~": {
+								"item": "minecraft:stick",
+								"data": 0
+							},
+							"#": {
+								"item": "planks",
+								"data": 4
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:acacia_bridge",
+								"data": 0,
+								"count": 4
+							}
+						]
+					}
+				},
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:acacia_bridge"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"~ ~",
+							"###"
+						],
+						"key": {
+							"~": {
+								"item": "minecraft:stick",
+								"data": 0
+							},
+							"#": {
+								"item": "planks",
+								"data": 4
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:acacia_bridge",
+								"data": 0,
+								"count": 4
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:acacia_bridge"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:stick",
+									"data": 0
+								},
+								"#": {
+									"item": "planks",
+									"data": 4
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:acacia_bridge",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:acacia_bridge"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:acacia_bridge"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:stick",
+									"data": 0
+								},
+								"#": {
+									"item": "planks",
+									"data": 4
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:acacia_bridge",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:acacia_bridge"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:stick",
+									"data": 0
+								},
+								"#": {
+									"item": "planks",
+									"data": 4
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:acacia_bridge",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"~ ~",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:acacia_bridge"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:stick",
+									"data": 0
+								},
+								"#": {
+									"item": "planks",
+									"data": 4
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:acacia_bridge",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"key": "~",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stick",
+									"data": 0
+								}
+							},
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:stick",
+										"data": 0
+									},
+									"#": {
+										"item": "planks",
+										"data": 4
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "planks",
+									"data": 4
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:acacia_bridge"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:stick",
+									"data": 0
+								},
+								"#": {
+									"item": "planks",
+									"data": 4
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:acacia_bridge",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "dbc:acacia_bridge",
+										"data": 0,
+										"count": 4
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "dbc:acacia_bridge",
+									"data": 0,
+									"count": 4
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,18 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.hellrat": {
+			"timeline": {
+				"1": [
+					"@s mocreatures:fase1"
+				],
+				"0.5": [
+					"@s mocreatures:fase0"
+				]
+			},
+			"animation_length": 1,
+			"loop": true
+		}
+	}
+}

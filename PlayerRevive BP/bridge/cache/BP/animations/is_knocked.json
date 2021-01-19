@@ -1,0 +1,757 @@
+{
+	"file_path": "C:\\Users\\hcarl\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\PlayerRevive\\animations\\is_knocked.json",
+	"file_type": "animation",
+	"format_version": 1,
+	"file_uuid": "5a095b81_4649_425e_85b5_10cd021e9df6",
+	"file_version": 15,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animations": {
+						"animation.knocked": {
+							"timeline": {
+								"0": [
+									"/title @s actionbar §c30s ██████████"
+								],
+								"1": [
+									"/title @s actionbar §c29s ██████████"
+								],
+								"2": [
+									"/title @s actionbar §c28s ██████████"
+								],
+								"3": [
+									"/title @s actionbar §c27s █████████ "
+								],
+								"4": [
+									"/title @s actionbar §c26s █████████ "
+								],
+								"5": [
+									"/title @s actionbar §c25s █████████ "
+								],
+								"6": [
+									"/title @s actionbar §c24s ████████  "
+								],
+								"7": [
+									"/title @s actionbar §c23s ████████  "
+								],
+								"8": [
+									"/title @s actionbar §c22s ████████  "
+								],
+								"9": [
+									"/title @s actionbar §c21s ███████   "
+								],
+								"10": [
+									"/title @s actionbar §c20s ███████   "
+								],
+								"11": [
+									"/title @s actionbar §c19s ███████   "
+								],
+								"12": [
+									"/title @s actionbar §c18s ██████    "
+								],
+								"13": [
+									"/title @s actionbar §c17s ██████    "
+								],
+								"14": [
+									"/title @s actionbar §c16s ██████    "
+								],
+								"15": [
+									"/title @s actionbar §c15s █████     "
+								],
+								"16": [
+									"/title @s actionbar §c14s █████     "
+								],
+								"17": [
+									"/title @s actionbar §c13s █████     "
+								],
+								"18": [
+									"/title @s actionbar §c12s ████      "
+								],
+								"19": [
+									"/title @s actionbar §c11s ████      "
+								],
+								"20": [
+									"/title @s actionbar §c10s ████      "
+								],
+								"21": [
+									"/title @s actionbar §c09s ███       "
+								],
+								"22": [
+									"/title @s actionbar §c08s ███       "
+								],
+								"23": [
+									"/title @s actionbar §c07s ███       "
+								],
+								"24": [
+									"/title @s actionbar §c06s ██        "
+								],
+								"25": [
+									"/title @s actionbar §c05s ██        "
+								],
+								"26": [
+									"/title @s actionbar §c04s ██        "
+								],
+								"27": [
+									"/title @s actionbar §c03s █         "
+								],
+								"28": [
+									"/title @s actionbar §c02s █         "
+								],
+								"29": [
+									"/title @s actionbar §c01s █         "
+								],
+								"30": [
+									"@s pr:respawn",
+									"/title @s actionbar §c00s           ",
+									"/kill @s"
+								]
+							},
+							"animation_length": 31
+						}
+					}
+				},
+				"key": "animations",
+				"children": [
+					{
+						"open": {
+							"animation.knocked": {
+								"timeline": {
+									"0": [
+										"/title @s actionbar §c30s ██████████"
+									],
+									"1": [
+										"/title @s actionbar §c29s ██████████"
+									],
+									"2": [
+										"/title @s actionbar §c28s ██████████"
+									],
+									"3": [
+										"/title @s actionbar §c27s █████████ "
+									],
+									"4": [
+										"/title @s actionbar §c26s █████████ "
+									],
+									"5": [
+										"/title @s actionbar §c25s █████████ "
+									],
+									"6": [
+										"/title @s actionbar §c24s ████████  "
+									],
+									"7": [
+										"/title @s actionbar §c23s ████████  "
+									],
+									"8": [
+										"/title @s actionbar §c22s ████████  "
+									],
+									"9": [
+										"/title @s actionbar §c21s ███████   "
+									],
+									"10": [
+										"/title @s actionbar §c20s ███████   "
+									],
+									"11": [
+										"/title @s actionbar §c19s ███████   "
+									],
+									"12": [
+										"/title @s actionbar §c18s ██████    "
+									],
+									"13": [
+										"/title @s actionbar §c17s ██████    "
+									],
+									"14": [
+										"/title @s actionbar §c16s ██████    "
+									],
+									"15": [
+										"/title @s actionbar §c15s █████     "
+									],
+									"16": [
+										"/title @s actionbar §c14s █████     "
+									],
+									"17": [
+										"/title @s actionbar §c13s █████     "
+									],
+									"18": [
+										"/title @s actionbar §c12s ████      "
+									],
+									"19": [
+										"/title @s actionbar §c11s ████      "
+									],
+									"20": [
+										"/title @s actionbar §c10s ████      "
+									],
+									"21": [
+										"/title @s actionbar §c09s ███       "
+									],
+									"22": [
+										"/title @s actionbar §c08s ███       "
+									],
+									"23": [
+										"/title @s actionbar §c07s ███       "
+									],
+									"24": [
+										"/title @s actionbar §c06s ██        "
+									],
+									"25": [
+										"/title @s actionbar §c05s ██        "
+									],
+									"26": [
+										"/title @s actionbar §c04s ██        "
+									],
+									"27": [
+										"/title @s actionbar §c03s █         "
+									],
+									"28": [
+										"/title @s actionbar §c02s █         "
+									],
+									"29": [
+										"/title @s actionbar §c01s █         "
+									],
+									"30": [
+										"@s pr:respawn",
+										"/title @s actionbar §c00s           ",
+										"/kill @s"
+									]
+								},
+								"animation_length": 31
+							}
+						},
+						"key": "animation.knocked",
+						"children": [
+							{
+								"open": {
+									"timeline": {
+										"0": [
+											"/title @s actionbar §c30s ██████████"
+										],
+										"1": [
+											"/title @s actionbar §c29s ██████████"
+										],
+										"2": [
+											"/title @s actionbar §c28s ██████████"
+										],
+										"3": [
+											"/title @s actionbar §c27s █████████ "
+										],
+										"4": [
+											"/title @s actionbar §c26s █████████ "
+										],
+										"5": [
+											"/title @s actionbar §c25s █████████ "
+										],
+										"6": [
+											"/title @s actionbar §c24s ████████  "
+										],
+										"7": [
+											"/title @s actionbar §c23s ████████  "
+										],
+										"8": [
+											"/title @s actionbar §c22s ████████  "
+										],
+										"9": [
+											"/title @s actionbar §c21s ███████   "
+										],
+										"10": [
+											"/title @s actionbar §c20s ███████   "
+										],
+										"11": [
+											"/title @s actionbar §c19s ███████   "
+										],
+										"12": [
+											"/title @s actionbar §c18s ██████    "
+										],
+										"13": [
+											"/title @s actionbar §c17s ██████    "
+										],
+										"14": [
+											"/title @s actionbar §c16s ██████    "
+										],
+										"15": [
+											"/title @s actionbar §c15s █████     "
+										],
+										"16": [
+											"/title @s actionbar §c14s █████     "
+										],
+										"17": [
+											"/title @s actionbar §c13s █████     "
+										],
+										"18": [
+											"/title @s actionbar §c12s ████      "
+										],
+										"19": [
+											"/title @s actionbar §c11s ████      "
+										],
+										"20": [
+											"/title @s actionbar §c10s ████      "
+										],
+										"21": [
+											"/title @s actionbar §c09s ███       "
+										],
+										"22": [
+											"/title @s actionbar §c08s ███       "
+										],
+										"23": [
+											"/title @s actionbar §c07s ███       "
+										],
+										"24": [
+											"/title @s actionbar §c06s ██        "
+										],
+										"25": [
+											"/title @s actionbar §c05s ██        "
+										],
+										"26": [
+											"/title @s actionbar §c04s ██        "
+										],
+										"27": [
+											"/title @s actionbar §c03s █         "
+										],
+										"28": [
+											"/title @s actionbar §c02s █         "
+										],
+										"29": [
+											"/title @s actionbar §c01s █         "
+										],
+										"30": [
+											"@s pr:respawn",
+											"/title @s actionbar §c00s           ",
+											"/kill @s"
+										]
+									},
+									"animation_length": 31
+								},
+								"key": "timeline",
+								"children": [
+									{
+										"key": "0",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c30s ██████████"
+										]
+									},
+									{
+										"key": "1",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c29s ██████████"
+										]
+									},
+									{
+										"key": "2",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c28s ██████████"
+										]
+									},
+									{
+										"key": "3",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c27s █████████ "
+										]
+									},
+									{
+										"key": "4",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c26s █████████ "
+										]
+									},
+									{
+										"key": "5",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c25s █████████ "
+										]
+									},
+									{
+										"key": "6",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c24s ████████  "
+										]
+									},
+									{
+										"key": "7",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c23s ████████  "
+										]
+									},
+									{
+										"key": "8",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c22s ████████  "
+										]
+									},
+									{
+										"key": "9",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c21s ███████   "
+										]
+									},
+									{
+										"key": "10",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c20s ███████   "
+										]
+									},
+									{
+										"key": "11",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c19s ███████   "
+										]
+									},
+									{
+										"key": "12",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c18s ██████    "
+										]
+									},
+									{
+										"key": "13",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c17s ██████    "
+										]
+									},
+									{
+										"key": "14",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c16s ██████    "
+										]
+									},
+									{
+										"key": "15",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c15s █████     "
+										]
+									},
+									{
+										"key": "16",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c14s █████     "
+										]
+									},
+									{
+										"key": "17",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c13s █████     "
+										]
+									},
+									{
+										"key": "18",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c12s ████      "
+										]
+									},
+									{
+										"key": "19",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c11s ████      "
+										]
+									},
+									{
+										"key": "20",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c10s ████      "
+										]
+									},
+									{
+										"key": "21",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c09s ███       "
+										]
+									},
+									{
+										"key": "22",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c08s ███       "
+										]
+									},
+									{
+										"key": "23",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c07s ███       "
+										]
+									},
+									{
+										"key": "24",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c06s ██        "
+										]
+									},
+									{
+										"key": "25",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c05s ██        "
+										]
+									},
+									{
+										"key": "26",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c04s ██        "
+										]
+									},
+									{
+										"key": "27",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c03s █         "
+										]
+									},
+									{
+										"key": "28",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c02s █         "
+										]
+									},
+									{
+										"key": "29",
+										"is_minified": true,
+										"children": [
+											"/title @s actionbar §c01s █         "
+										]
+									},
+									{
+										"open": {
+											"0": [
+												"/title @s actionbar §c30s ██████████"
+											],
+											"1": [
+												"/title @s actionbar §c29s ██████████"
+											],
+											"2": [
+												"/title @s actionbar §c28s ██████████"
+											],
+											"3": [
+												"/title @s actionbar §c27s █████████ "
+											],
+											"4": [
+												"/title @s actionbar §c26s █████████ "
+											],
+											"5": [
+												"/title @s actionbar §c25s █████████ "
+											],
+											"6": [
+												"/title @s actionbar §c24s ████████  "
+											],
+											"7": [
+												"/title @s actionbar §c23s ████████  "
+											],
+											"8": [
+												"/title @s actionbar §c22s ████████  "
+											],
+											"9": [
+												"/title @s actionbar §c21s ███████   "
+											],
+											"10": [
+												"/title @s actionbar §c20s ███████   "
+											],
+											"11": [
+												"/title @s actionbar §c19s ███████   "
+											],
+											"12": [
+												"/title @s actionbar §c18s ██████    "
+											],
+											"13": [
+												"/title @s actionbar §c17s ██████    "
+											],
+											"14": [
+												"/title @s actionbar §c16s ██████    "
+											],
+											"15": [
+												"/title @s actionbar §c15s █████     "
+											],
+											"16": [
+												"/title @s actionbar §c14s █████     "
+											],
+											"17": [
+												"/title @s actionbar §c13s █████     "
+											],
+											"18": [
+												"/title @s actionbar §c12s ████      "
+											],
+											"19": [
+												"/title @s actionbar §c11s ████      "
+											],
+											"20": [
+												"/title @s actionbar §c10s ████      "
+											],
+											"21": [
+												"/title @s actionbar §c09s ███       "
+											],
+											"22": [
+												"/title @s actionbar §c08s ███       "
+											],
+											"23": [
+												"/title @s actionbar §c07s ███       "
+											],
+											"24": [
+												"/title @s actionbar §c06s ██        "
+											],
+											"25": [
+												"/title @s actionbar §c05s ██        "
+											],
+											"26": [
+												"/title @s actionbar §c04s ██        "
+											],
+											"27": [
+												"/title @s actionbar §c03s █         "
+											],
+											"28": [
+												"/title @s actionbar §c02s █         "
+											],
+											"29": [
+												"/title @s actionbar §c01s █         "
+											],
+											"30": [
+												"@s pr:respawn",
+												"/title @s actionbar §c00s           ",
+												"/kill @s"
+											]
+										},
+										"key": "30",
+										"is_minified": true,
+										"children": [
+											"@s pr:respawn",
+											"/title @s actionbar §c00s           ",
+											"/kill @s"
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"timeline": {
+										"0": [
+											"/title @s actionbar §c30s ██████████"
+										],
+										"1": [
+											"/title @s actionbar §c29s ██████████"
+										],
+										"2": [
+											"/title @s actionbar §c28s ██████████"
+										],
+										"3": [
+											"/title @s actionbar §c27s █████████ "
+										],
+										"4": [
+											"/title @s actionbar §c26s █████████ "
+										],
+										"5": [
+											"/title @s actionbar §c25s █████████ "
+										],
+										"6": [
+											"/title @s actionbar §c24s ████████  "
+										],
+										"7": [
+											"/title @s actionbar §c23s ████████  "
+										],
+										"8": [
+											"/title @s actionbar §c22s ████████  "
+										],
+										"9": [
+											"/title @s actionbar §c21s ███████   "
+										],
+										"10": [
+											"/title @s actionbar §c20s ███████   "
+										],
+										"11": [
+											"/title @s actionbar §c19s ███████   "
+										],
+										"12": [
+											"/title @s actionbar §c18s ██████    "
+										],
+										"13": [
+											"/title @s actionbar §c17s ██████    "
+										],
+										"14": [
+											"/title @s actionbar §c16s ██████    "
+										],
+										"15": [
+											"/title @s actionbar §c15s █████     "
+										],
+										"16": [
+											"/title @s actionbar §c14s █████     "
+										],
+										"17": [
+											"/title @s actionbar §c13s █████     "
+										],
+										"18": [
+											"/title @s actionbar §c12s ████      "
+										],
+										"19": [
+											"/title @s actionbar §c11s ████      "
+										],
+										"20": [
+											"/title @s actionbar §c10s ████      "
+										],
+										"21": [
+											"/title @s actionbar §c09s ███       "
+										],
+										"22": [
+											"/title @s actionbar §c08s ███       "
+										],
+										"23": [
+											"/title @s actionbar §c07s ███       "
+										],
+										"24": [
+											"/title @s actionbar §c06s ██        "
+										],
+										"25": [
+											"/title @s actionbar §c05s ██        "
+										],
+										"26": [
+											"/title @s actionbar §c04s ██        "
+										],
+										"27": [
+											"/title @s actionbar §c03s █         "
+										],
+										"28": [
+											"/title @s actionbar §c02s █         "
+										],
+										"29": [
+											"/title @s actionbar §c01s █         "
+										],
+										"30": [
+											"@s pr:respawn",
+											"/title @s actionbar §c00s           ",
+											"/kill @s"
+										]
+									},
+									"animation_length": 31
+								},
+								"data": "31",
+								"key": "animation_length"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

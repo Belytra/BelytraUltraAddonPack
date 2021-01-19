@@ -1,0 +1,27 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "mocreatures:hellrat",
+			"population_control": "animal"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_underground": {},
+				"minecraft:weight": {
+					"default": 25
+				},
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "nether"
+				},
+				"minecraft:difficulty_filter": {
+					"min": "easy",
+					"max": "hard"
+				}
+			}
+		]
+	}
+}

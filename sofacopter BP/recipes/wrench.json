@@ -1,0 +1,22 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "sc:wrench"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            " # ",
+            " ##",
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "iron_ingot"
+            }
+        },
+        "result": {
+            "item": "sc:wrench"
+        }
+    }
+}

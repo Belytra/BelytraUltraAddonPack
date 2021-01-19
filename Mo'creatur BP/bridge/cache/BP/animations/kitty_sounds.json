@@ -1,0 +1,84 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]/animations/kitty_sounds.json",
+	"file_type": "animation",
+	"format_version": 1,
+	"file_uuid": "e6b56b6d_82b8_4f3d_94fa_3a55d8de1479",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animations": {
+						"animation.kitty_hungry": {
+							"timeline": {
+								"1": [
+									"@s mocreatures:kitty_hungry_sound"
+								]
+							},
+							"animation_length": 2,
+							"loop": true
+						}
+					}
+				},
+				"key": "animations",
+				"children": [
+					{
+						"open": {
+							"animation.kitty_hungry": {
+								"timeline": {
+									"1": [
+										"@s mocreatures:kitty_hungry_sound"
+									]
+								},
+								"animation_length": 2,
+								"loop": true
+							}
+						},
+						"key": "animation.kitty_hungry",
+						"children": [
+							{
+								"open": {
+									"timeline": {
+										"1": [
+											"@s mocreatures:kitty_hungry_sound"
+										]
+									},
+									"animation_length": 2,
+									"loop": true
+								},
+								"key": "timeline",
+								"children": [
+									{
+										"open": {
+											"1": [
+												"@s mocreatures:kitty_hungry_sound"
+											]
+										},
+										"key": "1",
+										"is_minified": true,
+										"children": [
+											"@s mocreatures:kitty_hungry_sound"
+										]
+									}
+								]
+							},
+							{
+								"data": "2",
+								"key": "animation_length"
+							},
+							{
+								"data": "true",
+								"key": "loop"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

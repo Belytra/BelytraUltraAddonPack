@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:super_furnace_blueprint"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aaa",
+      "cbc",
+      "aaa"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:glass"
+      },
+      "b": {
+        "item": "minecraft:furnace"
+      },
+      "c": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "result": {
+      "item": "base:super_furnace_blueprint",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

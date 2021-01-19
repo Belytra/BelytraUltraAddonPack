@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:iron_hammer_head"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      "bbb",
+      "bbb",
+      "   "
+    ],
+    "key": {
+      "b": {
+        "item": "minecraft:iron_ingot"
+      },
+      "c": {
+        "item": "base:diamond_nugget"
+      }
+    },
+    "result": {
+      "item": "base:iron_hammer_head",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16.1",
+  "minecraft:block": {
+    "description": {
+      "identifier": "const:red_grass_block",
+      "is_experimental": false,
+      "register_to_creative_menu": true
+    },
+    "components": {
+			"minecraft:destroy_time": 0.2,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:map_color": "#ffffff",
+      "minecraft:on_interact": {
+        "condition": "query.get_equipped_item_name == 'wooden_shovel' || query.get_equipped_item_name == 'stone_shovel' || query.get_equipped_item_name == 'iron_shovel' || query.get_equipped_item_name == 'golden_shovel' || query.get_equipped_item_name == 'diamond_shovel' || query.get_equipped_item_name == 'netherite_shovel'",
+        "event": "const:flatten_grass"
+      }
+    },
+    "events": {
+      "const:flatten_grass": {
+        "set_block": {
+          "block_type": "minecraft:grass_path"
+        },
+        "play_sound": {
+          "sound": "step.grass",
+          "target": "self"
+        }
+      }
+    }
+  }
+}

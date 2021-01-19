@@ -1,0 +1,30 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:acacia_chair"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~  ",
+			"~~~",
+			"~ ~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:planks",
+				"data": 4
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:acacia_chair",
+				"data": 0,
+				"count": 4
+			}
+		]
+	}
+}

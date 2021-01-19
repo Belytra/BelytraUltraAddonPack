@@ -1,0 +1,27 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "machinebuilder:hat_creeper_plushie",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:wearable": {
+                "slot": "slot.armor.head"
+            },
+            "minecraft:armor": {
+                "protection": 0
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.helmet"
+            },
+            "minecraft:icon": {
+                "texture": "machinebuilder_hat_creeper_plushie"
+            },
+            "minecraft:display_name": {
+                "value": "Creeper Plushie"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "mocreatures:egg_ostrich",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "eggmo"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.eggmo"
+			}
+		},
+		"events": {}
+	}
+}

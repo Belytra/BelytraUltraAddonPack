@@ -1,0 +1,39 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.kitty": {
+			"arrays": {
+				"textures": {
+					"Array.kitty": [
+						"Texture.default",
+						"Texture.kitty1",
+						"Texture.kitty2",
+						"Texture.kitty3",
+						"Texture.kitty4",
+						"Texture.kitty5",
+						"Texture.kitty6",
+						"Texture.kitty7",
+						"Texture.kitty8",
+						"Texture.kitty9"
+					]
+				},
+				"geometries": {
+					"Array.tamed": [
+						"Geometry.default",
+						"Geometry.tamed"
+					]
+				}
+			},
+			"textures": [
+				"Array.kitty[query.variant]"
+			],
+			"geometry": "Array.tamed[query.is_tamed]",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			]
+		}
+	}
+}

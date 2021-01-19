@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:pulverizer"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aca",
+      "aba",
+      "aaa"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:cobblestone"
+      },
+      "b": {
+        "item": "minecraft:furnace"
+      },
+      "c": {
+        "item": "minecraft:lava_bucket"
+      }
+    },
+    "result": {
+      "item": "base:pulverizer_blueprint",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

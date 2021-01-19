@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\hcarl\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Barry The Magic Bear\\texts\\en_US.lang",
+	"file_type": "client_lang",
+	"format_version": 0,
+	"file_uuid": "526f2cac_fe95_49d7_8eea_2c60606b6759",
+	"file_version": 1,
+	"cache_content": "pack.name=§d§lBelyPets\r\npack.description=§bBelytra Pets | By @Pammsitoh\r\nitem.spawn_egg.entity.btmb:pet.name=§dBelyPet"
+}

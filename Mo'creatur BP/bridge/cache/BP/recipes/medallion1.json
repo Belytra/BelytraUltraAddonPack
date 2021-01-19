@@ -1,0 +1,84 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\recipes\\medallion1.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "60655c84_5db3_4c86_a2e2_7f6494bda5dd",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "mocreatures:medallion1"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"~ ~",
+							"#!#",
+							" # "
+						],
+						"key": {
+							"~": {
+								"item": "minecraft:leather"
+							},
+							"#": {
+								"item": "minecraft:gold_ingot"
+							},
+							"!": {
+								"item": "minecraft:diamond"
+							}
+						},
+						"result": [
+							{
+								"item": "mocreatures:medallion",
+								"data": 0,
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"is_minified": true,
+				"children": {
+					"description": {
+						"identifier": "mocreatures:medallion1"
+					},
+					"tags": [
+						"crafting_table"
+					],
+					"pattern": [
+						"~ ~",
+						"#!#",
+						" # "
+					],
+					"key": {
+						"~": {
+							"item": "minecraft:leather"
+						},
+						"#": {
+							"item": "minecraft:gold_ingot"
+						},
+						"!": {
+							"item": "minecraft:diamond"
+						}
+					},
+					"result": [
+						{
+							"item": "mocreatures:medallion",
+							"data": 0,
+							"count": 1
+						}
+					]
+				}
+			}
+		]
+	}
+}

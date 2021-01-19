@@ -1,0 +1,397 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\items\\raw_rat.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "d0f15949_c6a2_4167_bb88_040cabba2e5f",
+	"file_version": 56,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mocreatures:raw_rat",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64,
+							"minecraft:use_duration": 1.6,
+							"minecraft:food": {
+								"nutrition": 2,
+								"saturation_modifier": "low",
+								"on_consume": {
+									"event": "consume",
+									"target": "self"
+								}
+							},
+							"minecraft:icon": {
+								"texture": "raw_rat"
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:render_offsets": "apple",
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.rawFood"
+							}
+						},
+						"events": {
+							"consume": {
+								"randomize": [
+									{
+										"weight": 3,
+										"add_mob_effect": {
+											"effect": "hunger",
+											"duration": 30,
+											"amplifier": 0,
+											"target": "holder"
+										}
+									},
+									{
+										"weight": 7
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:raw_rat",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:use_duration": 1.6,
+								"minecraft:food": {
+									"nutrition": 2,
+									"saturation_modifier": "low",
+									"on_consume": {
+										"event": "consume",
+										"target": "self"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "raw_rat"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "apple",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.rawFood"
+								}
+							},
+							"events": {
+								"consume": {
+									"randomize": [
+										{
+											"weight": 3,
+											"add_mob_effect": {
+												"effect": "hunger",
+												"duration": 30,
+												"amplifier": 0,
+												"target": "holder"
+											}
+										},
+										{
+											"weight": 7
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mocreatures:raw_rat",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:raw_rat",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:use_duration": 1.6,
+								"minecraft:food": {
+									"nutrition": 2,
+									"saturation_modifier": "low",
+									"on_consume": {
+										"event": "consume",
+										"target": "self"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "raw_rat"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "apple",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.rawFood"
+								}
+							},
+							"events": {
+								"consume": {
+									"randomize": [
+										{
+											"weight": 3,
+											"add_mob_effect": {
+												"effect": "hunger",
+												"duration": 30,
+												"amplifier": 0,
+												"target": "holder"
+											}
+										},
+										{
+											"weight": 7
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:use_duration": 1.6,
+									"minecraft:food": {
+										"nutrition": 2,
+										"saturation_modifier": "low",
+										"on_consume": {
+											"event": "consume",
+											"target": "self"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "raw_rat"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:render_offsets": "apple",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.rawFood"
+									}
+								},
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:use_duration": 1.6,
+									"minecraft:food": {
+										"nutrition": 2,
+										"saturation_modifier": "low",
+										"on_consume": {
+											"event": "consume",
+											"target": "self"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "raw_rat"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:render_offsets": "apple",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.rawFood"
+									}
+								},
+								"key": "minecraft:food",
+								"children": [
+									{
+										"data": "2",
+										"key": "nutrition"
+									},
+									{
+										"data": "low",
+										"key": "saturation_modifier"
+									},
+									{
+										"open": {
+											"nutrition": 2,
+											"saturation_modifier": "low",
+											"on_consume": {
+												"event": "consume",
+												"target": "self"
+											}
+										},
+										"key": "on_consume",
+										"is_minified": true,
+										"children": {
+											"event": "consume",
+											"target": "self"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:use_duration": 1.6,
+									"minecraft:food": {
+										"nutrition": 2,
+										"saturation_modifier": "low",
+										"on_consume": {
+											"event": "consume",
+											"target": "self"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "raw_rat"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:render_offsets": "apple",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.rawFood"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "raw_rat"
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"data": "apple",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.rawFood"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"consume": {
+										"randomize": [
+											{
+												"weight": 3,
+												"add_mob_effect": {
+													"effect": "hunger",
+													"duration": 30,
+													"amplifier": 0,
+													"target": "holder"
+												}
+											},
+											{
+												"weight": 7
+											}
+										]
+									}
+								},
+								"key": "consume",
+								"children": [
+									{
+										"open": {
+											"randomize": [
+												{
+													"weight": 3,
+													"add_mob_effect": {
+														"effect": "hunger",
+														"duration": 30,
+														"amplifier": 0,
+														"target": "holder"
+													}
+												},
+												{
+													"weight": 7
+												}
+											]
+										},
+										"key": "randomize",
+										"children": [
+											{
+												"open": [
+													{
+														"weight": 3,
+														"add_mob_effect": {
+															"effect": "hunger",
+															"duration": 30,
+															"amplifier": 0,
+															"target": "holder"
+														}
+													},
+													{
+														"weight": 7
+													}
+												],
+												"children": [
+													{
+														"data": "3",
+														"key": "weight"
+													},
+													{
+														"open": {
+															"weight": 3,
+															"add_mob_effect": {
+																"effect": "hunger",
+																"duration": 30,
+																"amplifier": 0,
+																"target": "holder"
+															}
+														},
+														"key": "add_mob_effect",
+														"is_minified": true,
+														"children": {
+															"effect": "hunger",
+															"duration": 30,
+															"amplifier": 0,
+															"target": "holder"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"weight": 3,
+														"add_mob_effect": {
+															"effect": "hunger",
+															"duration": 30,
+															"amplifier": 0,
+															"target": "holder"
+														}
+													},
+													{
+														"weight": 7
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"weight": 7
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

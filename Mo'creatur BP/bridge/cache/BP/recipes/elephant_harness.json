@@ -1,0 +1,44 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]/recipes/elephant_harness.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "fc186a1b_a8f2_4494_b9ee_80b263c9794c",
+	"file_version": 0,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"format_version": "1.16.0",
+			"minecraft:recipe_shaped": {
+				"description": {
+					"identifier": "mocreatures:elephant_harness"
+				},
+				"tags": [
+					"crafting_table"
+				],
+				"pattern": [
+					"~#~",
+					"!#!",
+					"~#~"
+				],
+				"key": {
+					"~": {
+						"item": "mocreatures:hide"
+					},
+					"#": {
+						"item": "minecraft:wool"
+					},
+					"!": {
+						"item": "minecraft:iron_ingot"
+					}
+				},
+				"result": [
+					{
+						"item": "mocreatures:elephant_harness",
+						"data": 0,
+						"count": 1
+					}
+				]
+			}
+		}
+	}
+}

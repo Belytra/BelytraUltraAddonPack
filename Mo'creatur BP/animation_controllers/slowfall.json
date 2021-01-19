@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.slowfall": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"slowfall": "query.skin_id == 77"
+						}
+					]
+				},
+				"slowfall": {
+					"transitions": [
+						{
+							"default": "query.skin_id == 77"
+						}
+					],
+					"on_entry": [
+						"/effect @s slow_falling 999999 99 true"
+					]
+				}
+			}
+		},
+		"controller.animation.slowfallfire": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"slowfallfire": "query.skin_id == 77"
+						}
+					]
+				},
+				"slowfallfire": {
+					"transitions": [
+						{
+							"default": "query.skin_id == 77"
+						}
+					],
+					"on_entry": [
+						"/effect @s slow_falling 999999 99 true"
+					]
+				}
+			}
+		}
+	}
+}

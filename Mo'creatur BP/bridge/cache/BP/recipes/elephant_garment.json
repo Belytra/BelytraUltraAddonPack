@@ -1,0 +1,457 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]/recipes/elephant_garment.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "ff8c4457_72f6_41f0_bb70_eab385a0a9b5",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "mocreatures:elephant_garment"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"#\"!",
+							"~$~",
+							"%{%"
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:dye",
+								"data": 9
+							},
+							"\"": {
+								"item": "minecraft:dye",
+								"data": 11
+							},
+							"!": {
+								"item": "minecraft:dye",
+								"data": 10
+							},
+							"~": {
+								"item": "minecraft:wool",
+								"data": 14
+							},
+							"$": {
+								"item": "mocreatures:medallion",
+								"data": 0
+							},
+							"%": {
+								"item": "minecraft:wool",
+								"data": 11
+							},
+							"{": {
+								"item": "minecraft:wool",
+								"data": 4
+							}
+						},
+						"result": [
+							{
+								"item": "mocreatures:elephant_garment",
+								"data": 0,
+								"count": 1
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:elephant_garment"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#\"!",
+								"~$~",
+								"%{%"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:dye",
+									"data": 9
+								},
+								"\"": {
+									"item": "minecraft:dye",
+									"data": 11
+								},
+								"!": {
+									"item": "minecraft:dye",
+									"data": 10
+								},
+								"~": {
+									"item": "minecraft:wool",
+									"data": 14
+								},
+								"$": {
+									"item": "mocreatures:medallion",
+									"data": 0
+								},
+								"%": {
+									"item": "minecraft:wool",
+									"data": 11
+								},
+								"{": {
+									"item": "minecraft:wool",
+									"data": 4
+								}
+							},
+							"result": [
+								{
+									"item": "mocreatures:elephant_garment",
+									"data": 0,
+									"count": 1
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mocreatures:elephant_garment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:elephant_garment"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#\"!",
+								"~$~",
+								"%{%"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:dye",
+									"data": 9
+								},
+								"\"": {
+									"item": "minecraft:dye",
+									"data": 11
+								},
+								"!": {
+									"item": "minecraft:dye",
+									"data": 10
+								},
+								"~": {
+									"item": "minecraft:wool",
+									"data": 14
+								},
+								"$": {
+									"item": "mocreatures:medallion",
+									"data": 0
+								},
+								"%": {
+									"item": "minecraft:wool",
+									"data": 11
+								},
+								"{": {
+									"item": "minecraft:wool",
+									"data": 4
+								}
+							},
+							"result": [
+								{
+									"item": "mocreatures:elephant_garment",
+									"data": 0,
+									"count": 1
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:elephant_garment"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#\"!",
+								"~$~",
+								"%{%"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:dye",
+									"data": 9
+								},
+								"\"": {
+									"item": "minecraft:dye",
+									"data": 11
+								},
+								"!": {
+									"item": "minecraft:dye",
+									"data": 10
+								},
+								"~": {
+									"item": "minecraft:wool",
+									"data": 14
+								},
+								"$": {
+									"item": "mocreatures:medallion",
+									"data": 0
+								},
+								"%": {
+									"item": "minecraft:wool",
+									"data": 11
+								},
+								"{": {
+									"item": "minecraft:wool",
+									"data": 4
+								}
+							},
+							"result": [
+								{
+									"item": "mocreatures:elephant_garment",
+									"data": 0,
+									"count": 1
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"#\"!",
+							"~$~",
+							"%{%"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:elephant_garment"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#\"!",
+								"~$~",
+								"%{%"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:dye",
+									"data": 9
+								},
+								"\"": {
+									"item": "minecraft:dye",
+									"data": 11
+								},
+								"!": {
+									"item": "minecraft:dye",
+									"data": 10
+								},
+								"~": {
+									"item": "minecraft:wool",
+									"data": 14
+								},
+								"$": {
+									"item": "mocreatures:medallion",
+									"data": 0
+								},
+								"%": {
+									"item": "minecraft:wool",
+									"data": 11
+								},
+								"{": {
+									"item": "minecraft:wool",
+									"data": 4
+								}
+							},
+							"result": [
+								{
+									"item": "mocreatures:elephant_garment",
+									"data": 0,
+									"count": 1
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:dye",
+									"data": 9
+								}
+							},
+							{
+								"key": "\"",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:dye",
+									"data": 11
+								}
+							},
+							{
+								"key": "!",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:dye",
+									"data": 10
+								}
+							},
+							{
+								"key": "~",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:wool",
+									"data": 14
+								}
+							},
+							{
+								"key": "$",
+								"is_minified": true,
+								"children": {
+									"item": "mocreatures:medallion",
+									"data": 0
+								}
+							},
+							{
+								"key": "%",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:wool",
+									"data": 11
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:dye",
+										"data": 9
+									},
+									"\"": {
+										"item": "minecraft:dye",
+										"data": 11
+									},
+									"!": {
+										"item": "minecraft:dye",
+										"data": 10
+									},
+									"~": {
+										"item": "minecraft:wool",
+										"data": 14
+									},
+									"$": {
+										"item": "mocreatures:medallion",
+										"data": 0
+									},
+									"%": {
+										"item": "minecraft:wool",
+										"data": 11
+									},
+									"{": {
+										"item": "minecraft:wool",
+										"data": 4
+									}
+								},
+								"key": "{",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:wool",
+									"data": 4
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:elephant_garment"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#\"!",
+								"~$~",
+								"%{%"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:dye",
+									"data": 9
+								},
+								"\"": {
+									"item": "minecraft:dye",
+									"data": 11
+								},
+								"!": {
+									"item": "minecraft:dye",
+									"data": 10
+								},
+								"~": {
+									"item": "minecraft:wool",
+									"data": 14
+								},
+								"$": {
+									"item": "mocreatures:medallion",
+									"data": 0
+								},
+								"%": {
+									"item": "minecraft:wool",
+									"data": 11
+								},
+								"{": {
+									"item": "minecraft:wool",
+									"data": 4
+								}
+							},
+							"result": [
+								{
+									"item": "mocreatures:elephant_garment",
+									"data": 0,
+									"count": 1
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "mocreatures:elephant_garment",
+										"data": 0,
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "mocreatures:elephant_garment",
+									"data": 0,
+									"count": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

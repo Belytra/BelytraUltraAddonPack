@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "const:cutter/ns/beam_gold"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:gold_block"
+			}
+		],
+		"result": [
+			{
+				"item": "const:beam_gold_ns",
+				"count": 1
+			}
+		]
+	}
+}

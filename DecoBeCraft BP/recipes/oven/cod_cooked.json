@@ -1,0 +1,22 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "dbc:cod_cooked"
+		},
+		"tags": [
+			"oven"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:fish"
+			}
+		],
+		"result": [
+			{
+				"item": "minecraft:cooked_fish"
+			}
+		]
+	}
+}

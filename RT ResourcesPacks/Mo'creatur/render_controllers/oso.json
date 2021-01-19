@@ -1,0 +1,30 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.oso": {
+			"arrays": {
+				"textures": {
+					"Array.oso": [
+						"Texture.default"
+					]
+				},
+				"geometries": {
+					"Array.oso_saddle": [
+						"Geometry.default",
+						"Geometry.saddle"
+					]
+				}
+			},
+			"textures": [
+				"Array.oso[query.can_walk]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.oso_saddle[query.is_saddled]"
+		}
+	}
+}

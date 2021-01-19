@@ -1,0 +1,212 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\recipes\\bridge\\jungle_bridge_start.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "f438a1cc_5335_4354_9cec_17a1cd70f454",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:jungle_bridge_start"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"~",
+							"###"
+						],
+						"key": {
+							"~": {
+								"item": "minecraft:stick",
+								"data": 0
+							},
+							"#": {
+								"item": "planks",
+								"data": 3
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:jungle_bridge_start",
+								"data": 0,
+								"count": 2
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:jungle_bridge_start"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:stick",
+									"data": 0
+								},
+								"#": {
+									"item": "planks",
+									"data": 3
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:jungle_bridge_start",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:jungle_bridge_start"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"~",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:jungle_bridge_start"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:stick",
+									"data": 0
+								},
+								"#": {
+									"item": "planks",
+									"data": 3
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:jungle_bridge_start",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"key": "~",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stick",
+									"data": 0
+								}
+							},
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:stick",
+										"data": 0
+									},
+									"#": {
+										"item": "planks",
+										"data": 3
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "planks",
+									"data": 3
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:jungle_bridge_start"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:stick",
+									"data": 0
+								},
+								"#": {
+									"item": "planks",
+									"data": 3
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:jungle_bridge_start",
+									"data": 0,
+									"count": 2
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "dbc:jungle_bridge_start",
+										"data": 0,
+										"count": 2
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "dbc:jungle_bridge_start",
+									"data": 0,
+									"count": 2
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

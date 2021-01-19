@@ -1,0 +1,25 @@
+//bridge-file-version: #11
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:nether_scorpion_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			"XXX",
+			"XXX"
+		],
+		"key": {
+			"X": {
+				"item": "mocreatures:nether_chitin"
+			}
+		},
+		"result": {
+			"item": "mocreatures:nether_scorpion_chestplate"
+		}
+	}
+}

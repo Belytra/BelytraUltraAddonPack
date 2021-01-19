@@ -1,0 +1,51 @@
+//bridge-file-version: #19
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.slow_falling": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"riding": "query.is_riding"
+						}
+					],
+					"on_entry": [
+						"/effect @p clear"
+					]
+				},
+				"riding": {
+					"transitions": [
+						{
+							"default": "!query.is_riding"
+						}
+					],
+					"on_entry": [
+						"/effect @p slow_falling 99999999 255 true"
+					]
+				}
+			}
+		},
+		"controller.animation.bug_fix": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"drow": "query.is_in_water && query.is_riding"
+						}
+					]
+				},
+				"drow": {
+					"transitions": [
+						{
+							"default": "!query.is_in_water && !query.is_riding"
+						}
+					],
+					"on_entry": [
+						"/tp @s ~ ~ ~3"
+					]
+				}
+			}
+		}
+	}
+}

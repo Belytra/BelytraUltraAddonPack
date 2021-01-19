@@ -1,0 +1,145 @@
+{
+	"file_path": "C:\\Users\\hcarl\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Barry The Magic Bear/spawn_rules/pets.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "c6bb7b2f_78d5_4598_a3dd_9d436a88229f",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "btmb:pet",
+							"population_control": "animal"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_on_surface": {},
+								"minecraft:spawns_on_block_filter": "minecraft:grass",
+								"minecraft:brightness_filter": {
+									"min": 7,
+									"max": 15,
+									"adjust_for_weather": false
+								},
+								"minecraft:weight": {
+									"default": 10
+								},
+								"minecraft:herd": {
+									"min_size": 2,
+									"max_size": 4
+								},
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "animal"
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "btmb:pet",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:spawns_on_block_filter": "minecraft:grass",
+									"minecraft:brightness_filter": {
+										"min": 7,
+										"max": 15,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 10
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 4
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "animal"
+									}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "btmb:pet",
+							"population_control": "animal"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "btmb:pet",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:spawns_on_block_filter": "minecraft:grass",
+									"minecraft:brightness_filter": {
+										"min": 7,
+										"max": 15,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 10
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 4
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "animal"
+									}
+								}
+							]
+						},
+						"key": "conditions",
+						"is_minified": true,
+						"children": [
+							{
+								"minecraft:spawns_on_surface": {},
+								"minecraft:spawns_on_block_filter": "minecraft:grass",
+								"minecraft:brightness_filter": {
+									"min": 7,
+									"max": 15,
+									"adjust_for_weather": false
+								},
+								"minecraft:weight": {
+									"default": 10
+								},
+								"minecraft:herd": {
+									"min_size": 2,
+									"max_size": 4
+								},
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "animal"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

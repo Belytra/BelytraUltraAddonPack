@@ -1,0 +1,25 @@
+//bridge-file-version: #12
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:nether_scorpion_leggings"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"X X",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "mocreatures:nether_chitin"
+			}
+		},
+		"result": {
+			"item": "mocreatures:nether_scorpion_leggings"
+		}
+	}
+}

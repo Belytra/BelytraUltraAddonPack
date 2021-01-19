@@ -1,0 +1,479 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.machinebuilder_hat.spider_plushie",
+                "texture_width": 34,
+                "texture_height": 16,
+                "visible_bounds_width": 2,
+                "visible_bounds_height": 1,
+                "visible_bounds_offset": [
+                    0,
+                    0.5,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "head",
+                    "pivot": [
+                        0,
+                        24,
+                        0
+                    ]
+                },
+                {
+                    "name": "spider",
+                    "parent": "head",
+                    "pivot": [
+                        0,
+                        23.9,
+                        0
+                    ]
+                },
+                {
+                    "name": "leg_1",
+                    "parent": "spider",
+                    "pivot": [
+                        0,
+                        23.9,
+                        0
+                    ]
+                },
+                {
+                    "name": "spider_body",
+                    "parent": "spider",
+                    "pivot": [
+                        0,
+                        34.2,
+                        0
+                    ],
+                    "rotation": [
+                        0,
+                        -10,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -1.5,
+                                32.7,
+                                -1.5
+                            ],
+                            "size": [
+                                3,
+                                3,
+                                3
+                            ],
+                            "uv": [
+                                16,
+                                0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "spider_head",
+                    "parent": "spider_body",
+                    "pivot": [
+                        0,
+                        34.2,
+                        -1.5
+                    ],
+                    "rotation": [
+                        -10,
+                        -15,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -2,
+                                32.2,
+                                -5.5
+                            ],
+                            "size": [
+                                4,
+                                4,
+                                4
+                            ],
+                            "uv": [
+                                18,
+                                8
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "spider_back",
+                    "parent": "spider_body",
+                    "pivot": [
+                        0,
+                        34.2,
+                        1.5
+                    ],
+                    "rotation": [
+                        10,
+                        10,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -2.5,
+                                32.2,
+                                1.5
+                            ],
+                            "size": [
+                                5,
+                                4,
+                                6
+                            ],
+                            "uv": [
+                                0,
+                                0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "leg1",
+                    "parent": "spider_body",
+                    "pivot": [
+                        0,
+                        34.2,
+                        0
+                    ],
+                    "rotation": [
+                        0,
+                        35,
+                        15
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                1,
+                                33.7,
+                                -1
+                            ],
+                            "size": [
+                                8,
+                                1,
+                                1
+                            ],
+                            "pivot": [
+                                0,
+                                34.2,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                0,
+                                9
+                            ],
+                            "uv": [
+                                0,
+                                10
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "leg2",
+                    "parent": "spider_body",
+                    "pivot": [
+                        0,
+                        34.2,
+                        0.5
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        15
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                1,
+                                33.7,
+                                -0.5
+                            ],
+                            "size": [
+                                8,
+                                1,
+                                1
+                            ],
+                            "pivot": [
+                                0,
+                                34.2,
+                                0.5
+                            ],
+                            "rotation": [
+                                0,
+                                10,
+                                9
+                            ],
+                            "uv": [
+                                0,
+                                10
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "leg3",
+                    "parent": "spider_body",
+                    "pivot": [
+                        0,
+                        34.2,
+                        1
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        15
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                1,
+                                33.7,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                1,
+                                1
+                            ],
+                            "pivot": [
+                                0,
+                                34.2,
+                                1
+                            ],
+                            "rotation": [
+                                0,
+                                -10,
+                                7
+                            ],
+                            "uv": [
+                                0,
+                                10
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "leg4",
+                    "parent": "spider_body",
+                    "pivot": [
+                        0,
+                        34.2,
+                        1.5
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        15
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                1,
+                                33.7,
+                                0.5
+                            ],
+                            "size": [
+                                8,
+                                1,
+                                1
+                            ],
+                            "pivot": [
+                                0,
+                                34.2,
+                                1.5
+                            ],
+                            "rotation": [
+                                0,
+                                -35,
+                                9
+                            ],
+                            "uv": [
+                                0,
+                                10
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "leg5",
+                    "parent": "spider_body",
+                    "pivot": [
+                        0,
+                        34.2,
+                        0
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        -15
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -9,
+                                33.7,
+                                -1
+                            ],
+                            "size": [
+                                8,
+                                1,
+                                1
+                            ],
+                            "pivot": [
+                                0,
+                                34.2,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -35,
+                                -7
+                            ],
+                            "uv": [
+                                0,
+                                10
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "leg6",
+                    "parent": "spider_body",
+                    "pivot": [
+                        0,
+                        34.2,
+                        0.5
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        -15
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -9,
+                                33.7,
+                                -0.5
+                            ],
+                            "size": [
+                                8,
+                                1,
+                                1
+                            ],
+                            "pivot": [
+                                0,
+                                34.2,
+                                0.5
+                            ],
+                            "rotation": [
+                                0,
+                                -10,
+                                -7
+                            ],
+                            "uv": [
+                                0,
+                                10
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "leg7",
+                    "parent": "spider_body",
+                    "pivot": [
+                        0,
+                        34.2,
+                        1
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        -15
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -9,
+                                33.7,
+                                0
+                            ],
+                            "size": [
+                                8,
+                                1,
+                                1
+                            ],
+                            "pivot": [
+                                0,
+                                34.2,
+                                1
+                            ],
+                            "rotation": [
+                                0,
+                                10,
+                                -10
+                            ],
+                            "uv": [
+                                0,
+                                10
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "leg8",
+                    "parent": "spider_body",
+                    "pivot": [
+                        0,
+                        34.2,
+                        1.5
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        -15
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -9,
+                                33.7,
+                                0.5
+                            ],
+                            "size": [
+                                8,
+                                1,
+                                1
+                            ],
+                            "pivot": [
+                                0,
+                                34.2,
+                                1.5
+                            ],
+                            "rotation": [
+                                0,
+                                35,
+                                -12
+                            ],
+                            "uv": [
+                                0,
+                                10
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

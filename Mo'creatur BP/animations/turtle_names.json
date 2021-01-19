@@ -1,0 +1,24 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.turtle_names": {
+			"timeline": {
+				"0": [
+					"/tag @s[name=Donatello] add Donatello"
+				],
+				"1": [
+					"/tag @s[name=Leonardo] add Leonardo"
+				],
+				"2": [
+					"/tag @s[name=Michelangelo] add Michelangelo"
+				],
+				"3": [
+					"/tag @s[name=Raphael] add Raphael"
+				]
+			},
+			"animation_length": 3.1,
+			"loop": true
+		}
+	}
+}

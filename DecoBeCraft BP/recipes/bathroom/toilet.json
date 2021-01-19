@@ -1,0 +1,32 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:toilet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~#",
+			"~~~",
+			" ~ "
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:concrete",
+				"data": 0
+			},
+			"#": {
+				"item": "minecraft:stone_button",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:toilet"
+			}
+		]
+	}
+}

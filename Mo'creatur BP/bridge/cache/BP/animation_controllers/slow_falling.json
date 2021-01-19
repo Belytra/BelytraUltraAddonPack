@@ -1,0 +1,483 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\animation_controllers\\slow_falling.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "fd470e2e_73b6_40ad_a4e3_110a192431cc",
+	"file_version": 19,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.slow_falling": {
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"riding": "query.is_riding"
+										}
+									],
+									"on_entry": [
+										"/effect @p clear"
+									]
+								},
+								"riding": {
+									"transitions": [
+										{
+											"default": "!query.is_riding"
+										}
+									],
+									"on_entry": [
+										"/effect @p slow_falling 99999999 255 true"
+									]
+								}
+							}
+						},
+						"controller.animation.bug_fix": {
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"drow": "query.is_in_water && query.is_riding"
+										}
+									]
+								},
+								"drow": {
+									"transitions": [
+										{
+											"default": "!query.is_in_water && !query.is_riding"
+										}
+									],
+									"on_entry": [
+										"/tp @s ~ ~ ~3 "
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.slow_falling": {
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"riding": "query.is_riding"
+											}
+										],
+										"on_entry": [
+											"/effect @p clear"
+										]
+									},
+									"riding": {
+										"transitions": [
+											{
+												"default": "!query.is_riding"
+											}
+										],
+										"on_entry": [
+											"/effect @p slow_falling 99999999 255 true"
+										]
+									}
+								}
+							},
+							"controller.animation.bug_fix": {
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"drow": "query.is_in_water && query.is_riding"
+											}
+										]
+									},
+									"drow": {
+										"transitions": [
+											{
+												"default": "!query.is_in_water && !query.is_riding"
+											}
+										],
+										"on_entry": [
+											"/tp @s ~ ~ ~3 "
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.slow_falling",
+						"children": [
+							{
+								"open": {
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"riding": "query.is_riding"
+												}
+											],
+											"on_entry": [
+												"/effect @p clear"
+											]
+										},
+										"riding": {
+											"transitions": [
+												{
+													"default": "!query.is_riding"
+												}
+											],
+											"on_entry": [
+												"/effect @p slow_falling 99999999 255 true"
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"riding": "query.is_riding"
+													}
+												],
+												"on_entry": [
+													"/effect @p clear"
+												]
+											},
+											"riding": {
+												"transitions": [
+													{
+														"default": "!query.is_riding"
+													}
+												],
+												"on_entry": [
+													"/effect @p slow_falling 99999999 255 true"
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"riding": "query.is_riding"
+														}
+													],
+													"on_entry": [
+														"/effect @p clear"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"riding": "query.is_riding"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"riding": "query.is_riding"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"riding": "query.is_riding"
+														}
+													],
+													"on_entry": [
+														"/effect @p clear"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/effect @p clear"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"riding": "query.is_riding"
+													}
+												],
+												"on_entry": [
+													"/effect @p clear"
+												]
+											},
+											"riding": {
+												"transitions": [
+													{
+														"default": "!query.is_riding"
+													}
+												],
+												"on_entry": [
+													"/effect @p slow_falling 99999999 255 true"
+												]
+											}
+										},
+										"key": "riding",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "!query.is_riding"
+														}
+													],
+													"on_entry": [
+														"/effect @p slow_falling 99999999 255 true"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "!query.is_riding"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "!query.is_riding"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "!query.is_riding"
+														}
+													],
+													"on_entry": [
+														"/effect @p slow_falling 99999999 255 true"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/effect @p slow_falling 99999999 255 true"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"controller.animation.slow_falling": {
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"riding": "query.is_riding"
+											}
+										],
+										"on_entry": [
+											"/effect @p clear"
+										]
+									},
+									"riding": {
+										"transitions": [
+											{
+												"default": "!query.is_riding"
+											}
+										],
+										"on_entry": [
+											"/effect @p slow_falling 99999999 255 true"
+										]
+									}
+								}
+							},
+							"controller.animation.bug_fix": {
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"drow": "query.is_in_water && query.is_riding"
+											}
+										]
+									},
+									"drow": {
+										"transitions": [
+											{
+												"default": "!query.is_in_water && !query.is_riding"
+											}
+										],
+										"on_entry": [
+											"/tp @s ~ ~ ~3 "
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.bug_fix",
+						"children": [
+							{
+								"open": {
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"drow": "query.is_in_water && query.is_riding"
+												}
+											]
+										},
+										"drow": {
+											"transitions": [
+												{
+													"default": "!query.is_in_water && !query.is_riding"
+												}
+											],
+											"on_entry": [
+												"/tp @s ~ ~ ~3 "
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"drow": "query.is_in_water && query.is_riding"
+													}
+												]
+											},
+											"drow": {
+												"transitions": [
+													{
+														"default": "!query.is_in_water && !query.is_riding"
+													}
+												],
+												"on_entry": [
+													"/tp @s ~ ~ ~3 "
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"drow": "query.is_in_water && query.is_riding"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"drow": "query.is_in_water && query.is_riding"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"drow": "query.is_in_water && query.is_riding"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"drow": "query.is_in_water && query.is_riding"
+													}
+												]
+											},
+											"drow": {
+												"transitions": [
+													{
+														"default": "!query.is_in_water && !query.is_riding"
+													}
+												],
+												"on_entry": [
+													"/tp @s ~ ~ ~3 "
+												]
+											}
+										},
+										"key": "drow",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "!query.is_in_water && !query.is_riding"
+														}
+													],
+													"on_entry": [
+														"/tp @s ~ ~ ~3 "
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "!query.is_in_water && !query.is_riding"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "!query.is_in_water && !query.is_riding"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "!query.is_in_water && !query.is_riding"
+														}
+													],
+													"on_entry": [
+														"/tp @s ~ ~ ~3 "
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/tp @s ~ ~ ~3 "
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

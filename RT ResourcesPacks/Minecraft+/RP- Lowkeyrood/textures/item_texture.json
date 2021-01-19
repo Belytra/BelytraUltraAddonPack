@@ -1,0 +1,219 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "netherite_broadaxe": {
+      "textures": "textures/items/netherite_battle_axe"
+    },
+    "diamond_broadaxe": {
+      "textures": "textures/items/diamond_battle_axe"
+    },
+    "iron_broadaxe": {
+      "textures": "textures/items/iron_battle_axe"
+    },
+    "advanced_stick": {
+      "textures": "textures/items/advanced_weapon_rod"
+    },
+    "iron_halberd": {
+      "textures": "textures/items/iron_halberd"
+    },
+    "diamond_halberd": {
+      "textures": "textures/items/diamond_halberd"
+    },
+    "obsidian_pickaxe": {
+      "textures": "textures/items/obsidian_pickaxe"
+    },
+    "molten_obsidian": {
+      "textures": "textures/items/molten_obsidian"
+    },
+    "obsidian_ingot": {
+      "textures": "textures/items/obsidian_ingot"
+    },
+    "diamond_nugget": {
+      "textures": "textures/items/diamond_nugget"
+    },
+    "iron_blade":{
+      "textures": "textures/items/iron_blade"
+    },   
+    "diamond_blade": {
+      "textures": "textures/items/diamond_blade"
+    },
+    "netherite_blade": {
+      "textures": "textures/items/netherite_blade"
+    },
+    "base_handle": {
+      "textures": "textures/items/base_handle"
+    },
+    "netherite_katana": {
+      "textures": "textures/items/netherite_katana"
+    },
+    "diamond_katana": {
+      "textures": "textures/items/diamond_katana"
+    },
+    "advanced_handle": {
+      "textures": "textures/items/advanced_handle"
+    },
+    "iron_axe_head": {
+      "textures": "textures/items/iron_axe_head"
+    },  
+    "diamond_axe_head": {
+      "textures": "textures/items/diamond_axe_head"
+    },
+    "cindite_ingot": {
+      "textures": "textures/items/cindite_ingot"
+    },
+    "cindite_axe_head": {
+      "textures": "textures/items/cindite_axe_head"
+    },
+    "cindite_hammer_head": {
+      "textures": "textures/items/cindite_hammer_head"
+    },
+    "netherite_hammer_head": {
+      "textures": "textures/items/netherite_hammer_head"
+    },
+    "diamond_hammer_head": {
+      "textures": "textures/items/diamond_hammer_head"
+    },
+    "iron_hammer_head": {
+      "textures": "textures/items/iron_hammer_head"
+    },
+    "cindite_blade": {
+      "textures": "textures/items/cindite_blade"
+    },
+    "netherite_axe_head": {
+      "textures": "textures/items/netherite_axe_head"
+    },
+    "tripple_diamond_sword": {
+      "textures": "textures/items/triple_diamond"
+    },
+    "obsidian_binding": {
+      "textures": "textures/items/obsidian_binding"
+    },
+    "cindite_chunk": {
+      "textures": "textures/items/cindite_chunk"
+    },
+    "wood_binding": {
+      "textures": "textures/items/wood_binding"
+    },
+    "cindite_pickaxe":{
+      "textures": "textures/items/cindite_pickaxe"
+    },  
+    "cindite_broadaxe":{
+      "textures": "textures/items/cindite_axe"
+    },
+    "cindite_sword":{
+      "textures": "textures/items/cindite_sword"
+    },               
+    "tripple_netherite_sword":{
+      "textures": "textures/items/triple_netherite"
+    },
+    "titanium_ingot":{
+      "textures": "textures/items/titanium_ingot"
+    },
+    "silver_ingot":{
+      "textures": "textures/items/silver_ingot"
+    },
+    "sliminium_ingot":{
+      "textures": "textures/items/sliminium_ingot"
+    }, 
+    "cindite_halberd":{
+      "textures": "textures/items/cindite_halberd"
+    },
+    "titanium_handle":{
+      "textures": "textures/items/titanium_handle"
+    },
+    "netherite_halberd":{
+      "textures": "textures/items/netherite_halberd"
+    },
+    "diamond_helmet_base":{
+      "textures": "textures/items/diamond_helmet_base"
+    }, 
+    "diamond_chestplate_base":{
+      "textures": "textures/items/diamond_chestplate_base"
+    }, 
+    "diamond_leggings_base":{
+      "textures": "textures/items/diamond_leggings_base"
+    }, 
+    "diamond_boots_base":{
+      "textures": "textures/items/diamond_boots_base"
+    }, 
+    "netherite_helmet_base":{
+      "textures": "textures/items/netherite_helmet_base"
+    }, 
+    "netherite_chestplate_base":{
+      "textures": "textures/items/netherite_chestplate_base"
+    }, 
+    "netherite_leggings_base":{
+      "textures": "textures/items/netherite_leggings_base"
+    }, 
+    "netherite_boots_base":{
+      "textures": "textures/items/netherite_boots_base"
+    },
+    "blueprint":{
+      "textures": "textures/items/blueprint"
+    },
+    "molten_ingot":{
+      "textures": "textures/items/molten_ingot"
+    },
+    "netherite_katana_1": {
+      "textures": "textures/items/netherite_katana_1"
+    },
+    "netherite_katana_2": {
+      "textures": "textures/items/netherite_katana_2"
+    },
+    "netherite_katana_3": {
+      "textures": "textures/items/netherite_katana_3"
+    },
+    "tripple_netherite_sword_1": {
+      "textures": "textures/items/triple_netherite_1"
+    },
+    "tripple_netherite_sword_2": {
+      "textures": "textures/items/triple_netherite_2"
+    },
+    "tripple_netherite_sword_3": {
+      "textures": "textures/items/triple_netherite_3"
+    },
+    "tripple_cindite_sword_1": {
+      "textures": "textures/items/triple_cindite_1"
+    },
+    "tripple_cindite_sword_2": {
+      "textures": "textures/items/triple_cindite_2"
+    },
+    "tripple_cindite_sword_3": {
+      "textures": "textures/items/triple_cindite_3"
+    },
+    "cindite_katana_1": {
+      "textures": "textures/items/cindite_katana_1"
+    },
+    "cindite_katana_2": {
+      "textures": "textures/items/cindite_katana_2"
+    },
+    "cindite_katana_3": {
+      "textures": "textures/items/cindite_katana_3"
+    },
+    "iron_hammer": {
+      "textures": "textures/items/iron_hammer"
+    },
+    "triple_iron": {
+      "textures": "textures/items/triple_iron"
+    },
+    "iron_katana": {
+      "textures": "textures/items/iron_katana"
+    },
+    "diamond_hammer": {
+      "textures": "textures/items/diamond_hammer"
+    },
+    "netherite_hammer": {
+      "textures": "textures/items/netherite_hammer"
+    },
+    "cindite_hammer": {
+      "textures": "textures/items/cindite_hammer"
+    },
+    "cindite_katana": {
+      "textures": "textures/items/cindite_katana"
+    },
+    "triple_cindite": {
+      "textures": "textures/items/triple_cindite"
+    }
+  }
+}

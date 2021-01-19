@@ -1,0 +1,25 @@
+//bridge-file-version: #8
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:dirt_scorpion_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			"XXX",
+			"XXX"
+		],
+		"key": {
+			"X": {
+				"item": "mocreatures:chitin"
+			}
+		},
+		"result": {
+			"item": "mocreatures:dirt_scorpion_chestplate"
+		}
+	}
+}

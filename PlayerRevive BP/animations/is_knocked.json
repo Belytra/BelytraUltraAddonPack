@@ -1,0 +1,176 @@
+//bridge-file-version: #15
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.knocked": {
+			"timeline": {
+				"0": [
+					"/title @s actionbar §c30s ██████████",
+                    "/playsound random.click @a ~ ~ ~",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"1": [
+					"/title @s actionbar §c29s ██████████",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"2": [
+					"/title @s actionbar §c28s ██████████",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"3": [
+					"/title @s actionbar §c27s █████████§8█",
+                    "/playsound random.click @a ~ ~ ~",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"4": [
+					"/title @s actionbar §c26s █████████§8█",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"5": [
+					"/title @s actionbar §c25s █████████§8█",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"6": [
+					"/title @s actionbar §c24s ████████§8██",
+                    "/playsound random.click @a ~ ~ ~",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"7": [
+					"/title @s actionbar §c23s ████████§8██",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"8": [
+					"/title @s actionbar §c22s ████████§8██",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"9": [
+					"/title @s actionbar §c21s ███████§8███",
+                    "/playsound random.click @a ~ ~ ~",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"10": [
+					"/title @s actionbar §c20s ███████§8███",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"11": [
+					"/title @s actionbar §c19s ███████§8███",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"12": [
+					"/title @s actionbar §c18s ██████§8████",
+                    "/playsound random.click @a ~ ~ ~",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"13": [
+					"/title @s actionbar §c17s ██████§8████",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"14": [
+					"/title @s actionbar §c16s ██████§8████",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"15": [
+					"/title @s actionbar §c15s █████§8█████",
+                    "/playsound random.click @a ~ ~ ~",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"16": [
+					"/title @s actionbar §c14s █████§8█████",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"17": [
+					"/title @s actionbar §c13s █████§8█████",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"18": [
+					"/title @s actionbar §c12s ████§8██████",
+                    "/playsound random.click @a ~ ~ ~",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"19": [
+					"/title @s actionbar §c11s ████§8██████",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"20": [
+					"/title @s actionbar §c10s ████§8██████",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"21": [
+					"/title @s actionbar §c09s ███§8███████",
+                    "/playsound random.click @a ~ ~ ~",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"22": [
+					"/title @s actionbar §c08s ███§8███████",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"23": [
+					"/title @s actionbar §c07s ███§8███████",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"24": [
+					"/title @s actionbar §c06s ██§8████████",
+                    "/playsound random.click @a ~ ~ ~",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"25": [
+					"/title @s actionbar §c05s ██§8████████",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"26": [
+					"/title @s actionbar §c04s ██§8████████",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"27": [
+					"/title @s actionbar §c03s █§8█████████",
+                    "/playsound random.click @a ~ ~ ~",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"28": [
+					"/title @s actionbar §c02s █§8█████████",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"29": [
+					"/title @s actionbar §c01s █§8█████████",
+                    "/title @s subtitle Sneak to surrender",
+                    "/title @s title §a"
+				],
+				"30": [
+					"@s pr:respawn",
+					"/title @s actionbar §c00s",
+					"/kill @s"
+				]
+			},
+			"animation_length": 31
+		}
+	}
+}

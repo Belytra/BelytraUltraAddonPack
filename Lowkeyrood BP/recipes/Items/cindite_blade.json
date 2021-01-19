@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "base:cindite_blade"
+      },
+      "tags": [
+        "advanced_weapon_crafter"
+      ],
+      "pattern": [
+        "aaa",
+        "aba",
+        "aaa"
+      ],
+      "key": {
+        "a": {
+          "item": "base:cindite_ingot"
+        },
+        "b": {
+          "item": "base:diamond_blade"
+        }
+      },
+      "result": {
+        "item": "base:cindite_blade",
+        "data": 0,
+        "count": 1
+      }
+    }
+  }

@@ -1,0 +1,20 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:small_table_oak"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.smalltable",
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "planks",
+					"render_method": "blend"
+				}
+			}
+		}
+	}
+}

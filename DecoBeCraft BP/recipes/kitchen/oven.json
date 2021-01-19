@@ -1,0 +1,35 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:oven"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"~!~",
+			"~#~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:iron_ingot"
+			},
+			"#": {
+				"item": "minecraft:furnace"
+			},
+			"!": {
+				"item": "minecraft:glass_pane"
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:oven",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,72 @@
+{
+   "format_version": "1.16.100",
+   "minecraft:block": {
+      "description": {
+         "identifier": "base:super_furnace5",
+         "register_to_creative_menu": true
+      },
+      "components": {
+         "minecraft:destroy_time": 3,
+         "minecraft:block_light_emission": 1,
+         "minecraft:explosion_resistance": 3,
+         "minecraft:block_light_absorption": 0,
+         "minecraft:loot": "loot_tables/entities/superfurnace2.json",
+         "minecraft:ticking": {
+            "looping": true,
+            "range": [
+               1,
+               2
+            ],
+            "on_tick": {
+               "event": "base:tick",
+               "target": "self"
+            }
+         },
+         "minecraft:on_interact": {
+            "target": "other",
+            "event": "base:fill"
+         }
+      },
+      "events": {
+         "base:fill": {
+            "sequence": [
+               {
+                  "condition": "query.get_equipped_item_name == 'silver_ore'",
+                  "set_block": {
+                     "block_type": "base:super_furnace_silver"
+                  },
+                  "decrement_stack": {}
+               },
+               {
+                  "condition": "query.get_equipped_item_name == 'titanium_ore'",
+                  "set_block": {
+                     "block_type": "base:super_furnace_titanium"
+                  },
+                  "decrement_stack": {}
+               },
+               {
+                  "condition": "query.get_equipped_item_name == 'sliminium_ore'",
+                  "set_block": {
+                     "block_type": "base:super_furnace_sliminium"
+                  },
+                  "decrement_stack": {}
+               },
+               {
+                  "condition": "query.get_equipped_item_name == 'molten_obsidian_block'",
+                  "set_block": {
+                     "block_type": "base:super_furnace_molten"
+                  },
+                  "decrement_stack": {}
+               },
+               {
+                  "condition": "query.get_equipped_item_name == 'obsidian'",
+                  "set_block": {
+                     "block_type": "base:super_furnace_obsidian"
+                  },
+                  "decrement_stack": {}
+               }
+            ]
+         }
+      }
+   }
+}

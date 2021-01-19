@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 20,
+                    "name": "minecraft:flint"
+                },
+                {
+                    "type": "item",
+                    "weight": 70,
+                    "name": "minecraft:gunpowder"
+                },
+                {
+                    "type": "item",
+                    "weight": 50,
+                    "name": "base:cindite_chunk"
+                }
+            ]
+        }
+    ]
+}

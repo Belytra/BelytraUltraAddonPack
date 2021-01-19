@@ -1,0 +1,108 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"properties": {
+				"dbc:facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			},
+			"identifier": "dbc:spruce_bridge"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "alpha_test",
+					"texture": "spruce_tvf"
+				}
+			},
+			"minecraft:geometry": "geometry.bridge_dbc",
+			"minecraft:on_player_placing": {
+				"event": "dbc:facing"
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					2,
+					16
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					2,
+					16
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/bridges/spruce_bridge.json"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						-90,
+						0
+					]
+				}
+			}
+		],
+		"events": {
+			"dbc:facing": {
+				"set_block_property": {
+					"dbc:facing": "query.cardinal_facing_2d"
+				}
+			}
+		}
+	}
+}

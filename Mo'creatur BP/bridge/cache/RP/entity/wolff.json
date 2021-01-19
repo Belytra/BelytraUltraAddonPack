@@ -1,0 +1,304 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Mo'creatures bedrock §a[RP]\\entity\\wolff.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "cf2c1913_67f3_4707_833b_53cea19ce507",
+	"file_version": 17,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mocreatures:wild_wolf",
+							"min_engine_version": "1.8.0",
+							"materials": {
+								"default": "armor_stand"
+							},
+							"textures": {
+								"default": "textures/entity/wolfwild",
+								"wolf1": "textures/entity/wolfblack",
+								"wolf2": "textures/entity/wolfbright",
+								"wolf3": "textures/entity/wolfdark",
+								"wolf4": "textures/entity/wolftimber"
+							},
+							"animations": {
+								"look_at_target": "animation.common.look_at_target",
+								"walk": "animation.wild_wolf.walk",
+								"attack": "animation.wild_wolf.attack"
+							},
+							"scripts": {
+								"animate": [
+									"look_at_target",
+									{
+										"walk": "query.modified_move_speed"
+									},
+									{
+										"attack": "variable.attack_time"
+									}
+								]
+							},
+							"geometry": {
+								"default": "geometry.wild_wolf"
+							},
+							"render_controllers": [
+								"controller.render.wild_wolf"
+							],
+							"spawn_egg": {
+								"texture": "wildwolf_spawn_egg",
+								"texture_index": 0
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:wild_wolf",
+								"min_engine_version": "1.8.0",
+								"materials": {
+									"default": "armor_stand"
+								},
+								"textures": {
+									"default": "textures/entity/wolfwild",
+									"wolf1": "textures/entity/wolfblack",
+									"wolf2": "textures/entity/wolfbright",
+									"wolf3": "textures/entity/wolfdark",
+									"wolf4": "textures/entity/wolftimber"
+								},
+								"animations": {
+									"look_at_target": "animation.common.look_at_target",
+									"walk": "animation.wild_wolf.walk",
+									"attack": "animation.wild_wolf.attack"
+								},
+								"scripts": {
+									"animate": [
+										"look_at_target",
+										{
+											"walk": "query.modified_move_speed"
+										},
+										{
+											"attack": "variable.attack_time"
+										}
+									]
+								},
+								"geometry": {
+									"default": "geometry.wild_wolf"
+								},
+								"render_controllers": [
+									"controller.render.wild_wolf"
+								],
+								"spawn_egg": {
+									"texture": "wildwolf_spawn_egg",
+									"texture_index": 0
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "mocreatures:wild_wolf",
+								"key": "identifier"
+							},
+							{
+								"data": "1.8.0",
+								"key": "min_engine_version"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "armor_stand"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mocreatures:wild_wolf",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "armor_stand"
+									},
+									"textures": {
+										"default": "textures/entity/wolfwild",
+										"wolf1": "textures/entity/wolfblack",
+										"wolf2": "textures/entity/wolfbright",
+										"wolf3": "textures/entity/wolfdark",
+										"wolf4": "textures/entity/wolftimber"
+									},
+									"animations": {
+										"look_at_target": "animation.common.look_at_target",
+										"walk": "animation.wild_wolf.walk",
+										"attack": "animation.wild_wolf.attack"
+									},
+									"scripts": {
+										"animate": [
+											"look_at_target",
+											{
+												"walk": "query.modified_move_speed"
+											},
+											{
+												"attack": "variable.attack_time"
+											}
+										]
+									},
+									"geometry": {
+										"default": "geometry.wild_wolf"
+									},
+									"render_controllers": [
+										"controller.render.wild_wolf"
+									],
+									"spawn_egg": {
+										"texture": "wildwolf_spawn_egg",
+										"texture_index": 0
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/wolfwild",
+									"wolf1": "textures/entity/wolfblack",
+									"wolf2": "textures/entity/wolfbright",
+									"wolf3": "textures/entity/wolfdark",
+									"wolf4": "textures/entity/wolftimber"
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"look_at_target": "animation.common.look_at_target",
+									"walk": "animation.wild_wolf.walk",
+									"attack": "animation.wild_wolf.attack"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"look_at_target",
+										{
+											"walk": "query.modified_move_speed"
+										},
+										{
+											"attack": "variable.attack_time"
+										}
+									]
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.wild_wolf"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mocreatures:wild_wolf",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "armor_stand"
+									},
+									"textures": {
+										"default": "textures/entity/wolfwild",
+										"wolf1": "textures/entity/wolfblack",
+										"wolf2": "textures/entity/wolfbright",
+										"wolf3": "textures/entity/wolfdark",
+										"wolf4": "textures/entity/wolftimber"
+									},
+									"animations": {
+										"look_at_target": "animation.common.look_at_target",
+										"walk": "animation.wild_wolf.walk",
+										"attack": "animation.wild_wolf.attack"
+									},
+									"scripts": {
+										"animate": [
+											"look_at_target",
+											{
+												"walk": "query.modified_move_speed"
+											},
+											{
+												"attack": "variable.attack_time"
+											}
+										]
+									},
+									"geometry": {
+										"default": "geometry.wild_wolf"
+									},
+									"render_controllers": [
+										"controller.render.wild_wolf"
+									],
+									"spawn_egg": {
+										"texture": "wildwolf_spawn_egg",
+										"texture_index": 0
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.wild_wolf"
+								]
+							},
+							{
+								"open": {
+									"identifier": "mocreatures:wild_wolf",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "armor_stand"
+									},
+									"textures": {
+										"default": "textures/entity/wolfwild",
+										"wolf1": "textures/entity/wolfblack",
+										"wolf2": "textures/entity/wolfbright",
+										"wolf3": "textures/entity/wolfdark",
+										"wolf4": "textures/entity/wolftimber"
+									},
+									"animations": {
+										"look_at_target": "animation.common.look_at_target",
+										"walk": "animation.wild_wolf.walk",
+										"attack": "animation.wild_wolf.attack"
+									},
+									"scripts": {
+										"animate": [
+											"look_at_target",
+											{
+												"walk": "query.modified_move_speed"
+											},
+											{
+												"attack": "variable.attack_time"
+											}
+										]
+									},
+									"geometry": {
+										"default": "geometry.wild_wolf"
+									},
+									"render_controllers": [
+										"controller.render.wild_wolf"
+									],
+									"spawn_egg": {
+										"texture": "wildwolf_spawn_egg",
+										"texture_index": 0
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "wildwolf_spawn_egg",
+									"texture_index": 0
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

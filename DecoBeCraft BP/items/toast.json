@@ -1,0 +1,25 @@
+//bridge-file-version: #10
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "dbc:toast",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:use_duration": 1,
+			"minecraft:food": {
+				"nutrition": 6,
+				"saturation_modifier": "good"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.miscFood"
+			},
+			"minecraft:icon": {
+				"texture": "toast"
+			},
+			"minecraft:use_animation": "eat"
+		},
+		"events": {}
+	}
+}

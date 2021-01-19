@@ -1,0 +1,148 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "const:black_plank_fence",
+      "properties": {
+        "const:fence_block": [
+          "close_z",
+          "close_x",
+          "open_z",
+          "open_x"
+        ]
+      }
+    },
+    "components": {
+      "minecraft:block_light_absorption": 0,
+      "minecraft:destroy_time": 0.2,
+      "minecraft:explosion_resistance": 1.0,
+      "minecraft:map_color": "#ffffff",
+      "minecraft:flammable": {
+        "burn_odds": 0,
+        "flame_odds": 0
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "const:black_planks",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:on_player_placing": {
+        "condition": "query.target_y_rotation <= 90",
+        "event": "close_z"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('const:fence_block') == 'close_z'",
+        "components": {
+          "minecraft:unwalkable": true,
+          "minecraft:on_interact": {
+            "event": "open_z"
+          },
+          "minecraft:pick_collision": {
+            "origin": [
+              -8, 0, -2
+            ],
+            "size": [
+              16, 16, 4
+            ]
+          },
+          "minecraft:entity_collision": {
+            "origin": [
+              -8, 0, -2
+            ],
+            "size": [
+              16, 16, 4
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('const:fence_block') == 'close_x'",
+        "components": {
+          "minecraft:unwalkable": true,
+          "minecraft:rotation": [ 0, 90, 0 ],
+          "minecraft:on_interact": {
+            "event": "open_x"
+          },
+          "minecraft:pick_collision": {
+            "origin": [
+              -8, 0, -2
+            ],
+            "size": [
+              16, 16, 4
+            ]
+          },
+          "minecraft:entity_collision": {
+            "origin": [
+              -8, 0, -2
+            ],
+            "size": [
+              16, 16, 4
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('const:fence_block') == 'open_z'",
+        "components": {
+          "minecraft:geometry": "geometry.fence_gate_open",
+          "minecraft:entity_collision": false,
+          "minecraft:on_interact": {
+            "event": "close_z"
+          },
+          "minecraft:pick_collision": {
+            "origin": [
+              -8, 0, -2
+            ],
+            "size": [
+              16, 16, 4
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('const:fence_block') == 'open_x'",
+        "components": {
+          "minecraft:geometry": "geometry.fence_gate_open",
+          "minecraft:entity_collision": false,
+          "minecraft:rotation": [ 0, 90, 0 ],
+          "minecraft:on_interact": {
+            "event": "close_x"
+          },
+          "minecraft:pick_collision": {
+            "origin": [
+              -8, 0, -2
+            ],
+            "size": [
+              16, 16, 4
+            ]
+          }
+        }
+      }
+    ],
+    "events": {
+      "close_z": {
+        "set_block_property": {
+            "const:fence_block": "'close_z'"
+        }
+      },
+      "close_x": {
+        "set_block_property": {
+            "const:fence_block": "'close_x'"
+        }
+      },
+      "open_z": {
+        "set_block_property": {
+            "const:fence_block": "'open_z'"
+        }
+      },
+      "open_x": {
+        "set_block_property": {
+            "const:fence_block": "'open_x'"
+        }
+      }
+    }
+  }
+}

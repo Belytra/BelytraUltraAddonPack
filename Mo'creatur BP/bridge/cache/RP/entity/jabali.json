@@ -1,0 +1,382 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Mo'creatures bedrock §a[RP]\\entity\\jabali.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "4e9da748_ab02_4870_9f36_ed16cc600a58",
+	"file_version": 18,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mocreatures:boar",
+							"min_engine_version": "1.8.0",
+							"materials": {
+								"default": "armor_stand"
+							},
+							"textures": {
+								"default": "textures/entity/boara",
+								"baby": "textures/entity/boarb"
+							},
+							"animations": {
+								"look_at_target": "animation.common.look_at_target",
+								"walk": "animation.quadruped.walk"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"walk": "query.modified_move_speed"
+									},
+									"look_at_target"
+								]
+							},
+							"geometry": {
+								"default": "geometry.boar"
+							},
+							"render_controllers": [
+								"controller.render.jabali"
+							],
+							"spawn_egg": {
+								"texture": "boar_spawn_egg",
+								"texture_index": 0
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:boar",
+								"min_engine_version": "1.8.0",
+								"materials": {
+									"default": "armor_stand"
+								},
+								"textures": {
+									"default": "textures/entity/boara",
+									"baby": "textures/entity/boarb"
+								},
+								"animations": {
+									"look_at_target": "animation.common.look_at_target",
+									"walk": "animation.quadruped.walk"
+								},
+								"scripts": {
+									"animate": [
+										{
+											"walk": "query.modified_move_speed"
+										},
+										"look_at_target"
+									]
+								},
+								"geometry": {
+									"default": "geometry.boar"
+								},
+								"render_controllers": [
+									"controller.render.jabali"
+								],
+								"spawn_egg": {
+									"texture": "boar_spawn_egg",
+									"texture_index": 0
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "mocreatures:boar",
+								"key": "identifier"
+							},
+							{
+								"data": "1.8.0",
+								"key": "min_engine_version"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "armor_stand"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mocreatures:boar",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "armor_stand"
+									},
+									"textures": {
+										"default": "textures/entity/boara",
+										"baby": "textures/entity/boarb"
+									},
+									"animations": {
+										"look_at_target": "animation.common.look_at_target",
+										"walk": "animation.quadruped.walk"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											"look_at_target"
+										]
+									},
+									"geometry": {
+										"default": "geometry.boar"
+									},
+									"render_controllers": [
+										"controller.render.jabali"
+									],
+									"spawn_egg": {
+										"texture": "boar_spawn_egg",
+										"texture_index": 0
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/boara",
+									"baby": "textures/entity/boarb"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mocreatures:boar",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "armor_stand"
+									},
+									"textures": {
+										"default": "textures/entity/boara",
+										"baby": "textures/entity/boarb"
+									},
+									"animations": {
+										"look_at_target": "animation.common.look_at_target",
+										"walk": "animation.quadruped.walk"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											"look_at_target"
+										]
+									},
+									"geometry": {
+										"default": "geometry.boar"
+									},
+									"render_controllers": [
+										"controller.render.jabali"
+									],
+									"spawn_egg": {
+										"texture": "boar_spawn_egg",
+										"texture_index": 0
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"look_at_target": "animation.common.look_at_target",
+									"walk": "animation.quadruped.walk"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mocreatures:boar",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "armor_stand"
+									},
+									"textures": {
+										"default": "textures/entity/boara",
+										"baby": "textures/entity/boarb"
+									},
+									"animations": {
+										"look_at_target": "animation.common.look_at_target",
+										"walk": "animation.quadruped.walk"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											"look_at_target"
+										]
+									},
+									"geometry": {
+										"default": "geometry.boar"
+									},
+									"render_controllers": [
+										"controller.render.jabali"
+									],
+									"spawn_egg": {
+										"texture": "boar_spawn_egg",
+										"texture_index": 0
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												{
+													"walk": "query.modified_move_speed"
+												},
+												"look_at_target"
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"open": [
+													{
+														"walk": "query.modified_move_speed"
+													},
+													"look_at_target"
+												],
+												"is_minified": true,
+												"children": {
+													"walk": "query.modified_move_speed"
+												}
+											},
+											{
+												"data": "look_at_target"
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "mocreatures:boar",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "armor_stand"
+									},
+									"textures": {
+										"default": "textures/entity/boara",
+										"baby": "textures/entity/boarb"
+									},
+									"animations": {
+										"look_at_target": "animation.common.look_at_target",
+										"walk": "animation.quadruped.walk"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											"look_at_target"
+										]
+									},
+									"geometry": {
+										"default": "geometry.boar"
+									},
+									"render_controllers": [
+										"controller.render.jabali"
+									],
+									"spawn_egg": {
+										"texture": "boar_spawn_egg",
+										"texture_index": 0
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.boar"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mocreatures:boar",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "armor_stand"
+									},
+									"textures": {
+										"default": "textures/entity/boara",
+										"baby": "textures/entity/boarb"
+									},
+									"animations": {
+										"look_at_target": "animation.common.look_at_target",
+										"walk": "animation.quadruped.walk"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											"look_at_target"
+										]
+									},
+									"geometry": {
+										"default": "geometry.boar"
+									},
+									"render_controllers": [
+										"controller.render.jabali"
+									],
+									"spawn_egg": {
+										"texture": "boar_spawn_egg",
+										"texture_index": 0
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.jabali"
+								]
+							},
+							{
+								"open": {
+									"identifier": "mocreatures:boar",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "armor_stand"
+									},
+									"textures": {
+										"default": "textures/entity/boara",
+										"baby": "textures/entity/boarb"
+									},
+									"animations": {
+										"look_at_target": "animation.common.look_at_target",
+										"walk": "animation.quadruped.walk"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"walk": "query.modified_move_speed"
+											},
+											"look_at_target"
+										]
+									},
+									"geometry": {
+										"default": "geometry.boar"
+									},
+									"render_controllers": [
+										"controller.render.jabali"
+									],
+									"spawn_egg": {
+										"texture": "boar_spawn_egg",
+										"texture_index": 0
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "boar_spawn_egg",
+									"texture_index": 0
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

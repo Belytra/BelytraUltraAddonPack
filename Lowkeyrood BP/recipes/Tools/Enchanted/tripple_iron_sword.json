@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "base:tripple_iron_sword"
+      },
+      "tags": [
+        "advanced_weapon_crafter"
+      ],
+      "pattern": [
+        " a ",
+        "aba",
+        " c "
+      ],
+      "key": {
+        "a": {
+          "item": "base:iron_blade"
+        },
+        "b": {
+          "item": "minecraft:iron_ingot"
+        },
+        "c": {
+          "item": "base:wood_handle"
+        }
+      },
+      "result": {
+        "item": "base:tripple_iron_sword",
+        "data": 0,
+        "count": 1
+      }
+    }
+  }

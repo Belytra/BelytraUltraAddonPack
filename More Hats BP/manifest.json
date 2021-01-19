@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "More §9Hats§r",
+        "description": "Adds hats to Minecraft Bedrock Edition!\nThese hats are intended to be collectables to encourage players to find new cool hats!\nBy MACHINE_BUILDER on §4YouTube §r\nyoutube.com/machinebuilder/",
+        "uuid": "00c7b82b-de44-462c-974f-9fd5b05d898f",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            16,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "b42b72b6-aed3-47e0-99b3-1bc093b4313f",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "f7b394d4-b1df-4414-8374-d5264a6cc94d",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

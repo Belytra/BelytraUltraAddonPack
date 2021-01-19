@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:diamond_blade"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      " a ",
+      " a ",
+      "   "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "base:diamond_blade",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

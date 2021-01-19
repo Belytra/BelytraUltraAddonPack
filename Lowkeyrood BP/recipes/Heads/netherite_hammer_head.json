@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:netherite_hammer_head"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      " a ",
+      " b ",
+      "   "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "b": {
+        "item": "base:diamond_hammer_head"
+      },
+      "c": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "result": {
+      "item": "base:netherite_hammer_head",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,574 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\blocks\\chairs\\birch_chair.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "0281d8f5_6307_4f9c_aeee_655343d9f36b",
+	"file_version": 22,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "dbc:birch_chair",
+							"properties": {
+								"dbc:facing": [
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								]
+							}
+						},
+						"components": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:geometry": "geometry.chair",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "birch_planks",
+									"render_method": "blend"
+								}
+							},
+							"minecraft:on_player_placing": {
+								"event": "dbc:facing"
+							},
+							"minecraft:loot": "loot_tables/blocks/chairs/birch_chair.json",
+							"minecraft:entity_collision": {
+								"origin": [
+									-6,
+									0,
+									-6
+								],
+								"size": [
+									12,
+									16,
+									12
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-6,
+									0,
+									-6
+								],
+								"size": [
+									12,
+									16,
+									12
+								]
+							},
+							"minecraft:on_interact": {
+								"event": "dbc:sit",
+								"target": "self"
+							},
+							"minecraft:on_placed": {
+								"event": "dbc:summon",
+								"target": "self"
+							}
+						},
+						"permutations": [
+							{
+								"condition": "query.block_property('dbc:facing') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 4",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 5",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										-90,
+										0
+									]
+								}
+							}
+						],
+						"events": {
+							"dbc:facing": {
+								"set_block_property": {
+									"dbc:facing": "query.cardinal_facing_2d"
+								}
+							},
+							"dbc:summon": {
+								"sequence": [
+									{
+										"condition": "query.block_property('dbc:facing') == 2",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~1"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:facing') == 3",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~-1"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:facing') == 4",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~1 ~ ~"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:facing') == 5",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~-1 ~ ~"
+											]
+										}
+									}
+								]
+							},
+							"dbc:sit": {
+								"sequence": [
+									{
+										"run_command": {
+											"command": [
+												"tag @s add preparacion"
+											],
+											"target": "other"
+										}
+									},
+									{
+										"run_command": {
+											"command": [
+												"execute @e[type=dbc:sit,r=0.01] ~ ~ ~ ride @p[tag=preparacion] start_riding @s teleport_rider"
+											]
+										}
+									},
+									{
+										"run_command": {
+											"command": [
+												"tag @s remove preparacion"
+											],
+											"target": "other"
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:birch_chair",
+							"properties": {
+								"dbc:facing": [
+									0,
+									1,
+									2,
+									3,
+									4,
+									5,
+									6
+								]
+							}
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:birch_chair",
+								"properties": {
+									"dbc:facing": [
+										0,
+										1,
+										2,
+										3,
+										4,
+										5,
+										6
+									]
+								}
+							},
+							"components": {
+								"minecraft:destroy_time": 0.5,
+								"minecraft:block_light_absorption": 0,
+								"minecraft:geometry": "geometry.chair",
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "birch_planks",
+										"render_method": "blend"
+									}
+								},
+								"minecraft:on_player_placing": {
+									"event": "dbc:facing"
+								},
+								"minecraft:loot": "loot_tables/blocks/chairs/birch_chair.json",
+								"minecraft:entity_collision": {
+									"origin": [
+										-6,
+										0,
+										-6
+									],
+									"size": [
+										12,
+										16,
+										12
+									]
+								},
+								"minecraft:pick_collision": {
+									"origin": [
+										-6,
+										0,
+										-6
+									],
+									"size": [
+										12,
+										16,
+										12
+									]
+								},
+								"minecraft:on_interact": {
+									"event": "dbc:sit",
+									"target": "self"
+								},
+								"minecraft:on_placed": {
+									"event": "dbc:summon",
+									"target": "self"
+								}
+							},
+							"permutations": [
+								{
+									"condition": "query.block_property('dbc:facing') == 2",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											0,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 3",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											180,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 4",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											90,
+											0
+										]
+									}
+								},
+								{
+									"condition": "query.block_property('dbc:facing') == 5",
+									"components": {
+										"minecraft:rotation": [
+											0,
+											-90,
+											0
+										]
+									}
+								}
+							],
+							"events": {
+								"dbc:facing": {
+									"set_block_property": {
+										"dbc:facing": "query.cardinal_facing_2d"
+									}
+								},
+								"dbc:summon": {
+									"sequence": [
+										{
+											"condition": "query.block_property('dbc:facing') == 2",
+											"run_command": {
+												"command": [
+													"summon dbc:sit ~ ~ ~",
+													"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~1"
+												]
+											}
+										},
+										{
+											"condition": "query.block_property('dbc:facing') == 3",
+											"run_command": {
+												"command": [
+													"summon dbc:sit ~ ~ ~",
+													"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~-1"
+												]
+											}
+										},
+										{
+											"condition": "query.block_property('dbc:facing') == 4",
+											"run_command": {
+												"command": [
+													"summon dbc:sit ~ ~ ~",
+													"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~1 ~ ~"
+												]
+											}
+										},
+										{
+											"condition": "query.block_property('dbc:facing') == 5",
+											"run_command": {
+												"command": [
+													"summon dbc:sit ~ ~ ~",
+													"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~-1 ~ ~"
+												]
+											}
+										}
+									]
+								},
+								"dbc:sit": {
+									"sequence": [
+										{
+											"run_command": {
+												"command": [
+													"tag @s add preparacion"
+												],
+												"target": "other"
+											}
+										},
+										{
+											"run_command": {
+												"command": [
+													"execute @e[type=dbc:sit,r=0.01] ~ ~ ~ ride @p[tag=preparacion] start_riding @s teleport_rider"
+												]
+											}
+										},
+										{
+											"run_command": {
+												"command": [
+													"tag @s remove preparacion"
+												],
+												"target": "other"
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:destroy_time": 0.5,
+							"minecraft:block_light_absorption": 0,
+							"minecraft:geometry": "geometry.chair",
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "birch_planks",
+									"render_method": "blend"
+								}
+							},
+							"minecraft:on_player_placing": {
+								"event": "dbc:facing"
+							},
+							"minecraft:loot": "loot_tables/blocks/chairs/birch_chair.json",
+							"minecraft:entity_collision": {
+								"origin": [
+									-6,
+									0,
+									-6
+								],
+								"size": [
+									12,
+									16,
+									12
+								]
+							},
+							"minecraft:pick_collision": {
+								"origin": [
+									-6,
+									0,
+									-6
+								],
+								"size": [
+									12,
+									16,
+									12
+								]
+							},
+							"minecraft:on_interact": {
+								"event": "dbc:sit",
+								"target": "self"
+							},
+							"minecraft:on_placed": {
+								"event": "dbc:summon",
+								"target": "self"
+							}
+						}
+					},
+					{
+						"key": "permutations",
+						"is_minified": true,
+						"children": [
+							{
+								"condition": "query.block_property('dbc:facing') == 2",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										0,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 3",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										180,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 4",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										90,
+										0
+									]
+								}
+							},
+							{
+								"condition": "query.block_property('dbc:facing') == 5",
+								"components": {
+									"minecraft:rotation": [
+										0,
+										-90,
+										0
+									]
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {
+							"dbc:facing": {
+								"set_block_property": {
+									"dbc:facing": "query.cardinal_facing_2d"
+								}
+							},
+							"dbc:summon": {
+								"sequence": [
+									{
+										"condition": "query.block_property('dbc:facing') == 2",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~1"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:facing') == 3",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~-1"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:facing') == 4",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~1 ~ ~"
+											]
+										}
+									},
+									{
+										"condition": "query.block_property('dbc:facing') == 5",
+										"run_command": {
+											"command": [
+												"summon dbc:sit ~ ~ ~",
+												"execute @e[type=dbc:sit,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~-1 ~ ~"
+											]
+										}
+									}
+								]
+							},
+							"dbc:sit": {
+								"sequence": [
+									{
+										"run_command": {
+											"command": [
+												"tag @s add preparacion"
+											],
+											"target": "other"
+										}
+									},
+									{
+										"run_command": {
+											"command": [
+												"execute @e[type=dbc:sit,r=0.01] ~ ~ ~ ride @p[tag=preparacion] start_riding @s teleport_rider"
+											]
+										}
+									},
+									{
+										"run_command": {
+											"command": [
+												"tag @s remove preparacion"
+											],
+											"target": "other"
+										}
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

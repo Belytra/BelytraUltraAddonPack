@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+      "controller.animation.bely_box.default" : {
+        "initial_state" : "default",
+			"states": {
+				"default": {
+				"animations" : [ "stop" ],
+				  "transitions": [
+						{ 
+							"sofacopter": "query.is_transforming" 
+					  }
+				  ]
+				},
+				"sofacopter": {
+				  "animations": [
+					"sofacopter"
+				  ],
+					  "transitions": [
+							{ 
+								"default": "!query.is_transforming"
+						  }
+					  ]
+					}
+			  }
+    	}
+	}
+}

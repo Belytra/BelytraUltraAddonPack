@@ -1,0 +1,39 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+       "description": {
+          "identifier": "base:pulverizer",
+          "register_to_creative_menu": true
+       },
+       "components": {
+         "minecraft:material_instances": {
+            "*": {
+               "texture": "upgrade_table",
+               "render_method": "alpha_test"
+            }
+         },
+         "minecraft:pick_collision": {
+             "origin":  [-8, 0, -8],
+             "size":    [16, 16, 16]
+         },
+         "minecraft:geometry": "geometry.upgradetable",
+          "minecraft:destroy_time": 1,
+          "minecraft:block_light_absorption": 0,
+          "minecraft:on_interact": {
+             "target": "other",
+             "event": "base:fill",
+             "condition": "query.get_equipped_item_name == 'diamond'"
+          }
+       },
+       "events": {
+        "base:fill": {
+           "spawn_loot": {
+              "table": "loot_tables/entities/pulveriserloot.json"
+           },
+           "decrement_stack": {
+           }
+        }
+     },
+     "minecraft:loot": "loot_tables/entities/pulverizer.json"
+  }
+}

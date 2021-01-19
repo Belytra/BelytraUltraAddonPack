@@ -1,0 +1,25 @@
+//bridge-file-version: #11
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:frost_scorpion_leggings"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"X X",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "mocreatures:frost_chitin"
+			}
+		},
+		"result": {
+			"item": "mocreatures:frost_scorpion_leggings"
+		}
+	}
+}

@@ -1,0 +1,94 @@
+//bridge-file-version: #28
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "dbc:container",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"dbc:f": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 0.2
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:inventory": {
+				"container_type": "container",
+				"inventory_size": 27
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "dbc:kitchen_cabinet"
+						},
+						"exited_block_event": {
+							"event": "dbc:kill",
+							"target": "self"
+						}
+					},
+					{
+						"block": {
+							"name": "dbc:kitchen_drawer"
+						},
+						"exited_block_event": {
+							"event": "dbc:kill",
+							"target": "self"
+						}
+					},
+					{
+						"block": {
+							"name": "minecraft:barrier"
+						},
+						"exited_block_event": {
+							"event": "dbc:kill",
+							"target": "self"
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"run_command": {
+					"command": [
+						"tp @s ~ ~ ~ facing @p"
+					]
+				}
+			},
+			"dbc:kill": {
+				"run_command": {
+					"command": [
+						"kill @s"
+					]
+				}
+			}
+		}
+	}
+}

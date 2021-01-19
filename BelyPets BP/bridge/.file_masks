@@ -1,0 +1,17 @@
+{
+	"BP/animations/counter.json": {
+		"data": {}
+	},
+	"RP/render_controllers/pets.json": {
+		"data": {}
+	},
+	"RP/entity/pet.json": {
+		"data": {}
+	},
+	"BP/entities/pet.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/pets.json": {
+		"data": {}
+	}
+}

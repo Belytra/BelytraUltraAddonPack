@@ -1,0 +1,172 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\items\\carne_de_pavo_cocinada.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "b4f15124_1385_4c61_bd2b_76221ee923cf",
+	"file_version": 60,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mocreatures:cooked_turkey",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64,
+							"minecraft:use_duration": 1.6,
+							"minecraft:food": {
+								"nutrition": 8,
+								"saturation_modifier": "good"
+							},
+							"minecraft:icon": {
+								"texture": "carne_de_pavo_cocinada"
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:render_offsets": "apple",
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.cookedFood"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:cooked_turkey",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:use_duration": 1.6,
+								"minecraft:food": {
+									"nutrition": 8,
+									"saturation_modifier": "good"
+								},
+								"minecraft:icon": {
+									"texture": "carne_de_pavo_cocinada"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "apple",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.cookedFood"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mocreatures:cooked_turkey",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:cooked_turkey",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:use_duration": 1.6,
+								"minecraft:food": {
+									"nutrition": 8,
+									"saturation_modifier": "good"
+								},
+								"minecraft:icon": {
+									"texture": "carne_de_pavo_cocinada"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "apple",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.cookedFood"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:use_duration": 1.6,
+									"minecraft:food": {
+										"nutrition": 8,
+										"saturation_modifier": "good"
+									},
+									"minecraft:icon": {
+										"texture": "carne_de_pavo_cocinada"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:render_offsets": "apple",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.cookedFood"
+									}
+								},
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 8,
+									"saturation_modifier": "good"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:use_duration": 1.6,
+									"minecraft:food": {
+										"nutrition": 8,
+										"saturation_modifier": "good"
+									},
+									"minecraft:icon": {
+										"texture": "carne_de_pavo_cocinada"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:render_offsets": "apple",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.cookedFood"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "carne_de_pavo_cocinada"
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"data": "apple",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.cookedFood"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

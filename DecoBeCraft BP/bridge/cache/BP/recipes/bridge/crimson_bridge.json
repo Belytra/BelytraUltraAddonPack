@@ -1,0 +1,254 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\recipes\\bridge\\crimson_bridge.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "fdf8a143_e9e7_4698_b1b3_3ef1c514e324",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:crimson_bridge"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"~ ~",
+							"###"
+						],
+						"key": {
+							"~": {
+								"item": "minecraft:stick",
+								"data": 0
+							},
+							"#": {
+								"item": "crimson_planks",
+								"data": 0
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:crimson_bridge",
+								"data": 0,
+								"count": 4
+							}
+						]
+					}
+				},
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:crimson_bridge"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"~ ~",
+							"###"
+						],
+						"key": {
+							"~": {
+								"item": "minecraft:stick",
+								"data": 0
+							},
+							"#": {
+								"item": "crimson_planks",
+								"data": 0
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:crimson_bridge",
+								"data": 0,
+								"count": 4
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:crimson_bridge"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:stick",
+									"data": 0
+								},
+								"#": {
+									"item": "crimson_planks",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:crimson_bridge",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:crimson_bridge"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"~ ~",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:crimson_bridge"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:stick",
+									"data": 0
+								},
+								"#": {
+									"item": "crimson_planks",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:crimson_bridge",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:stick",
+										"data": 0
+									},
+									"#": {
+										"item": "crimson_planks",
+										"data": 0
+									}
+								},
+								"key": "~",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stick",
+									"data": 0
+								}
+							},
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:stick",
+										"data": 0
+									},
+									"#": {
+										"item": "crimson_planks",
+										"data": 0
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "crimson_planks",
+									"data": 0
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:crimson_bridge"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:stick",
+									"data": 0
+								},
+								"#": {
+									"item": "crimson_planks",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:crimson_bridge",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "dbc:crimson_bridge",
+										"data": 0,
+										"count": 4
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "dbc:crimson_bridge",
+									"data": 0,
+									"count": 4
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

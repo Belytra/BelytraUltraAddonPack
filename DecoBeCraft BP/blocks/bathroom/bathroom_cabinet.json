@@ -1,0 +1,117 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:bathroom_cabinet",
+			"properties": {
+				"dbc:facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:geometry": "geometry.bathroom_cabinet_dbc",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "kitchen_counter",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:on_player_placing": {
+				"event": "dbc:facing"
+			},
+			"minecraft:on_placed": {
+				"event": "dbc:container",
+				"target": "self"
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-7,
+					1,
+					-8
+				],
+				"size": [
+					14,
+					14,
+					8
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-7,
+					1,
+					-8
+				],
+				"size": [
+					14,
+					14,
+					8
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						-90,
+						0
+					]
+				}
+			}
+		],
+		"events": {
+			"dbc:facing": {
+				"set_block_property": {
+					"dbc:facing": "query.cardinal_facing_2d"
+				}
+			},
+			"dbc:container": {
+				"run_command": {
+					"command": [
+						"summon dbc:container ~ ~ ~"
+					]
+				}
+			}
+		}
+	}
+}

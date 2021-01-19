@@ -1,0 +1,40 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "base:super_furnace_molten",
+            "register_to_creative_menu": true
+        },
+        "components": {
+            "minecraft:destroy_time": 3,
+            "minecraft:explosion_resistance": 3,
+            "minecraft:block_light_absorption": 0,
+            "minecraft:loot": "loot_tables/entities/superfurnacemolten.json",
+            "minecraft:ticking": {
+                "looping": true,
+                "range": [
+                    10,
+                    11
+                ],
+                "on_tick": {
+                    "event": "base:fill",
+                    "target": "self"
+                }
+            }
+        },
+        "events": {
+            "base:fill": {
+                "set_block": {
+                    "block_type": "base:super_furnace_molten_done"
+                }
+            }
+        },
+        "base:tick": { 
+            "run_command": {
+              "command": [
+                  "particle minecraft:campfire_smoke_particle ~ ~ ~"
+              ]
+          }
+        }
+    }
+ }

@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:crafted_saddle2"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~",
+			"#"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:saddle"
+			},
+			"#": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "mocreatures:crafted_saddle",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

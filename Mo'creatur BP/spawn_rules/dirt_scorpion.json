@@ -1,0 +1,33 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "mocreatures:scorpion(cave)",
+			"population_control": "monster"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_underground": {},
+				"minecraft:brightness_filter": {
+					"min": 0,
+					"max": 7,
+					"adjust_for_weather": true
+				},
+				"minecraft:difficulty_filter": {
+					"min": "easy",
+					"max": "hard"
+				},
+				"minecraft:weight": {
+					"default": 50
+				},
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "monster"
+				},
+				"minecraft:spawns_on_surface": {}
+			}
+		]
+	}
+}

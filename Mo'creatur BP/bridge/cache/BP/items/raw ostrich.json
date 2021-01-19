@@ -1,0 +1,327 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\items\\raw ostrich.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "945e8840_bba9_4698_af38_ef1c23c3e29e",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mocreatures:raw_ostrich",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:use_duration": 1.6,
+							"minecraft:food": {
+								"nutrition": 2,
+								"saturation_modifier": "low",
+								"on_consume": {
+									"event": "consumed",
+									"target": "self"
+								}
+							},
+							"minecraft:icon": {
+								"texture": "raw_ostrich"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.rawFood"
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:render_offsets": "apple"
+						},
+						"events": {
+							"consumed": {
+								"randomize": [
+									{
+										"weight": 3,
+										"add_mob_effect": {
+											"effect": "hunger",
+											"duration": 30,
+											"amplifier": 0,
+											"target": "holder"
+										}
+									},
+									{
+										"weight": 7
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:raw_ostrich",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:use_duration": 1.6,
+								"minecraft:food": {
+									"nutrition": 2,
+									"saturation_modifier": "low",
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "raw_ostrich"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.rawFood"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "apple"
+							},
+							"events": {
+								"consumed": {
+									"randomize": [
+										{
+											"weight": 3,
+											"add_mob_effect": {
+												"effect": "hunger",
+												"duration": 30,
+												"amplifier": 0,
+												"target": "holder"
+											}
+										},
+										{
+											"weight": 7
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mocreatures:raw_ostrich",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:raw_ostrich",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:use_duration": 1.6,
+								"minecraft:food": {
+									"nutrition": 2,
+									"saturation_modifier": "low",
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "raw_ostrich"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.rawFood"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "apple"
+							},
+							"events": {
+								"consumed": {
+									"randomize": [
+										{
+											"weight": 3,
+											"add_mob_effect": {
+												"effect": "hunger",
+												"duration": 30,
+												"amplifier": 0,
+												"target": "holder"
+											}
+										},
+										{
+											"weight": 7
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"open": {
+									"minecraft:use_duration": 1.6,
+									"minecraft:food": {
+										"nutrition": 2,
+										"saturation_modifier": "low",
+										"on_consume": {
+											"event": "consumed",
+											"target": "self"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "raw_ostrich"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.rawFood"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:render_offsets": "apple"
+								},
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 2,
+									"saturation_modifier": "low",
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								}
+							},
+							{
+								"open": {
+									"minecraft:use_duration": 1.6,
+									"minecraft:food": {
+										"nutrition": 2,
+										"saturation_modifier": "low",
+										"on_consume": {
+											"event": "consumed",
+											"target": "self"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "raw_ostrich"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.rawFood"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:render_offsets": "apple"
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "raw_ostrich"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.rawFood"
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"data": "apple",
+								"key": "minecraft:render_offsets"
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:raw_ostrich",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:use_duration": 1.6,
+								"minecraft:food": {
+									"nutrition": 2,
+									"saturation_modifier": "low",
+									"on_consume": {
+										"event": "consumed",
+										"target": "self"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "raw_ostrich"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.rawFood"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "apple"
+							},
+							"events": {
+								"consumed": {
+									"randomize": [
+										{
+											"weight": 3,
+											"add_mob_effect": {
+												"effect": "hunger",
+												"duration": 30,
+												"amplifier": 0,
+												"target": "holder"
+											}
+										},
+										{
+											"weight": 7
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"consumed": {
+										"randomize": [
+											{
+												"weight": 3,
+												"add_mob_effect": {
+													"effect": "hunger",
+													"duration": 30,
+													"amplifier": 0,
+													"target": "holder"
+												}
+											},
+											{
+												"weight": 7
+											}
+										]
+									}
+								},
+								"key": "consumed",
+								"is_minified": true,
+								"children": {
+									"randomize": [
+										{
+											"weight": 3,
+											"add_mob_effect": {
+												"effect": "hunger",
+												"duration": 30,
+												"amplifier": 0,
+												"target": "holder"
+											}
+										},
+										{
+											"weight": 7
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

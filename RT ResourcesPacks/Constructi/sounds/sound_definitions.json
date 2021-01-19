@@ -1,0 +1,26 @@
+{
+  "block.paper.break": {
+    "category": "block",
+    "sounds": [
+      "sounds/block/paper/break1"
+    ]
+  },
+  "block.paper.place": {
+    "category": "block",
+    "sounds": [
+        "sounds/block/paper/place1"
+    ]
+  },
+  "block.paper.step": {
+    "category": "block",
+    "sounds": [
+        "sounds/block/paper/step1"
+    ]
+  },
+  "block.paper.hit": {
+    "category": "block",
+    "sounds": [
+        "sounds/block/paper/hit1"
+    ]
+  }
+}

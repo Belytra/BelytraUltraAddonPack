@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "const:cutter/ew/emerald"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:emerald_block"
+			}
+		],
+		"result": [
+			{
+				"item": "const:beam_emerald_ew",
+				"count": 1
+			}
+		]
+	}
+}

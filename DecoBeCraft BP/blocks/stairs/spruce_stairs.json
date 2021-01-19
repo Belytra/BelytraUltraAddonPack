@@ -1,0 +1,129 @@
+//bridge-file-version: #26
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:log_spruce_stairs",
+			"properties": {
+				"dbc:facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:geometry": "geometry.stairs",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "log_spruce",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-7
+				],
+				"size": [
+					16,
+					8,
+					14
+				]
+			},
+			"minecraft:on_placed": {
+				"event": "dbc:magic",
+				"target": "self"
+			},
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [
+					1,
+					2
+				],
+				"on_tick": {
+					"event": "dbc:magic",
+					"target": "self"
+				}
+			},
+			"minecraft:on_player_destroyed": {
+				"event": "dbc:bad",
+				"target": "self"
+			},
+			"minecraft:on_player_placing": {
+				"event": "dbc:facing"
+			},
+			"minecraft:loot": "loot_tables/blocks/log_stairs/spruce_stairs.json"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						-90,
+						0
+					]
+				}
+			}
+		],
+		"events": {
+			"dbc:magic": {
+				"run_command": {
+					"command": [
+						"fill ~ ~-1 ~ ~ ~-1 ~ barrier 0 replace air"
+					]
+				}
+			},
+			"dbc:bad": {
+				"run_command": {
+					"command": [
+						"fill ~ ~-1 ~ ~ ~-1 ~ air 0 replace barrier"
+					]
+				}
+			},
+			"dbc:facing": {
+				"set_block_property": {
+					"dbc:facing": "query.cardinal_facing_2d"
+				}
+			}
+		}
+	}
+}

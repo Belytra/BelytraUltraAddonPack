@@ -1,0 +1,241 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\recipes\\bridge\\warped_bridge.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "5f214f46_223f_42e9_93bf_397fa72307e0",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:warped_bridge"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"~ ~",
+							"###"
+						],
+						"key": {
+							"~": {
+								"item": "minecraft:stick",
+								"data": 0
+							},
+							"#": {
+								"item": "warped_planks",
+								"data": 0
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:warped_bridge",
+								"data": 0,
+								"count": 4
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:warped_bridge"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:stick",
+									"data": 0
+								},
+								"#": {
+									"item": "warped_planks",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:warped_bridge",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:warped_bridge"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:warped_bridge"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:stick",
+									"data": 0
+								},
+								"#": {
+									"item": "warped_planks",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:warped_bridge",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"~ ~",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:warped_bridge"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:stick",
+									"data": 0
+								},
+								"#": {
+									"item": "warped_planks",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:warped_bridge",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"key": "~",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:stick",
+									"data": 0
+								}
+							},
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:stick",
+										"data": 0
+									},
+									"#": {
+										"item": "warped_planks",
+										"data": 0
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "warped_planks",
+									"data": 0
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:warped_bridge"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:stick",
+									"data": 0
+								},
+								"#": {
+									"item": "warped_planks",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:warped_bridge",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "dbc:warped_bridge",
+										"data": 0,
+										"count": 4
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "dbc:warped_bridge",
+									"data": 0,
+									"count": 4
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

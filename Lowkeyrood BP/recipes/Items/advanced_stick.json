@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:wood_handle"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      " a ",
+      "aba",
+      " a "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:leather"
+      },
+      "b": {
+        "item": "minecraft:stick"
+      },
+      "c": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "base:wood_handle",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

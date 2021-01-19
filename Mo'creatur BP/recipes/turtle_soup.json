@@ -1,0 +1,30 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:turtle_soup"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~#"
+		],
+		"key": {
+			"~": {
+				"item": "mocreatures:raw_turtle"
+			},
+			"#": {
+				"item": "minecraft:bowl"
+			}
+		},
+		"result": [
+			{
+				"item": "mocreatures:turtle_soup",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

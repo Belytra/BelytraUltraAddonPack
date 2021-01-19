@@ -1,0 +1,35 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:medallion1"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~ ~",
+			"#!#",
+			" # "
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:leather"
+			},
+			"#": {
+				"item": "minecraft:gold_ingot"
+			},
+			"!": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"result": [
+			{
+				"item": "mocreatures:medallion",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

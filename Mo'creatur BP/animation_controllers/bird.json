@@ -1,0 +1,20 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.bird": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"default": "query.has_rider"
+						}
+					],
+					"on_entry": [
+						"/tp @s ~ ~ ~1"
+					]
+				}
+			}
+		}
+	}
+}

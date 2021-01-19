@@ -1,0 +1,93 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\recipes\\pavo_cocinado.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "04ef45e6_d7dd_4568_a909_17525ca2794b",
+	"file_version": 18,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_furnace": {
+						"description": {
+							"identifier": "pavo_cocinado"
+						},
+						"tags": [
+							"furnace",
+							"smoker"
+						],
+						"input": "mocreatures:raw_turkey",
+						"output": "mocreatures:cooked_turkey"
+					}
+				},
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_furnace": {
+						"description": {
+							"identifier": "pavo_cocinado"
+						},
+						"tags": [
+							"furnace",
+							"smoker"
+						],
+						"input": "mocreatures:raw_turkey",
+						"output": "mocreatures:cooked_turkey"
+					}
+				},
+				"key": "minecraft:recipe_furnace",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "pavo_cocinado"
+							},
+							"tags": [
+								"furnace",
+								"smoker"
+							],
+							"input": "mocreatures:raw_turkey",
+							"output": "mocreatures:cooked_turkey"
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "pavo_cocinado"
+						}
+					},
+					{
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"furnace",
+							"smoker"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "pavo_cocinado"
+							},
+							"tags": [
+								"furnace",
+								"smoker"
+							],
+							"input": "mocreatures:raw_turkey",
+							"output": "mocreatures:cooked_turkey"
+						},
+						"data": "mocreatures:raw_turkey",
+						"key": "input"
+					},
+					{
+						"data": "mocreatures:cooked_turkey",
+						"key": "output"
+					}
+				]
+			}
+		]
+	}
+}

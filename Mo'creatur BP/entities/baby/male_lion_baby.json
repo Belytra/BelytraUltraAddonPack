@@ -1,0 +1,69 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mocreatures:male_lion_baby",
+			"is_spawnable": false,
+			"is_summonable": false,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"transformation": {
+				"minecraft:transformation": {
+					"into": "mocreatures:male_lion",
+					"delay": {
+						"value": 0.25
+					}
+				}
+			},
+			"transformation_white": {
+				"minecraft:transformation": {
+					"into": "mocreatures:male_lion",
+					"delay": {
+						"value": 0.25
+					}
+				},
+				"minecraft:variant": {
+					"value": 1
+				}
+			}
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			}
+		},
+		"events": {
+			"minecraft:entity_born": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "has_component",
+							"subject": "other",
+							"value": "minecraft:variant",
+							"operator": "=="
+						},
+						"add": {
+							"component_groups": [
+								"transformation_white"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"transformation"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

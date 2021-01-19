@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "const:craft/item/emerald2"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "const:nugget_emerald"
+      }
+    },
+    "result": [
+      { "item": "minecraft:emerald" }
+    ]
+  }
+}

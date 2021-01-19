@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "base:cindite_katana"
+      },
+      "tags": [
+        "advanced_weapon_crafter"
+      ],
+      "pattern": [
+        "  a",
+        " b ",
+        "c  "
+      ],
+      "key": {
+        "a": {
+          "item": "base:cindite_blade"
+        },
+        "b": {
+          "item": "base:cindite_ingot"
+        },
+        "c": {
+          "item": "base:titanium_handle"
+        }
+      },
+      "result": {
+        "item": "base:cindite_katana",
+        "data": 0,
+        "count": 1
+      }
+    }
+  }

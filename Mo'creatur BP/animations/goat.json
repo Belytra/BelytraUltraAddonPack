@@ -1,0 +1,15 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.goat": {
+			"timeline": {
+				"2.0": [
+					"/kill @e[type=item,r=2]"
+				]
+			},
+			"animation_length": 4,
+			"loop": true
+		}
+	}
+}

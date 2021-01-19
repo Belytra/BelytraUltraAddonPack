@@ -1,0 +1,119 @@
+//bridge-file-version: #23
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:kitchen_sink",
+			"properties": {
+				"dbc:facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				],
+				"dbc:interact": [
+					0,
+					1
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:geometry": "geometry.ksi",
+			"minecraft:on_player_placing": {
+				"event": "dbc:facing"
+			},
+			"minecraft:loot": "loot_tables/blocks/kitchen/kitchen_sink.json"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						-90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:interact') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "kitchen_sink",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "dbc:water",
+						"target": "self",
+						"condition": "query.get_equipped_item_name('main_hand') == 'water_bucket'"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:interact') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "kitchen_sink_water",
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			}
+		],
+		"events": {
+			"dbc:facing": {
+				"set_block_property": {
+					"dbc:facing": "query.cardinal_facing_2d"
+				}
+			},
+			"dbc:water": {
+				"set_block_property": {
+					"dbc:interact": 1
+				},
+				"run_command": {
+					"command": [
+						"playsound cauldron.fillwater @a ~ ~ ~"
+					]
+				}
+			}
+		}
+	}
+}

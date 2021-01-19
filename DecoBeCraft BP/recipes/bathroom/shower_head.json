@@ -1,0 +1,31 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:shower_head"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~",
+			" #"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:concrete",
+				"data": 7
+			},
+			"#": {
+				"item": "minecraft:concrete",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:shower_head"
+			}
+		]
+	}
+}

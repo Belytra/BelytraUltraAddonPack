@@ -1,0 +1,267 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\spawn_rules\\deer.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "c03e1325_5174_43e9_a6cb_740f06bb8b3b",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "mocreatures:deer",
+							"population_control": "animal"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_on_surface": {},
+								"minecraft:spawns_on_block_filter": "minecraft:grass",
+								"minecraft:brightness_filter": {
+									"min": 9,
+									"max": 15,
+									"adjust_for_weather": false
+								},
+								"minecraft:weight": {
+									"default": 10
+								},
+								"minecraft:herd": {
+									"min_size": 2,
+									"max_size": 4
+								},
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "plains"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "forest"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:deer",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:spawns_on_block_filter": "minecraft:grass",
+									"minecraft:brightness_filter": {
+										"min": 9,
+										"max": 15,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 10
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 4
+									},
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "plains"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "forest"
+											}
+										]
+									}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mocreatures:deer",
+							"population_control": "animal"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:deer",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:spawns_on_block_filter": "minecraft:grass",
+									"minecraft:brightness_filter": {
+										"min": 9,
+										"max": 15,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 10
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 4
+									},
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "plains"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "forest"
+											}
+										]
+									}
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:spawns_on_surface": {},
+										"minecraft:spawns_on_block_filter": "minecraft:grass",
+										"minecraft:brightness_filter": {
+											"min": 9,
+											"max": 15,
+											"adjust_for_weather": false
+										},
+										"minecraft:weight": {
+											"default": 10
+										},
+										"minecraft:herd": {
+											"min_size": 2,
+											"max_size": 4
+										},
+										"minecraft:biome_filter": {
+											"any_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "plains"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "forest"
+												}
+											]
+										}
+									}
+								],
+								"children": [
+									{
+										"key": "minecraft:spawns_on_surface",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"data": "minecraft:grass",
+										"key": "minecraft:spawns_on_block_filter"
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:spawns_on_block_filter": "minecraft:grass",
+											"minecraft:brightness_filter": {
+												"min": 9,
+												"max": 15,
+												"adjust_for_weather": false
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 4
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "plains"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "forest"
+													}
+												]
+											}
+										},
+										"key": "minecraft:brightness_filter",
+										"is_minified": true,
+										"children": {
+											"min": 9,
+											"max": 15,
+											"adjust_for_weather": false
+										}
+									},
+									{
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 10
+										}
+									},
+									{
+										"key": "minecraft:herd",
+										"is_minified": true,
+										"children": {
+											"min_size": 2,
+											"max_size": 4
+										}
+									},
+									{
+										"key": "minecraft:biome_filter",
+										"is_minified": true,
+										"children": {
+											"any_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "plains"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "forest"
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+//bridge-file-version: #9
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:cave_scorpion_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			"XXX",
+			"XXX"
+		],
+		"key": {
+			"X": {
+				"item": "mocreatures:black_chitin"
+			}
+		},
+		"result": {
+			"item": "mocreatures:cave_scorpion_chestplate"
+		}
+	}
+}

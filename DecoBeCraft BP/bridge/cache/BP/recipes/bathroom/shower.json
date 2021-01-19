@@ -1,0 +1,271 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\recipes\\bathroom\\shower.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "6520b849_350b_4475_b095_92eb2fa64aa8",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "dbc:shower"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"~ ~",
+							"~ ~",
+							"###"
+						],
+						"key": {
+							"~": {
+								"item": "minecraft:glass",
+								"data": 0
+							},
+							"#": {
+								"item": "minecraft:concrete",
+								"data": 0
+							}
+						},
+						"result": [
+							{
+								"item": "dbc:shower"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:shower"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:glass",
+									"data": 0
+								},
+								"#": {
+									"item": "minecraft:concrete",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:shower"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "dbc:shower"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:shower"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:glass",
+									"data": 0
+								},
+								"#": {
+									"item": "minecraft:concrete",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:shower"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:shower"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:glass",
+									"data": 0
+								},
+								"#": {
+									"item": "minecraft:concrete",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:shower"
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"~ ~",
+							"~ ~",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:shower"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:glass",
+									"data": 0
+								},
+								"#": {
+									"item": "minecraft:concrete",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:shower"
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:glass",
+										"data": 0
+									},
+									"#": {
+										"item": "minecraft:concrete",
+										"data": 0
+									}
+								},
+								"key": "~",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:glass",
+									"data": 0
+								}
+							},
+							{
+								"open": {
+									"~": {
+										"item": "minecraft:glass",
+										"data": 0
+									},
+									"#": {
+										"item": "minecraft:concrete",
+										"data": 0
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:concrete",
+									"data": 0
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "dbc:shower"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"~ ~",
+								"~ ~",
+								"###"
+							],
+							"key": {
+								"~": {
+									"item": "minecraft:glass",
+									"data": 0
+								},
+								"#": {
+									"item": "minecraft:concrete",
+									"data": 0
+								}
+							},
+							"result": [
+								{
+									"item": "dbc:shower"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "dbc:shower"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "dbc:shower"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

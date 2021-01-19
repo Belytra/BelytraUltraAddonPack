@@ -1,0 +1,33 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:jungle_tvf"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"# #"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:log",
+				"data": 3
+			},
+			"#": {
+				"item": "minecraft:planks",
+				"data": 3
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:jungle_tv_furniture",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

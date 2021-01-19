@@ -1,0 +1,31 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:nether_scorpion_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~",
+			"~#"
+		],
+		"key": {
+			"~": {
+				"item": "mocreatures:nether_scorpion_sting"
+			},
+			"#": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"result": [
+			{
+				"item": "mocreatures:nether_scorpion_sword",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

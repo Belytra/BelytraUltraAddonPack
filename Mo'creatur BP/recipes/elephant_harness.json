@@ -1,0 +1,35 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:elephant_harness"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~#~",
+			"!#!",
+			"~#~"
+		],
+		"key": {
+			"~": {
+				"item": "mocreatures:hide"
+			},
+			"#": {
+				"item": "minecraft:wool"
+			},
+			"!": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "mocreatures:elephant_harness",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

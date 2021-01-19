@@ -1,0 +1,27 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "mocreatures:pet_fish"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:porkchop"
+			},
+			{
+				"item": "minecraft:fish"
+			}
+		],
+		"result": [
+			{
+				"item": "mocreatures:pet_food",
+				"data": 0,
+				"count": 4
+			}
+		]
+	}
+}

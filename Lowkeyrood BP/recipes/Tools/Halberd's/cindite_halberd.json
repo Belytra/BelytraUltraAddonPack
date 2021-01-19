@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "base:cindite_halberd"
+        },
+        "tags": [
+            "advanced_weapon_crafter"
+        ],
+        "pattern": [
+            " ac",
+            " b ",  
+            " b "
+        ],
+        "key": {
+            "a": {
+                "item": "base:cindite_axe_head"
+            },
+            "b": {
+                "item": "base:titanium_handle"
+            },
+            "c": {
+                "item": "base:cindite_blade"
+            }
+        },
+        "result": {
+            "item": "base:cindite_halberd",
+            "data": 0,
+            "count": 1
+        }
+    }
+}

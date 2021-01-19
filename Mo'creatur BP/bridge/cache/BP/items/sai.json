@@ -1,0 +1,222 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\items\\sai.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "39e9dd7a_500a_4b7e_b9dd_8e4a2c41a6a9",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mocreatures:sai",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:icon": {
+								"texture": "sai"
+							},
+							"minecraft:render_offsets": "tools",
+							"minecraft:damage": 6,
+							"minecraft:durability": {
+								"max_durability": 250
+							},
+							"minecraft:use_duration": 3600,
+							"minecraft:hand_equipped": true,
+							"minecraft:enchantable": {
+								"value": 10,
+								"slot": "sword"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:weapon": {}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mocreatures:sai",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:icon": {
+								"texture": "sai"
+							},
+							"minecraft:render_offsets": "tools",
+							"minecraft:damage": 6,
+							"minecraft:durability": {
+								"max_durability": 250
+							},
+							"minecraft:use_duration": 3600,
+							"minecraft:hand_equipped": true,
+							"minecraft:enchantable": {
+								"value": 10,
+								"slot": "sword"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:weapon": {}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:sai",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:icon": {
+									"texture": "sai"
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:damage": 6,
+								"minecraft:durability": {
+									"max_durability": 250
+								},
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:enchantable": {
+									"value": 10,
+									"slot": "sword"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:weapon": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mocreatures:sai",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:sai",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:icon": {
+									"texture": "sai"
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:damage": 6,
+								"minecraft:durability": {
+									"max_durability": 250
+								},
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:enchantable": {
+									"value": 10,
+									"slot": "sword"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:weapon": {}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:icon": {
+										"texture": "sai"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:damage": 6,
+									"minecraft:durability": {
+										"max_durability": 250
+									},
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:enchantable": {
+										"value": 10,
+										"slot": "sword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									},
+									"minecraft:weapon": {}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "sai"
+								}
+							},
+							{
+								"data": "tools",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"data": "6",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 250
+								}
+							},
+							{
+								"data": "3600",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 10,
+									"slot": "sword"
+								}
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
+								}
+							},
+							{
+								"key": "minecraft:weapon",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

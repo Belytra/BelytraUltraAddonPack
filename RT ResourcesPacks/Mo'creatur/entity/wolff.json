@@ -1,0 +1,46 @@
+//bridge-file-version: #17
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mocreatures:wild_wolf",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "armor_stand"
+			},
+			"textures": {
+				"default": "textures/entity/wolfwild",
+				"wolf1": "textures/entity/wolfblack",
+				"wolf2": "textures/entity/wolfbright",
+				"wolf3": "textures/entity/wolfdark",
+				"wolf4": "textures/entity/wolftimber"
+			},
+			"animations": {
+				"look_at_target": "animation.common.look_at_target",
+				"walk": "animation.wild_wolf.walk",
+				"attack": "animation.wild_wolf.attack"
+			},
+			"scripts": {
+				"animate": [
+					"look_at_target",
+					{
+						"walk": "query.modified_move_speed"
+					},
+					{
+						"attack": "variable.attack_time"
+					}
+				]
+			},
+			"geometry": {
+				"default": "geometry.wild_wolf"
+			},
+			"render_controllers": [
+				"controller.render.wild_wolf"
+			],
+			"spawn_egg": {
+				"texture": "wildwolf_spawn_egg",
+				"texture_index": 0
+			}
+		}
+	}
+}

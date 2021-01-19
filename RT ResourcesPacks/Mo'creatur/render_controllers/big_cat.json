@@ -1,0 +1,66 @@
+//bridge-file-version: #25
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.malelion_tame": {
+			"arrays": {
+				"textures": {
+					"Array.white": [
+						"Texture.default",
+						"Texture.white"
+					]
+				},
+				"geometries": {
+					"Array.tamed": [
+						"Geometry.default",
+						"Geometry.tamed"
+					]
+				}
+			},
+			"geometry": "Array.tamed[query.is_tamed]",
+			"textures": [
+				"Array.white[query.variant]"
+			]
+		},
+		"controller.render.malelion_saddled": {
+			"arrays": {
+				"textures": {
+					"Array.white": [
+						"Texture.default",
+						"Texture.white"
+					]
+				},
+				"geometries": {
+					"Array.saddle": [
+						"Geometry.default",
+						"Geometry.saddle"
+					]
+				}
+			},
+			"geometry": "Array.saddle[query.is_saddled]",
+			"textures": [
+				"Array.white[query.variant]"
+			]
+		},
+		"controller.render.malelion_chested": {
+			"arrays": {
+				"textures": {
+					"Array.white": [
+						"Texture.default",
+						"Texture.white"
+					]
+				},
+				"geometries": {
+					"Array.chested": [
+						"Geometry.default",
+						"Geometry.chested"
+					]
+				}
+			},
+			"geometry": "Array.chested[query.is_chested]",
+			"textures": [
+				"Array.white[query.variant]"
+			]
+		}
+	}
+}

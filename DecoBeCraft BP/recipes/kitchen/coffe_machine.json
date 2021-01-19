@@ -1,0 +1,38 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:coffe_machine"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"## ",
+			"#! ",
+			"#~~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:concrete",
+				"data": 7
+			},
+			"#": {
+				"item": "minecraft:concrete",
+				"data": 8
+			},
+			"!": {
+				"item": "minecraft:cocoa_beans",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:coffe_machine",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

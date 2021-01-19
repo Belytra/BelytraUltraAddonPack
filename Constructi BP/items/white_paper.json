@@ -1,0 +1,19 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "const:paper_white",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.paper"
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:icon": {
+        "texture": "const:dyed_paper",
+        "frame": 14
+      }
+    }
+  }
+}

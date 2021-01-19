@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\hcarl\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\PlayerRevive\\texts\\en_US.lang",
+	"file_type": "lang",
+	"format_version": 0,
+	"file_uuid": "ad31f687_81a8_404b_b7f0_69fc636d48b9",
+	"file_version": 2,
+	"cache_content": "pack.name=§bPlayerRevive By Pammsitoh | @Belytra\r\npack.description=PlayerRevive Addon\r\naddon.revive=Revive Player"
+}

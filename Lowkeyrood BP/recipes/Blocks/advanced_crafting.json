@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:table"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "aaa",
+      "cbc",
+      "aaa"
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:planks"
+      },
+      "b": {
+        "item": "minecraft:crafting_table"
+      },
+      "c": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "result": {
+      "item": "base:table_blueprint",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

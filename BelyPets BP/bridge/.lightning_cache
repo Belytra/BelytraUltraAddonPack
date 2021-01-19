@@ -1,0 +1,95 @@
+{
+	"entity": {
+		"BP/entities/pet.json": {
+			"events": [
+				"from_egg",
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"bb:tamed",
+				"bb:sit",
+				"bb:notsit",
+				" bb:bear",
+				"bb:dino",
+				"bb:axolotl",
+				"bb:elegant",
+				"bb:astronaut",
+				"bb:minitv"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"btmb:pet"
+			],
+			"animation_references": [],
+			"families": [
+				"chicken",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"client_entity": {
+		"RP/entity/pet.json": {
+			"identifiers": [
+				"btmb:pet"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move",
+				"general",
+				"look_at_target",
+				"baby_transform",
+				"sit"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default",
+				"dino",
+				"axolotl",
+				"elegant",
+				"astronaut",
+				"minitv"
+			],
+			"material_references": [
+				"default",
+				"legs"
+			],
+			"geometry_references": [
+				"default",
+				"dino",
+				"axolotl",
+				"elegant",
+				"astronaut",
+				"minitv"
+			],
+			"geometry_identifiers": [
+				"default",
+				"dino",
+				"axolotl",
+				"elegant",
+				"astronaut",
+				"minitv"
+			]
+		}
+	},
+	"function": {
+		"01956fc6_1e47_4ee6_b1d4_d2c64846c8ed": {},
+		"86d47a1b_0ddc_4a2a_bf9b_3f6aeadf7b66": {}
+	},
+	"animation": {
+		"BP/animations/counter.json": {
+			"ids": [
+				"animation.counter"
+			],
+			"custom_commands": []
+		}
+	},
+	"render_controller": {
+		"RP/render_controllers/pets.json": {
+			"ids": [
+				"controller.render.pets"
+			]
+		}
+	}
+}

@@ -1,0 +1,93 @@
+//bridge-file-version: #30
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "dbc:sit",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"dbc:f": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"seats": [
+					{
+						"position": [
+							0,
+							0,
+							0
+						]
+					}
+				],
+				"family_types": [
+					"player"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:inside_block_notifier": {
+				"block_list": [
+					{
+						"block": {
+							"name": "minecraft:air"
+						},
+						"entered_block_event": {
+							"event": "dbc:f",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": -1,
+						"height": -1,
+						"pivot": [
+							0,
+							0,
+							0
+						]
+					}
+				]
+			}
+		},
+		"events": {
+			"dbc:f": {
+				"add": {
+					"component_groups": [
+						"dbc:f"
+					]
+				}
+			}
+		}
+	}
+}

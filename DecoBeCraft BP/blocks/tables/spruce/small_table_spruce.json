@@ -1,0 +1,20 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:small_table_spruce"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.smalltable",
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "spruce_planks",
+					"render_method": "blend"
+				}
+			}
+		}
+	}
+}

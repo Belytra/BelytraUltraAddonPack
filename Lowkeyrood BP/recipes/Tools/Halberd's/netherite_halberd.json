@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "base:netherite_halberd"
+        },
+        "tags": [
+            "advanced_weapon_crafter"
+        ],
+        "pattern": [
+            " ab",
+            " d ",
+            " c "
+        ],
+        "key": {
+            "a": {
+                "item": "base:netherite_axe_head"
+            },
+            "b": {
+                "item": "base:netherite_blade"
+            },
+            "c": {
+                "item": "base:wood_handle"
+            },
+            "d": {
+                "item": "base:wood_handle"
+            }
+        },
+        "result": {
+            "item": "base:netherite_halberd",
+            "data": 0,
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "format_version":"1.16.100",
+    "minecraft:item":{
+       "description":{
+          "category": "nature",
+          "identifier":"base:upgrade_table_blueprint"
+       },
+       "components":{
+          "minecraft:icon":{
+             "texture":"blueprint"
+          },
+          "minecraft:display_name":{
+             "value":"Upgrade table Blueprint"
+          },
+          "minecraft:block_placer": {
+            "block": "base:upgrade_table"
+          }
+       }
+    }
+ }

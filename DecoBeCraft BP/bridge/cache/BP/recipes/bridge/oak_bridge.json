@@ -1,0 +1,42 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\recipes\\bridge\\oak_bridge.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "00d344cf_7324_4aff_aa38_324098fef780",
+	"file_version": 4,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"format_version": "1.16.0",
+			"minecraft:recipe_shaped": {
+				"description": {
+					"identifier": "dbc:oak_bridge"
+				},
+				"tags": [
+					"crafting_table"
+				],
+				"pattern": [
+					"~ ~",
+					"###"
+				],
+				"key": {
+					"~": {
+						"item": "minecraft:stick",
+						"data": 0
+					},
+					"#": {
+						"item": "minecraft:planks",
+						"data": 0
+					}
+				},
+				"result": [
+					{
+						"item": "dbc:oak_bridge",
+						"data": 0,
+						"count": 4
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,256 @@
+{
+	"function": {
+		"5a095b81_4649_425e_85b5_10cd021e9df6": {},
+		"90c25962_f4da_4e89_90e6_37f9e966ae94": {},
+		"4efe75ba_28f0_488b_8046_8aa885823192": {},
+		"73f33d49_7a6b_4aae_bc1d_1b9bfeb50e37": {
+			"tags": [
+				"isknockedreviving",
+				"isreviving"
+			]
+		},
+		"902b1315_4e7d_4be5_8a73_ecdb2b72ac8c": {},
+		"5588346b_e83e_40dd_b280_5ea74aa05896": {
+			"tags": [
+				"isreviving"
+			]
+		},
+		"2cdc35fe_c478_4558_9374_aa43c574b561": {}
+	},
+	"animation": {
+		"BP/animations/is_knocked.json": {
+			"ids": [
+				"animation.knocked"
+			],
+			"custom_commands": []
+		},
+		"BP/animations/revive.json": {
+			"ids": [
+				"animation.revive"
+			],
+			"custom_commands": []
+		}
+	},
+	"animation_controller": {
+		"BP/animation_controllers/get_knocked.json": {
+			"ids": [
+				"controller.animation.knockedwolf"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/get_reviving.json": {
+			"ids": [
+				"controller.animation.getreviving"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/get_knocked_wolf.json": {
+			"ids": [
+				"controller.animation.knockedwolf"
+			],
+			"custom_commands": []
+		}
+	},
+	"client_entity": {
+		"RP/entity/player.json": {
+			"identifiers": [
+				"minecraft:player"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"root",
+				"base_controller",
+				"hudplayer",
+				"humanoid_base_pose",
+				"look_at_target",
+				"look_at_target_ui",
+				"look_at_target_default",
+				"look_at_target_gliding",
+				"look_at_target_swimming",
+				"look_at_target_inverted",
+				"cape",
+				"move.arms",
+				"move.legs",
+				"swimming",
+				"swimming.legs",
+				"riding.arms",
+				"riding.legs",
+				"holding",
+				"brandish_spear",
+				"charging",
+				"attack.positions",
+				"attack.rotations",
+				"sneaking",
+				"bob",
+				"damage_nearby_mobs",
+				"fishing_rod",
+				"use_item_progress",
+				"skeleton_attack",
+				"sleeping",
+				"first_person_base_pose",
+				"first_person_empty_hand",
+				"first_person_swap_item",
+				"first_person_attack_controller",
+				"first_person_attack_rotation",
+				"first_person_vr_attack_rotation",
+				"first_person_walk",
+				"first_person_map_controller",
+				"first_person_map_hold",
+				"first_person_map_hold_attack",
+				"first_person_map_hold_off_hand",
+				"first_person_map_hold_main_hand",
+				"first_person_crossbow_equipped",
+				"third_person_crossbow_equipped",
+				"third_person_bow_equipped",
+				"crossbow_hold",
+				"crossbow_controller",
+				"shield_block_main_hand",
+				"shield_block_off_hand",
+				"blink",
+				"knocked",
+				"revive"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default",
+				"cape"
+			],
+			"material_references": [
+				"default",
+				"cape",
+				"animated"
+			],
+			"geometry_references": [
+				"default",
+				"cape"
+			],
+			"geometry_identifiers": [
+				"default",
+				"cape"
+			]
+		},
+		"RP/entity/wolf.json": {
+			"identifiers": [
+				"minecraft:wolf"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"wolf_setup",
+				"wolf_baby_scaling",
+				"wolf_look_at",
+				"wolf_head_rot_z",
+				"wolf_tail_default",
+				"wolf_angry",
+				"wolf_sitting",
+				"wolf_shaking",
+				"wolf_leg_default"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default",
+				"angry",
+				"tame"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default",
+				"knocked"
+			],
+			"geometry_identifiers": [
+				"default",
+				"knocked"
+			]
+		}
+	},
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger",
+				"minecraft:entity_spawned",
+				"pr:is_reviving",
+				"pr:is_knocked",
+				"pr:is_knocked_reviving",
+				"pr:respawn",
+				"pr:inte"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [
+				"knocked",
+				"reviving",
+				"getknocked",
+				"getreviving"
+			],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/wolf.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ageable_set_baby",
+				"minecraft:on_tame",
+				"minecraft:become_angry",
+				"minecraft:on_calm",
+				"pr:to_knocked",
+				"pr:to_normal",
+				"pr:revive"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:wolf"
+			],
+			"animation_references": [
+				"knocked",
+				"controlers"
+			],
+			"families": [
+				"wolf",
+				"mob",
+				"inanimate"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"rp_animation": {
+		"RP/animations/playerrevive.animation.json": {
+			"ids": [
+				"animation.humanoid.knocked",
+				"animation.humanoid.revive"
+			]
+		}
+	},
+	"render_controller": {
+		"RP/render_controllers/wolfrevive.json": {
+			"ids": [
+				"controller.render.wolfrevive"
+			]
+		}
+	},
+	"rp_animation_controller": {
+		"RP/animation_controllers/wolf.json": {
+			"ids": [
+				"controller.animation.wolf.angry",
+				"controller.animation.wolf.baby_scaling",
+				"controller.animation.wolf.head_rot_z",
+				"controller.animation.wolf.look_at",
+				"controller.animation.wolf.setup",
+				"controller.animation.wolf.shaking",
+				"controller.animation.wolf.sitting",
+				"controller.animation.wolf.tail_default"
+			]
+		}
+	}
+}

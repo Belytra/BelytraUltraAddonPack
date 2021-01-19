@@ -1,0 +1,116 @@
+//bridge-file-version: #19
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mocreatures:kitty_bed",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"mocreatures:day": {
+				"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"filters": {
+								"test": "is_daytime",
+								"value": false
+							},
+							"event": "mocreatures:night"
+						}
+					]
+				},
+				"minecraft:type_family": {
+					"family": [
+						"bedday"
+					]
+				}
+			},
+			"mocreatures:night": {
+				"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"filters": {
+								"test": "is_daytime",
+								"value": true
+							},
+							"event": "mocreatures:day"
+						}
+					]
+				},
+				"minecraft:rideable": {
+					"seat_count": 1,
+					"family_types": [
+						"kittynight"
+					],
+					"pull_in_entities": true,
+					"seats": [
+						{
+							"position": [
+								0,
+								0.2,
+								0
+							]
+						}
+					]
+				},
+				"minecraft:type_family": {
+					"family": [
+						"bednight"
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/kittybed/kittybed.json"
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"mocreatures:day"
+					]
+				}
+			},
+			"mocreatures:night": {
+				"remove": {
+					"component_groups": [
+						"mocreatures:day"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"mocreatures:night"
+					]
+				}
+			},
+			"mocreatures:day": {
+				"remove": {
+					"component_groups": [
+						"mocreatures:night"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"mocreatures:day"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:warped_bridge_start"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~",
+			"###"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:stick",
+				"data": 0
+			},
+			"#": {
+				"item": "warped_planks",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:warped_bridge_start",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

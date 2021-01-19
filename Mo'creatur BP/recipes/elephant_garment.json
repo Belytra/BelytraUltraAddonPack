@@ -1,0 +1,54 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:elephant_garment"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#\"!",
+			"~$~",
+			"%{%"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:dye",
+				"data": 9
+			},
+			"\"": {
+				"item": "minecraft:dye",
+				"data": 11
+			},
+			"!": {
+				"item": "minecraft:dye",
+				"data": 10
+			},
+			"~": {
+				"item": "minecraft:wool",
+				"data": 14
+			},
+			"$": {
+				"item": "mocreatures:medallion",
+				"data": 0
+			},
+			"%": {
+				"item": "minecraft:wool",
+				"data": 11
+			},
+			"{": {
+				"item": "minecraft:wool",
+				"data": 4
+			}
+		},
+		"result": [
+			{
+				"item": "mocreatures:elephant_garment",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

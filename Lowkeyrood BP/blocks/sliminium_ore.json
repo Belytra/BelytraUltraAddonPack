@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "base:sliminium_ore",
+			"is_experimental": false,
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:map_color": "#ffffff",
+			"minecraft:material_instances": {
+                "*": {
+                    "texture": "sliminium_ore",
+                    "render_method": "double_sided"
+                }
+			},
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:on_player_destroyed": {
+				"condition": "q.get_equipped_item_name == 'diamond_pickaxe'|| q.get_equipped_item_name == 'cindite_pickaxe'|| q.get_equipped_item_name == 'netherite_pickaxe'",
+				"event": "base:drop_block"
+			}
+		},
+		"events": {
+			"base:drop_block": {
+				"spawn_loot": {
+					"table": "loot_tables/entities/sliminiumloot.json"
+				 }
+			}
+		}
+	}
+}

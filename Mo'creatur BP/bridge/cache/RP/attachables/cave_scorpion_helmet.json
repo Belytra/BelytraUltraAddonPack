@@ -1,0 +1,31 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Mo'creatures bedrock §a[RP]\\attachables\\cave_scorpion_helmet.json",
+	"file_type": "attachable",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.8.0",
+		"minecraft:attachable": {
+			"description": {
+				"identifier": "mocreatures:cave_scorpion_helmet",
+				"materials": {
+					"default": "armor",
+					"enchanted": "armor_enchanted"
+				},
+				"textures": {
+					"default": "textures/models/armor/cave_scorpion_1",
+					"enchanted": "textures/misc/enchanted_item_glint"
+				},
+				"geometry": {
+					"default": "geometry.humanoid.armor.helmet"
+				},
+				"scripts": {
+					"parent_setup": "variable.helmet_layer_visible = 0.0;"
+				},
+				"render_controllers": [
+					"controller.render.armor"
+				]
+			}
+		}
+	},
+	"file_uuid": "0c374ea8_a993_4342_a78e_2d565280de75"
+}

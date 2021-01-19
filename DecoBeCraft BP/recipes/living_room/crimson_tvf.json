@@ -1,0 +1,33 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:crimson_tvf"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"# #"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:crimson_stem",
+				"data": 0
+			},
+			"#": {
+				"item": "minecraft:crimson_planks",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:crimson_tv_furniture",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

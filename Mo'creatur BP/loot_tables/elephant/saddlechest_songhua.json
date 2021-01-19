@@ -1,0 +1,35 @@
+//bridge-file-version: #4
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "mocreatures:elephant_chest",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "mocreatures:elephant_harness",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "mocreatures:mammoth_platform",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

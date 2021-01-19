@@ -1,0 +1,33 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:warped_table"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:warped_planks"
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:small_table_warped",
+				"data": 0,
+				"count": 4
+			},
+			{
+				"item": "dbc:top_table_warped",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

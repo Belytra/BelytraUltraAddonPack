@@ -1,0 +1,505 @@
+{
+	"file_path": "C:\\Users\\hcarl\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\PlayerRevive/animation_controllers/wolf.json",
+	"file_type": "rp_animation_controller",
+	"format_version": 1,
+	"file_uuid": "f7005576_e3ec_4c42_86c2_ef2e2b755fc5",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.wolf.angry": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"wolf_angry"
+									]
+								}
+							}
+						},
+						"controller.animation.wolf.baby_scaling": {
+							"initial_state": "default",
+							"states": {
+								"baby": {
+									"animations": [
+										"wolf_baby_scaling"
+									],
+									"transitions": [
+										{
+											"default": "!query.is_baby"
+										}
+									]
+								},
+								"default": {
+									"transitions": [
+										{
+											"baby": "query.is_baby"
+										}
+									]
+								}
+							}
+						},
+						"controller.animation.wolf.head_rot_z": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"rot": "query.is_interested || query.is_shaking_wetness"
+										}
+									]
+								},
+								"rot": {
+									"animations": [
+										"wolf_head_rot_z"
+									],
+									"transitions": [
+										{
+											"default": "!query.is_interested && !query.is_shaking_wetness"
+										}
+									]
+								}
+							}
+						},
+						"controller.animation.wolf.look_at": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"wolf_look_at"
+									]
+								}
+							}
+						},
+						"controller.animation.wolf.setup": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										{
+											"wolf_setup": "query.variant == 0"
+										}
+									]
+								}
+							}
+						},
+						"controller.animation.wolf.shaking": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"shaking": "query.is_shaking_wetness"
+										}
+									]
+								},
+								"shaking": {
+									"animations": [
+										"wolf_shaking"
+									],
+									"transitions": [
+										{
+											"default": "!query.is_shaking_wetness"
+										}
+									]
+								}
+							}
+						},
+						"controller.animation.wolf.sitting": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"wolf_leg_default"
+									],
+									"transitions": [
+										{
+											"sitting": "query.is_sitting"
+										}
+									]
+								},
+								"sitting": {
+									"animations": [
+										"wolf_sitting"
+									],
+									"transitions": [
+										{
+											"default": "!query.is_sitting"
+										}
+									]
+								}
+							}
+						},
+						"controller.animation.wolf.tail_default": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"wolf_tail_default"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"key": "controller.animation.wolf.angry",
+						"is_minified": true,
+						"children": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"wolf_angry"
+									]
+								}
+							}
+						}
+					},
+					{
+						"key": "controller.animation.wolf.baby_scaling",
+						"is_minified": true,
+						"children": {
+							"initial_state": "default",
+							"states": {
+								"baby": {
+									"animations": [
+										"wolf_baby_scaling"
+									],
+									"transitions": [
+										{
+											"default": "!query.is_baby"
+										}
+									]
+								},
+								"default": {
+									"transitions": [
+										{
+											"baby": "query.is_baby"
+										}
+									]
+								}
+							}
+						}
+					},
+					{
+						"key": "controller.animation.wolf.head_rot_z",
+						"is_minified": true,
+						"children": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"rot": "query.is_interested || query.is_shaking_wetness"
+										}
+									]
+								},
+								"rot": {
+									"animations": [
+										"wolf_head_rot_z"
+									],
+									"transitions": [
+										{
+											"default": "!query.is_interested && !query.is_shaking_wetness"
+										}
+									]
+								}
+							}
+						}
+					},
+					{
+						"key": "controller.animation.wolf.look_at",
+						"is_minified": true,
+						"children": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"wolf_look_at"
+									]
+								}
+							}
+						}
+					},
+					{
+						"open": {
+							"controller.animation.wolf.angry": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"animations": [
+											"wolf_angry"
+										]
+									}
+								}
+							},
+							"controller.animation.wolf.baby_scaling": {
+								"initial_state": "default",
+								"states": {
+									"baby": {
+										"animations": [
+											"wolf_baby_scaling"
+										],
+										"transitions": [
+											{
+												"default": "!query.is_baby"
+											}
+										]
+									},
+									"default": {
+										"transitions": [
+											{
+												"baby": "query.is_baby"
+											}
+										]
+									}
+								}
+							},
+							"controller.animation.wolf.head_rot_z": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"rot": "query.is_interested || query.is_shaking_wetness"
+											}
+										]
+									},
+									"rot": {
+										"animations": [
+											"wolf_head_rot_z"
+										],
+										"transitions": [
+											{
+												"default": "!query.is_interested && !query.is_shaking_wetness"
+											}
+										]
+									}
+								}
+							},
+							"controller.animation.wolf.look_at": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"animations": [
+											"wolf_look_at"
+										]
+									}
+								}
+							},
+							"controller.animation.wolf.setup": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"animations": [
+											{
+												"wolf_setup": "query.variant == 0"
+											}
+										]
+									}
+								}
+							},
+							"controller.animation.wolf.shaking": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"shaking": "query.is_shaking_wetness"
+											}
+										]
+									},
+									"shaking": {
+										"animations": [
+											"wolf_shaking"
+										],
+										"transitions": [
+											{
+												"default": "!query.is_shaking_wetness"
+											}
+										]
+									}
+								}
+							},
+							"controller.animation.wolf.sitting": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"animations": [
+											"wolf_leg_default"
+										],
+										"transitions": [
+											{
+												"sitting": "query.is_sitting"
+											}
+										]
+									},
+									"sitting": {
+										"animations": [
+											"wolf_sitting"
+										],
+										"transitions": [
+											{
+												"default": "!query.is_sitting"
+											}
+										]
+									}
+								}
+							},
+							"controller.animation.wolf.tail_default": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"animations": [
+											"wolf_tail_default"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.wolf.setup",
+						"children": [
+							{
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"animations": [
+												{
+													"wolf_setup": "query.variant == 0"
+												}
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"animations": [
+													{
+														"wolf_setup": "query.variant == 0"
+													}
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														{
+															"wolf_setup": "query.variant == 0"
+														}
+													]
+												},
+												"key": "animations",
+												"children": [
+													{
+														"open": [
+															{
+																"wolf_setup": "query.variant == 0"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"wolf_setup": "query.variant == 0"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"key": "controller.animation.wolf.shaking",
+						"is_minified": true,
+						"children": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"shaking": "query.is_shaking_wetness"
+										}
+									]
+								},
+								"shaking": {
+									"animations": [
+										"wolf_shaking"
+									],
+									"transitions": [
+										{
+											"default": "!query.is_shaking_wetness"
+										}
+									]
+								}
+							}
+						}
+					},
+					{
+						"key": "controller.animation.wolf.sitting",
+						"is_minified": true,
+						"children": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"wolf_leg_default"
+									],
+									"transitions": [
+										{
+											"sitting": "query.is_sitting"
+										}
+									]
+								},
+								"sitting": {
+									"animations": [
+										"wolf_sitting"
+									],
+									"transitions": [
+										{
+											"default": "!query.is_sitting"
+										}
+									]
+								}
+							}
+						}
+					},
+					{
+						"key": "controller.animation.wolf.tail_default",
+						"is_minified": true,
+						"children": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"wolf_tail_default"
+									]
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

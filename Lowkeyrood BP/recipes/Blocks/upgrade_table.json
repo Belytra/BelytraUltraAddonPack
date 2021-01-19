@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "base:upgrade_table_blueprint"
+      },
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        "aaa",
+        "aba",
+        "aaa"
+      ],
+      "key": {  
+        "a": {
+          "item": "minecraft:gold_ingot"
+        },
+        "b": {
+          "item": "base:table"
+        },
+        "c": {
+          "item": "minecraft:lava_bucket"
+        }
+      },
+      "result": {
+        "item": "base:upgrade_table_blueprint",
+        "data": 0,
+        "count": 1
+      }
+    }
+  }

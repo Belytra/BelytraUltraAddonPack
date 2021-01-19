@@ -1,0 +1,33 @@
+//bridge-file-version: #16
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:warped_tvf"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"# #"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:warped_stem",
+				"data": 0
+			},
+			"#": {
+				"item": "minecraft:warped_planks",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:warped_tv_furniture",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

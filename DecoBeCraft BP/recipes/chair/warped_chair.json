@@ -1,0 +1,29 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:warped_chair"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~  ",
+			"~~~",
+			"~ ~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:warped_planks"
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:warped_chair",
+				"data": 0,
+				"count": 4
+			}
+		]
+	}
+}

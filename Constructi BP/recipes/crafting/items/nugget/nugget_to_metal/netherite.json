@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "const:craft/item/netherite2"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "const:nugget_netherite"
+      }
+    },
+    "result": [
+      { "item": "minecraft:netherite_ingot" }
+    ]
+  }
+}

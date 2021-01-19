@@ -1,0 +1,440 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\spawn_rules\\zorrospawn.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "c8b611ed_4a5b_464f_b457_4dc910f88d08",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "mocreatures:fox",
+							"population_control": "animal"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_on_surface": {},
+								"minecraft:brightness_filter": {
+									"min": 9,
+									"max": 15,
+									"adjust_for_weather": false
+								},
+								"minecraft:weight": {
+									"default": 20
+								},
+								"minecraft:herd": {
+									"min_size": 2,
+									"max_size": 4,
+									"event": "minecraft:entity_born",
+									"event_skip_count": 2
+								},
+								"minecraft:biome_filter": {
+									"any_of": [
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "animal"
+										},
+										{
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "cold"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:fox",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:brightness_filter": {
+										"min": 9,
+										"max": 15,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 20
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 4,
+										"event": "minecraft:entity_born",
+										"event_skip_count": 2
+									},
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "animal"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "cold"
+											}
+										]
+									}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mocreatures:fox",
+							"population_control": "animal"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:fox",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:brightness_filter": {
+										"min": 9,
+										"max": 15,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 20
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 4,
+										"event": "minecraft:entity_born",
+										"event_skip_count": 2
+									},
+									"minecraft:biome_filter": {
+										"any_of": [
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "animal"
+											},
+											{
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "cold"
+											}
+										]
+									}
+								}
+							]
+						},
+						"key": "conditions",
+						"children": [
+							{
+								"open": [
+									{
+										"minecraft:spawns_on_surface": {},
+										"minecraft:brightness_filter": {
+											"min": 9,
+											"max": 15,
+											"adjust_for_weather": false
+										},
+										"minecraft:weight": {
+											"default": 20
+										},
+										"minecraft:herd": {
+											"min_size": 2,
+											"max_size": 4,
+											"event": "minecraft:entity_born",
+											"event_skip_count": 2
+										},
+										"minecraft:biome_filter": {
+											"any_of": [
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "animal"
+												},
+												{
+													"test": "has_biome_tag",
+													"operator": "==",
+													"value": "cold"
+												}
+											]
+										}
+									}
+								],
+								"children": [
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:brightness_filter": {
+												"min": 9,
+												"max": 15,
+												"adjust_for_weather": false
+											},
+											"minecraft:weight": {
+												"default": 20
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 4,
+												"event": "minecraft:entity_born",
+												"event_skip_count": 2
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "animal"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "cold"
+													}
+												]
+											}
+										},
+										"key": "minecraft:spawns_on_surface",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:brightness_filter": {
+												"min": 9,
+												"max": 15,
+												"adjust_for_weather": false
+											},
+											"minecraft:weight": {
+												"default": 20
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 4,
+												"event": "minecraft:entity_born",
+												"event_skip_count": 2
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "animal"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "cold"
+													}
+												]
+											}
+										},
+										"key": "minecraft:brightness_filter",
+										"is_minified": true,
+										"children": {
+											"min": 9,
+											"max": 15,
+											"adjust_for_weather": false
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:brightness_filter": {
+												"min": 9,
+												"max": 15,
+												"adjust_for_weather": false
+											},
+											"minecraft:weight": {
+												"default": 20
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 4,
+												"event": "minecraft:entity_born",
+												"event_skip_count": 2
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "animal"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "cold"
+													}
+												]
+											}
+										},
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 20
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:brightness_filter": {
+												"min": 9,
+												"max": 15,
+												"adjust_for_weather": false
+											},
+											"minecraft:weight": {
+												"default": 20
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 4,
+												"event": "minecraft:entity_born",
+												"event_skip_count": 2
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "animal"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "cold"
+													}
+												]
+											}
+										},
+										"key": "minecraft:herd",
+										"is_minified": true,
+										"children": {
+											"min_size": 2,
+											"max_size": 4,
+											"event": "minecraft:entity_born",
+											"event_skip_count": 2
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:brightness_filter": {
+												"min": 9,
+												"max": 15,
+												"adjust_for_weather": false
+											},
+											"minecraft:weight": {
+												"default": 20
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 4,
+												"event": "minecraft:entity_born",
+												"event_skip_count": 2
+											},
+											"minecraft:biome_filter": {
+												"any_of": [
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "animal"
+													},
+													{
+														"test": "has_biome_tag",
+														"operator": "==",
+														"value": "cold"
+													}
+												]
+											}
+										},
+										"key": "minecraft:biome_filter",
+										"children": [
+											{
+												"open": {
+													"any_of": [
+														{
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "animal"
+														},
+														{
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "cold"
+														}
+													]
+												},
+												"key": "any_of",
+												"children": [
+													{
+														"open": [
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "animal"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "cold"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "animal"
+														}
+													},
+													{
+														"open": [
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "animal"
+															},
+															{
+																"test": "has_biome_tag",
+																"operator": "==",
+																"value": "cold"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"test": "has_biome_tag",
+															"operator": "==",
+															"value": "cold"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

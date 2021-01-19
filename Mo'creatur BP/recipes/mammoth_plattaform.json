@@ -1,0 +1,38 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:mammoth_plattaform"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~#~",
+			"???",
+			"~#~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:log",
+				"data": 0
+			},
+			"#": {
+				"item": "minecraft:lead",
+				"data": 0
+			},
+			"?": {
+				"item": "minecraft:planks",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "mocreatures:mammoth_platform",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

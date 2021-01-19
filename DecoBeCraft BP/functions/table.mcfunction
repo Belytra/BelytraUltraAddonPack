@@ -1,0 +1,19 @@
+#bridge-file-version: #4
+give @p dbc:small_table_oak
+give @p dbc:top_table_oak
+give @p dbc:small_table_spruce
+give @p dbc:top_table_spruce
+give @p dbc:small_table_birch
+give @p dbc:top_table_birch
+give @p dbc:small_table_acacia
+give @p dbc:top_table_acacia
+give @p dbc:small_table_jungle
+give @p dbc:top_table_jungle
+give @p dbc:small_table_dark_oak
+give @p dbc:top_table_dark_oak
+give @p dbc:small_table_crimson
+give @p dbc:top_table_crimson
+give @p dbc:small_table_warped
+give @p dbc:top_table_warped
+give @p dbc:small_table_concrete
+give @p dbc:top_table_concrete

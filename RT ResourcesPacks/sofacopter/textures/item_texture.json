@@ -1,0 +1,39 @@
+{
+  "resource_pack_name": "bridgeRP",
+  "texture_name": "atlas.items",
+  "texture_data": {
+  "sofa": {
+    "textures": "textures/items/sofa"
+  },
+  "belybox": {
+      "textures": "textures/items/belybox"
+    },
+    "wrench": {
+      "textures": "textures/items/wrench"
+    },
+    "propeller": {
+      "textures": "textures/items/propeller"
+    },
+    "screw": {
+      "textures": "textures/items/screw"
+    },
+    "motor": {
+      "textures": "textures/items/motor"
+    },
+    "tire": {
+      "textures": "textures/items/tire"
+    },
+    "iron_rod": {
+      "textures": "textures/items/iron_rod"
+    },
+    "chassis": {
+      "textures": "textures/items/chassis"
+    },
+    "capsule": {
+      "textures": "textures/items/capsule"
+    },
+    "naval_propeller": {
+      "textures": "textures/items/naval_propeller"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:marble_bricks"
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:map_color": "#BDBABA",
+			"tag:stone": {}
+		},
+		"events": {}
+	}
+}

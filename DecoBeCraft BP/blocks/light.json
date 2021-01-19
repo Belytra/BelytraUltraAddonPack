@@ -1,0 +1,161 @@
+//bridge-file-version: #29
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:light",
+			"properties": {
+				"dbc:block_face": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				],
+				"dbc:interact": [
+					0,
+					1
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:geometry": "geometry.light",
+			"minecraft:on_player_placing": {
+				"event": "dbc:block_face"
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-2,
+					0,
+					-2
+				],
+				"size": [
+					4,
+					9,
+					4
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-2,
+					0,
+					-2
+				],
+				"size": [
+					4,
+					9,
+					4
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "light",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:loot": "loot_tables/blocks/light.json"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:block_face') == 0",
+				"components": {
+					"minecraft:rotation": [
+						-180,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:block_face') == 1",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:block_face') == 2",
+				"components": {
+					"minecraft:rotation": [
+						-90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:block_face') == 3",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:block_face') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						90
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:block_face') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						-90
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:interact') == 1",
+				"components": {
+					"minecraft:block_light_emission": 0.8,
+					"minecraft:on_interact": {
+						"event": "dbc:off",
+						"target": "self"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:interact') == 0",
+				"components": {
+					"minecraft:block_light_absorption": 0,
+					"minecraft:on_interact": {
+						"event": "dbc:on",
+						"target": "self"
+					}
+				}
+			}
+		],
+		"events": {
+			"dbc:block_face": {
+				"set_block_property": {
+					"dbc:block_face": "query.block_face"
+				}
+			},
+			"dbc:on": {
+				"set_block_property": {
+					"dbc:interact": 1
+				}
+			},
+			"dbc:off": {
+				"set_block_property": {
+					"dbc:interact": 0
+				}
+			}
+		}
+	}
+}

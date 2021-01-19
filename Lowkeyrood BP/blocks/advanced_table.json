@@ -1,0 +1,35 @@
+{
+   "format_version": "1.16.100",
+   "minecraft:block": {
+      "description": {
+         "identifier": "base:table",
+         "register_to_creative_menu": true
+      },
+      "components": {
+         "minecraft:material_instances": {
+            "*": {
+               "texture": "advanced_table",
+               "render_method": "alpha_test"
+            }
+         },
+         "minecraft:pick_collision": {
+             "origin":  [-8, 0, -8],
+             "size":    [16, 16, 16]
+         },
+         "minecraft:geometry": "geometry.table",
+         "minecraft:destroy_time": 1,
+         "minecraft:block_light_absorption": 0,
+         "minecraft:crafting_table": {
+				"grid_size": 3,
+				"crafting_tags": [
+					"advanced_weapon_crafter"
+				],
+				"custom_description": "Advanced Crafting Table"
+			}
+         },
+			"minecraft:display_name": {
+			  "value": "Advanced Crafting Station"
+         },
+         "minecraft:loot": "loot_tables/entities/advanced_crafter.json"
+         }
+}

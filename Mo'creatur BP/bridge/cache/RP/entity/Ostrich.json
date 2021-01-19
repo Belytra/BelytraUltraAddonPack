@@ -1,0 +1,271 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Mo'creatures bedrock §a[RP]\\entity\\Ostrich.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "dffc6f6e_d877_430b_86b2_36514261d5c9",
+	"file_version": 18,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mocreatures:ostrich",
+							"materials": {
+								"default": "skeleton"
+							},
+							"textures": {
+								"default": "textures/entity/ostricha",
+								"marron": "textures/entity/ostrichb",
+								"blanco": "textures/entity/ostrichd"
+							},
+							"geometry": {
+								"default": "geometry.avestruz",
+								"saddle": "geometry.avestruz_saddle",
+								"chest": "geometry.avestruz_chest"
+							},
+							"animations": {
+								"move": "controller.animation.entity1.move",
+								"static": "controller.animation.entity1.static",
+								"sit": "controller.animation.sit",
+								"moving": "animation.avestruz.move",
+								"staticking": "animation.avestruz.static",
+								"sitting": "animation.avestruz.headdown",
+								"look_at_target": "animation.common.look_at_target"
+							},
+							"scripts": {
+								"animate": [
+									"move",
+									"static",
+									"sit",
+									"look_at_target"
+								]
+							},
+							"render_controllers": [
+								"controller.render.ostrich",
+								"controller.render.ostrich2",
+								"controller.render.armor_stand"
+							],
+							"spawn_egg": {
+								"base_color": "#00FF8D",
+								"overlay_color": "#4300FF"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:ostrich",
+								"materials": {
+									"default": "skeleton"
+								},
+								"textures": {
+									"default": "textures/entity/ostricha",
+									"marron": "textures/entity/ostrichb",
+									"blanco": "textures/entity/ostrichd"
+								},
+								"geometry": {
+									"default": "geometry.avestruz",
+									"saddle": "geometry.avestruz_saddle",
+									"chest": "geometry.avestruz_chest"
+								},
+								"animations": {
+									"move": "controller.animation.entity1.move",
+									"static": "controller.animation.entity1.static",
+									"sit": "controller.animation.sit",
+									"moving": "animation.avestruz.move",
+									"staticking": "animation.avestruz.static",
+									"sitting": "animation.avestruz.headdown",
+									"look_at_target": "animation.common.look_at_target"
+								},
+								"scripts": {
+									"animate": [
+										"move",
+										"static",
+										"sit",
+										"look_at_target"
+									]
+								},
+								"render_controllers": [
+									"controller.render.ostrich",
+									"controller.render.ostrich2",
+									"controller.render.armor_stand"
+								],
+								"spawn_egg": {
+									"base_color": "#00FF8D",
+									"overlay_color": "#4300FF"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "mocreatures:ostrich",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "skeleton"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/ostricha",
+									"marron": "textures/entity/ostrichb",
+									"blanco": "textures/entity/ostrichd"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.avestruz",
+									"saddle": "geometry.avestruz_saddle",
+									"chest": "geometry.avestruz_chest"
+								}
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"move": "controller.animation.entity1.move",
+									"static": "controller.animation.entity1.static",
+									"sit": "controller.animation.sit",
+									"moving": "animation.avestruz.move",
+									"staticking": "animation.avestruz.static",
+									"sitting": "animation.avestruz.headdown",
+									"look_at_target": "animation.common.look_at_target"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"move",
+										"static",
+										"sit",
+										"look_at_target"
+									]
+								}
+							},
+							{
+								"open": {
+									"identifier": "mocreatures:ostrich",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"default": "textures/entity/ostricha",
+										"marron": "textures/entity/ostrichb",
+										"blanco": "textures/entity/ostrichd"
+									},
+									"geometry": {
+										"default": "geometry.avestruz",
+										"saddle": "geometry.avestruz_saddle",
+										"chest": "geometry.avestruz_chest"
+									},
+									"animations": {
+										"move": "controller.animation.entity1.move",
+										"static": "controller.animation.entity1.static",
+										"sit": "controller.animation.sit",
+										"moving": "animation.avestruz.move",
+										"staticking": "animation.avestruz.static",
+										"sitting": "animation.avestruz.headdown",
+										"look_at_target": "animation.common.look_at_target"
+									},
+									"scripts": {
+										"animate": [
+											"move",
+											"static",
+											"sit",
+											"look_at_target"
+										]
+									},
+									"render_controllers": [
+										"controller.render.ostrich",
+										"controller.render.ostrich2",
+										"controller.render.armor_stand"
+									],
+									"spawn_egg": {
+										"base_color": "#00FF8D",
+										"overlay_color": "#4300FF"
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.ostrich",
+									"controller.render.ostrich2",
+									"controller.render.armor_stand"
+								]
+							},
+							{
+								"open": {
+									"identifier": "mocreatures:ostrich",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"default": "textures/entity/ostricha",
+										"marron": "textures/entity/ostrichb",
+										"blanco": "textures/entity/ostrichd"
+									},
+									"geometry": {
+										"default": "geometry.avestruz",
+										"saddle": "geometry.avestruz_saddle",
+										"chest": "geometry.avestruz_chest"
+									},
+									"animations": {
+										"move": "controller.animation.entity1.move",
+										"static": "controller.animation.entity1.static",
+										"sit": "controller.animation.sit",
+										"moving": "animation.avestruz.move",
+										"staticking": "animation.avestruz.static",
+										"sitting": "animation.avestruz.headdown",
+										"look_at_target": "animation.common.look_at_target"
+									},
+									"scripts": {
+										"animate": [
+											"move",
+											"static",
+											"sit",
+											"look_at_target"
+										]
+									},
+									"render_controllers": [
+										"controller.render.ostrich",
+										"controller.render.ostrich2",
+										"controller.render.armor_stand"
+									],
+									"spawn_egg": {
+										"base_color": "#00FF8D",
+										"overlay_color": "#4300FF"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#00FF8D",
+									"overlay_color": "#4300FF"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

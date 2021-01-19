@@ -1,0 +1,346 @@
+{
+  "tiers": [
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "base:netherite_katana",
+              "quantity": 1
+            },
+            {
+              "item": "base:sliminium_ingot",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "base:netherite_katana_1",
+              "functions": [
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    "",
+                    "§R§9Refinement I",
+                    "§R§bSpeed I",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "base:netherite_katana_1",
+              "quantity": 1
+            },
+            {
+              "item": "base:sliminium_ingot",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "base:netherite_katana_2",
+              "functions": [
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    "",
+                    "§R§9Refinement III",
+                    "§R§bSpeed II",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "base:netherite_katana_2",
+              "quantity": 1
+            },
+            {
+              "item": "base:sliminium_ingot",
+              "quantity": 30
+            }
+          ],
+          "gives": [
+            {
+              "item": "base:netherite_katana_3",
+              "functions": [
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    "",
+                    "§R§9Refinement III",
+                    "§R§bSpeed III",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "base:triple_netherite",
+              "quantity": 1
+            },
+            {
+              "item": "base:sliminium_ingot",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "base:triple_netherite_1",
+              "functions": [
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    "",
+                    "§R§9Refinement I",
+                    "§R§cStrength I",
+                    "§R§7Fatigue I",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "base:triple_netherite_1",
+              "quantity": 1
+            },
+            {
+              "item": "base:sliminium_ingot",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "base:triple_netherite_2",
+              "functions": [
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    "",
+                    "§R§9Refinement II",
+                    "§R§cStrength II",
+                    "§R§7Mining Fatigue I",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "base:triple_netherite_2",
+              "quantity": 1
+            },
+            {
+              "item": "base:sliminium_ingot",
+              "quantity": 30
+            }
+          ],
+          "gives": [
+            {
+              "item": "base:triple_netherite_3",
+              "functions": [
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    "",
+                    "§R§9Refinement III",
+                    "§R§cStrength III",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "base:cindite_katana",
+              "quantity": 1
+            },
+            {
+              "item": "base:sliminium_ingot",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "base:cindite_katana_1",
+              "functions": [
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    "",
+                    "§R§9Refinement I",
+                    "§R§aJump Boost I",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "base:cindite_katana_1",
+              "quantity": 1
+            },
+            {
+              "item": "base:sliminium_ingot",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "base:cindite_katana_2",
+              "functions": [
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    "",
+                    "§R§9Refinement II",
+                    "§R§aJump Boost II",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "base:cindite_katana_2",
+              "quantity": 1
+            },
+            {
+              "item": "base:sliminium_ingot",
+              "quantity": 30
+            }
+          ],
+          "gives": [
+            {
+              "item": "base:cindite_katana_3",
+              "functions": [
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    "",
+                    "§R§9Refinement III",
+                    "§R§aJump Boost III",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "base:triple_cindite",
+              "quantity": 1
+            },
+            {
+              "item": "base:sliminium_ingot",
+              "quantity": 10
+            }
+          ],
+          "gives": [
+            {
+              "item": "base:triple_cindite_1",
+              "functions": [
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    "",
+                    "§R§9Refinement I",
+                    "§R§6Absorption I",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "base:triple_cindite_1",
+              "quantity": 1
+            },
+            {
+              "item": "base:sliminium_ingot",
+              "quantity": 20
+            }
+          ],
+          "gives": [
+            {
+              "item": "base:triple_cindite_2",
+              "functions": [
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    "",
+                    "§R§9Refinement II",
+                    "§R§6Absorption II",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item": "base:triple_cindite_2",
+              "quantity": 1
+            },
+            {
+              "item": "base:sliminium_ingot",
+              "quantity": 30
+            }
+          ],
+          "gives": [
+            {
+              "item": "base:triple_cindite_3",
+              "functions": [
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    "",
+                    "§R§9Refinement III",
+                    "§R§6Absorption III",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

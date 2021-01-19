@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "base:titanium_handle"
+        },
+        "tags": [
+            "advanced_weapon_crafter"
+        ],
+        "pattern": [
+            " a ",
+            " a ",
+            " a "
+        ],
+        "key": {
+            "a": {
+                "item": "base:titanium_ingot"
+            },
+            "b": {
+                "item": "base:obsidian_ingot"
+            }
+        },
+        "result": {
+            "item": "base:titanium_handle",
+            "data": 0,
+            "count": 1
+        }
+    }
+}

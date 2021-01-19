@@ -1,0 +1,85 @@
+//bridge-file-version: #58
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:marble_slab",
+			"properties": {
+				"slab:interact": [
+					0,
+					1
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0.8,
+			"minecraft:map_color": "#1B0049",
+			"tag:stone": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('slab:interact') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.slabec",
+					"minecraft:on_interact": {
+						"event": "block",
+						"target": "self",
+						"condition": "query.get_equipped_item_name('main_hand') == 'marble_slab'"
+					},
+					"minecraft:entity_collision": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:pick_collision": {
+						"origin": [
+							-8,
+							0,
+							-8
+						],
+						"size": [
+							16,
+							8,
+							16
+						]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "marble",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('slab:interact') == 1",
+				"components": {
+					"minecraft:unit_cube": {},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "marble",
+							"render_method": "blend"
+						}
+					},
+					"minecraft:loot": "loot_tables/blocks/marble/slab_double.json"
+				}
+			}
+		],
+		"events": {
+			"block": {
+				"set_block_property": {
+					"slab:interact": 1
+				},
+				"decrement_stack": {}
+			}
+		}
+	}
+}

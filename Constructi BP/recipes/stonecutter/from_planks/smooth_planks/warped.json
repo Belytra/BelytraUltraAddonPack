@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "const:cutter/smooth_warped_planks"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:warped_planks"
+			}
+		],
+		"result": [
+			{
+				"item": "const:smooth_warped_planks"
+			}
+		]
+	}
+}

@@ -1,0 +1,141 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\manifest.json",
+	"file_type": "manifest_bp",
+	"format_version": 1,
+	"file_uuid": "f95bff5e_b21f_4a02_a5b7_f38325d2abd5",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "2",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "§cMo'creatures §rbedrock §a[BP]",
+						"description": "Original by DrZhark | Hecho por DEATH KING, Aguilesgamer, RighiNoobs8, TheMinedS, ESTEBAN1303YT, sebancraft_YT",
+						"uuid": "0444cc30-a002-43c1-bbd3-87cabf45db9b",
+						"version": [
+							1,
+							0,
+							0
+						],
+						"min_engine_version": [
+							1,
+							13,
+							0
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "344c4b9e-4f5f-41e4-ac72-7f5c82982098",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								0,
+								0
+							],
+							"uuid": "3a32dd2d-b593-415c-9f28-e248d653b284"
+						}
+					]
+				},
+				"key": "header",
+				"is_minified": true,
+				"children": {
+					"name": "§cMo'creatures §rbedrock §a[BP]",
+					"description": "Original by DrZhark | Hecho por DEATH KING, Aguilesgamer, RighiNoobs8, TheMinedS, ESTEBAN1303YT, sebancraft_YT",
+					"uuid": "0444cc30-a002-43c1-bbd3-87cabf45db9b",
+					"version": [
+						1,
+						0,
+						0
+					],
+					"min_engine_version": [
+						1,
+						13,
+						0
+					]
+				}
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "§cMo'creatures §rbedrock §a[BP]",
+						"description": "Original by DrZhark | Hecho por DEATH KING, Aguilesgamer, RighiNoobs8, TheMinedS, ESTEBAN1303YT, sebancraft_YT",
+						"uuid": "0444cc30-a002-43c1-bbd3-87cabf45db9b",
+						"version": [
+							1,
+							0,
+							0
+						],
+						"min_engine_version": [
+							1,
+							13,
+							0
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "344c4b9e-4f5f-41e4-ac72-7f5c82982098",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								0,
+								0
+							],
+							"uuid": "3a32dd2d-b593-415c-9f28-e248d653b284"
+						}
+					]
+				},
+				"key": "modules",
+				"is_minified": true,
+				"children": [
+					{
+						"type": "data",
+						"uuid": "344c4b9e-4f5f-41e4-ac72-7f5c82982098",
+						"version": [
+							1,
+							0,
+							0
+						]
+					}
+				]
+			},
+			{
+				"key": "dependencies",
+				"is_minified": true,
+				"children": [
+					{
+						"version": [
+							1,
+							0,
+							0
+						],
+						"uuid": "3a32dd2d-b593-415c-9f28-e248d653b284"
+					}
+				]
+			}
+		]
+	}
+}

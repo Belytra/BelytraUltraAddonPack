@@ -1,0 +1,35 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:elephant_chest"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ~ ",
+			"#!#",
+			" ~ "
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:wool"
+			},
+			"#": {
+				"item": "minecraft:chest"
+			},
+			"!": {
+				"item": "mocreatures:hide"
+			}
+		},
+		"result": [
+			{
+				"item": "mocreatures:elephant_chest",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

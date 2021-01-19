@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:netherite_axe_head"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      " a ",
+      " b ",
+      "   "
+    ],
+    "key": {
+      "a": {
+        "item": "base:diamond_axe_head"
+      },
+      "b": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "c": {
+        "item": "base:diamond_nuggets"
+      }
+    },
+    "result": {
+      "item": "base:netherite_axe_head",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

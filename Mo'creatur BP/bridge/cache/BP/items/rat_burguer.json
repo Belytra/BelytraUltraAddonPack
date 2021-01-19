@@ -1,0 +1,172 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\items\\rat_burguer.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "5dae3e95_d794_4e7a_8c10_7d7f1c2e8589",
+	"file_version": 61,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "mocreatures:rat_burger",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 64,
+							"minecraft:use_duration": 1.6,
+							"minecraft:food": {
+								"nutrition": 8,
+								"saturation_modifier": "supernatural"
+							},
+							"minecraft:icon": {
+								"texture": "burguer_rat"
+							},
+							"minecraft:use_animation": "eat",
+							"minecraft:render_offsets": "apple",
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.miscFood"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:rat_burger",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:use_duration": 1.6,
+								"minecraft:food": {
+									"nutrition": 8,
+									"saturation_modifier": "supernatural"
+								},
+								"minecraft:icon": {
+									"texture": "burguer_rat"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "apple",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.miscFood"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mocreatures:rat_burger",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:rat_burger",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:use_duration": 1.6,
+								"minecraft:food": {
+									"nutrition": 8,
+									"saturation_modifier": "supernatural"
+								},
+								"minecraft:icon": {
+									"texture": "burguer_rat"
+								},
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "apple",
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.miscFood"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:use_duration": 1.6,
+									"minecraft:food": {
+										"nutrition": 8,
+										"saturation_modifier": "supernatural"
+									},
+									"minecraft:icon": {
+										"texture": "burguer_rat"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:render_offsets": "apple",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.miscFood"
+									}
+								},
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 8,
+									"saturation_modifier": "supernatural"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 64,
+									"minecraft:use_duration": 1.6,
+									"minecraft:food": {
+										"nutrition": 8,
+										"saturation_modifier": "supernatural"
+									},
+									"minecraft:icon": {
+										"texture": "burguer_rat"
+									},
+									"minecraft:use_animation": "eat",
+									"minecraft:render_offsets": "apple",
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.miscFood"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "burguer_rat"
+								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"data": "apple",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.miscFood"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

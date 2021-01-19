@@ -1,0 +1,29 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:crimson_chair"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~  ",
+			"~~~",
+			"~ ~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:crimson_planks"
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:crimson_chair",
+				"data": 0,
+				"count": 4
+			}
+		]
+	}
+}

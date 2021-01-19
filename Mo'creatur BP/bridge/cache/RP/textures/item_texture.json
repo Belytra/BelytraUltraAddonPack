@@ -1,0 +1,1880 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Mo'creatures bedrock §a[RP]\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "92bd3f09_fc7d_4cf1_9c9d_9e93bb82c3d3",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"data": "mocreatures",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "mocreatures",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"ent_spawn_egg": {
+							"textures": [
+								"textures/items/Ent_spawn_egg"
+							]
+						},
+						"goat_spawn_egg": {
+							"textures": [
+								"textures/items/Goat_spawn_Egg"
+							]
+						},
+						"turkey_spawn_egg": {
+							"textures": [
+								"textures/items/turkey_spawn_egg"
+							]
+						},
+						"carne_de_pavo": {
+							"textures": [
+								"textures/items/food/Grid_Raw_Turkey"
+							]
+						},
+						"carne_de_pavo_cocinada": {
+							"textures": [
+								"textures/items/food/Grid_Cooked_Turkey"
+							]
+						},
+						"hide": {
+							"textures": [
+								"textures/items/items/hide"
+							]
+						},
+						"oso_pardo_spawn_egg": {
+							"textures": [
+								"textures/items/Oso_pardo_spawn_egg"
+							]
+						},
+						"oso_polar_spawn_egg": {
+							"textures": [
+								"textures/items/Oso_polar_spawn_egg"
+							]
+						},
+						"oso_negro_spawn_egg": {
+							"textures": [
+								"textures/items/Oso_negro_spawn_egg"
+							]
+						},
+						"oso_panda_spawn_egg": {
+							"textures": [
+								"textures/items/Oso_panda_spawn_egg"
+							]
+						},
+						"minigolem": {
+							"textures": "textures/items/minigolem"
+						},
+						"silverskeleton": {
+							"textures": "textures/items/silverskeleton"
+						},
+						"silverskeleton_sword": {
+							"textures": "textures/items/silverskeleton_sword"
+						},
+						"wraith": {
+							"textures": "textures/items/wraith"
+						},
+						"bird_spawn_egg": {
+							"textures": [
+								"textures/items/bird_spawn_egg"
+							]
+						},
+						"reptile_hide": {
+							"textures": [
+								"textures/items/items/reptile_hide"
+							]
+						},
+						"crocodile_spawn_egg": {
+							"textures": [
+								"textures/items/Crocodile_spawn_egg"
+							]
+						},
+						"boar_spawn_egg": {
+							"textures": [
+								"textures/items/Boar_spawn_egg"
+							]
+						},
+						"bunny_spawn_egg": {
+							"textures": [
+								"textures/items/bunny_spawn_egg"
+							]
+						},
+						"flamewraith": {
+							"textures": [
+								"textures/items/flamewraith"
+							]
+						},
+						"omelet": {
+							"textures": [
+								"textures/items/food/omelet"
+							]
+						},
+						"sugar_lump": {
+							"textures": [
+								"textures/items/food/sugar_lamp"
+							]
+						},
+						"eggmo": {
+							"textures": [
+								"textures/items/Grid_Egg"
+							]
+						},
+						"crafted_saddle": {
+							"textures": [
+								"textures/items/items/crafted_saddle"
+							]
+						},
+						"fur": {
+							"textures": [
+								"textures/items/items/fur"
+							]
+						},
+						"raccoon_spawn_egg": {
+							"textures": [
+								"textures/items/raccoon_spawn_egg"
+							]
+						},
+						"raw_rat": {
+							"textures": [
+								"textures/items/food/ratraw"
+							]
+						},
+						"cooked_rat": {
+							"textures": [
+								"textures/items/food/ratcooked"
+							]
+						},
+						"burguer_rat": {
+							"textures": [
+								"textures/items/food/ratburger"
+							]
+						},
+						"rats_spawn_egg": {
+							"textures": [
+								"textures/items/rat_spawn_egg",
+								"textures/items/hellrat_spawn_egg"
+							]
+						},
+						"shark_teeth": {
+							"textures": [
+								"textures/items/items/sharkteeth"
+							]
+						},
+						"shark_spawn_egg": {
+							"textures": [
+								"textures/items/shark_spawn_egg"
+							]
+						},
+						"elephant_harness": {
+							"textures": [
+								"textures/items/items/elephantharness"
+							]
+						},
+						"elephant_chests": {
+							"textures": [
+								"textures/items/items/elephantchests"
+							]
+						},
+						"elephant_chest": {
+							"textures": [
+								"textures/items/items/elephantchest"
+							]
+						},
+						"elephant_spawn_egg": {
+							"textures": [
+								"textures/items/elephant_spawn_egg"
+							]
+						},
+						"elephant_garment": {
+							"textures": [
+								"textures/items/items/elephantgarment"
+							]
+						},
+						"elephant_howdah": {
+							"textures": [
+								"textures/items/items/elephanthowdah"
+							]
+						},
+						"mammoth_platform": {
+							"textures": [
+								"textures/items/items/mammothplatform"
+							]
+						},
+						"medallion": {
+							"textures": [
+								"textures/items/items/medallion"
+							]
+						},
+						"raw_turtle": {
+							"textures": [
+								"textures/items/food/turtleraw"
+							]
+						},
+						"turtle_soup": {
+							"textures": [
+								"textures/items/food/turtlesoup"
+							]
+						},
+						"turtle_spawn_egg": {
+							"textures": [
+								"textures/items/turtle_spawn_egg"
+							]
+						},
+						"bo": {
+							"textures": [
+								"textures/items/items/bo"
+							]
+						},
+						"katana": {
+							"textures": [
+								"textures/items/items/katana"
+							]
+						},
+						"nunchaku": {
+							"textures": [
+								"textures/items/items/nunchaku"
+							]
+						},
+						"sai": {
+							"textures": [
+								"textures/items/items/sai"
+							]
+						},
+						"wildwolf_spawn_egg": {
+							"textures": [
+								"textures/items/wildwolf_spawn_egg"
+							]
+						},
+						"mocreatures_reptile_helmet": {
+							"textures": [
+								"textures/items/reptile_helmet"
+							]
+						},
+						"mocreatures_reptile_chestplate": {
+							"textures": [
+								"textures/items/reptile_chestplate"
+							]
+						},
+						"mocreatures_reptile_leggings": {
+							"textures": [
+								"textures/items/reptile_leggings"
+							]
+						},
+						"mocreatures_reptile_boots": {
+							"textures": [
+								"textures/items/reptile_boots"
+							]
+						},
+						"mocreatures_fur_helmet": {
+							"textures": [
+								"textures/items/fur_helmet"
+							]
+						},
+						"mocreatures_fur_chestplate": {
+							"textures": [
+								"textures/items/fur_chestplate"
+							]
+						},
+						"mocreatures_fur_leggings": {
+							"textures": [
+								"textures/items/fur_leggings"
+							]
+						},
+						"mocreatures_fur_boots": {
+							"textures": [
+								"textures/items/fur_boots"
+							]
+						},
+						"mocreatures_hide_helmet": {
+							"textures": [
+								"textures/items/hide_helmet"
+							]
+						},
+						"mocreatures_hide_chestplate": {
+							"textures": [
+								"textures/items/hide_chestplate"
+							]
+						},
+						"mocreatures_hide_leggings": {
+							"textures": [
+								"textures/items/hide_leggings"
+							]
+						},
+						"mocreatures_hide_boots": {
+							"textures": [
+								"textures/items/hide_boots"
+							]
+						},
+						"pet_amulet": {
+							"textures": [
+								"textures/items/items/petamulet",
+								"textures/items/items/petamuletfull"
+							]
+						},
+						"chitin": {
+							"textures": [
+								"textures/items/items/chitin",
+								"textures/items/items/chitinblack",
+								"textures/items/items/chitinfrost",
+								"textures/items/items/chitinnether"
+							]
+						},
+						"mocreatures_dirt_scorpion_helmet": {
+							"textures": [
+								"textures/items/dirt_scorpion_helmet"
+							]
+						},
+						"mocreatures_dirt_scorpion_chestplate": {
+							"textures": [
+								"textures/items/dirt_scorpion_chestplate"
+							]
+						},
+						"mocreatures_dirt_scorpion_leggings": {
+							"textures": [
+								"textures/items/dirt_scorpion_leggings"
+							]
+						},
+						"mocreatures_dirt_scorpion_boots": {
+							"textures": [
+								"textures/items/dirt_scorpion_boots"
+							]
+						},
+						"scorpion_sting": {
+							"textures": [
+								"textures/items/items/scorpstingdirt",
+								"textures/items/items/scorpstingcave",
+								"textures/items/items/scorpstingfrost",
+								"textures/items/items/scorpstingnether"
+							]
+						},
+						"scorpion_sword": {
+							"textures": [
+								"textures/items/items/scorpsworddirt",
+								"textures/items/items/scorpswordcave",
+								"textures/items/items/scorpswordfrost",
+								"textures/items/items/scorpswordnether"
+							]
+						},
+						"mocreatures_cave_scorpion_helmet": {
+							"textures": [
+								"textures/items/cave_scorpion_helmet"
+							]
+						},
+						"mocreatures_cave_scorpion_chestplate": {
+							"textures": [
+								"textures/items/cave_scorpion_chestplate"
+							]
+						},
+						"mocreatures_cave_scorpion_leggings": {
+							"textures": [
+								"textures/items/cave_scorpion_leggings"
+							]
+						},
+						"mocreatures_cave_scorpion_boots": {
+							"textures": [
+								"textures/items/cave_scorpion_boots"
+							]
+						},
+						"mocreatures_frost_scorpion_helmet": {
+							"textures": [
+								"textures/items/scorphelmetfrost"
+							]
+						},
+						"mocreatures_frost_scorpion_chestplate": {
+							"textures": [
+								"textures/items/scorpplatefrost"
+							]
+						},
+						"mocreatures_frost_scorpion_leggings": {
+							"textures": [
+								"textures/items/scorplegsfrost"
+							]
+						},
+						"mocreatures_frost_scorpion_boots": {
+							"textures": [
+								"textures/items/scorpbootsfrost"
+							]
+						},
+						"mocreatures_nether_scorpion_helmet": {
+							"textures": [
+								"textures/items/scorphelmetnether"
+							]
+						},
+						"mocreatures_nether_scorpion_chestplate": {
+							"textures": [
+								"textures/items/scorpplatenether"
+							]
+						},
+						"mocreatures_nether_scorpion_leggings": {
+							"textures": [
+								"textures/items/scorplegsnether"
+							]
+						},
+						"mocreatures_nether_scorpion_boots": {
+							"textures": [
+								"textures/items/scorpbootsnether"
+							]
+						},
+						"scorpion_spawnegg": {
+							"textures": [
+								"textures/items/scorpion_spawn_egg"
+							]
+						},
+						"pet_food": {
+							"textures": [
+								"textures/items/items/petfood"
+							]
+						},
+						"raw_ostrich": {
+							"textures": [
+								"textures/items/Display_Raw_Ostrich"
+							]
+						},
+						"cooked_ostrich": {
+							"textures": [
+								"textures/items/Display_Cooked_Ostrich"
+							]
+						},
+						"kittybed": {
+							"textures": [
+								"textures/items/kittybed/kittybed"
+							]
+						},
+						"kitty_spawn_egg": {
+							"textures": [
+								"textures/items/kitty_spawg_egg"
+							]
+						},
+						"lion": {
+							"textures": "textures/items/lion"
+						},
+						"leopard": {
+							"textures": "textures/items/leopard"
+						},
+						"panther": {
+							"textures": "textures/items/panther"
+						},
+						"tiger": {
+							"textures": "textures/items/tiger"
+						},
+						"leoger": {
+							"textures": "textures/items/leoger"
+						},
+						"liard": {
+							"textures": "textures/items/liard"
+						},
+						"liger": {
+							"textures": "textures/items/liger"
+						},
+						"lither": {
+							"textures": "textures/items/lither"
+						},
+						"panthard": {
+							"textures": "textures/items/panthard"
+						},
+						"panthger": {
+							"textures": "textures/items/panthger"
+						},
+						"bcclaw": {
+							"textures": [
+								"textures/items/items/bigcatclaw"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "ent_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/Ent_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "goat_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/Goat_spawn_Egg"
+							]
+						}
+					},
+					{
+						"key": "turkey_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/turkey_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "carne_de_pavo",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/food/Grid_Raw_Turkey"
+							]
+						}
+					},
+					{
+						"key": "carne_de_pavo_cocinada",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/food/Grid_Cooked_Turkey"
+							]
+						}
+					},
+					{
+						"key": "hide",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/hide"
+							]
+						}
+					},
+					{
+						"key": "oso_pardo_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/Oso_pardo_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "oso_polar_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/Oso_polar_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "oso_negro_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/Oso_negro_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "oso_panda_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/Oso_panda_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "minigolem",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/minigolem"
+						}
+					},
+					{
+						"key": "silverskeleton",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/silverskeleton"
+						}
+					},
+					{
+						"key": "silverskeleton_sword",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/silverskeleton_sword"
+						}
+					},
+					{
+						"key": "wraith",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/wraith"
+						}
+					},
+					{
+						"key": "bird_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/bird_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "reptile_hide",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/reptile_hide"
+							]
+						}
+					},
+					{
+						"key": "crocodile_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/Crocodile_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "boar_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/Boar_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "bunny_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/bunny_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "flamewraith",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/flamewraith"
+							]
+						}
+					},
+					{
+						"key": "omelet",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/food/omelet"
+							]
+						}
+					},
+					{
+						"key": "sugar_lump",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/food/sugar_lamp"
+							]
+						}
+					},
+					{
+						"key": "eggmo",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/Grid_Egg"
+							]
+						}
+					},
+					{
+						"key": "crafted_saddle",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/crafted_saddle"
+							]
+						}
+					},
+					{
+						"key": "fur",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/fur"
+							]
+						}
+					},
+					{
+						"key": "raccoon_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/raccoon_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "raw_rat",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/food/ratraw"
+							]
+						}
+					},
+					{
+						"key": "cooked_rat",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/food/ratcooked"
+							]
+						}
+					},
+					{
+						"key": "burguer_rat",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/food/ratburger"
+							]
+						}
+					},
+					{
+						"key": "rats_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/rat_spawn_egg",
+								"textures/items/hellrat_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "shark_teeth",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/sharkteeth"
+							]
+						}
+					},
+					{
+						"key": "shark_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/shark_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "elephant_harness",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/elephantharness"
+							]
+						}
+					},
+					{
+						"key": "elephant_chests",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/elephantchests"
+							]
+						}
+					},
+					{
+						"key": "elephant_chest",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/elephantchest"
+							]
+						}
+					},
+					{
+						"key": "elephant_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/elephant_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "elephant_garment",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/elephantgarment"
+							]
+						}
+					},
+					{
+						"key": "elephant_howdah",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/elephanthowdah"
+							]
+						}
+					},
+					{
+						"key": "mammoth_platform",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/mammothplatform"
+							]
+						}
+					},
+					{
+						"key": "medallion",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/medallion"
+							]
+						}
+					},
+					{
+						"key": "raw_turtle",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/food/turtleraw"
+							]
+						}
+					},
+					{
+						"key": "turtle_soup",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/food/turtlesoup"
+							]
+						}
+					},
+					{
+						"key": "turtle_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/turtle_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "bo",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/bo"
+							]
+						}
+					},
+					{
+						"key": "katana",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/katana"
+							]
+						}
+					},
+					{
+						"key": "nunchaku",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/nunchaku"
+							]
+						}
+					},
+					{
+						"key": "sai",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/sai"
+							]
+						}
+					},
+					{
+						"key": "wildwolf_spawn_egg",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/wildwolf_spawn_egg"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_reptile_helmet",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/reptile_helmet"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_reptile_chestplate",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/reptile_chestplate"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_reptile_leggings",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/reptile_leggings"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_reptile_boots",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/reptile_boots"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_fur_helmet",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/fur_helmet"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_fur_chestplate",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/fur_chestplate"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_fur_leggings",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/fur_leggings"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_fur_boots",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/fur_boots"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_hide_helmet",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/hide_helmet"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_hide_chestplate",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/hide_chestplate"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_hide_leggings",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/hide_leggings"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_hide_boots",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/hide_boots"
+							]
+						}
+					},
+					{
+						"key": "pet_amulet",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/petamulet",
+								"textures/items/items/petamuletfull"
+							]
+						}
+					},
+					{
+						"key": "chitin",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/chitin",
+								"textures/items/items/chitinblack",
+								"textures/items/items/chitinfrost",
+								"textures/items/items/chitinnether"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_dirt_scorpion_helmet",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/dirt_scorpion_helmet"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_dirt_scorpion_chestplate",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/dirt_scorpion_chestplate"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_dirt_scorpion_leggings",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/dirt_scorpion_leggings"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_dirt_scorpion_boots",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/dirt_scorpion_boots"
+							]
+						}
+					},
+					{
+						"key": "scorpion_sting",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/scorpstingdirt",
+								"textures/items/items/scorpstingcave",
+								"textures/items/items/scorpstingfrost",
+								"textures/items/items/scorpstingnether"
+							]
+						}
+					},
+					{
+						"key": "scorpion_sword",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/items/scorpsworddirt",
+								"textures/items/items/scorpswordcave",
+								"textures/items/items/scorpswordfrost",
+								"textures/items/items/scorpswordnether"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_cave_scorpion_helmet",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/cave_scorpion_helmet"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_cave_scorpion_chestplate",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/cave_scorpion_chestplate"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_cave_scorpion_leggings",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/cave_scorpion_leggings"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_cave_scorpion_boots",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/cave_scorpion_boots"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_frost_scorpion_helmet",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/scorphelmetfrost"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_frost_scorpion_chestplate",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/scorpplatefrost"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_frost_scorpion_leggings",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/scorplegsfrost"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_frost_scorpion_boots",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/scorpbootsfrost"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_nether_scorpion_helmet",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/scorphelmetnether"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/scorphelmetnether"
+								]
+							}
+						]
+					},
+					{
+						"key": "mocreatures_nether_scorpion_chestplate",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/scorpplatenether"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_nether_scorpion_leggings",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/scorplegsnether"
+							]
+						}
+					},
+					{
+						"key": "mocreatures_nether_scorpion_boots",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/scorpbootsnether"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/scorpbootsnether"
+								]
+							}
+						]
+					},
+					{
+						"key": "scorpion_spawnegg",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/scorpion_spawn_egg"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/scorpion_spawn_egg"
+								]
+							}
+						]
+					},
+					{
+						"key": "pet_food",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/items/petfood"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/items/petfood"
+								]
+							}
+						]
+					},
+					{
+						"key": "raw_ostrich",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/Display_Raw_Ostrich"
+							]
+						}
+					},
+					{
+						"key": "cooked_ostrich",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/items/Display_Cooked_Ostrich"
+							]
+						}
+					},
+					{
+						"key": "kittybed",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/kittybed/kittybed"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/kittybed/kittybed"
+								]
+							}
+						]
+					},
+					{
+						"key": "kitty_spawn_egg",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/kitty_spawg_egg"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/kitty_spawg_egg"
+								]
+							}
+						]
+					},
+					{
+						"key": "lion",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/lion"
+						}
+					},
+					{
+						"key": "leopard",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/leopard"
+						}
+					},
+					{
+						"key": "panther",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/panther"
+						}
+					},
+					{
+						"key": "tiger",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/tiger"
+						}
+					},
+					{
+						"key": "leoger",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/leoger"
+						}
+					},
+					{
+						"key": "liard",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/liard"
+						}
+					},
+					{
+						"key": "liger",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/liger"
+						}
+					},
+					{
+						"key": "lither",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/lither"
+						}
+					},
+					{
+						"key": "panthard",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/panthard"
+						}
+					},
+					{
+						"key": "panthger",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/panthger"
+						}
+					},
+					{
+						"open": {
+							"ent_spawn_egg": {
+								"textures": [
+									"textures/items/Ent_spawn_egg"
+								]
+							},
+							"goat_spawn_egg": {
+								"textures": [
+									"textures/items/Goat_spawn_Egg"
+								]
+							},
+							"turkey_spawn_egg": {
+								"textures": [
+									"textures/items/turkey_spawn_egg"
+								]
+							},
+							"carne_de_pavo": {
+								"textures": [
+									"textures/items/food/Grid_Raw_Turkey"
+								]
+							},
+							"carne_de_pavo_cocinada": {
+								"textures": [
+									"textures/items/food/Grid_Cooked_Turkey"
+								]
+							},
+							"hide": {
+								"textures": [
+									"textures/items/items/hide"
+								]
+							},
+							"oso_pardo_spawn_egg": {
+								"textures": [
+									"textures/items/Oso_pardo_spawn_egg"
+								]
+							},
+							"oso_polar_spawn_egg": {
+								"textures": [
+									"textures/items/Oso_polar_spawn_egg"
+								]
+							},
+							"oso_negro_spawn_egg": {
+								"textures": [
+									"textures/items/Oso_negro_spawn_egg"
+								]
+							},
+							"oso_panda_spawn_egg": {
+								"textures": [
+									"textures/items/Oso_panda_spawn_egg"
+								]
+							},
+							"minigolem": {
+								"textures": "textures/items/minigolem"
+							},
+							"silverskeleton": {
+								"textures": "textures/items/silverskeleton"
+							},
+							"silverskeleton_sword": {
+								"textures": "textures/items/silverskeleton_sword"
+							},
+							"wraith": {
+								"textures": "textures/items/wraith"
+							},
+							"bird_spawn_egg": {
+								"textures": [
+									"textures/items/bird_spawn_egg"
+								]
+							},
+							"reptile_hide": {
+								"textures": [
+									"textures/items/items/reptile_hide"
+								]
+							},
+							"crocodile_spawn_egg": {
+								"textures": [
+									"textures/items/Crocodile_spawn_egg"
+								]
+							},
+							"boar_spawn_egg": {
+								"textures": [
+									"textures/items/Boar_spawn_egg"
+								]
+							},
+							"bunny_spawn_egg": {
+								"textures": [
+									"textures/items/bunny_spawn_egg"
+								]
+							},
+							"flamewraith": {
+								"textures": [
+									"textures/items/flamewraith"
+								]
+							},
+							"omelet": {
+								"textures": [
+									"textures/items/food/omelet"
+								]
+							},
+							"sugar_lump": {
+								"textures": [
+									"textures/items/food/sugar_lamp"
+								]
+							},
+							"eggmo": {
+								"textures": [
+									"textures/items/Grid_Egg"
+								]
+							},
+							"crafted_saddle": {
+								"textures": [
+									"textures/items/items/crafted_saddle"
+								]
+							},
+							"fur": {
+								"textures": [
+									"textures/items/items/fur"
+								]
+							},
+							"raccoon_spawn_egg": {
+								"textures": [
+									"textures/items/raccoon_spawn_egg"
+								]
+							},
+							"raw_rat": {
+								"textures": [
+									"textures/items/food/ratraw"
+								]
+							},
+							"cooked_rat": {
+								"textures": [
+									"textures/items/food/ratcooked"
+								]
+							},
+							"burguer_rat": {
+								"textures": [
+									"textures/items/food/ratburger"
+								]
+							},
+							"rats_spawn_egg": {
+								"textures": [
+									"textures/items/rat_spawn_egg",
+									"textures/items/hellrat_spawn_egg"
+								]
+							},
+							"shark_teeth": {
+								"textures": [
+									"textures/items/items/sharkteeth"
+								]
+							},
+							"shark_spawn_egg": {
+								"textures": [
+									"textures/items/shark_spawn_egg"
+								]
+							},
+							"elephant_harness": {
+								"textures": [
+									"textures/items/items/elephantharness"
+								]
+							},
+							"elephant_chests": {
+								"textures": [
+									"textures/items/items/elephantchests"
+								]
+							},
+							"elephant_chest": {
+								"textures": [
+									"textures/items/items/elephantchest"
+								]
+							},
+							"elephant_spawn_egg": {
+								"textures": [
+									"textures/items/elephant_spawn_egg"
+								]
+							},
+							"elephant_garment": {
+								"textures": [
+									"textures/items/items/elephantgarment"
+								]
+							},
+							"elephant_howdah": {
+								"textures": [
+									"textures/items/items/elephanthowdah"
+								]
+							},
+							"mammoth_platform": {
+								"textures": [
+									"textures/items/items/mammothplatform"
+								]
+							},
+							"medallion": {
+								"textures": [
+									"textures/items/items/medallion"
+								]
+							},
+							"raw_turtle": {
+								"textures": [
+									"textures/items/food/turtleraw"
+								]
+							},
+							"turtle_soup": {
+								"textures": [
+									"textures/items/food/turtlesoup"
+								]
+							},
+							"turtle_spawn_egg": {
+								"textures": [
+									"textures/items/turtle_spawn_egg"
+								]
+							},
+							"bo": {
+								"textures": [
+									"textures/items/items/bo"
+								]
+							},
+							"katana": {
+								"textures": [
+									"textures/items/items/katana"
+								]
+							},
+							"nunchaku": {
+								"textures": [
+									"textures/items/items/nunchaku"
+								]
+							},
+							"sai": {
+								"textures": [
+									"textures/items/items/sai"
+								]
+							},
+							"wildwolf_spawn_egg": {
+								"textures": [
+									"textures/items/wildwolf_spawn_egg"
+								]
+							},
+							"mocreatures_reptile_helmet": {
+								"textures": [
+									"textures/items/reptile_helmet"
+								]
+							},
+							"mocreatures_reptile_chestplate": {
+								"textures": [
+									"textures/items/reptile_chestplate"
+								]
+							},
+							"mocreatures_reptile_leggings": {
+								"textures": [
+									"textures/items/reptile_leggings"
+								]
+							},
+							"mocreatures_reptile_boots": {
+								"textures": [
+									"textures/items/reptile_boots"
+								]
+							},
+							"mocreatures_fur_helmet": {
+								"textures": [
+									"textures/items/fur_helmet"
+								]
+							},
+							"mocreatures_fur_chestplate": {
+								"textures": [
+									"textures/items/fur_chestplate"
+								]
+							},
+							"mocreatures_fur_leggings": {
+								"textures": [
+									"textures/items/fur_leggings"
+								]
+							},
+							"mocreatures_fur_boots": {
+								"textures": [
+									"textures/items/fur_boots"
+								]
+							},
+							"mocreatures_hide_helmet": {
+								"textures": [
+									"textures/items/hide_helmet"
+								]
+							},
+							"mocreatures_hide_chestplate": {
+								"textures": [
+									"textures/items/hide_chestplate"
+								]
+							},
+							"mocreatures_hide_leggings": {
+								"textures": [
+									"textures/items/hide_leggings"
+								]
+							},
+							"mocreatures_hide_boots": {
+								"textures": [
+									"textures/items/hide_boots"
+								]
+							},
+							"pet_amulet": {
+								"textures": [
+									"textures/items/items/petamulet",
+									"textures/items/items/petamuletfull"
+								]
+							},
+							"chitin": {
+								"textures": [
+									"textures/items/items/chitin",
+									"textures/items/items/chitinblack",
+									"textures/items/items/chitinfrost",
+									"textures/items/items/chitinnether"
+								]
+							},
+							"mocreatures_dirt_scorpion_helmet": {
+								"textures": [
+									"textures/items/dirt_scorpion_helmet"
+								]
+							},
+							"mocreatures_dirt_scorpion_chestplate": {
+								"textures": [
+									"textures/items/dirt_scorpion_chestplate"
+								]
+							},
+							"mocreatures_dirt_scorpion_leggings": {
+								"textures": [
+									"textures/items/dirt_scorpion_leggings"
+								]
+							},
+							"mocreatures_dirt_scorpion_boots": {
+								"textures": [
+									"textures/items/dirt_scorpion_boots"
+								]
+							},
+							"scorpion_sting": {
+								"textures": [
+									"textures/items/items/scorpstingdirt",
+									"textures/items/items/scorpstingcave",
+									"textures/items/items/scorpstingfrost",
+									"textures/items/items/scorpstingnether"
+								]
+							},
+							"scorpion_sword": {
+								"textures": [
+									"textures/items/items/scorpsworddirt",
+									"textures/items/items/scorpswordcave",
+									"textures/items/items/scorpswordfrost",
+									"textures/items/items/scorpswordnether"
+								]
+							},
+							"mocreatures_cave_scorpion_helmet": {
+								"textures": [
+									"textures/items/cave_scorpion_helmet"
+								]
+							},
+							"mocreatures_cave_scorpion_chestplate": {
+								"textures": [
+									"textures/items/cave_scorpion_chestplate"
+								]
+							},
+							"mocreatures_cave_scorpion_leggings": {
+								"textures": [
+									"textures/items/cave_scorpion_leggings"
+								]
+							},
+							"mocreatures_cave_scorpion_boots": {
+								"textures": [
+									"textures/items/cave_scorpion_boots"
+								]
+							},
+							"mocreatures_frost_scorpion_helmet": {
+								"textures": [
+									"textures/items/scorphelmetfrost"
+								]
+							},
+							"mocreatures_frost_scorpion_chestplate": {
+								"textures": [
+									"textures/items/scorpplatefrost"
+								]
+							},
+							"mocreatures_frost_scorpion_leggings": {
+								"textures": [
+									"textures/items/scorplegsfrost"
+								]
+							},
+							"mocreatures_frost_scorpion_boots": {
+								"textures": [
+									"textures/items/scorpbootsfrost"
+								]
+							},
+							"mocreatures_nether_scorpion_helmet": {
+								"textures": [
+									"textures/items/scorphelmetnether"
+								]
+							},
+							"mocreatures_nether_scorpion_chestplate": {
+								"textures": [
+									"textures/items/scorpplatenether"
+								]
+							},
+							"mocreatures_nether_scorpion_leggings": {
+								"textures": [
+									"textures/items/scorplegsnether"
+								]
+							},
+							"mocreatures_nether_scorpion_boots": {
+								"textures": [
+									"textures/items/scorpbootsnether"
+								]
+							},
+							"scorpion_spawnegg": {
+								"textures": [
+									"textures/items/scorpion_spawn_egg"
+								]
+							},
+							"pet_food": {
+								"textures": [
+									"textures/items/items/petfood"
+								]
+							},
+							"raw_ostrich": {
+								"textures": [
+									"textures/items/Display_Raw_Ostrich"
+								]
+							},
+							"cooked_ostrich": {
+								"textures": [
+									"textures/items/Display_Cooked_Ostrich"
+								]
+							},
+							"kittybed": {
+								"textures": [
+									"textures/items/kittybed/kittybed"
+								]
+							},
+							"kitty_spawn_egg": {
+								"textures": [
+									"textures/items/kitty_spawg_egg"
+								]
+							},
+							"lion": {
+								"textures": "textures/items/lion"
+							},
+							"leopard": {
+								"textures": "textures/items/leopard"
+							},
+							"panther": {
+								"textures": "textures/items/panther"
+							},
+							"tiger": {
+								"textures": "textures/items/tiger"
+							},
+							"leoger": {
+								"textures": "textures/items/leoger"
+							},
+							"liard": {
+								"textures": "textures/items/liard"
+							},
+							"liger": {
+								"textures": "textures/items/liger"
+							},
+							"lither": {
+								"textures": "textures/items/lither"
+							},
+							"panthard": {
+								"textures": "textures/items/panthard"
+							},
+							"panthger": {
+								"textures": "textures/items/panthger"
+							},
+							"bcclaw": {
+								"textures": [
+									"textures/items/items/bigcatclaw"
+								]
+							}
+						},
+						"key": "bcclaw",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/items/bigcatclaw"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/items/bigcatclaw"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

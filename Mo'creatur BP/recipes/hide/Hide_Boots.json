@@ -1,0 +1,24 @@
+//bridge-file-version: #6
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:hide_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "mocreatures:hide"
+			}
+		},
+		"result": {
+			"item": "mocreatures:hide_boots"
+		}
+	}
+}

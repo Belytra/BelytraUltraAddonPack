@@ -1,0 +1,700 @@
+{
+	"file_path": "C:\\Users\\hcarl\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Barry The Magic Bear\\entity\\pet.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "c9f6fd6f_2b0a_4139_b775_ed2a548f3fb9",
+	"file_version": 21,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "btmb:pet",
+							"min_engine_version": "1.10.0",
+							"materials": {
+								"default": "entity_alphatest",
+								"legs": "chicken_legs"
+							},
+							"textures": {
+								"default": "textures/entity/barrybear",
+								"dino": "textures/entity/dinopet",
+								"axolotl": "textures/entity/axolotl",
+								"elegant": "textures/entity/smoking_guy",
+								"astronaut": "textures/entity/astronaut",
+								"minitv": "textures/entity/minitv"
+							},
+							"geometry": {
+								"default": "geometry.barrybear",
+								"dino": "geometry.dinopet",
+								"axolotl": "geometry.axolotlpet",
+								"elegant": "geometry.smoking_guy",
+								"astronaut": "geometry.astronaut",
+								"minitv": "geometry.minitv"
+							},
+							"animations": {
+								"move": "animation.barrybear.walk",
+								"general": "animation.barrybear.idling",
+								"look_at_target": "animation.common.look_at_target",
+								"baby_transform": "animation.chicken.baby_transform",
+								"sit": "animation.barrybear.sit"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"move": "query.modified_move_speed"
+									},
+									"look_at_target",
+									{
+										"baby_transform": "query.is_baby"
+									},
+									{
+										"general": "query.is_moving == 0 && query.is_sitting == 0"
+									},
+									{
+										"sit": "query.is_sitting"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.pets"
+							],
+							"spawn_egg": {
+								"base_color": "#FB0AFD",
+								"overlay_color": "#BF0BFF"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "btmb:pet",
+								"min_engine_version": "1.10.0",
+								"materials": {
+									"default": "entity_alphatest",
+									"legs": "chicken_legs"
+								},
+								"textures": {
+									"default": "textures/entity/barrybear",
+									"dino": "textures/entity/dinopet",
+									"axolotl": "textures/entity/axolotl",
+									"elegant": "textures/entity/smoking_guy",
+									"astronaut": "textures/entity/astronaut",
+									"minitv": "textures/entity/minitv"
+								},
+								"geometry": {
+									"default": "geometry.barrybear",
+									"dino": "geometry.dinopet",
+									"axolotl": "geometry.axolotlpet",
+									"elegant": "geometry.smoking_guy",
+									"astronaut": "geometry.astronaut",
+									"minitv": "geometry.minitv"
+								},
+								"animations": {
+									"move": "animation.barrybear.walk",
+									"general": "animation.barrybear.idling",
+									"look_at_target": "animation.common.look_at_target",
+									"baby_transform": "animation.chicken.baby_transform",
+									"sit": "animation.barrybear.sit"
+								},
+								"scripts": {
+									"animate": [
+										{
+											"move": "query.modified_move_speed"
+										},
+										"look_at_target",
+										{
+											"baby_transform": "query.is_baby"
+										},
+										{
+											"general": "query.is_moving == 0 && query.is_sitting == 0"
+										},
+										{
+											"sit": "query.is_sitting"
+										}
+									]
+								},
+								"render_controllers": [
+									"controller.render.pets"
+								],
+								"spawn_egg": {
+									"base_color": "#FB0AFD",
+									"overlay_color": "#BF0BFF"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "btmb:pet",
+									"min_engine_version": "1.10.0",
+									"materials": {
+										"default": "entity_alphatest",
+										"legs": "chicken_legs"
+									},
+									"textures": {
+										"default": "textures/entity/barrybear",
+										"dino": "textures/entity/dinopet",
+										"axolotl": "textures/entity/axolotl",
+										"elegant": "textures/entity/smoking_guy",
+										"astronaut": "textures/entity/astronaut",
+										"minitv": "textures/entity/minitv"
+									},
+									"geometry": {
+										"default": "geometry.barrybear",
+										"dino": "geometry.dinopet",
+										"axolotl": "geometry.axolotlpet",
+										"elegant": "geometry.smoking_guy",
+										"astronaut": "geometry.astronaut",
+										"minitv": "geometry.minitv"
+									},
+									"animations": {
+										"move": "animation.barrybear.walk",
+										"general": "animation.barrybear.idling",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.chicken.baby_transform",
+										"sit": "animation.barrybear.sit"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_move_speed"
+											},
+											"look_at_target",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											{
+												"general": "query.is_moving == 0 && query.is_sitting == 0"
+											},
+											{
+												"sit": "query.is_sitting"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.pets"
+									],
+									"spawn_egg": {
+										"base_color": "#FB0AFD",
+										"overlay_color": "#BF0BFF"
+									}
+								},
+								"data": "btmb:pet",
+								"key": "identifier"
+							},
+							{
+								"data": "1.10.0",
+								"key": "min_engine_version"
+							},
+							{
+								"open": {
+									"identifier": "btmb:pet",
+									"min_engine_version": "1.10.0",
+									"materials": {
+										"default": "entity_alphatest",
+										"legs": "chicken_legs"
+									},
+									"textures": {
+										"default": "textures/entity/barrybear",
+										"dino": "textures/entity/dinopet",
+										"axolotl": "textures/entity/axolotl",
+										"elegant": "textures/entity/smoking_guy",
+										"astronaut": "textures/entity/astronaut",
+										"minitv": "textures/entity/minitv"
+									},
+									"geometry": {
+										"default": "geometry.barrybear",
+										"dino": "geometry.dinopet",
+										"axolotl": "geometry.axolotlpet",
+										"elegant": "geometry.smoking_guy",
+										"astronaut": "geometry.astronaut",
+										"minitv": "geometry.minitv"
+									},
+									"animations": {
+										"move": "animation.barrybear.walk",
+										"general": "animation.barrybear.idling",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.chicken.baby_transform",
+										"sit": "animation.barrybear.sit"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_move_speed"
+											},
+											"look_at_target",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											{
+												"general": "query.is_moving == 0 && query.is_sitting == 0"
+											},
+											{
+												"sit": "query.is_sitting"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.pets"
+									],
+									"spawn_egg": {
+										"base_color": "#FB0AFD",
+										"overlay_color": "#BF0BFF"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_alphatest",
+									"legs": "chicken_legs"
+								}
+							},
+							{
+								"open": {
+									"identifier": "btmb:pet",
+									"min_engine_version": "1.10.0",
+									"materials": {
+										"default": "entity_alphatest",
+										"legs": "chicken_legs"
+									},
+									"textures": {
+										"default": "textures/entity/barrybear",
+										"dino": "textures/entity/dinopet",
+										"axolotl": "textures/entity/axolotl",
+										"elegant": "textures/entity/smoking_guy",
+										"astronaut": "textures/entity/astronaut",
+										"minitv": "textures/entity/minitv"
+									},
+									"geometry": {
+										"default": "geometry.barrybear",
+										"dino": "geometry.dinopet",
+										"axolotl": "geometry.axolotlpet",
+										"elegant": "geometry.smoking_guy",
+										"astronaut": "geometry.astronaut",
+										"minitv": "geometry.minitv"
+									},
+									"animations": {
+										"move": "animation.barrybear.walk",
+										"general": "animation.barrybear.idling",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.chicken.baby_transform",
+										"sit": "animation.barrybear.sit"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_move_speed"
+											},
+											"look_at_target",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											{
+												"general": "query.is_moving == 0 && query.is_sitting == 0"
+											},
+											{
+												"sit": "query.is_sitting"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.pets"
+									],
+									"spawn_egg": {
+										"base_color": "#FB0AFD",
+										"overlay_color": "#BF0BFF"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/barrybear",
+									"dino": "textures/entity/dinopet",
+									"axolotl": "textures/entity/axolotl",
+									"elegant": "textures/entity/smoking_guy",
+									"astronaut": "textures/entity/astronaut",
+									"minitv": "textures/entity/minitv"
+								}
+							},
+							{
+								"open": {
+									"identifier": "btmb:pet",
+									"min_engine_version": "1.10.0",
+									"materials": {
+										"default": "entity_alphatest",
+										"legs": "chicken_legs"
+									},
+									"textures": {
+										"default": "textures/entity/barrybear",
+										"dino": "textures/entity/dinopet",
+										"axolotl": "textures/entity/axolotl",
+										"elegant": "textures/entity/smoking_guy",
+										"astronaut": "textures/entity/astronaut",
+										"minitv": "textures/entity/minitv"
+									},
+									"geometry": {
+										"default": "geometry.barrybear",
+										"dino": "geometry.dinopet",
+										"axolotl": "geometry.axolotlpet",
+										"elegant": "geometry.smoking_guy",
+										"astronaut": "geometry.astronaut",
+										"minitv": "geometry.minitv"
+									},
+									"animations": {
+										"move": "animation.barrybear.walk",
+										"general": "animation.barrybear.idling",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.chicken.baby_transform",
+										"sit": "animation.barrybear.sit"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_move_speed"
+											},
+											"look_at_target",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											{
+												"general": "query.is_moving == 0 && query.is_sitting == 0"
+											},
+											{
+												"sit": "query.is_sitting"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.pets"
+									],
+									"spawn_egg": {
+										"base_color": "#FB0AFD",
+										"overlay_color": "#BF0BFF"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.barrybear",
+									"dino": "geometry.dinopet",
+									"axolotl": "geometry.axolotlpet",
+									"elegant": "geometry.smoking_guy",
+									"astronaut": "geometry.astronaut",
+									"minitv": "geometry.minitv"
+								}
+							},
+							{
+								"open": {
+									"identifier": "btmb:pet",
+									"min_engine_version": "1.10.0",
+									"materials": {
+										"default": "entity_alphatest",
+										"legs": "chicken_legs"
+									},
+									"textures": {
+										"default": "textures/entity/barrybear",
+										"dino": "textures/entity/dinopet",
+										"axolotl": "textures/entity/axolotl",
+										"elegant": "textures/entity/smoking_guy",
+										"astronaut": "textures/entity/astronaut",
+										"minitv": "textures/entity/minitv"
+									},
+									"geometry": {
+										"default": "geometry.barrybear",
+										"dino": "geometry.dinopet",
+										"axolotl": "geometry.axolotlpet",
+										"elegant": "geometry.smoking_guy",
+										"astronaut": "geometry.astronaut",
+										"minitv": "geometry.minitv"
+									},
+									"animations": {
+										"move": "animation.barrybear.walk",
+										"general": "animation.barrybear.idling",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.chicken.baby_transform",
+										"sit": "animation.barrybear.sit"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_move_speed"
+											},
+											"look_at_target",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											{
+												"general": "query.is_moving == 0 && query.is_sitting == 0"
+											},
+											{
+												"sit": "query.is_sitting"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.pets"
+									],
+									"spawn_egg": {
+										"base_color": "#FB0AFD",
+										"overlay_color": "#BF0BFF"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"move": "animation.barrybear.walk",
+									"general": "animation.barrybear.idling",
+									"look_at_target": "animation.common.look_at_target",
+									"baby_transform": "animation.chicken.baby_transform",
+									"sit": "animation.barrybear.sit"
+								}
+							},
+							{
+								"open": {
+									"identifier": "btmb:pet",
+									"min_engine_version": "1.10.0",
+									"materials": {
+										"default": "entity_alphatest",
+										"legs": "chicken_legs"
+									},
+									"textures": {
+										"default": "textures/entity/barrybear",
+										"dino": "textures/entity/dinopet",
+										"axolotl": "textures/entity/axolotl",
+										"elegant": "textures/entity/smoking_guy",
+										"astronaut": "textures/entity/astronaut",
+										"minitv": "textures/entity/minitv"
+									},
+									"geometry": {
+										"default": "geometry.barrybear",
+										"dino": "geometry.dinopet",
+										"axolotl": "geometry.axolotlpet",
+										"elegant": "geometry.smoking_guy",
+										"astronaut": "geometry.astronaut",
+										"minitv": "geometry.minitv"
+									},
+									"animations": {
+										"move": "animation.barrybear.walk",
+										"general": "animation.barrybear.idling",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.chicken.baby_transform",
+										"sit": "animation.barrybear.sit"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_move_speed"
+											},
+											"look_at_target",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											{
+												"general": "query.is_moving == 0 && query.is_sitting == 0"
+											},
+											{
+												"sit": "query.is_sitting"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.pets"
+									],
+									"spawn_egg": {
+										"base_color": "#FB0AFD",
+										"overlay_color": "#BF0BFF"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"key": "animate",
+										"children": [
+											{
+												"is_minified": true,
+												"children": {
+													"move": "query.modified_move_speed"
+												}
+											},
+											{
+												"data": "look_at_target"
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"baby_transform": "query.is_baby"
+												}
+											},
+											{
+												"open": [
+													{
+														"move": "query.modified_move_speed"
+													},
+													"look_at_target",
+													{
+														"baby_transform": "query.is_baby"
+													},
+													{
+														"general": "query.is_moving == 0 && query.is_sitting == 0"
+													},
+													{
+														"sit": "query.is_sitting"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"general": "query.is_moving == 0 && query.is_sitting == 0"
+												}
+											},
+											{
+												"is_minified": true,
+												"children": {
+													"sit": "query.is_sitting"
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "btmb:pet",
+									"min_engine_version": "1.10.0",
+									"materials": {
+										"default": "entity_alphatest",
+										"legs": "chicken_legs"
+									},
+									"textures": {
+										"default": "textures/entity/barrybear",
+										"dino": "textures/entity/dinopet",
+										"axolotl": "textures/entity/axolotl",
+										"elegant": "textures/entity/smoking_guy",
+										"astronaut": "textures/entity/astronaut",
+										"minitv": "textures/entity/minitv"
+									},
+									"geometry": {
+										"default": "geometry.barrybear",
+										"dino": "geometry.dinopet",
+										"axolotl": "geometry.axolotlpet",
+										"elegant": "geometry.smoking_guy",
+										"astronaut": "geometry.astronaut",
+										"minitv": "geometry.minitv"
+									},
+									"animations": {
+										"move": "animation.barrybear.walk",
+										"general": "animation.barrybear.idling",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.chicken.baby_transform",
+										"sit": "animation.barrybear.sit"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_move_speed"
+											},
+											"look_at_target",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											{
+												"general": "query.is_moving == 0 && query.is_sitting == 0"
+											},
+											{
+												"sit": "query.is_sitting"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.pets"
+									],
+									"spawn_egg": {
+										"base_color": "#FB0AFD",
+										"overlay_color": "#BF0BFF"
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.pets"
+								]
+							},
+							{
+								"open": {
+									"identifier": "btmb:pet",
+									"min_engine_version": "1.10.0",
+									"materials": {
+										"default": "entity_alphatest",
+										"legs": "chicken_legs"
+									},
+									"textures": {
+										"default": "textures/entity/barrybear",
+										"dino": "textures/entity/dinopet",
+										"axolotl": "textures/entity/axolotl",
+										"elegant": "textures/entity/smoking_guy",
+										"astronaut": "textures/entity/astronaut",
+										"minitv": "textures/entity/minitv"
+									},
+									"geometry": {
+										"default": "geometry.barrybear",
+										"dino": "geometry.dinopet",
+										"axolotl": "geometry.axolotlpet",
+										"elegant": "geometry.smoking_guy",
+										"astronaut": "geometry.astronaut",
+										"minitv": "geometry.minitv"
+									},
+									"animations": {
+										"move": "animation.barrybear.walk",
+										"general": "animation.barrybear.idling",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.chicken.baby_transform",
+										"sit": "animation.barrybear.sit"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"move": "query.modified_move_speed"
+											},
+											"look_at_target",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											{
+												"general": "query.is_moving == 0 && query.is_sitting == 0"
+											},
+											{
+												"sit": "query.is_sitting"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.pets"
+									],
+									"spawn_egg": {
+										"base_color": "#FB0AFD",
+										"overlay_color": "#BF0BFF"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#FB0AFD",
+									"overlay_color": "#BF0BFF"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

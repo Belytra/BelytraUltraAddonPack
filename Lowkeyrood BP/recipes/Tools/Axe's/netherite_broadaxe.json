@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:netherite_broadaxe"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      " a ",
+      " c ",
+      " b "
+    ],
+    "key": {
+      "a": {
+        "item": "base:netherite_axe_head"
+      },
+      "b": {
+        "item": "base:wood_handle"
+      },
+      "c": {
+        "item": "base:wood_handle"
+      }
+    },
+    "result": {
+      "item": "base:netherite_broadaxe",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

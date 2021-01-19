@@ -1,0 +1,122 @@
+//bridge-file-version: #17
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:fridge",
+			"properties": {
+				"dbc:facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "fridge",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:geometry": "geometry.fridge",
+			"minecraft:on_player_placing": {
+				"event": "dbc:facing"
+			},
+			"minecraft:loot": "loot_tables/blocks/kitchen/fridge.json",
+			"minecraft:on_placed": {
+				"event": "dbc:block",
+				"target": "self"
+			},
+			"minecraft:on_player_destroyed": {
+				"event": "dbc:block_remove",
+				"target": "self"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						-90,
+						0
+					]
+				}
+			}
+		],
+		"events": {
+			"dbc:facing": {
+				"set_block_property": {
+					"dbc:facing": "query.cardinal_facing_2d"
+				}
+			},
+			"dbc:block": {
+				"set_block_at_pos": {
+					"block_type": "minecraft:barrier",
+					"block_offset": [
+						0,
+						1,
+						0
+					]
+				},
+				"run_command": {
+					"command": [
+						"summon dbc:container ~ ~0.9 ~"
+					]
+				}
+			},
+			"dbc:block_remove": {
+				"set_block_at_pos": {
+					"block_type": "minecraft:air",
+					"block_offset": [
+						0,
+						1,
+						0
+					]
+				},
+				"run_command": {
+					"command": [
+						"kill @e[type=dbc:container,r=1]"
+					]
+				}
+			}
+		}
+	}
+}

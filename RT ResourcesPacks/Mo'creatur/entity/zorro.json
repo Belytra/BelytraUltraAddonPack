@@ -1,0 +1,41 @@
+//bridge-file-version: #16
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "mocreatures:fox",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "armor_stand"
+			},
+			"textures": {
+				"default": "textures/entity/fox/fox",
+				"snow": "textures/entity/fox/foxsnow",
+				"bobi": "textures/entity/fox/foxcub"
+			},
+			"animations": {
+				"look_at_target": "animation.common.look_at_target",
+				"walk": "animation.zorro.move"
+			},
+			"scripts": {
+				"animate": [
+					"look_at_target",
+					{
+						"walk": "query.modified_move_speed"
+					}
+				]
+			},
+			"geometry": {
+				"default": "geometry.zorro"
+			},
+			"render_controllers": [
+				"controller.render.zorro",
+				"controller.render.zorrob"
+			],
+			"spawn_egg": {
+				"base_color": "#A35943",
+				"overlay_color": "#410C64"
+			}
+		}
+	}
+}

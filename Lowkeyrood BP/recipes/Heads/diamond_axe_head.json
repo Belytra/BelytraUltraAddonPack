@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:diamond_axe_head"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      "aac",
+      "ac ",
+      "   "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:diamond"
+      },
+      "b": {
+        "item": "minecraft:stick"
+      },
+      "c": {
+        "item": "base:diamond_nugget"
+      }
+    },
+    "result": {
+      "item": "base:diamond_axe_head",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

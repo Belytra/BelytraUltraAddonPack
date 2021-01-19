@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "sc:sofacar",
+      "materials": { "default": "spider" },
+      "textures": {
+        "black": "textures/entity/sofacar/wool_colored_black_car",
+        "red": "textures/entity/sofacar/wool_colored_red_car",
+        "green": "textures/entity/sofacar/wool_colored_green_car",
+        "brown": "textures/entity/sofacar/wool_colored_brown_car",
+        "blue": "textures/entity/sofacar/wool_colored_blue_car",
+        "purple": "textures/entity/sofacar/wool_colored_purple_car",
+        "cyan": "textures/entity/sofacar/wool_colored_cyan_car",
+        "silver": "textures/entity/sofacar/wool_colored_silver_car",
+        "gray": "textures/entity/sofacar/wool_colored_gray_car",
+        "pink": "textures/entity/sofacar/wool_colored_pink_car",
+        "lime": "textures/entity/sofacar/wool_colored_lime_car",
+        "yellow": "textures/entity/sofacar/wool_colored_yellow_car",
+        "light_blue": "textures/entity/sofacar/wool_colored_light_blue_car",
+        "magenta": "textures/entity/sofacar/wool_colored_magenta_car",
+        "orange": "textures/entity/sofacar/wool_colored_orange_car",
+        "white": "textures/entity/sofacar/wool_colored_white_car",
+        "undyed": "textures/entity/sofacar/wool_colored_white_car"
+      },
+      "animations":{
+        "run": "animation.sofacar.move",
+        "move": "controller.animation.sofacar.move",
+        "death": "animation.sofa.break",
+        "break": "controller.animation.sofa.death"
+      },
+      "scripts": {
+        "animate": [
+           "move", "break"
+         ],
+        "pre_animation": [  
+          "variable.attack = Math.sin(variable.attack_time * 30.0);"
+         ]
+       },
+      "geometry": {
+        "default": "geometry.sofacar"
+      },
+      "render_controllers": [ 
+          "controller.render.sofa" 
+      ]
+    }
+  }
+}

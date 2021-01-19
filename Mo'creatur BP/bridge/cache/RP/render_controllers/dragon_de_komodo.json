@@ -1,0 +1,140 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Mo'creatures bedrock §a[RP]\\render_controllers\\dragon_de_komodo.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "6b251c72_95b2_43a3_8c43_f2b1176159c6",
+	"file_version": 29,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.komodo_dragon": {
+							"arrays": {
+								"geometries": {
+									"Array.komodo": [
+										"Geometry.default",
+										"Geometry.saddle"
+									]
+								}
+							},
+							"textures": [
+								"Texture.default"
+							],
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"geometry": "Array.komodo[query.is_saddled]"
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.komodo_dragon": {
+								"arrays": {
+									"geometries": {
+										"Array.komodo": [
+											"Geometry.default",
+											"Geometry.saddle"
+										]
+									}
+								},
+								"textures": [
+									"Texture.default"
+								],
+								"materials": [
+									{
+										"*": "Material.default"
+									}
+								],
+								"geometry": "Array.komodo[query.is_saddled]"
+							}
+						},
+						"key": "controller.render.komodo_dragon",
+						"children": [
+							{
+								"open": {
+									"arrays": {
+										"geometries": {
+											"Array.komodo": [
+												"Geometry.default",
+												"Geometry.saddle"
+											]
+										}
+									},
+									"textures": [
+										"Texture.default"
+									],
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"geometry": "Array.komodo[query.is_saddled]"
+								},
+								"key": "arrays",
+								"is_minified": true,
+								"children": {
+									"geometries": {
+										"Array.komodo": [
+											"Geometry.default",
+											"Geometry.saddle"
+										]
+									}
+								}
+							},
+							{
+								"open": {
+									"arrays": {
+										"geometries": {
+											"Array.komodo": [
+												"Geometry.default",
+												"Geometry.saddle"
+											]
+										}
+									},
+									"textures": [
+										"Texture.default"
+									],
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"geometry": "Array.komodo[query.is_saddled]"
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Texture.default"
+								]
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": [
+									{
+										"*": "Material.default"
+									}
+								]
+							},
+							{
+								"data": "Array.komodo[query.is_saddled]",
+								"key": "geometry"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:cindite_ingot"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      "bbb",
+      "bbb",
+      "bbb"
+    ],
+    "key": {
+      "b": {
+        "item": "base:cindite_chunk"
+      },
+      "a": {
+        "item": "minecraft:stick"
+      },
+      "c": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "base:cindite_ingot",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

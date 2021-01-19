@@ -1,0 +1,333 @@
+//bridge-file-version: #53
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mocreatures:raccoon",
+			"is_summonable": true,
+			"is_spawnable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"mocreatures:raccoon_wild": {
+				"minecraft:scale": {
+					"value": 0.4
+				},
+				"minecraft:tameable": {
+					"probability": 999,
+					"tame_items": [
+						"mocreatures:sugar_lump",
+						"minecraft:rotten_flesh",
+						"minecraft:apple",
+						"minecraft:golden_apple",
+						"minecraft:appleenchanted",
+						"minecraft:carrot",
+						"minecraft:golden_carrot",
+						"mocreatures:omelet"
+					],
+					"tame_event": {
+						"event": "minecraft:on_tame",
+						"target": "self"
+					}
+				},
+				"minecraft:on_target_acquired": {
+					"event": "minecraft:become_angry",
+					"target": "self"
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 4,
+					"reselect_targets": true,
+					"must_see": true,
+					"entity_types": [
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "bunny"
+									},
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "bunny_tame"
+									}
+								]
+							},
+							"max_dist": 12
+						}
+					]
+				}
+			},
+			"mocreatures:raccoon_tame": {
+				"minecraft:is_tamed": {},
+				"minecraft:behavior.follow_owner": {
+					"priority": 6,
+					"speed_multiplier": 1,
+					"start_distance": 10,
+					"stop_distance": 2
+				},
+				"minecraft:scale": {
+					"value": 0.4
+				}
+			},
+			"mocreatures:raccon_adult": {
+				"minecraft:scale": {
+					"value": 0.4
+				},
+				"minecraft:experience_reward": {
+					"on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/fur.json"
+				}
+			},
+			"mocreatures:baby_raccoon": {
+				"minecraft:scale": {
+					"value": 0.2
+				},
+				"minecraft:ageable": {
+					"duration": 1700,
+					"feed_items": [
+						{
+							"item": "mocreatures:sugar_lump"
+						},
+						{
+							"item": "minecraft:rotten_flesh"
+						},
+						{
+							"item": "minecraft:apple"
+						},
+						{
+							"item": "minecraft:golden_apple"
+						},
+						{
+							"item": "minecraft:appleenchanted"
+						},
+						{
+							"item": "minecraft:carrot"
+						},
+						{
+							"item": "minecraft:golden_carrot"
+						},
+						{
+							"item": "minecraft:wheat"
+						},
+						{
+							"item": "mocreatures:omelet"
+						}
+					],
+					"grow_up": {
+						"event": "minecraft:ageable_grow_up",
+						"target": "self"
+					}
+				},
+				"minecraft:scale_by_age": {
+					"start_scale": 0.2,
+					"end_scale": 0.4
+				},
+				"minecraft:is_baby": {}
+			},
+			"minecraft:angry": {
+				"minecraft:angry": {
+					"duration": 25,
+					"broadcast_anger": true,
+					"broadcast_range": 20,
+					"calm_event": {
+						"event": "minecraft:on_calm",
+						"target": "self"
+					}
+				},
+				"minecraft:on_target_acquired": {},
+				"minecraft:scale": {
+					"value": 0.4
+				}
+			}
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:can_climb": {},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:jump.static": {},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 7,
+				"look_distance": 6,
+				"probability": 0.02
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 8,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 5
+			},
+			"minecraft:movement": {
+				"value": 0.3
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"avoid_damage_blocks": true,
+				"can_walk": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:leashable": {
+				"soft_distance": 4,
+				"hard_distance": 6,
+				"max_distance": 10
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:scale": {
+				"value": 0.4
+			},
+			"minecraft:health": {
+				"value": 8,
+				"max": 8
+			},
+			"minecraft:healable": {
+				"items": [
+					{
+						"item": "mocreatures:sugar_lump",
+						"heal_amount": 2
+					},
+					{
+						"item": "minecraft:rotten_flesh",
+						"heal_amount": 2
+					},
+					{
+						"item": "minecraft:apple",
+						"heal_amount": 2
+					},
+					{
+						"item": "minecraft:golden_apple",
+						"heal_amount": 2
+					},
+					{
+						"item": "minecraft:appleenchanted",
+						"heal_amount": 2
+					},
+					{
+						"item": "minecraft:carrot",
+						"heal_amount": 2
+					},
+					{
+						"item": "minecraft:golden_carrot",
+						"heal_amount": 2
+					},
+					{
+						"item": "mocreatures:omelet",
+						"heal_amount": 2
+					}
+				]
+			},
+			"minecraft:nameable": {},
+			"minecraft:type_family": {
+				"family": [
+					"raccoon"
+				]
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 5
+			},
+			"minecraft:attack": {
+				"damage": 1
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"weight": 95,
+						"add": {
+							"component_groups": [
+								"mocreatures:raccoon_wild",
+								"mocreatures:raccon_adult"
+							]
+						}
+					},
+					{
+						"weight": 5,
+						"add": {
+							"component_groups": [
+								"mocreatures:baby_raccoon"
+							]
+						}
+					}
+				]
+			},
+			"minecraft:on_tame": {
+				"remove": {
+					"component_groups": [
+						"mocreatures:raccoon_wild"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"mocreatures:raccoon_tame"
+					]
+				}
+			},
+			"minecraft:become_angry": {
+				"remove": {
+					"component_groups": [
+						"mocreatures:raccoon_wild"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:angry"
+					]
+				}
+			},
+			"minecraft:on_calm": {
+				"remove": {
+					"component_groups": [
+						"minecraft:angry"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"mocreatures:raccoon_wild"
+					]
+				}
+			},
+			"minecraft:ageable_grow_up": {
+				"remove": {
+					"component_groups": [
+						"mocreatures:baby_raccoon"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"mocreatures:raccon_adult",
+						"mocreatures:raccoon_wild"
+					]
+				}
+			}
+		}
+	}
+}

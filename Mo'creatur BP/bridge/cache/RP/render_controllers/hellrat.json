@@ -1,0 +1,34 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Mo'creatures bedrock §a[RP]/render_controllers/hellrat.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "2d138370_bbc4_47c7_9c99_b2a7c63b72ec",
+	"file_version": 1,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"format_version": "1.8.0",
+			"render_controllers": {
+				"controller.render.hellrat": {
+					"arrays": {
+						"textures": {
+							"Array.hellrat": [
+								"Texture.default",
+								"Texture.fase1"
+							]
+						}
+					},
+					"textures": [
+						"Array.hellrat[query.variant]"
+					],
+					"geometry": "Geometry.default",
+					"materials": [
+						{
+							"*": "Material.default"
+						}
+					]
+				}
+			}
+		}
+	}
+}

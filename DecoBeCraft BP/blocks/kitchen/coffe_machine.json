@@ -1,0 +1,171 @@
+//bridge-file-version: #26
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:coffe_machine",
+			"properties": {
+				"dbc:facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				],
+				"dbc:interact": [
+					0,
+					1,
+					2
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "coffe_machine",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:on_player_placing": {
+				"event": "dbc:facing"
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-5,
+					0,
+					-6
+				],
+				"size": [
+					10,
+					13,
+					11
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-5,
+					0,
+					-6
+				],
+				"size": [
+					10,
+					13,
+					11
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						-90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:interact') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.coffem_nc",
+					"minecraft:on_interact": {
+						"event": "dbc:coffe",
+						"target": "self",
+						"condition": "query.get_equipped_item_name('main_hand') == 'cup'"
+					},
+					"minecraft:loot": "loot_tables/blocks/kitchen/coffe_machine0.json"
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:interact') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.coffem_s1",
+					"minecraft:ticking": {
+						"looping": true,
+						"range": [
+							1,
+							15
+						],
+						"on_tick": {
+							"event": "dbc:coffe_cup",
+							"target": "self"
+						}
+					},
+					"minecraft:loot": "loot_tables/blocks/kitchen/coffe_machine1.json"
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:interact') == 2",
+				"components": {
+					"minecraft:geometry": "geometry.coffem",
+					"minecraft:on_interact": {
+						"event": "dbc:give_coffe",
+						"target": "self"
+					},
+					"minecraft:loot": "loot_tables/blocks/kitchen/coffe_machine2.json"
+				}
+			}
+		],
+		"events": {
+			"dbc:facing": {
+				"set_block_property": {
+					"dbc:facing": "query.cardinal_facing_2d"
+				}
+			},
+			"dbc:coffe": {
+				"set_block_property": {
+					"dbc:interact": 1
+				},
+				"decrement_stack": {}
+			},
+			"dbc:coffe_cup": {
+				"set_block_property": {
+					"dbc:interact": 2
+				}
+			},
+			"dbc:give_coffe": {
+				"set_block_property": {
+					"dbc:interact": 0
+				},
+				"spawn_loot": {
+					"table": "loot_tables/blocks/kitchen/coffe_cup.json"
+				}
+			}
+		}
+	}
+}

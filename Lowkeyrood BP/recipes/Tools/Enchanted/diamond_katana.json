@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:diamond_katana"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      "  a",
+      " b ",
+      "c  "
+    ],
+    "key": {
+      "a": {
+        "item": "base:diamond_blade"
+      },
+      "b": {
+        "item": "minecraft:diamond"
+      },
+      "c": {
+        "item": "base:wood_handle"
+      }
+    },
+    "result": {
+      "item": "base:diamond_katana",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

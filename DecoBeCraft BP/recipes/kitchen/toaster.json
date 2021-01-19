@@ -1,0 +1,33 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:toaster"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~#",
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:iron_ingot",
+				"data": 0
+			},
+			"#": {
+				"item": "minecraft:concrete",
+				"data": 7
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:toaster",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

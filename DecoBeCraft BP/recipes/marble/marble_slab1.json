@@ -1,0 +1,27 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:marble_slab1"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "dbc:marble"
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:marble_slab",
+				"data": 0,
+				"count": 6
+			}
+		]
+	}
+}

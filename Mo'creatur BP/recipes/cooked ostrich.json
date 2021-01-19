@@ -1,0 +1,17 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.12,
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "mocreatures:cooked_ostrich_furnace"
+		},
+		"tags": [
+			"furnace",
+			"smoker",
+			"campfire",
+			"soul_campfire"
+		],
+		"input": "mocreatures:raw_ostrich",
+		"output": "mocreatures:cooked_ostrich"
+	}
+}

@@ -1,0 +1,179 @@
+//bridge-file-version: #20
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:toaster",
+			"properties": {
+				"dbc:facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				],
+				"dbc:interact": [
+					0,
+					1,
+					2
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:on_player_placing": {
+				"event": "dbc:facing"
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-5,
+					0,
+					-2
+				],
+				"size": [
+					10,
+					6,
+					4
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-5,
+					0,
+					-2
+				],
+				"size": [
+					10,
+					6,
+					4
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						-90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:interact') == 0",
+				"components": {
+					"minecraft:geometry": "geometry.toaster",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "toaster",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "dbc:decrement_stack",
+						"target": "self",
+						"condition": "query.get_equipped_item_name('main_hand') == 'bread'"
+					},
+					"minecraft:loot": "loot_tables/blocks/kitchen/toaster/toaster.json"
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:interact') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.toaster_p",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "toaster_pan",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:on_interact": {
+						"event": "dbc:decrement_stack",
+						"target": "self",
+						"condition": "query.get_equipped_item_name('main_hand') == 'bread'"
+					},
+					"minecraft:loot": "loot_tables/blocks/kitchen/toaster/toast_1.json"
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:interact') == 2",
+				"components": {
+					"minecraft:geometry": "geometry.toaster_p2",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "toaster_pan",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:loot": "loot_tables/blocks/kitchen/toaster/toast_2.json",
+					"minecraft:ticking": {
+						"looping": true,
+						"range": [
+							1,
+							30
+						],
+						"on_tick": {
+							"event": "dbc:toast",
+							"target": "self"
+						}
+					}
+				}
+			}
+		],
+		"events": {
+			"dbc:facing": {
+				"set_block_property": {
+					"dbc:facing": "query.cardinal_facing_2d"
+				}
+			},
+			"dbc:decrement_stack": {
+				"decrement_stack": {},
+				"set_block_property": {
+					"dbc:interact": "query.block_property('dbc:interact') +1"
+				}
+			},
+			"dbc:toast": {
+				"set_block_property": {
+					"dbc:interact": 0
+				},
+				"spawn_loot": {
+					"table": "loot_tables/blocks/kitchen/toaster/toast.json"
+				}
+			}
+		}
+	}
+}

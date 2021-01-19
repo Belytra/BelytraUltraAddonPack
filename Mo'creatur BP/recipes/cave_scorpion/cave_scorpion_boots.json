@@ -1,0 +1,24 @@
+//bridge-file-version: #8
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:cave_scorpion_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"X X",
+			"X X"
+		],
+		"key": {
+			"X": {
+				"item": "mocreatures:black_chitin"
+			}
+		},
+		"result": {
+			"item": "mocreatures:cave_scorpion_boots"
+		}
+	}
+}

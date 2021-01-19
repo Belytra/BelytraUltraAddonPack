@@ -1,0 +1,283 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Mo'creatures bedrock §a[RP]\\entity\\ent.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "2820f6a1_9d26_4c49_b48b_0d0d0017231f",
+	"file_version": 42,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "mocreatures:ent",
+							"min_engine_version": "1.8.0",
+							"materials": {
+								"default": "armor_stand"
+							},
+							"textures": {
+								"default": "textures/entity/ent_oak",
+								"ent_birch": "textures/entity/ent_birch"
+							},
+							"animations": {
+								"caminar": "animation.ent.caminar2",
+								"atacar_objetivo": "animation.ent.attack",
+								"look_at_target": "animation.common.look_at_target"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"caminar": "query.modified_move_speed"
+									},
+									{
+										"atacar_objetivo": "query.has_target"
+									},
+									"look_at_target"
+								]
+							},
+							"geometry": {
+								"default": "geometry.ent"
+							},
+							"render_controllers": [
+								"controller.render.ent"
+							],
+							"spawn_egg": {
+								"texture": "ent_spawn_egg"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:ent",
+								"min_engine_version": "1.8.0",
+								"materials": {
+									"default": "armor_stand"
+								},
+								"textures": {
+									"default": "textures/entity/ent_oak",
+									"ent_birch": "textures/entity/ent_birch"
+								},
+								"animations": {
+									"caminar": "animation.ent.caminar2",
+									"atacar_objetivo": "animation.ent.attack",
+									"look_at_target": "animation.common.look_at_target"
+								},
+								"scripts": {
+									"animate": [
+										{
+											"caminar": "query.modified_move_speed"
+										},
+										{
+											"atacar_objetivo": "query.has_target"
+										},
+										"look_at_target"
+									]
+								},
+								"geometry": {
+									"default": "geometry.ent"
+								},
+								"render_controllers": [
+									"controller.render.ent"
+								],
+								"spawn_egg": {
+									"texture": "ent_spawn_egg"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "mocreatures:ent",
+								"key": "identifier"
+							},
+							{
+								"data": "1.8.0",
+								"key": "min_engine_version"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "armor_stand"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/ent_oak",
+									"ent_birch": "textures/entity/ent_birch"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mocreatures:ent",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "armor_stand"
+									},
+									"textures": {
+										"default": "textures/entity/ent_oak",
+										"ent_birch": "textures/entity/ent_birch"
+									},
+									"animations": {
+										"caminar": "animation.ent.caminar2",
+										"atacar_objetivo": "animation.ent.attack",
+										"look_at_target": "animation.common.look_at_target"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"caminar": "query.modified_move_speed"
+											},
+											{
+												"atacar_objetivo": "query.has_target"
+											},
+											"look_at_target"
+										]
+									},
+									"geometry": {
+										"default": "geometry.ent"
+									},
+									"render_controllers": [
+										"controller.render.ent"
+									],
+									"spawn_egg": {
+										"texture": "ent_spawn_egg"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"caminar": "animation.ent.caminar2",
+									"atacar_objetivo": "animation.ent.attack",
+									"look_at_target": "animation.common.look_at_target"
+								}
+							},
+							{
+								"open": {
+									"identifier": "mocreatures:ent",
+									"min_engine_version": "1.8.0",
+									"materials": {
+										"default": "armor_stand"
+									},
+									"textures": {
+										"default": "textures/entity/ent_oak",
+										"ent_birch": "textures/entity/ent_birch"
+									},
+									"animations": {
+										"caminar": "animation.ent.caminar2",
+										"atacar_objetivo": "animation.ent.attack",
+										"look_at_target": "animation.common.look_at_target"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"caminar": "query.modified_move_speed"
+											},
+											{
+												"atacar_objetivo": "query.has_target"
+											},
+											"look_at_target"
+										]
+									},
+									"geometry": {
+										"default": "geometry.ent"
+									},
+									"render_controllers": [
+										"controller.render.ent"
+									],
+									"spawn_egg": {
+										"texture": "ent_spawn_egg"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												{
+													"caminar": "query.modified_move_speed"
+												},
+												{
+													"atacar_objetivo": "query.has_target"
+												},
+												"look_at_target"
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"open": [
+													{
+														"caminar": "query.modified_move_speed"
+													},
+													{
+														"atacar_objetivo": "query.has_target"
+													},
+													"look_at_target"
+												],
+												"is_minified": true,
+												"children": {
+													"caminar": "query.modified_move_speed"
+												}
+											},
+											{
+												"open": [
+													{
+														"caminar": "query.modified_move_speed"
+													},
+													{
+														"atacar_objetivo": "query.has_target"
+													},
+													"look_at_target"
+												],
+												"is_minified": true,
+												"children": {
+													"atacar_objetivo": "query.has_target"
+												}
+											},
+											{
+												"data": "look_at_target"
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.ent"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.ent"
+								]
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "ent_spawn_egg"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

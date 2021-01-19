@@ -1,0 +1,205 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]/recipes/pet_fish.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "eed9d3da_acb8_410d_8080_93970a3356e3",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "mocreatures:pet_fish"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"ingredients": [
+							{
+								"item": "minecraft:porkchop"
+							},
+							{
+								"item": "minecraft:fish"
+							}
+						],
+						"result": [
+							{
+								"item": "mocreatures:pet_food",
+								"data": 0,
+								"count": 4
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:pet_fish"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:porkchop"
+								},
+								{
+									"item": "minecraft:fish"
+								}
+							],
+							"result": [
+								{
+									"item": "mocreatures:pet_food",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "mocreatures:pet_fish"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:pet_fish"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:porkchop"
+								},
+								{
+									"item": "minecraft:fish"
+								}
+							],
+							"result": [
+								{
+									"item": "mocreatures:pet_food",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:pet_fish"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:porkchop"
+								},
+								{
+									"item": "minecraft:fish"
+								}
+							],
+							"result": [
+								{
+									"item": "mocreatures:pet_food",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "minecraft:porkchop"
+									},
+									{
+										"item": "minecraft:fish"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:porkchop"
+								}
+							},
+							{
+								"open": [
+									{
+										"item": "minecraft:porkchop"
+									},
+									{
+										"item": "minecraft:fish"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:fish"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "mocreatures:pet_fish"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:porkchop"
+								},
+								{
+									"item": "minecraft:fish"
+								}
+							],
+							"result": [
+								{
+									"item": "mocreatures:pet_food",
+									"data": 0,
+									"count": 4
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "mocreatures:pet_food",
+										"data": 0,
+										"count": 4
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "mocreatures:pet_food",
+									"data": 0,
+									"count": 4
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

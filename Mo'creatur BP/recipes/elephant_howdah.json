@@ -1,0 +1,37 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "mocreatures:elephant_howdah"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~#~",
+			"#!#",
+			"~#~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:stick"
+			},
+			"#": {
+				"item": "minecraft:wool",
+				"data": 14
+			},
+			"!": {
+				"item": "minecraft:wool",
+				"data": 4
+			}
+		},
+		"result": [
+			{
+				"item": "mocreatures:elephant_howdah",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

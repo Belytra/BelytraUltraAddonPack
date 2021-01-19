@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "base:triple_netherite"
+    },
+    "tags": [
+      "advanced_weapon_crafter"
+    ],
+    "pattern": [
+      " b ",
+      "bdb",
+      " c "
+    ],
+    "key": {
+      "a": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "b": {
+        "item": "base:netherite_blade"
+      },
+      "c": {
+        "item": "base:wood_handle"
+      },
+      "d": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "result": {
+      "item": "base:triple_netherite",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

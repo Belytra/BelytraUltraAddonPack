@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "base:triple_cindite"
+      },
+      "tags": [
+        "advanced_weapon_crafter"
+      ],
+      "pattern": [
+        " b ",
+        "bab",
+        " c "
+      ],
+      "key": {
+        "a": {
+          "item": "base:cindite_ingot"
+        },
+        "b": {   
+          "item": "base:cindite_blade"
+        },
+        "c": {
+          "item": "base:titanium_handle"
+        },
+        "d": {
+          "item": "minecraft:netherite_ingot"
+        }
+      },
+      "result": {
+        "item": "base:triple_cindite",
+        "data": 0,
+        "count": 1
+      }
+    }
+  }

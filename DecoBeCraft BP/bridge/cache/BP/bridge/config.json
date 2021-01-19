@@ -1,0 +1,14 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\DecoBEcraft §6[BP]\\bridge\\config.json",
+	"file_type": "unknown",
+	"format_version": 1,
+	"file_uuid": "3691ed3a_2922_4611_b5bb_44cfb2003255",
+	"file_version": 1,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"prefix": "dbc",
+			"formatVersion": "1.16.100"
+		}
+	}
+}

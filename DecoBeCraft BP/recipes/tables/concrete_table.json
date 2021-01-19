@@ -1,0 +1,38 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:concrete_table"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			" ~ "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:concrete",
+				"data": 7
+			},
+			"~": {
+				"item": "minecraft:concrete",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:small_table_concrete",
+				"data": 0,
+				"count": 4
+			},
+			{
+				"item": "dbc:top_table_concrete",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

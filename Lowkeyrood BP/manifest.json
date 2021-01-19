@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Minecraft ++ By Lowkeyrood",
+        "name": "Minecraft ++ v2",
+        "uuid": "bbf80768-791f-4b7d-ac03-62815eaee308",
+        "version": [ 0, 0, 1 ],
+        "min_engine_version": [ 1, 14, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Minecraft ++ By Lowkeyrood",
+            "type": "data",
+            "uuid": "02a683e9-81c3-4757-a1c7-772d8907c9a2",
+            "version": [0, 0, 1]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "b86c4c9c-8ec4-4d70-ad9d-b8e31572d4e4",
+            "version": [0, 0, 1]
+        }
+    ]
+}

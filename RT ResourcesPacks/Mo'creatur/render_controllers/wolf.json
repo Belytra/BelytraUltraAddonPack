@@ -1,0 +1,28 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.wild_wolf": {
+			"arrays": {
+				"textures": {
+					"Array.wolf": [
+						"Texture.default",
+						"Texture.wolf1",
+						"Texture.wolf2",
+						"Texture.wolf3",
+						"Texture.wolf4"
+					]
+				}
+			},
+			"textures": [
+				"Array.wolf[query.variant]"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Geometry.default"
+		}
+	}
+}

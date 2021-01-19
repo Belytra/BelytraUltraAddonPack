@@ -1,0 +1,45 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.counter": {
+			"timeline": {
+				"0.0": [
+					"/title @a title §a10"
+				],
+				"1.0": [
+					"/title @a title §a9"
+				],
+				"2.0": [
+					"/title @a title §a8"
+				],
+				"3.0": [
+					"/title @a title §a7"
+				],
+				"4.0": [
+					"/title @a title §a6"
+				],
+				"5.0": [
+					"/title @a title §e5"
+				],
+				"6.0": [
+					"/title @a title §e4"
+				],
+				"7.0": [
+					"/title @a title §c3"
+				],
+				"8.0": [
+					"/title @a title §c2"
+				],
+				"9.0": [
+					"/title @a title §c1"
+				],
+				"10.0": [
+					"/title @a title §aGO!",
+					"@s btmb:despawn"
+				]
+			},
+			"animation_length": 10
+		}
+	}
+}

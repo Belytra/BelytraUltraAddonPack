@@ -1,0 +1,360 @@
+//bridge-file-version: #115
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mocreatures:bird",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"scripts": {
+				"animate": [
+					"fall",
+					"slow_falling",
+					"drow",
+					"bridge_execute_commands"
+				]
+			},
+			"animations": {
+				"fall": "controller.animation.pavo",
+				"slow_falling": "controller.animation.slow_falling",
+				"drow": "controller.animation.bug_fix",
+				"bridge_execute_commands": "controller.animation.bridge_14bird.execute_commands"
+			}
+		},
+		"component_groups": {
+			"minecraft:parrot_blue": {
+				"minecraft:variant": {
+					"value": 0
+				},
+				"minecraft:ambient_sound_interval": {
+					"value": 5,
+					"event_name": "blue"
+				}
+			},
+			"minecraft:parrot_green": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"minecraft:parrot_black": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			},
+			"minecraft:parrot_white": {
+				"minecraft:variant": {
+					"value": 3
+				}
+			},
+			"minecraft:parrot_yellow": {
+				"minecraft:variant": {
+					"value": 4
+				}
+			},
+			"minecraft:parrot_red": {
+				"minecraft:variant": {
+					"value": 5
+				}
+			},
+			"minecraft:parrot_adult": {
+				"minecraft:experience_reward": {
+					"on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/entities/parrot.json"
+				}
+			},
+			"minecraft:parrot_wild": {
+				"minecraft:type_family": {
+					"family": [
+						"parrot_wild",
+						"mob"
+					]
+				},
+				"minecraft:tameable": {
+					"probability": 0.33,
+					"tame_items": [
+						"wheat_seeds",
+						"pumpkin_seeds",
+						"melon_seeds",
+						"beetroot_seeds"
+					],
+					"tame_event": {
+						"event": "minecraft:on_tame",
+						"target": "self"
+					}
+				},
+				"minecraft:behavior.random_fly": {
+					"priority": 2,
+					"xz_dist": 15,
+					"y_dist": 1,
+					"y_offset": 0,
+					"speed_multiplier": 1,
+					"can_land_on_trees": true,
+					"avoid_damage_blocks": true
+				},
+				"minecraft:behavior.follow_mob": {
+					"priority": 3,
+					"speed_multiplier": 1,
+					"stop_distance": 3,
+					"search_range": 20
+				}
+			},
+			"minecraft:parrot_tame": {
+				"minecraft:type_family": {
+					"family": [
+						"bird_tame"
+					]
+				},
+				"minecraft:is_tamed": {},
+				"minecraft:behavior.follow_owner": {
+					"priority": 2,
+					"speed_multiplier": 1,
+					"start_distance": 5,
+					"stop_distance": 1
+				},
+				"minecraft:sittable": {},
+				"minecraft:behavior.stay_while_sitting": {
+					"priority": 1
+				},
+				"minecraft:behavior.find_mount": {
+					"priority": 3,
+					"within_radius": 16,
+					"avoid_water": true,
+					"start_delay": 100,
+					"target_needed": false,
+					"mount_distance": 2
+				},
+				"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_riding",
+										"subject": "self",
+										"operator": "=="
+									},
+									{
+										"test": "is_sneaking",
+										"subject": "other",
+										"operator": "=="
+									}
+								]
+							},
+							"event": "mocreatures:dismount"
+						}
+					]
+				}
+			},
+			"bridge:execute_command_id_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"bridge:execute_no_command": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			}
+		},
+		"components": {
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 1
+			},
+			"minecraft:nameable": {},
+			"minecraft:health": {
+				"value": 6,
+				"max": 6
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:movement": {
+				"value": 0.4
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "fall",
+					"deals_damage": false
+				}
+			},
+			"minecraft:jump.static": {},
+			"minecraft:can_fly": {},
+			"minecraft:navigation.fly": {
+				"can_path_over_water": true,
+				"can_path_from_air": true
+			},
+			"minecraft:movement.fly": {},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.panic": {
+				"priority": 0,
+				"speed_multiplier": 1.25
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 1,
+				"look_distance": 8
+			},
+			"minecraft:healable": {
+				"items": [
+					{
+						"item": "minecraft:wheat_seeds",
+						"heal_amount": 2
+					}
+				]
+			},
+			"minecraft:leashable": {
+				"soft_distance": 4,
+				"hard_distance": 6,
+				"max_distance": 10
+			},
+			"minecraft:scale": {
+				"value": 0.5
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"weight": 16,
+						"add": {
+							"component_groups": [
+								"minecraft:parrot_blue",
+								"minecraft:parrot_adult",
+								"minecraft:parrot_wild"
+							]
+						}
+					},
+					{
+						"weight": 16,
+						"add": {
+							"component_groups": [
+								"minecraft:parrot_green",
+								"minecraft:parrot_adult",
+								"minecraft:parrot_wild"
+							]
+						}
+					},
+					{
+						"weight": 16,
+						"add": {
+							"component_groups": [
+								"minecraft:parrot_black",
+								"minecraft:parrot_adult",
+								"minecraft:parrot_wild"
+							]
+						}
+					},
+					{
+						"weight": 16,
+						"add": {
+							"component_groups": [
+								"minecraft:parrot_white",
+								"minecraft:parrot_adult",
+								"minecraft:parrot_wild"
+							]
+						}
+					},
+					{
+						"weight": 16,
+						"add": {
+							"component_groups": [
+								"minecraft:parrot_yellow",
+								"minecraft:parrot_adult",
+								"minecraft:parrot_wild"
+							]
+						}
+					},
+					{
+						"weight": 16,
+						"add": {
+							"component_groups": [
+								"minecraft:parrot_red",
+								"minecraft:parrot_adult",
+								"minecraft:parrot_wild"
+							]
+						}
+					}
+				]
+			},
+			"minecraft:on_tame": {
+				"remove": {
+					"component_groups": [
+						"minecraft:parrot_wild"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:parrot_tame"
+					]
+				}
+			},
+			"mocreatures:dismount": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			},
+			"mocreatures:tame_chance": {
+				"randomize": [
+					{
+						"weight": 60
+					},
+					{
+						"weight": 40,
+						"remove": {
+							"component_groups": [
+								"minecraft:parrot_wild"
+							]
+						},
+						"add": {
+							"component_groups": [
+								"minecraft:parrot_tame"
+							]
+						}
+					}
+				]
+			},
+			"bridge:remove_command_id_1": {
+				"add": {
+					"component_groups": [
+						"bridge:execute_no_command"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"bridge:execute_command_id_1"
+					]
+				}
+			}
+		}
+	}
+}

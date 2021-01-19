@@ -1,0 +1,305 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Mo'creatures bedrock §a[RP]\\render_controllers\\kitty.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "64d6105e_aa71_43c2_a8b3_a04d23fb0bdd",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.kitty": {
+							"arrays": {
+								"textures": {
+									"Array.kitty": [
+										"Texture.default",
+										"Texture.kitty1",
+										"Texture.kitty2",
+										"Texture.kitty3",
+										"Texture.kitty4",
+										"Texture.kitty5",
+										"Texture.kitty6",
+										"Texture.kitty7",
+										"Texture.kitty8",
+										"Texture.kitty9"
+									]
+								},
+								"geometries": {
+									"Array.tamed": [
+										"Geometry.default",
+										"Geometry.tamed"
+									]
+								}
+							},
+							"textures": [
+								"Array.kitty[query.variant]"
+							],
+							"geometry": "Array.tamed[query.is_tamed]",
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							]
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.kitty": {
+								"arrays": {
+									"textures": {
+										"Array.kitty": [
+											"Texture.default",
+											"Texture.kitty1",
+											"Texture.kitty2",
+											"Texture.kitty3",
+											"Texture.kitty4",
+											"Texture.kitty5",
+											"Texture.kitty6",
+											"Texture.kitty7",
+											"Texture.kitty8",
+											"Texture.kitty9"
+										]
+									},
+									"geometries": {
+										"Array.tamed": [
+											"Geometry.default",
+											"Geometry.tamed"
+										]
+									}
+								},
+								"textures": [
+									"Array.kitty[query.variant]"
+								],
+								"geometry": "Array.tamed[query.is_tamed]",
+								"materials": [
+									{
+										"*": "Material.default"
+									}
+								]
+							}
+						},
+						"key": "controller.render.kitty",
+						"children": [
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.kitty": [
+												"Texture.default",
+												"Texture.kitty1",
+												"Texture.kitty2",
+												"Texture.kitty3",
+												"Texture.kitty4",
+												"Texture.kitty5",
+												"Texture.kitty6",
+												"Texture.kitty7",
+												"Texture.kitty8",
+												"Texture.kitty9"
+											]
+										},
+										"geometries": {
+											"Array.tamed": [
+												"Geometry.default",
+												"Geometry.tamed"
+											]
+										}
+									},
+									"textures": [
+										"Array.kitty[query.variant]"
+									],
+									"geometry": "Array.tamed[query.is_tamed]",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									]
+								},
+								"key": "arrays",
+								"children": [
+									{
+										"open": {
+											"textures": {
+												"Array.kitty": [
+													"Texture.default",
+													"Texture.kitty1",
+													"Texture.kitty2",
+													"Texture.kitty3",
+													"Texture.kitty4",
+													"Texture.kitty5",
+													"Texture.kitty6",
+													"Texture.kitty7",
+													"Texture.kitty8",
+													"Texture.kitty9"
+												]
+											},
+											"geometries": {
+												"Array.tamed": [
+													"Geometry.default",
+													"Geometry.tamed"
+												]
+											}
+										},
+										"key": "textures",
+										"children": [
+											{
+												"open": {
+													"Array.kitty": [
+														"Texture.default",
+														"Texture.kitty1",
+														"Texture.kitty2",
+														"Texture.kitty3",
+														"Texture.kitty4",
+														"Texture.kitty5",
+														"Texture.kitty6",
+														"Texture.kitty7",
+														"Texture.kitty8",
+														"Texture.kitty9"
+													]
+												},
+												"key": "Array.kitty",
+												"is_minified": true,
+												"children": [
+													"Texture.default",
+													"Texture.kitty1",
+													"Texture.kitty2",
+													"Texture.kitty3",
+													"Texture.kitty4",
+													"Texture.kitty5",
+													"Texture.kitty6",
+													"Texture.kitty7",
+													"Texture.kitty8",
+													"Texture.kitty9"
+												]
+											}
+										]
+									},
+									{
+										"key": "geometries",
+										"children": [
+											{
+												"open": {
+													"Array.tamed": [
+														"Geometry.default",
+														"Geometry.tamed"
+													]
+												},
+												"key": "Array.tamed",
+												"is_minified": true,
+												"children": [
+													"Geometry.default",
+													"Geometry.tamed"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.kitty": [
+												"Texture.default",
+												"Texture.kitty1",
+												"Texture.kitty2",
+												"Texture.kitty3",
+												"Texture.kitty4",
+												"Texture.kitty5",
+												"Texture.kitty6",
+												"Texture.kitty7",
+												"Texture.kitty8",
+												"Texture.kitty9"
+											]
+										},
+										"geometries": {
+											"Array.tamed": [
+												"Geometry.default",
+												"Geometry.tamed"
+											]
+										}
+									},
+									"textures": [
+										"Array.kitty[query.variant]"
+									],
+									"geometry": "Array.tamed[query.is_tamed]",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Array.kitty[query.variant]"
+								]
+							},
+							{
+								"data": "Array.tamed[query.is_tamed]",
+								"key": "geometry"
+							},
+							{
+								"open": {
+									"arrays": {
+										"textures": {
+											"Array.kitty": [
+												"Texture.default",
+												"Texture.kitty1",
+												"Texture.kitty2",
+												"Texture.kitty3",
+												"Texture.kitty4",
+												"Texture.kitty5",
+												"Texture.kitty6",
+												"Texture.kitty7",
+												"Texture.kitty8",
+												"Texture.kitty9"
+											]
+										},
+										"geometries": {
+											"Array.tamed": [
+												"Geometry.default",
+												"Geometry.tamed"
+											]
+										}
+									},
+									"textures": [
+										"Array.kitty[query.variant]"
+									],
+									"geometry": "Array.tamed[query.is_tamed]",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									]
+								},
+								"key": "materials",
+								"children": [
+									{
+										"open": [
+											{
+												"*": "Material.default"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"*": "Material.default"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

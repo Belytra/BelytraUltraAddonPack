@@ -1,0 +1,121 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\loot_tables\\jabali.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "0e59ac18_c9b0_4fa3_abf5_045a70f91435",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": {
+								"min": 1,
+								"max": 2
+							},
+							"entries": [
+								{
+									"type": "item",
+									"name": "minecraft:porkchop",
+									"weight": 1
+								},
+								{
+									"type": "item",
+									"name": "mocreatures:hide",
+									"weight": 1
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": {
+									"min": 1,
+									"max": 2
+								},
+								"entries": [
+									{
+										"type": "item",
+										"name": "minecraft:porkchop",
+										"weight": 1
+									},
+									{
+										"type": "item",
+										"name": "mocreatures:hide",
+										"weight": 1
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"key": "rolls",
+								"is_minified": true,
+								"children": {
+									"min": 1,
+									"max": 2
+								}
+							},
+							{
+								"open": {
+									"rolls": {
+										"min": 1,
+										"max": 2
+									},
+									"entries": [
+										{
+											"type": "item",
+											"name": "minecraft:porkchop",
+											"weight": 1
+										},
+										{
+											"type": "item",
+											"name": "mocreatures:hide",
+											"weight": 1
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:porkchop",
+											"weight": 1
+										}
+									},
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:porkchop",
+												"weight": 1
+											},
+											{
+												"type": "item",
+												"name": "mocreatures:hide",
+												"weight": 1
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "mocreatures:hide",
+											"weight": 1
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

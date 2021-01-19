@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "titanium_ore_feature"
+		},
+		"count": 6,
+		"places_block": "base:titanium_ore",
+		"may_replace": [
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "andesite"
+				}
+			},
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "granite"
+				}
+			},
+			{
+				"name": "minecraft:stone",
+				"states": {
+					"stone_type": "stone"
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,32 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:fridge"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~#~",
+			"~~~",
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:concrete"
+			},
+			"#": {
+				"item": "minecraft:chest"
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:fridge",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

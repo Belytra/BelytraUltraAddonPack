@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "base:cindite_axe_head",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.nature"
+			},
+			"minecraft:display_name": {
+			  "value": "Cindite Axe Head"
+			},
+			"minecraft:icon": {
+				"texture": "cindite_axe_head",
+				"frame": 0
+			},
+			"minecraft:allow_off_hand": true
+		}
+	}
+}
+// Version 1

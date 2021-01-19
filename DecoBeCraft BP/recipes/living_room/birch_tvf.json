@@ -1,0 +1,33 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "dbc:birch_tvf"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"# #"
+		],
+		"key": {
+			"~": {
+				"item": "minecraft:log",
+				"data": 2
+			},
+			"#": {
+				"item": "minecraft:planks",
+				"data": 2
+			}
+		},
+		"result": [
+			{
+				"item": "dbc:birch_tv_furniture",
+				"data": 0,
+				"count": 2
+			}
+		]
+	}
+}

@@ -1,0 +1,111 @@
+{
+	"file_path": "C:\\Users\\Hp\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Mo'creatures bedrock §a[BP]\\animations\\hellrat.json",
+	"file_type": "animation",
+	"format_version": 1,
+	"file_uuid": "b8c9fa6d_3b05_4f6a_9366_1838fa3b5d59",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animations": {
+						"animation.hellrat": {
+							"timeline": {
+								"1": [
+									"@s mocreatures:fase1"
+								],
+								"0.5": [
+									"@s mocreatures:fase0"
+								]
+							},
+							"animation_length": 1,
+							"loop": true
+						}
+					}
+				},
+				"key": "animations",
+				"children": [
+					{
+						"open": {
+							"animation.hellrat": {
+								"timeline": {
+									"1": [
+										"@s mocreatures:fase1"
+									],
+									"0.5": [
+										"@s mocreatures:fase0"
+									]
+								},
+								"animation_length": 1,
+								"loop": true
+							}
+						},
+						"key": "animation.hellrat",
+						"children": [
+							{
+								"open": {
+									"timeline": {
+										"1": [
+											"@s mocreatures:fase1"
+										],
+										"0.5": [
+											"@s mocreatures:fase0"
+										]
+									},
+									"animation_length": 1,
+									"loop": true
+								},
+								"key": "timeline",
+								"children": [
+									{
+										"open": {
+											"1": [
+												"@s mocreatures:fase1"
+											],
+											"0.5": [
+												"@s mocreatures:fase0"
+											]
+										},
+										"key": "0.5",
+										"is_minified": true,
+										"children": [
+											"@s mocreatures:fase0"
+										]
+									},
+									{
+										"open": {
+											"1": [
+												"@s mocreatures:fase1"
+											],
+											"0.5": [
+												"@s mocreatures:fase0"
+											]
+										},
+										"key": "1",
+										"is_minified": true,
+										"children": [
+											"@s mocreatures:fase1"
+										]
+									}
+								]
+							},
+							{
+								"data": "1",
+								"key": "animation_length"
+							},
+							{
+								"data": "true",
+								"key": "loop"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

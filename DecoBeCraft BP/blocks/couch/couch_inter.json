@@ -1,0 +1,400 @@
+//bridge-file-version: #36
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dbc:sofa_inter",
+			"properties": {
+				"dbc:facing": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6
+				],
+				"dbc:color": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10,
+					11,
+					12,
+					13,
+					14,
+					15
+				]
+			}
+		},
+		"components": {
+			"minecraft:destroy_time": 0.5,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:geometry": "geometry.couch_inter",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wool",
+					"render_method": "blend"
+				}
+			},
+			"minecraft:on_player_placing": {
+				"event": "dbc:facing"
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					7,
+					16
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					7,
+					16
+				]
+			},
+			"minecraft:loot": "loot_tables/blocks/couch/couch_inter.json",
+			"minecraft:on_interact": {
+				"event": "dbc:event",
+				"target": "self"
+			},
+			"minecraft:on_placed": {
+				"event": "dbc:summon",
+				"target": "self"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('dbc:facing') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:facing') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						-90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "white_wool",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "black_wool",
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "blue_wool"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "brown_wool"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 4",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "cyan_wool"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 5",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "gray_wool"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 6",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "green_wool"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 7",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "light_blue_wool"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 8",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "lime_wool"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 9",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "magenta_wool"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 10",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "orange_wool"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 11",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "pink_wool"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 12",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "purple_wool"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 13",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "red_wool"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 14",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "silver_wool"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('dbc:color') == 15",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"render_method": "blend",
+							"texture": "yellow_wool"
+						}
+					}
+				}
+			}
+		],
+		"events": {
+			"dbc:facing": {
+				"set_block_property": {
+					"dbc:facing": "query.cardinal_facing_2d"
+				}
+			},
+			"dbc:event": {
+				"sequence": [
+					{
+						"condition": "query.block_property('dbc:color') < 15 && query.get_equipped_item_name('main_hand') == 'brush'",
+						"set_block_property": {
+							"dbc:color": "query.block_property('dbc:color') +1"
+						}
+					},
+					{
+						"condition": "query.block_property('dbc:color') == 15 && query.get_equipped_item_name('main_hand') == 'brush'",
+						"set_block_property": {
+							"dbc:color": 0
+						}
+					},
+					{
+						"condition": "query.get_equipped_item_name('main_hand') != 'brush'",
+						"trigger": {
+							"event": "dbc:sit",
+							"target": "self"
+						}
+					}
+				]
+			},
+			"dbc:summon": {
+				"sequence": [
+					{
+						"condition": "query.block_property('dbc:facing') == 2",
+						"run_command": {
+							"command": [
+								"summon dbc:sit ~ ~-0.1 ~",
+								"execute @e[type=dbc:sit,r=0.1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~1"
+							]
+						}
+					},
+					{
+						"condition": "query.block_property('dbc:facing') == 3",
+						"run_command": {
+							"command": [
+								"summon dbc:sit ~ ~-0.1 ~",
+								"execute @e[type=dbc:sit,r=0.1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~-1"
+							]
+						}
+					},
+					{
+						"condition": "query.block_property('dbc:facing') == 4",
+						"run_command": {
+							"command": [
+								"summon dbc:sit ~ ~-0.1 ~",
+								"execute @e[type=dbc:sit,r=0.1] ~ ~ ~ tp @s ~ ~ ~ facing ~1 ~ ~"
+							]
+						}
+					},
+					{
+						"condition": "query.block_property('dbc:facing') == 5",
+						"run_command": {
+							"command": [
+								"summon dbc:sit ~ ~-0.1 ~",
+								"execute @e[type=dbc:sit,r=0.1] ~ ~ ~ tp @s ~ ~ ~ facing ~-1 ~ ~"
+							]
+						}
+					}
+				]
+			},
+			"dbc:sit": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"tag @s add preparacion"
+							],
+							"target": "other"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"execute @e[type=dbc:sit,r=0.1] ~ ~ ~ ride @p[tag=preparacion] start_riding @s teleport_rider"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"tag @s remove preparacion"
+							],
+							"target": "other"
+						}
+					}
+				]
+			}
+		}
+	}
+}
